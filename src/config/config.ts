@@ -21,13 +21,13 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit by Oxygenna',
+	siteTitle: 'PrimaSTEM — Screen-Free Coding and Math for Ages 4–10',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
+		'The only screen-free education tool that teaches both coding and mathematics. Wooden programmable robot for children aged 4 to 10.',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/logo.svg',
-		alt: 'Foxi. logo'
+		alt: 'PrimaSTEM'
 	},
 	canonical: true,
 	noindex: false,

@@ -22,8 +22,8 @@ const { footerAbout, footerColumns, subFooter } = footerNavigationData
 			<div class="footer__cols">
 				<div class="footer__col">
 					<a aria-label="website logo" aria-current="page" class="footer__main-brand" href="/">
-						<img src={footerAbout.logo.src} alt={footerAbout.logo.alt} width="32" height="32" />
-						{footerAbout.logo.text}
+						<img src={footerAbout.logo.src} alt={footerAbout.logo.alt} width="177" height="24" class="block dark:hidden" />
+						<img src="/logo-dark.svg" alt={footerAbout.logo.alt} width="177" height="24" class="hidden dark:block" />
 					</a>
 					<p>
 						{footerAbout.aboutText}
