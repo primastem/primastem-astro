@@ -35,13 +35,13 @@ export interface FooterData {
 
 export const footerNavigationData: FooterData = {
 	footerAbout: {
-		title: 'Foxi.',
+		title: 'PrimaSTEM',
 		aboutText:
-			'Expertly made, responsive, accessible components in React and HTML ready to be used on your website or app. Just copy and paste them on your Tailwind CSS project.',
+			'The only screen-free education tool that teaches both coding and mathematics. Wooden programmable robot for children aged 4 to 10.',
 		logo: {
 			src: '/logo.svg',
-			alt: 'The tailwind astro theme',
-			text: 'Foxi.'
+			alt: 'PrimaSTEM',
+			text: 'PrimaSTEM'
 		}
 	},
 	footerColumns: [
@@ -49,24 +49,25 @@ export const footerNavigationData: FooterData = {
 			category: 'Product',
 			subCategories: [
 				{
-					subCategory: 'Features',
-					subCategoryLink: '/features'
+					subCategory: 'Product',
+					subCategoryLink: '/product'
 				},
 				{
 					subCategory: 'FAQ',
 					subCategoryLink: '/faq'
+				}
+			]
+		},
+		{
+			category: 'Legal',
+			subCategories: [
+				{
+					subCategory: 'Legal Notice',
+					subCategoryLink: '/legal'
 				},
 				{
-					subCategory: 'Pricing',
-					subCategoryLink: '/pricing'
-				},
-				{
-					subCategory: 'Changelog',
-					subCategoryLink: '/changelog'
-				},
-				{
-					subCategory: 'Terms',
-					subCategoryLink: '/terms'
+					subCategory: 'Privacy Policy',
+					subCategoryLink: '/privacy'
 				}
 			]
 		},
@@ -74,38 +75,17 @@ export const footerNavigationData: FooterData = {
 			category: 'About us',
 			subCategories: [
 				{
-					subCategory: 'About us',
-					subCategoryLink: '/'
+					subCategory: 'About',
+					subCategoryLink: '/about'
 				},
-				{
-					subCategory: 'News',
-					subCategoryLink: '/blog'
-				},
-				{
-					subCategory: 'Careers',
-					subCategoryLink: '/blog'
-				}
-			]
-		},
-		{
-			category: 'Get in touch',
-			subCategories: [
 				{
 					subCategory: 'Contact',
-					subCategoryLink: '/contact'
-				},
-				{
-					subCategory: 'Support',
-					subCategoryLink: '/contact'
-				},
-				{
-					subCategory: 'Join us',
 					subCategoryLink: '/contact'
 				}
 			]
 		}
 	],
 	subFooter: {
-		copywriteText: '© Foxi 2024.'
+		copywriteText: '© PrimaSTEM SAS 2026. All rights reserved.'
 	}
 }

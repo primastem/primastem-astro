@@ -1,7 +1,7 @@
 ---
-// Home page CTA Section
+// Home page Hero Section
 // ------------
-// Description: A centered call to action section that contains: a title, text, a user review snippet, a button and a image.
+// Description: Two-column hero with text on left, product image on right.
 
 // Components
 // - Layout
@@ -9,48 +9,30 @@ import Section from '../../ui/Section.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
 // - UI
-import ChipNotification from '../../ui/ChipNotification.astro'
 import { Image } from 'astro:assets'
 import Button from '../../ui/Button.astro'
-import AvatarGroup from '../../ui/AvatarGroup.astro'
 
 // Content
-// - Hero Image
-import heroImage from '../../../assets/hero-01.png'
-// - Avatars
-import user1 from '../../../assets/avatars/avatar-01.webp'
-import user2 from '../../../assets/avatars/avatar-02.webp'
-import user3 from '../../../assets/avatars/avatar-03.webp'
-const avatars = [
-	{ image: { src: user1.src, alt: 'user name' }, link: '/' },
-	{ image: { src: user2.src, alt: 'user name' }, link: '/' },
-	{ image: { src: user3.src, alt: 'user name' }, link: '/' }
-]
+import heroImage from '../../../assets/hero-primastem.png'
 ---
 
-<Section id="intro" padding="top" classes="bg-neutral-50 dark:bg-neutral-900">
+<Section id="intro" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 	<Row>
-		<Col span="2" />
-		<Col span="8" align="center">
-			<ChipNotification radius="rounded-full" classes="mb-6">
-				<strong>30K+</strong> satisfied customers
-				<AvatarGroup avatars={avatars} radius="rounded-full" slot="button" />
-			</ChipNotification>
-			<h1>Enhance team <strong>performance</strong> with seamless integration</h1>
-
-			<p class="pb-0 text-lg">Work smarter, not harder, with our innovative platform</p>
-			<Button size="lg" link="/">Get started for free</Button>
+		<Col span="6" align="start">
+			<h1>Coding and math <strong>without a screen.</strong></h1>
+			<p class="text-lg">
+				The only screen-free tool that teaches both. Ages 4 to 10. Made from wood.
+			</p>
+			<p class="text-xl font-bold">€247 excl. VAT — complete kit, ready to use.</p>
+			<Button size="lg" link="/contact">Order now</Button>
 		</Col>
-		<Col span="2" />
-		<Col span="2" />
-		<Col span="8">
+		<Col span="6">
 			<Image
 				src={heroImage}
-				alt="Foxi. The tailwind astro theme"
-				class="translate-y-8 shadow-2xl shadow-neutral-200 dark:shadow-neutral-950"
+				alt="PrimaSTEM complete kit: wooden control board with colorful command tokens, ladybug robot, and drawings made by the robot"
+				class="rounded-xl"
 				format="webp"
-			/></Col
-		>
-		<Col span="2" />
+			/>
+		</Col>
 	</Row>
 </Section>

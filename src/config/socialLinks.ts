@@ -10,18 +10,13 @@ export interface SocialLink {
 
 export const socialLinks: SocialLink[] = [
 	{
-		name: 'facebook',
-		link: '/',
-		icon: 'fb-icon'
+		name: 'youtube',
+		link: 'https://youtube.com/@primastem',
+		icon: 'youtube-icon'
 	},
 	{
-		name: 'twitter',
-		link: '/',
-		icon: 'twitter-icon'
-	},
-	{
-		name: 'discord',
-		link: '/',
-		icon: 'discord-icon'
+		name: 'instagram',
+		link: 'https://www.instagram.com/primastem.robot',
+		icon: 'instagram-icon'
 	}
 ]

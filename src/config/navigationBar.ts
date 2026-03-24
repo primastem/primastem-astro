@@ -34,24 +34,15 @@ export interface NavData {
 export const navigationBarData: NavData = {
 	logo: {
 		src: '/logo.svg',
-		alt: 'The tailwind astro theme',
-		text: 'Foxi.'
+		alt: 'PrimaSTEM',
+		text: 'PrimaSTEM'
 	},
 	navItems: [
-		{ name: 'Home', link: '/' },
-		{ name: 'Pricing', link: '/pricing' },
-		{ name: 'Features', link: '/features' },
-		{
-			name: 'Resources',
-			link: '#',
-			submenu: [
-				{ name: 'Blog', link: '/blog' },
-				{ name: 'Changelog', link: '/changelog' },
-				{ name: 'FAQ', link: '/faq' },
-				{ name: 'Terms', link: '/terms' }
-			]
-		},
+		{ name: 'Product', link: '/product' },
+		{ name: 'Distributors', link: '/distributors' },
+		{ name: 'Schools', link: '/schools' },
+		{ name: 'Parents', link: '/parents' },
 		{ name: 'Contact', link: '/contact' }
 	],
-	navActions: [{ name: 'Try it now', link: '/', style: 'primary', size: 'lg' }]
+	navActions: [{ name: 'Docs', link: 'https://docs.primastem.com', style: 'primary', size: 'lg' }]
 }
