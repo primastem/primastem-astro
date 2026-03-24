@@ -1,0 +1,282 @@
+---
+// Components
+// - Layout
+import Layout from '../layouts/Layout.astro'
+// - UI
+import Section from '../components/ui/Section.astro'
+import Row from '../components/ui/Row.astro'
+import Col from '../components/ui/Col.astro'
+import { Image } from 'astro:assets'
+import Button from '../components/ui/Button.astro'
+import BasicCard from '../components/ui/cards/BasicCard.astro'
+
+import TextImage from '../components/blocks/basic/TextImage.astro'
+
+// Content
+import heroImage from '../assets/hero-primastem.png'
+import tokensImage from '../assets/tokens-commands.png'
+import spiralImage from '../assets/drawing-spiral.png'
+import mapsImage from '../assets/maps-compatibility.png'
+
+// - SEO
+const SEO = {
+	title: 'PrimaSTEM | How It Works — Product Details',
+	description:
+		'Complete technical overview of the PrimaSTEM educational robot. Components, commands, drawing, specifications. €247 excl. VAT.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<!-- HERO: HomeCTA style — title + steps left, video right -->
+	<Section id="product-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="5" align="start">
+				<h1>How PrimaSTEM <strong>works</strong></h1>
+				<div class="space-y-4">
+					<div class="flex gap-3">
+						<span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center font-bold">1</span>
+						<p>Place tokens left to right. Green LED = accepted. The board speaks the command.</p>
+					</div>
+					<div class="flex gap-3">
+						<span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center font-bold">2</span>
+						<p>Press "Start." The robot executes. LEDs show which command is running.</p>
+					</div>
+					<div class="flex gap-3">
+						<span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center font-bold">3</span>
+						<p>Check the result. Wrong? Find the error, swap a token, run again.</p>
+					</div>
+				</div>
+			</Col>
+			<Col span="7">
+				<div class="aspect-video rounded-xl overflow-hidden">
+					<iframe
+						src="https://www.youtube.com/embed/Ztq_I1WBiVo"
+						title="PrimaSTEM 30-second demo"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+						class="w-full h-full"
+					></iframe>
+				</div>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- WHAT'S IN THE KIT: 4 cards -->
+	<Section id="whats-included" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="12" align="center" classes="mb-12">
+				<h2>What's in the <strong>kit</strong></h2>
+			</Col>
+		</Row>
+		<Row>
+			<Col span="6" classes="grid grid-cols-2 gap-6">
+				<BasicCard
+					title="Ladybug robot"
+					icon="robot"
+				>
+					<ul class="text-sm space-y-1 list-disc list-inside">
+						<li>125 mm diameter</li>
+						<li>Wood</li>
+						<li>USB-C charging</li>
+						<li>2–3 hours battery</li>
+					</ul>
+				</BasicCard>
+				<BasicCard
+					title="Control board"
+					icon="bolt"
+				>
+					<ul class="text-sm space-y-1 list-disc list-inside">
+						<li>317 × 217 mm</li>
+						<li>Wood</li>
+						<li>11 dual slots</li>
+						<li>Bluetooth ~5 m</li>
+					</ul>
+				</BasicCard>
+				<BasicCard
+					title="Command tokens"
+					icon="squares-plus"
+				>
+					<ul class="text-sm space-y-1 list-disc list-inside">
+						<li>33 × 33 mm</li>
+						<li>NFC 13.56 MHz</li>
+						<li>Scratch color coding</li>
+						<li>Writable via phone app</li>
+					</ul>
+				</BasicCard>
+				<BasicCard
+					title="Teacher's guide"
+					icon="book"
+				>
+					<ul class="text-sm space-y-1 list-disc list-inside">
+						<li>Lesson plans</li>
+						<li>Activities included</li>
+						<li>Full docs online</li>
+						<li>10 languages</li>
+					</ul>
+				</BasicCard>
+			</Col>
+			<Col span="6" classes="flex items-center">
+				<Image
+					src={heroImage}
+					alt="PrimaSTEM complete kit: wooden control board with colorful command tokens, ladybug robot, and drawings"
+					class="rounded-xl"
+					format="webp"
+				/>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- COMMANDS: TextImage -->
+	<TextImage
+		title="Commands"
+		text="<ul class='space-y-3 list-none'>
+			<li><strong>Movement & Program:</strong> Forward, Backward, Left, Right, Random, Function, Pause.</li>
+			<li><strong>Repeat:</strong> 2–999, Random repeat 1–6.</li>
+			<li><strong>Mathematics:</strong> +, −, ×, ÷, √, ^</li>
+			<li><strong>Numbers:</strong> 1–999</li>
+			<li><strong>System:</strong> Default step size, calibration.</li>
+		</ul>"
+		image={tokensImage}
+		mobileImage={tokensImage}
+		imagePosition="right"
+	/>
+
+	<!-- DRAWING: TextImage -->
+	<TextImage
+		title="Drawing"
+		text="Insert a marker. Every movement leaves a line.<br><br>Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression — the star turns into a spiral.<br><br>These shapes are programmed by children, drawn by the robot."
+		image={spiralImage}
+		mobileImage={spiralImage}
+		imagePosition="right"
+		classes="bg-neutral-50 dark:bg-neutral-900"
+	/>
+
+	<!-- MAPS: TextImage (image left) -->
+	<TextImage
+		title="Works with any <strong>map</strong>"
+		text="Step size is adjustable. 10, 12, 15, 25 cm — any grid. Use maps from any robot already in your classroom. No new materials needed."
+		image={mapsImage}
+		mobileImage={mapsImage}
+		imagePosition="left"
+	/>
+
+	<!-- OPEN PLATFORM: Icon left + text right -->
+	<Section id="open-platform" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="3" align="center" classes="flex items-center justify-center">
+				<div class="text-primary-500">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-32 h-32">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 0 1 7.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 0 1 1.06 0Z" />
+					</svg>
+				</div>
+			</Col>
+			<Col span="9" align="start">
+				<h2>Open <strong>platform</strong></h2>
+				<p class="text-lg">
+					Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app. Create your own numbers, loops or arithmetic operations.
+				</p>
+				<p class="text-lg pb-0">
+					NFC tags on the playing field — the robot plays audio when it drives over them. Language cards, musical fields, story quests.
+				</p>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- VOICE FEEDBACK: text left + icon right -->
+	<Section id="voice-feedback" padding="both">
+		<Row>
+			<Col span="9" align="start">
+				<h2>Voice <strong>feedback</strong></h2>
+				<p class="text-lg">
+					The board speaks each token as it's placed. Helps children who can't read yet and children with visual impairments.
+				</p>
+				<p class="text-lg pb-0">
+					Braille version in pilot testing.
+				</p>
+			</Col>
+			<Col span="3" align="center" classes="flex items-center justify-center">
+				<div class="text-primary-500">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-32 h-32">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+					</svg>
+				</div>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- SPECS: Table inside a card -->
+	<Section id="specs" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="12" align="center">
+				<h2>Specifications</h2>
+				<div class="mt-6 mx-auto max-w-3xl rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 p-8">
+					<table class="w-full text-left text-base">
+						<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
+							<tr><td class="py-3 font-medium">Material</td><td class="py-3">Wood</td></tr>
+							<tr><td class="py-3 font-medium">Robot</td><td class="py-3">125 mm ⌀, 44 mm H</td></tr>
+							<tr><td class="py-3 font-medium">Control board</td><td class="py-3">317 × 217 mm</td></tr>
+							<tr><td class="py-3 font-medium">Tokens</td><td class="py-3">33 × 33 mm, NFC 13.56 MHz</td></tr>
+							<tr><td class="py-3 font-medium">Connectivity</td><td class="py-3">Bluetooth ~5 m</td></tr>
+							<tr><td class="py-3 font-medium">Battery</td><td class="py-3">Li-Ion USB-C, 2–3 hours</td></tr>
+							<tr><td class="py-3 font-medium">Default step</td><td class="py-3">15 cm (any value, adjustable)</td></tr>
+							<tr><td class="py-3 font-medium">Angles</td><td class="py-3">1°–360°</td></tr>
+							<tr><td class="py-3 font-medium">Mathematics</td><td class="py-3">+, −, ×, ÷, √, ^, !</td></tr>
+							<tr><td class="py-3 font-medium">Slots</td><td class="py-3">6×2 main + 5×2 function</td></tr>
+							<tr><td class="py-3 font-medium">Audio</td><td class="py-3">Voice feedback + sound samples</td></tr>
+							<tr><td class="py-3 font-medium">Certification</td><td class="py-3">CE</td></tr>
+							<tr><td class="py-3 font-medium">Age</td><td class="py-3">4–10</td></tr>
+							<tr><td class="py-3 font-medium">Made in</td><td class="py-3">Cannes, France</td></tr>
+						</tbody>
+					</table>
+				</div>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- DOCUMENTATION V1: Two cards -->
+	<Section id="docs-v1" padding="both">
+		<Row>
+			<Col span="12" align="center" classes="mb-12">
+				<h2>Documentation</h2>
+			</Col>
+		</Row>
+		<Row>
+			<Col span="6">
+				<BasicCard
+					title="Online docs"
+					subtitle="10 languages. Lesson plans, guides, and technical reference."
+					icon="document-text"
+					link="https://docs.primastem.com"
+				/>
+			</Col>
+			<Col span="6">
+				<BasicCard
+					title="Video tutorials"
+					subtitle="Step-by-step videos on our YouTube channel."
+					icon="youtube-icon"
+					link="https://youtube.com/@primastem"
+				/>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- ORDER V1: Dark CTA block -->
+	<Section id="order-v1" padding="both" classes="bg-neutral-900 text-white dark:bg-neutral-800">
+		<Row>
+			<Col span="12" align="center">
+				<h2 class="text-white dark:text-white">€247 <strong>excl. VAT</strong></h2>
+				<p class="text-lg text-neutral-300">Complete kit, ready to use. Wholesale from €220.</p>
+				<p class="text-neutral-400"><a href="mailto:info@primastem.com" class="hover:text-white hover:underline">info@primastem.com</a> · <a href="tel:+33624950936" class="hover:text-white hover:underline">+33 6 24 95 09 36</a></p>
+				<div class="mt-6">
+					<Button size="lg" link="/contact">Order now</Button>
+				</div>
+				<div class="mt-6 flex justify-center gap-6">
+					<a href="/schools" class="text-primary-400 hover:underline">For schools</a>
+					<a href="/distributors" class="text-primary-400 hover:underline">For distributors</a>
+					<a href="/parents" class="text-primary-400 hover:underline">For parents</a>
+				</div>
+			</Col>
+		</Row>
+	</Section>
+
+</Layout>

@@ -54,13 +54,13 @@ const {
 				class=`text-image__picture ${offsetImage  ? 'text-image__picture--offset' : ''} ${imagePosition === 'right' ? 'text-image__picture--offset-right' : ''}`
 			>
 				{mobileImage && <source srcset={mobileImage.src} media="(max-width: 1024px)" />}
-				<img src={image.src} alt={title} width={imageWidth} height={imageHeight} />
+				<img src={image.src} alt={title} width={imageWidth} height={imageHeight} class="rounded-xl" />
 			</picture>
 		</Col>
 		<Col span="6" classes={`self-center ${imagePosition === 'right' ? 'lg:-order-1' : ''}`}>
 			<div class="text-image__content">
 				<h2 class="text-image__heading" set:html={title} />
-				<p class="text-image__text">{text}</p>
+				<div class="text-image__text" set:html={text} />
 			</div>
 		</Col>
 	</Row>
