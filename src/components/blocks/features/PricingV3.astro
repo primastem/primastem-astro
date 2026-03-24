@@ -5,7 +5,12 @@ import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
 import PricingTable from '../../ui/pricing-tables/PricingTable.astro'
 
-import pricingData from '../../../data/json-files/primastemPricing.json'
+import pricingDataRaw from '../../../data/json-files/primastemPricing.json'
+
+const pricingData = pricingDataRaw.map((item) => ({
+	...item,
+	type: item.type as 'basic' | 'featured'
+}))
 ---
 
 <Section id="pricing-v3" padding="both">
