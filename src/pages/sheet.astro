@@ -1,0 +1,180 @@
+---
+// Components
+import Layout from '../layouts/Layout.astro'
+import Section from '../components/ui/Section.astro'
+import Row from '../components/ui/Row.astro'
+import Col from '../components/ui/Col.astro'
+import { Image } from 'astro:assets'
+import Button from '../components/ui/Button.astro'
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import ContactCTA from '../components/blocks/CTA/ContactCTA.astro'
+
+// Content
+import heroImage from '../assets/hero-primastem.png'
+
+// SEO
+const SEO = {
+	title: 'PrimaSTEM Product Sheet — Wholesale Educational Robot',
+	description:
+		'Product sheet for distributors. Screen-free coding and math robot. Wholesale from €220 excl. VAT. CE & UKCA certified.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<!-- HERO -->
+	<Section id="sheet-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="6" align="start">
+				<h1>Product <strong>Sheet</strong></h1>
+				<p class="text-lg">
+					Screen-free coding and mathematics. Ages 4–10. Made from wood.
+				</p>
+				<p>
+					PrimaSTEM is a wooden programmable robot that teaches both coding and mathematics without a screen. Children place NFC command tokens on a tangible control board to build programs they can see and touch.
+				</p>
+				<p>
+					Two curriculum levels in one device: logic for ages 4–7 and real mathematics for ages 7–10. The robot draws geometric figures — stars, spirals, polygons — making math visible.
+				</p>
+				<p>
+					CE &amp; UKCA certified.<br />
+					Made in Cannes, France.<br />
+					Complete kit with online lesson plans in 10 languages.
+				</p>
+				<div class="flex gap-4 flex-wrap">
+					<Button size="lg" link="/contact">Request a quote</Button>
+					<Button size="lg" style="outline" link="/primastem-product-sheet.pdf">Download PDF</Button>
+				</div>
+			</Col>
+			<Col span="6">
+				<Image
+					src={heroImage}
+					alt="PrimaSTEM complete kit"
+					class="rounded-xl"
+					format="webp"
+				/>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- KEY ADVANTAGES -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Key advantages</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				<strong>Two age groups — one device.</strong> Logic for ages 4–7, mathematics for ages 7–10. One purchase covers all of primary school.
+			</p>
+			<p>
+				<strong>The robot draws.</strong> Stars, spirals, polygons, fractals — the demo moment that sells.
+			</p>
+			<p>
+				<strong>Works with existing maps.</strong> Adjustable step size: 10, 12, 15, 25 cm. Compatible with any grid map already in schools.
+			</p>
+			<p>
+				<strong>Open NFC platform.</strong> Teachers create custom tokens with a free phone app. Sound maps, language cards, story quests.
+			</p>
+			<p>
+				<strong>Voice feedback &amp; accessibility.</strong> The board speaks each command. Braille version in pilot testing.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- WHAT'S IN THE KIT -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>What's in the kit</h3>
+		</div>
+		<div class="basic-text">
+			<table class="w-full text-left text-base">
+				<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
+					<tr><td class="py-2 font-medium pr-4">Ladybug robot</td><td class="py-2">125 mm ⌀, wood, USB-C, Bluetooth, 2–3 h battery</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Control board</td><td class="py-2">317 × 217 mm, wood, 11 dual slots</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Command tokens</td><td class="py-2">33 × 33 mm, NFC 13.56 MHz, Scratch color coding</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Teacher's guide (online)</td><td class="py-2">Lesson plans, printables, activities at docs.primastem.com</td></tr>
+				</tbody>
+			</table>
+		</div>
+	</SidebarContent>
+
+	<!-- COMMANDS -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Commands</h3>
+		</div>
+		<div class="basic-text">
+			<p><strong>Movement &amp; Program:</strong> Forward, Backward, Left, Right, Random, Function, Pause</p>
+			<p><strong>Repeat:</strong> 2–999, Random repeat 1–6</p>
+			<p><strong>Mathematics:</strong> +, −, ×, ÷, √, ^</p>
+			<p><strong>Numbers:</strong> 1–999</p>
+			<p><strong>System:</strong> Default step size (adjustable), calibration</p>
+		</div>
+	</SidebarContent>
+
+	<!-- SPECIFICATIONS -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>Technical specifications</h3>
+		</div>
+		<div class="basic-text">
+			<table class="w-full text-left text-base">
+				<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
+					<tr><td class="py-2 font-medium pr-4">Material</td><td class="py-2">Wood</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Robot</td><td class="py-2">125 mm ⌀, 44 mm H</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Control board</td><td class="py-2">317 × 217 mm</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Tokens</td><td class="py-2">33 × 33 mm, NFC 13.56 MHz</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Connectivity</td><td class="py-2">Bluetooth ~5 m</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Battery</td><td class="py-2">Li-Ion, USB-C, 2–3 hours</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Default step</td><td class="py-2">15 cm (any value, adjustable)</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Angles</td><td class="py-2">1°–360°</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Slots</td><td class="py-2">6×2 main + 5×2 function</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Audio</td><td class="py-2">Voice feedback + sound samples</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Certification</td><td class="py-2">CE, UKCA</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Age</td><td class="py-2">4–10</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Made in</td><td class="py-2">Cannes, France</td></tr>
+				</tbody>
+			</table>
+		</div>
+	</SidebarContent>
+
+	<!-- WHOLESALE PRICING -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Wholesale pricing</h3>
+		</div>
+		<div class="basic-text">
+			<p class="text-xl font-bold text-primary-500">From €220 excl. VAT per kit.</p>
+			<p>
+				Marketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.
+			</p>
+			<p>
+				Minimum order quantities, shipping terms, and lead times — discussed individually.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- DOCUMENTATION & PRESENCE -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>Documentation &amp; presence</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				Full documentation: <a href="https://docs.primastem.com" class="text-primary-500 hover:underline" target="_blank">docs.primastem.com</a> — 10 languages. Video tutorials: <a href="https://youtube.com/@primastem" class="text-primary-500 hover:underline" target="_blank">YouTube</a>. Technical support included.
+			</p>
+			<p>
+				Present in: France (direct sales), Netherlands, Norway, Luxembourg, Spain. Expanding.
+			</p>
+			<p>
+				Trade shows: EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nuremberg).
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- CTA -->
+	<ContactCTA
+		title="Request a <strong>quote</strong>"
+		subtitle="<a href='/primastem-product-sheet.pdf' class='text-primary-400 hover:underline'>Download the product sheet (PDF)</a> or contact us directly."
+		buttonText="Get in touch"
+	/>
+</Layout>

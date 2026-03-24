@@ -1,0 +1,144 @@
+---
+// Components
+import Layout from '../layouts/Layout.astro'
+import Section from '../components/ui/Section.astro'
+import Row from '../components/ui/Row.astro'
+import Col from '../components/ui/Col.astro'
+import { Image } from 'astro:assets'
+import Button from '../components/ui/Button.astro'
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import ContactCTA from '../components/blocks/CTA/ContactCTA.astro'
+
+// Content
+import heroImage from '../assets/board-on-map.jpg'
+
+// SEO
+const SEO = {
+	title: 'PrimaSTEM for Schools — Screen-Free Coding and Math Robot',
+	description:
+		'Programmable wooden robot for classroom use. Two curriculum levels (4–7 logic, 7–10 math). Lesson plans included. €247 excl. VAT.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<!-- HERO -->
+	<Section id="schools-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="6" align="start">
+				<h1>Coding and mathematics, ages 4–10. <strong>One device.</strong></h1>
+				<p class="text-lg">
+					No screen, no apps. Works with maps from any robots you already have.
+				</p>
+				<p class="text-xl font-bold">€247 excl. VAT per kit.</p>
+				<div class="flex gap-4 flex-wrap">
+					<Button size="lg" link="https://youtube.com/@primastem">Watch demo</Button>
+					<Button size="lg" style="outline" link="https://docs.primastem.com/en/book-1/book-1">View lesson plans</Button>
+				</div>
+			</Col>
+			<Col span="6">
+				<Image
+					src={heroImage}
+					alt="PrimaSTEM complete kit"
+					class="rounded-xl"
+					format="webp"
+				/>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- WHAT CHILDREN DO -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>What children do</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				They place command tokens on the board — that's their program, visible in full. Press "Start." The robot executes. Wrong result? Find the error, swap a token, run again.
+			</p>
+			<p>
+				Sequences, functions, loops, debugging. No screen. Hands only.
+			</p>
+			<p>
+				A toy that teaches. A tool that's fun to play with.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- TWO LEVELS -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>Two levels</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				<strong>Ages 4–7: Logic.</strong> Logical steps, 90° turns. Forward, backward, left, right, function, repeat. Planning, sequences, debugging, counting.
+			</p>
+			<p>
+				PrimaSTEM adapts to the methods of any other educational robot. Step size can be anything — for example 10, 12, 15 or 20 cm. Works with any grid map you already have.
+			</p>
+			<p>
+				<strong>Ages 7–10: Mathematics.</strong> Precise distances in mm and any angle in degrees: 1°–360°. Arithmetic: +, −, ×, ÷, √, ^. Negative numbers. Progressions.
+			</p>
+			<p>
+				Insert a marker — the robot draws polygons, stars, spirals, fractals on paper or a whiteboard.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- THE ROBOT DRAWS -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>The robot draws</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				These are not illustrations. Children programmed these.
+			</p>
+			<p>
+				Forward 50, Right 144, Repeat 5 = a star. Mathematics you can see.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- LESSONS -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>Lessons included</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				Objectives, materials, step-by-step instructions, printables. Open and teach.
+			</p>
+			<p>
+				Full documentation at <a href="https://docs.primastem.com" class="text-primary-500 hover:underline" target="_blank">docs.primastem.com</a> — 10 languages.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- WHAT TEACHERS DON'T EXPECT -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>What teachers don't expect</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				<strong>Open platform.</strong> Every token is a standard NFC tag. Create your own numbers, loops or arithmetic operations through a free phone app.
+			</p>
+			<p>
+				<strong>Sound maps.</strong> Place NFC tags on the playing field — the robot plays audio when it drives over them.
+			</p>
+			<p>
+				<strong>Voice feedback.</strong> The board speaks each token aloud as it's placed. Helps children who can't read yet and children with visual impairments.
+			</p>
+			<p>
+				<strong>Braille version</strong> in pilot testing. Accessible for children with visual and attention impairments.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<ContactCTA
+		title="€247 <strong>excl. VAT</strong>"
+		subtitle="Complete kit: robot, control board, tokens, activity guide on the documentation site. Rental available. Also available through distributors."
+		buttonText="Get in touch"
+	/>
+</Layout>

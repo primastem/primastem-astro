@@ -138,19 +138,19 @@ Located in: `C:\Users\andrei\Documents\GitHub\primastem-astro\`
 **Other:** Accordion (expandable), Modal (popup dialog), CTA (card container with bg)
 **Pricing:** PricingTable, Header, Body, Footer
 
-### Pages to Create
-| Page | URL | Status |
-|------|-----|--------|
-| Home | `/` | Exists (Foxi demo) — needs rewrite |
-| Product | `/product` | Need to create |
-| Distributors | `/distributors` | Need to create |
-| Schools | `/schools` | Need to create |
-| Parents | `/parents` | Need to create |
-| About | `/about` | Need to create |
-| Contact | `/contact` | Exists (Foxi demo) — needs rewrite |
-| FAQ | `/faq` | Exists (Foxi demo) — needs rewrite, text TBD |
-| Legal | `/legal` | Need to create |
-| Privacy | `/privacy` | Need to create |
+### Pages Status
+| Page | URL | Status | Block/Component |
+|------|-----|--------|----------------|
+| Home | `/` | ✅ Done | Hero, TwoLevels, Drawing, Maps, Pricing, Video, Trust, Newsletter, Tagline |
+| Product | `/product` | ✅ Done | Hero+3Steps+Video, Kit(2x2 cards+image), Commands, Drawing, Maps, OpenPlatform, Voice, Specs, Docs, Order CTA |
+| Distributors | `/distributors` | ❌ TODO | |
+| Schools | `/schools` | ❌ TODO | |
+| Parents | `/parents` | ❌ TODO | |
+| About | `/about` | ❌ TODO | |
+| Contact | `/contact` | ✅ Done | ContactHero (form) + PrimaContactCards (Email, WhatsApp, Location) |
+| FAQ | `/faq` | ✅ Done | PageHeader + FaqSticky + TextImage (demo questions — replace later) |
+| Legal | `/legal` | ✅ Done | PageHeader + 3x StickySidebar (French mentions légales) |
+| Privacy | `/privacy` | ✅ Done | PageHeader + 3x StickySidebar (French RGPD policy) |
 
 ### Pages to Delete (Foxi demo)
 - `/pricing` — not needed
@@ -166,18 +166,58 @@ Located in: `C:\Users\andrei\Documents\GitHub\primastem-astro\`
 4. ✅ Docs button → links to docs.primastem.com
 5. ✅ Color scheme: green #5AA02C with generated palette
 6. ✅ Dark/light logo switching
-7. ✅ Logo sizing: header 48px, footer 24px
+7. ✅ Logo sizing: header 36px (1.5x), footer 24px (1x)
+8. ✅ Home page: all 9 sections assembled
+9. ✅ Contact page: Netlify Forms + 3 contact cards
+10. ✅ FAQ page: sticky sidebar FAQ with demo questions
+11. ✅ Legal page: French mentions légales
+12. ✅ Privacy page: French RGPD policy
+13. ✅ Form red validation removed, textarea padding fixed
+14. ✅ Product page: all 11 sections assembled
+15. ✅ TextImage component: set:html for text prop, rounded-xl on images
+16. ✅ Logo text color changed to neutral-700 (#334155)
+17. ✅ Custom icons added: robot.svg
 
-### Home Page Content → Block Mapping (TO DO)
-From `home.md`:
-| Section | Content | Suggested Block |
-|---------|---------|----------------|
-| hero | Title + subtitle + price + CTA + media | HomeCTA (customize) |
-| two-levels | 2-column comparison + images | TextImage or HighlightRows |
-| drawing | Gallery of robot drawings | Custom gallery or FeatureCards |
-| maps | Compatibility info | TextImage |
-| pricing | Price + 3 audience links | PricingColumns or custom |
-| video | YouTube embed | Custom or CTA block |
-| trust | Partner logos + stats | socialproof/Basic |
-| newsletter | Email signup form | Custom or CTA |
-| tagline | Closing statement | CTA block |
+### Custom Blocks Created (src/components/blocks/features/)
+| File | Used on | Description |
+|------|---------|-------------|
+| `TwoLevels.astro` | Home | Two cards: Logic/Mathematics levels |
+| `DrawingV1.astro` | Home | Row of 5 drawing placeholders |
+| `MapsV2.astro` | Home | TextImage for map compatibility |
+| `PricingV3.astro` | Home | 3-col PricingTable (School/Distributor/Parent) |
+| `Video.astro` | Home | YouTube embed |
+| `TrustV2.astro` | Home | Partner logos socialproof pattern |
+| `NewsletterV1.astro` | Home | MailerLite form, two-column |
+| `TaglineV3.astro` | Home | Testimonial on dark bg |
+| `PrimaContactCards.astro` | Contact | 3 cards: Email, WhatsApp, Location |
+
+### Image Placeholders to Replace
+| Placeholder name | Where | Description |
+|-----------------|-------|-------------|
+| `hero-primastem.png` | Home hero | ✅ Already has real photo |
+| `two-levels-logic.png` | Home TwoLevels | Photo of child with map (ages 4-7) |
+| `two-levels-math.png` | Home TwoLevels | Photo of robot drawing (ages 7-10) |
+| `drawing-square.png` | Home Drawing | Robot drawing of square |
+| `drawing-pentagon.png` | Home Drawing | Robot drawing of pentagon |
+| `drawing-star.png` | Home Drawing | Robot drawing of star |
+| `drawing-spiral.png` | Home Drawing + Product | ✅ Already has real photo |
+| `drawing-heart.png` | Home Drawing | Robot drawing of heart |
+| `maps-compatibility.png` | Home Maps + Product | ✅ Already has real photo |
+| `tokens-commands.png` | Product Commands | ✅ Already has real photo |
+| `terra-numerica.svg` | Home Trust | Partner logo |
+| `inria.svg` | Home Trust | Partner logo |
+| `educazur.svg` | Home Trust | Partner logo |
+| `afinef.svg` | Home Trust | Partner logo |
+
+### Services Connected
+- **Netlify Forms**: contact form → configure email notification in Netlify Dashboard
+- **MailerLite**: newsletter form (account 1306223, form jdJlRe)
+- **YouTube**: embedded video (Ztq_I1WBiVo)
+
+### Next Steps
+1. Create remaining pages: Distributors, Schools, Parents, About
+2. Replace image placeholders with real photos
+3. Replace FAQ demo questions with real PrimaSTEM questions
+4. Delete unused Foxi demo pages (pricing, features, changelog, terms, blog)
+5. Connect custom domain
+6. Set up Google Analytics

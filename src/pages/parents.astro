@@ -1,0 +1,109 @@
+---
+// Components
+import Layout from '../layouts/Layout.astro'
+import Section from '../components/ui/Section.astro'
+import Row from '../components/ui/Row.astro'
+import Col from '../components/ui/Col.astro'
+import { Image } from 'astro:assets'
+import Button from '../components/ui/Button.astro'
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import ContactCTA from '../components/blocks/CTA/ContactCTA.astro'
+// Content
+import heroImage from '../assets/board-with-robot-top.jpg'
+
+// SEO
+const SEO = {
+	title: 'PrimaSTEM for Parents — Screen-Free Coding Toy',
+	description:
+		'Wooden programmable robot for children 4–10. No screen, no apps. Teaches coding and math through play. CE certified. Made in France. €247 + VAT.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<!-- HERO -->
+	<Section id="parents-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="6" align="start">
+				<h1>Real skills, real play, <strong>no screen.</strong></h1>
+				<p class="text-lg">
+					A wooden robot your child programs by hand. Ages 4–10.
+				</p>
+				<p class="text-xl font-bold">€247 + VAT.</p>
+				<Button size="lg" link="https://youtube.com/@primastem">Watch video</Button>
+			</Col>
+			<Col span="6">
+				<Image
+					src={heroImage}
+					alt="PrimaSTEM complete kit"
+					class="rounded-xl"
+					format="webp"
+				/>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- WHAT IS IT -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>What is it</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				Tokens on a wooden board — "forward," "turn right," "repeat 3 times." That's the program. The child sees it, touches it, rearranges it. Presses a button — the robot executes.
+			</p>
+			<p>
+				Something went wrong? Find the mistake, fix it, run again.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- GROWS WITH YOUR CHILD -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>Grows with your child</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				<strong>At 4–5:</strong> Simple commands and numbers. Mazes on colorful maps.
+			</p>
+			<p>
+				<strong>At 6–7:</strong> Functions and loops. "Instead of writing it five times — tell the robot: repeat."
+			</p>
+			<p>
+				<strong>At 8–10:</strong> Mathematics. Precise angles, distances, arithmetic. Insert a marker — the robot draws stars, spirals, geometric patterns.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- DRAWING -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Programming you can put on the fridge</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				The child programs. The robot draws. Real math, real art, real paper.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- WHY THIS ONE -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>Why this one</h3>
+		</div>
+		<div class="basic-text">
+			<p><strong>Wood.</strong> Not plastic.</p>
+			<p><strong>No screen.</strong> No apps.</p>
+			<p><strong>It speaks.</strong> Says each token aloud — works before a child learns to read.</p>
+			<p><strong>It draws.</strong> Stars, spirals, hearts.</p>
+			<p><strong>Made in France.</strong> CE certified.</p>
+		</div>
+	</SidebarContent>
+
+	<ContactCTA
+		title="€247 <strong>+ VAT</strong>"
+		subtitle="Complete kit. Order from us or through a distributor in your country."
+		buttonText="Order now"
+	/>
+</Layout>

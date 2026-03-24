@@ -1,0 +1,93 @@
+---
+// Components
+import Layout from '../layouts/Layout.astro'
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import Hero from '../components/blocks/hero/PageHeader.astro'
+import ContactCTA from '../components/blocks/CTA/ContactCTA.astro'
+
+// SEO
+const SEO = {
+	title: 'PrimaSTEM | About Us — Screen-Free Education from Cannes, France',
+	description:
+		'We build educational technology without screens, inspired by Seymour Papert\'s constructionism and Montessori principles. Made in Cannes, France.'
+}
+const header = {
+	title: 'About <strong>PrimaSTEM</strong>',
+	text: 'French startup from Cannes building screen-free educational technology.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+
+	<!-- INTRO -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>We make tools that help children think</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				PrimaSTEM is a French startup from Cannes. We build screen-free educational technology inspired by Seymour Papert's constructionism and Montessori principles.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- ORIGIN -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>How it started</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				We watched children spending more and more time in front of screens. We watched math scores fall. And we watched a child's eyes light up when they touched a wooden board and a robot, pressed a button — and the robot did exactly what they told it to.
+			</p>
+			<p>
+				Papert said: the child should program the computer, not the other way around. We built a device where this works literally — wooden tokens, a tangible control board, a ladybug that draws.
+			</p>
+			<p>
+				No screen. Hands, eyes, thinking.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- BELIEFS -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>What we believe</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				<strong>Children learn by doing.</strong> Not by watching — by doing.
+			</p>
+			<p>
+				<strong>Mathematics is beautiful.</strong> When the robot draws a pentagonal spiral, the child sees math as a picture they created themselves.
+			</p>
+			<p>
+				<strong>Technology should be open.</strong> Every token is a standard NFC tag. No subscriptions, no walled gardens.
+			</p>
+			<p>
+				<strong>Simplicity takes work.</strong> A four-year-old starts in five minutes. A ten-year-old programs arithmetic progressions. Same device.
+			</p>
+		</div>
+	</SidebarContent>
+
+	<!-- WHERE WE ARE -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>Where we are</h3>
+		</div>
+		<div class="basic-text">
+			<p>
+				<strong>Partners:</strong> Terra Numerica / INRIA / CNRS, Educazur, AFINEF.
+			</p>
+			<p>
+				<strong>Clients:</strong> France, Netherlands, Norway, Luxembourg, Spain.
+			</p>
+			<p>
+				<strong>Trade shows:</strong> EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nuremberg).
+			</p>
+		</div>
+	</SidebarContent>
+
+	<ContactCTA />
+</Layout>

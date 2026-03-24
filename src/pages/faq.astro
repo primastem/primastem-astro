@@ -9,7 +9,9 @@ import TextImage from '../components/blocks/basic/TextImage.astro'
 
 // Data
 import faqData from '../data/json-files/faqData.json'
+const faqProduct = faqData.filter((faq) => faq.category === 'product')
 const faqPricing = faqData.filter((faq) => faq.category === 'pricing')
+const faqTechnical = faqData.filter((faq) => faq.category === 'technical')
 
 // Content
 import faqImage1 from '../assets/faq/faq-01.png'
@@ -28,9 +30,19 @@ const header = {
 <Layout title={SEO.title} description={SEO.description}>
 	<Hero title={header.title} text={header.text} />
 	<FAQ
-		title="Understanding Our Pricing Plans"
-		text="Get all the details on PrimaSTEM's pricing. Learn about the costs and options for distributors, schools, and parents."
+		title="Product"
+		text="How PrimaSTEM works, what's included, and what it can do."
+		data={faqProduct}
+	/>
+	<FAQ
+		title="Pricing & Availability"
+		text="Costs, ordering options, and distributors."
 		data={faqPricing}
+	/>
+	<FAQ
+		title="Technical"
+		text="Battery, safety, customization, and accessibility."
+		data={faqTechnical}
 	/>
 	<TextImage
 		title="Why PrimaSTEM Offers Great Value"

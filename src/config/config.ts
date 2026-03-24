@@ -9,6 +9,13 @@ export interface Logo {
 
 export type Mode = 'auto' | 'light' | 'dark'
 
+export interface Contact {
+	email: string
+	phone: string
+	whatsapp: string
+	location: string
+}
+
 export interface Config {
 	siteTitle: string
 	siteDescription: string
@@ -18,6 +25,7 @@ export interface Config {
 	noindex: boolean
 	mode: Mode
 	scrollAnimations: boolean
+	contact: Contact
 }
 
 export const configData: Config = {
@@ -32,5 +40,11 @@ export const configData: Config = {
 	canonical: true,
 	noindex: false,
 	mode: 'auto',
-	scrollAnimations: true
+	scrollAnimations: true,
+	contact: {
+		email: 'info@primastem.com',
+		phone: '+33 6 24 95 09 36',
+		whatsapp: 'https://wa.me/33624950936',
+		location: 'Cannes, France'
+	}
 }

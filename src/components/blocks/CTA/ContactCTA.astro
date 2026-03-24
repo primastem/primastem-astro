@@ -1,0 +1,47 @@
+---
+// Contact CTA Block
+// Reusable dark CTA section with title, subtitle, contacts, and button.
+
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+import Button from '../../ui/Button.astro'
+import { configData } from '../../../config/config.ts'
+
+type Props = {
+	title?: string
+	subtitle?: string
+	buttonText?: string
+	buttonLink?: string
+	secondButtonText?: string
+	secondButtonLink?: string
+}
+
+const {
+	title = 'Get in <strong>touch</strong>',
+	subtitle = '',
+	buttonText = 'Contact us',
+	buttonLink = '/contact',
+	secondButtonText = '',
+	secondButtonLink = ''
+} = Astro.props
+
+const { email, phone, whatsapp } = configData.contact
+---
+
+<Section padding="both" classes="bg-neutral-900 text-white dark:bg-neutral-800">
+	<Row>
+		<Col span="12" align="center">
+			<h2 class="text-white dark:text-white" set:html={title} />
+			{subtitle && <p class="text-lg text-neutral-300" set:html={subtitle} />}
+			<p class="text-neutral-400">
+				<a href={`mailto:${email}`} class="hover:text-white hover:underline">{email}</a> ·
+				<a href={whatsapp} class="hover:text-white hover:underline" target="_blank">{phone}</a> (WhatsApp)
+			</p>
+			<div class="mt-6 flex justify-center gap-4 flex-wrap">
+				<Button size="lg" link={buttonLink}>{buttonText}</Button>
+				{secondButtonText && <Button size="lg" style="outline" link={secondButtonLink}>{secondButtonText}</Button>}
+			</div>
+		</Col>
+	</Row>
+</Section>
