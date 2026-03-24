@@ -1,0 +1,44 @@
+---
+// Trust Section — using original socialproof/Basic pattern
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+import { Image } from 'astro:assets'
+
+// Reuse existing logos as placeholders — replace with partner logos later
+import logo1 from '../../../assets/logos/airtable-logo.svg'
+import logo2 from '../../../assets/logos/asana-logo.svg'
+import logo3 from '../../../assets/logos/basecamp-logo.svg'
+import logo4 from '../../../assets/logos/evernote-logo.svg'
+
+const images = [
+	{ image: logo1, alt: 'Terra Numerica' },
+	{ image: logo2, alt: 'INRIA' },
+	{ image: logo3, alt: 'EducAzur' },
+	{ image: logo4, alt: 'AFINEF' },
+]
+---
+
+<Section padding="both">
+	<Row>
+		<Col span="12" align="center">
+			<h2 class="!mb-6 text-base font-normal text-neutral-400 dark:text-neutral-600">
+				Trusted by our <strong class="highlight">partners</strong>
+			</h2>
+		</Col>
+	</Row>
+	<Row flex classes="!flex-row">
+		{images.map((item) => (
+			<Col>
+				<Image src={item.image} alt={item.alt} />
+			</Col>
+		))}
+	</Row>
+	<Row>
+		<Col span="12" align="center">
+			<p class="text-lg text-neutral-500 dark:text-neutral-400 pt-6">
+				Already working in 5 countries. Documentation in 10 languages. CE certified. Made in Cannes, France.
+			</p>
+		</Col>
+	</Row>
+</Section>

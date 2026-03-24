@@ -1,0 +1,62 @@
+[
+	{
+		"header": {
+			"title": "School",
+			"subtitle": "Complete kit ready for the classroom",
+			"currency": "€",
+			"price": "247",
+			"priceLabel": "per kit, excl. VAT",
+			"buttonName": "Learn more",
+			"buttonLink": "/schools"
+		},
+		"body": {
+			"listItems": [
+				{ "listItem": "Robot + control board + tokens" },
+				{ "listItem": "Lesson plans included" },
+				{ "listItem": "Teacher's guide on docs site" },
+				{ "listItem": "Two learning levels in one device" }
+			]
+		},
+		"type": "basic"
+	},
+	{
+		"header": {
+			"title": "Distributor",
+			"subtitle": "Exclusive territories with full support",
+			"currency": "€",
+			"price": "220",
+			"priceLabel": "per kit, wholesale",
+			"buttonName": "Learn more",
+			"buttonLink": "/distributors"
+		},
+		"body": {
+			"listItems": [
+				{ "listItem": "Exclusive territories" },
+				{ "listItem": "Marketing support" },
+				{ "listItem": "Training included" },
+				{ "listItem": "Demo kit available" }
+			]
+		},
+		"type": "featured"
+	},
+	{
+		"header": {
+			"title": "Parent",
+			"subtitle": "Everything for learning at home",
+			"currency": "€",
+			"price": "247",
+			"priceLabel": "per kit, + VAT",
+			"buttonName": "Learn more",
+			"buttonLink": "/parents"
+		},
+		"body": {
+			"listItems": [
+				{ "listItem": "Complete kit, ready to use" },
+				{ "listItem": "No subscriptions, no apps" },
+				{ "listItem": "No hidden costs" },
+				{ "listItem": "Lasts through primary school" }
+			]
+		},
+		"type": "basic"
+	}
+]

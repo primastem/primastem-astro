@@ -1,0 +1,25 @@
+---
+// Pricing Section V3 — using original PricingTable component
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+import PricingTable from '../../ui/pricing-tables/PricingTable.astro'
+
+import pricingData from '../../../data/json-files/primastemPricing.json'
+---
+
+<Section id="pricing-v3" padding="both">
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2>Choose <strong>your path</strong></h2>
+			<p class="pb-0 text-lg">Complete kit: robot, control board, command tokens, lesson plans and teacher's guide.</p>
+		</Col>
+	</Row>
+	<Row>
+		{pricingData.map((item, key) => (
+			<Col span="4">
+				<PricingTable data={item} listType="checklist" id={`plan-${key}`} />
+			</Col>
+		))}
+	</Row>
+</Section>

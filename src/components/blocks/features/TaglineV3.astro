@@ -1,0 +1,25 @@
+---
+// Tagline V3 — Testimonial style with background image
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+import Testimonial from '../../ui/Testimonial.astro'
+
+import testimonialBg from '../../../assets/testimonial-bg-01.webp'
+---
+
+<Section mode="dark" bg={testimonialBg} bgPosition="center">
+	<Row>
+		<Col span="2" />
+		<Col span="8" align="center">
+			<Testimonial
+				blockquote="Our attempt to make something people truly need. Tangible and beautiful."
+				figcaption="PrimaSTEM"
+				cite="Made in Cannes, France"
+				size="lg"
+				align="center"
+			/>
+		</Col>
+		<Col span="2" />
+	</Row>
+</Section>

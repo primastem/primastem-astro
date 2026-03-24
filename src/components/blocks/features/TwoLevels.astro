@@ -1,0 +1,49 @@
+---
+// Two Levels Section
+// ------------
+// Description: Two cards side by side showing the two learning levels.
+
+// Components
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+---
+
+<Section id="two-levels" padding="both">
+	<Row>
+		<Col span="12" align="center">
+			<h2>Two levels — <strong>one device</strong></h2>
+			<p class="text-lg pb-8">One purchase — lasts through primary school.</p>
+		</Col>
+	</Row>
+	<Row>
+		<!-- Level 1: Logic -->
+		<Col span="6">
+			<div class="rounded-xl border border-neutral-200 dark:border-neutral-700 p-6 h-full bg-white dark:bg-neutral-800">
+				<span class="inline-block rounded-full bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 px-3 py-1 text-sm font-semibold mb-4">Logic, Numbers</span>
+				<h3 class="text-xl font-bold mb-3">Ages 4–7</h3>
+				<ul class="space-y-2 text-neutral-600 dark:text-neutral-300">
+					<li>Logical step 15 cm (adjustable), 90° turns</li>
+					<li>Mazes, sequences, debugging</li>
+				</ul>
+				<div class="mt-6 rounded-lg bg-neutral-100 dark:bg-neutral-700 aspect-video flex items-center justify-center text-neutral-400">
+					<span class="text-sm">two-levels-logic.png</span>
+				</div>
+			</div>
+		</Col>
+		<!-- Level 2: Mathematics -->
+		<Col span="6">
+			<div class="rounded-xl border border-neutral-200 dark:border-neutral-700 p-6 h-full bg-white dark:bg-neutral-800">
+				<span class="inline-block rounded-full bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 px-3 py-1 text-sm font-semibold mb-4">Mathematics, Coding</span>
+				<h3 class="text-xl font-bold mb-3">Ages 7–10</h3>
+				<ul class="space-y-2 text-neutral-600 dark:text-neutral-300">
+					<li>Precise distances and angles of any value</li>
+					<li>Arithmetic, geometry, marker drawing</li>
+				</ul>
+				<div class="mt-6 rounded-lg bg-neutral-100 dark:bg-neutral-700 aspect-video flex items-center justify-center text-neutral-400">
+					<span class="text-sm">two-levels-math.png</span>
+				</div>
+			</div>
+		</Col>
+	</Row>
+</Section>
