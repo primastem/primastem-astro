@@ -1,0 +1,111 @@
+---
+// Components
+import Layout from '../layouts/Layout.astro'
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import Hero from '../components/blocks/hero/PageHeader.astro'
+
+// SEO
+const SEO = {
+	title: 'PrimaSTEM | Privacy Policy — Politique de confidentialité',
+	description: 'PrimaSTEM privacy policy. GDPR/RGPD compliant. Data collection, processing, your rights.'
+}
+const header = {
+	title: 'Politique de <strong>confidentialité</strong>',
+	text: 'Dernière mise à jour : 23 mars 2026'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Responsable du traitement</h3>
+			<p>Informations sur le responsable du traitement des données personnelles.</p>
+		</div>
+		<div class="basic-text">
+			<h4>PRIMASTEM SAS</h4>
+			<p>
+				11 rue de Magdebourg, 75016 Paris, France<br />
+				SIRET : 944 985 720 00019<br />
+				Email : info@primastem.com
+			</p>
+
+			<h4>Données collectées</h4>
+			<p>Nous collectons les données suivantes via notre formulaire de contact :</p>
+			<ul>
+				<li>Nom et prénom</li>
+				<li>Adresse email</li>
+				<li>Nom de l'organisation (facultatif)</li>
+				<li>Pays</li>
+				<li>Contenu du message</li>
+				<li>Type de demande</li>
+			</ul>
+
+			<h4>Finalité du traitement</h4>
+			<p>Les données collectées sont utilisées pour :</p>
+			<ul>
+				<li>Répondre à vos demandes d'information</li>
+				<li>Traiter vos commandes</li>
+				<li>Vous contacter dans le cadre d'un partenariat commercial</li>
+				<li>Améliorer nos services</li>
+			</ul>
+		</div>
+	</SidebarContent>
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>Base légale et droits</h3>
+			<p>Informations sur la base légale du traitement et vos droits conformément au RGPD.</p>
+		</div>
+		<div class="basic-text">
+			<h4>Base légale</h4>
+			<p>Le traitement de vos données repose sur :</p>
+			<ul>
+				<li>Votre consentement (article 6.1.a du RGPD)</li>
+				<li>L'exécution d'un contrat (article 6.1.b du RGPD)</li>
+				<li>Notre intérêt légitime (article 6.1.f du RGPD)</li>
+			</ul>
+
+			<h4>Destinataires des données</h4>
+			<p>
+				Vos données sont traitées uniquement par l'équipe PrimaSTEM. Elles ne sont pas transmises à des tiers, sauf obligation légale.
+			</p>
+
+			<h4>Durée de conservation</h4>
+			<p>Les données sont conservées pendant 3 ans à compter du dernier contact.</p>
+
+			<h4>Vos droits</h4>
+			<p>Conformément au RGPD, vous disposez des droits suivants :</p>
+			<ul>
+				<li>Droit d'accès</li>
+				<li>Droit de rectification</li>
+				<li>Droit d'effacement</li>
+				<li>Droit à la limitation du traitement</li>
+				<li>Droit à la portabilité</li>
+				<li>Droit d'opposition</li>
+			</ul>
+			<p>Pour exercer ces droits, contactez-nous : info@primastem.com</p>
+		</div>
+	</SidebarContent>
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Cookies et modifications</h3>
+			<p>Informations sur l'utilisation des cookies et les modifications de cette politique.</p>
+		</div>
+		<div class="basic-text">
+			<h4>Cookies</h4>
+			<p>
+				Ce site utilise Google Analytics pour analyser la fréquentation. Vous pouvez refuser les cookies via le bandeau affiché lors de votre première visite ou dans les paramètres de votre navigateur.
+			</p>
+
+			<h4>Hébergement</h4>
+			<p>
+				Ce site est hébergé par Netlify, Inc., 44 Montgomery Street, Suite 300, San Francisco, California 94104, USA.
+			</p>
+
+			<h4>Modifications</h4>
+			<p>
+				Nous nous réservons le droit de modifier cette politique à tout moment. La date de dernière mise à jour est indiquée en haut de cette page.
+			</p>
+		</div>
+	</SidebarContent>
+</Layout>

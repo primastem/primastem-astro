@@ -86,6 +86,6 @@ export const footerNavigationData: FooterData = {
 		}
 	],
 	subFooter: {
-		copywriteText: '© PrimaSTEM SAS 2026. All rights reserved.'
+		copywriteText: '© PrimaSTEM SAS 2026'
 	}
 }

@@ -1,0 +1,76 @@
+---
+// Components
+import Layout from '../layouts/Layout.astro'
+import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
+import Hero from '../components/blocks/hero/PageHeader.astro'
+
+// SEO
+const SEO = {
+	title: 'PrimaSTEM | Legal Notice — Mentions Légales',
+	description: 'Legal notices for primastem.com. Publisher information, hosting, intellectual property.'
+}
+const header = {
+	title: 'Mentions <strong>légales</strong>',
+	text: 'Informations légales conformément à la loi française'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<Hero title={header.title} text={header.text} />
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Éditeur du site</h3>
+			<p>Informations sur la société éditrice du site primastem.com.</p>
+		</div>
+		<div class="basic-text">
+			<h4>PRIMASTEM SAS</h4>
+			<p>
+				Société par actions simplifiée (SAS)<br />
+				Capital social : 30 000 €<br />
+				SIREN : 944 985 720<br />
+				SIRET : 944 985 720 00019<br />
+				RCS Paris<br />
+				TVA Intracommunautaire : FR58944985720
+			</p>
+			<p>
+				Siège social : 11 rue de Magdebourg, 75016 Paris, France<br />
+				Directeur de la publication : Mikael Harnois
+			</p>
+
+			<h4>Contact</h4>
+			<p>
+				Email : info@primastem.com<br />
+				Téléphone : +33 6 24 95 09 36
+			</p>
+		</div>
+	</SidebarContent>
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>Hébergement</h3>
+			<p>Informations sur l'hébergeur du site.</p>
+		</div>
+		<div class="basic-text">
+			<h4>Hébergeur</h4>
+			<p>
+				Netlify, Inc.<br />
+				512 2nd Street, Suite 200, San Francisco, CA 94107, USA<br />
+				<a href="https://www.netlify.com" target="_blank" rel="noopener">https://www.netlify.com</a>
+			</p>
+		</div>
+	</SidebarContent>
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>Propriété intellectuelle</h3>
+			<p>Informations sur la protection du contenu du site.</p>
+		</div>
+		<div class="basic-text">
+			<h4>Propriété intellectuelle</h4>
+			<p>
+				L'ensemble du contenu de ce site (textes, images, vidéos, logos, icônes) est la propriété de PRIMASTEM SAS ou de ses partenaires et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle. Toute reproduction, même partielle, est interdite sans autorisation préalable.
+			</p>
+
+			<h4>Crédits</h4>
+			<p>Conception, développement et photographies : PRIMASTEM SAS</p>
+		</div>
+	</SidebarContent>
+</Layout>

@@ -1,0 +1,51 @@
+---
+// Contact Cards for PrimaSTEM
+import Section from '../../ui/Section.astro'
+import Row from '../../ui/Row.astro'
+import Col from '../../ui/Col.astro'
+import Card from '../../ui/cards/BasicCard.astro'
+
+type Props = {
+	classes?: string
+}
+const { classes } = Astro.props
+---
+
+<Section id="direct" classes={classes}>
+	<Row>
+		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
+			<h2>Reach us <strong>directly</strong></h2>
+			<p class="pb-0 text-lg">
+				We respond within 24 hours. Working languages: English, Français, Русский.
+			</p>
+		</Col>
+	</Row>
+	<Row>
+		<Col span="4">
+			<Card
+				title="Email"
+				subtitle="info@primastem.com"
+				icon="chat-bubble-left-ellipsis"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="mailto:info@primastem.com"
+			/>
+		</Col>
+		<Col span="4">
+			<Card
+				title="WhatsApp"
+				subtitle="+33 6 24 95 09 36"
+				icon="phone-arrow-up-right"
+				classes="text-center dark:!bg-neutral-800/50"
+				link="https://wa.me/33624950936"
+			/>
+		</Col>
+		<Col span="4">
+			<Card
+				title="Location"
+				subtitle="Cannes, France"
+				icon="identification"
+				classes="text-center dark:!bg-neutral-800/50"
+			/>
+		</Col>
+	</Row>
+</Section>
