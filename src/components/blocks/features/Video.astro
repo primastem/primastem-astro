@@ -15,12 +15,13 @@ import Col from '../../ui/Col.astro'
 	<Row>
 		<Col span="2" />
 		<Col span="8">
-			<div class="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg">
+			<div class="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg" role="region" aria-label="Video demonstration of PrimaSTEM robot">
 				<iframe
 					src="https://www.youtube.com/embed/Ztq_I1WBiVo"
 					title="PrimaSTEM — See it in action"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen
+					loading="lazy"
 					class="absolute inset-0 w-full h-full"
 				></iframe>
 			</div>

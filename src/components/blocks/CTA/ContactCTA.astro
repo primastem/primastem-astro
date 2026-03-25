@@ -36,7 +36,7 @@ const { email, phone, whatsapp } = configData.contact
 			{subtitle && <p class="text-lg text-neutral-300" set:html={subtitle} />}
 			<p class="text-neutral-400">
 				<a href={`mailto:${email}`} class="hover:text-white hover:underline">{email}</a> ·
-				<a href={whatsapp} class="hover:text-white hover:underline" target="_blank">{phone}</a> (WhatsApp)
+				<a href={whatsapp} class="hover:text-white hover:underline" target="_blank" rel="noopener noreferrer">{phone}</a> (WhatsApp)
 			</p>
 			<div class="mt-6 flex justify-center gap-4 flex-wrap">
 				<Button size="lg" link={buttonLink}>{buttonText}</Button>
