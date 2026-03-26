@@ -40,8 +40,8 @@ const savedNavActions = navActions.map((action) => ({
 		<nav aria-label="main navigation" role="navigation" class="header__nav">
 			<!-- Logo -->
 			<a href="/" class="header__logo">
-				<img src={logo.src} alt={logo.alt} class="header__logo-light h-9 w-auto" />
-				<img src="/logo-dark.svg" alt={logo.alt} class="header__logo-dark h-9 w-auto" />
+				<img src={logo.src} alt={logo.alt} class="header__logo-light h-9 w-auto" loading="eager" />
+				<img src="/logo-dark.svg" alt={logo.alt} class="header__logo-dark h-9 w-auto" loading="eager" />
 			</a>
 
 			<!-- Menu toggle -->
@@ -164,7 +164,7 @@ const savedNavActions = navActions.map((action) => ({
 		@apply px-8 py-4 hover:text-primary-500 [.header\_\_menu-item.open_&]:flex;
 	}
 	.header__toggle {
-		@apply relative order-10 block h-10 w-10 self-center lg:hidden [&--open]:visible [&--open]:opacity-100;
+		@apply relative order-10 block h-11 w-11 self-center lg:hidden [&--open]:visible [&--open]:opacity-100;
 	}
 	.header__toggle-inner {
 		@apply absolute left-1/2 top-1/2 w-6 -translate-x-1/2 -translate-y-1/2 transform;

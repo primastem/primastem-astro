@@ -62,9 +62,7 @@ const {
 	<div class="testimonial__container">
 		<figure class="testimonial__figure">
 			<blockquote class="testimonial__blockquote">
-				<p>
-					{blockquote}
-				</p>
+				<p set:html={blockquote} />
 			</blockquote>
 			<figcaption class="testimonial__figcaption">
 				{rating && <Rating rating={rating} />}

@@ -1,0 +1,245 @@
+# PrimaSTEM — Full Site Content
+
+> Screen-free coding and mathematics for children ages 4–10. Wooden programmable robot with tangible NFC command tokens. Made in Cannes, France.
+
+---
+
+# Home (/)
+
+Coding and math without a screen.
+
+The only screen-free tool that teaches both. Ages 4 to 10. Made from wood.
+
+€247 excl. VAT — complete kit, ready to use.
+
+## Two levels — one device
+
+One purchase — lasts through primary school.
+
+Logic, Numbers — Ages 4–7: Logical step 15 cm (adjustable), 90° turns. Mazes, sequences, debugging.
+
+Mathematics, Coding — Ages 7–10: Precise distances and angles of any value. Arithmetic, geometry, marker drawing.
+
+## The robot draws what the child programs
+
+The robot drew them following a child's program. Pentagon, Star, Spiral, Heart.
+
+Example: (Repeat 5) [(Forward) (50), (Right) (144)] = a star.
+
+## Works with maps you already have
+
+PrimaSTEM adapts to the content of other educational robots. Step size is adjustable — 10, 12, 15, 25 cm. Any grid map works. No new materials needed.
+
+## See it in action
+
+Watch how children learn coding and math with PrimaSTEM. Video recorded with a prototype. Final product may differ.
+
+## Choose your path
+
+Complete kit: robot, control board, command tokens, lesson plans and teacher's guide.
+
+School: €247 per kit, excl. VAT. Robot + control board + tokens. Lesson plans & teacher's guide online. Two learning levels in one device. Rental available.
+
+Distributor: €220 per kit, wholesale. Exclusive terms on request. Marketing support. Training included. Demo kit available.
+
+Parent: €247 per kit, + VAT. Complete kit, ready to use. No subscriptions, no apps. No hidden costs. Lasts through primary school.
+
+## Trusted by our partners
+
+Already working in 5 countries. Partners: Ministry of Education Luxembourg, La Compagnie du Code, Terra Numerica, A4 Éducation, AFINEF.
+
+---
+
+# Product (/product)
+
+## How PrimaSTEM works
+
+1. Place tokens left to right. Green LED = accepted. The board speaks the command.
+2. Press "Start." The robot executes. LEDs show which command is running.
+3. Check the result. Wrong? Find the error, swap a token, run again.
+
+## What's in the kit
+
+Ladybug robot: 125 mm diameter, wood, USB-C charging, 2–3 hours battery.
+Control board: 317 × 217 mm, wood, 11 dual slots, Bluetooth ~5 m.
+Command tokens: 33 × 33 mm, cardboard, NFC 13.56 MHz, Scratch color coding, writable via phone app.
+Teacher's guide: Lesson plans online, activities & printables, docs.primastem.com, 10 languages.
+
+## Commands
+
+Movement & Program: Forward, Backward, Left, Right, Random, Function, Pause.
+Repeat: 2–999, Random repeat 1–6.
+Mathematics: +, −, ×, ÷, √, ^
+Numbers: 1–999
+System: Default step size, calibration.
+
+## Drawing
+
+Insert a marker. Every movement leaves a line. Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression — the star turns into a spiral. These shapes are programmed by children, drawn by the robot.
+
+## Works with any map
+
+Step size is adjustable. 10, 12, 15, 25 cm — any grid. Use maps from any robot already in your classroom. No new materials needed.
+
+## Open platform
+
+Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app. Create your own numbers, loops or arithmetic operations. NFC tags on the playing field — the robot plays audio when it drives over them. Language cards, musical fields, story quests.
+
+## Voice feedback
+
+The board speaks each token as it's placed. Helps children who can't read yet and children with visual impairments. Braille version in pilot testing.
+
+## Specifications
+
+Material: Wood. Robot: 125 mm diameter, 44 mm H. Control board: 317 × 217 mm. Tokens: 33 × 33 mm, cardboard, NFC 13.56 MHz. Connectivity: Bluetooth ~5 m. Battery: Li-Ion USB-C, 2–3 hours. Default step: 15 cm (any value, adjustable). Angles: 1°–360°. Mathematics: +, −, ×, ÷, √, ^, !. Slots: 6×2 main + 5×2 function. Audio: Voice feedback + sound samples. Certification: CE. Age: 4–10. Made in: Cannes, France.
+
+€247 excl. VAT. Complete kit, ready to use. Wholesale from €220.
+
+---
+
+# Distributors (/distributors)
+
+A screen-free education tool the market is asking for. Schools, preschools, Montessori, after-school programs, parents — one product for all. Coding + mathematics. Ages 4–10. Wood. CE certified. 10 languages. Wholesale from €220 excl. VAT.
+
+## The market
+
+PISA 2022: math scores are declining across Europe. Governments are restricting screens in schools. Schools need screen-free STEM tools — but the ones available only teach basic directions. PrimaSTEM combines tangible programming with real mathematics. Arbitrary angles, arithmetic operations, geometric drawing. One product for ages 4–10. A school buys once and uses it for years.
+
+## What sells
+
+Two age groups — one device. Works with existing maps. The robot draws. Teachers create their own tokens. Braille version in pilot testing.
+
+## Terms
+
+Wholesale: from €220 excl. VAT. Marketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable. Present in: France (direct sales), Netherlands, Luxembourg (pilot with Ministry of Education). Expanding into Spain. All terms, pricing and exclusivity conditions are discussed individually.
+
+---
+
+# Schools (/schools)
+
+Coding and mathematics, ages 4–10. One device. No screen, no apps. Works with maps from any robots you already have. €247 excl. VAT per kit.
+
+## What children do
+
+They place command tokens on the board — that's their program, visible in full. Press "Start." The robot executes. Wrong result? Find the error, swap a token, run again. Sequences, functions, loops, debugging. No screen. Hands only.
+
+## Two levels
+
+Ages 4–7: Logic. Logical steps, 90° turns. Forward, backward, left, right, function, repeat. Planning, sequences, debugging, counting.
+Ages 7–10: Mathematics. Precise distances in mm and any angle in degrees: 1°–360°. Arithmetic: +, −, ×, ÷, √, ^. Negative numbers. Progressions. Insert a marker — the robot draws polygons, stars, spirals, fractals.
+
+## Lessons included
+
+Objectives, materials, step-by-step instructions, printables. Full documentation at docs.primastem.com — 10 languages.
+
+## What teachers don't expect
+
+Open platform. Sound maps. Voice feedback. Braille version in pilot testing.
+
+€247 excl. VAT. Complete kit. Rental available. Also available through distributors.
+
+---
+
+# Parents (/parents)
+
+Real skills, real play, no screen. A wooden robot your child programs by hand. Ages 4–10. €247 + VAT.
+
+## What is it
+
+Tokens on a wooden board — "forward," "turn right," "repeat 3 times." That's the program. The child sees it, touches it, rearranges it. Presses a button — the robot executes.
+
+## Grows with your child
+
+At 4–5: Simple commands and numbers. Mazes on colorful maps.
+At 6–7: Functions and loops.
+At 8–10: Mathematics. Precise angles, distances, arithmetic. The robot draws stars, spirals, geometric patterns.
+
+## Why this one
+
+Wood. Not plastic. No screen. No apps. It speaks. It draws. Made in France. CE certified.
+
+€247 + VAT. Complete kit.
+
+---
+
+# About (/about)
+
+French startup from Cannes building screen-free educational technology.
+
+## We make tools that help children think
+
+PrimaSTEM is inspired by Seymour Papert's constructionism and Montessori principles.
+
+## How it started
+
+We watched children spending more time in front of screens. We watched math scores fall. And we watched a child's eyes light up when they touched a wooden board and a robot, pressed a button — and the robot did exactly what they told it to.
+
+## What we believe
+
+Children learn by doing. Mathematics is beautiful. Technology should be open. Simplicity takes work.
+
+## Where we are
+
+Partners: Terra Numerica / INRIA / CNRS, Educazur, AFINEF. Clients: France, Netherlands, Norway, Luxembourg, Spain. Trade shows: EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nuremberg).
+
+---
+
+# Contact (/contact)
+
+Email: info@primastem.com
+WhatsApp: +33 6 24 95 09 36
+Location: Cannes, France
+YouTube: youtube.com/@primastem
+Instagram: @primastem.robot
+
+We respond within 24 hours. Working languages: English, Français, Русский.
+
+---
+
+# FAQ (/faq)
+
+Q: What age is PrimaSTEM for?
+A: From age 4. Ages 4–7 work with logic and simple programs. Ages 7–10 add mathematics, precise angles, and drawing.
+
+Q: How does it work?
+A: Children place command tokens on a wooden board — that's their program. Press Start — the robot executes. No screen, no apps.
+
+Q: What's in the kit?
+A: Ladybug robot (wood, USB-C, Bluetooth), control board with 11 dual slots, command tokens (cardboard, NFC, color-coded), and a teacher's guide with lesson plans.
+
+Q: Does the robot draw?
+A: Yes. Insert a marker and every movement leaves a line. Children program stars, spirals, polygons, fractals.
+
+Q: Does it work with maps from other robots?
+A: Yes. The default step size is adjustable — 10, 12, 15, 25 cm or any value.
+
+Q: How much does it cost?
+A: €247 excl. VAT for the complete kit. Wholesale from €220 for distributors.
+
+Q: Can I rent instead of buying?
+A: Rental is available for schools.
+
+Q: Is there a distributor in my country?
+A: Partners in France, Netherlands, Norway, Luxembourg, and Spain.
+
+Q: How long does the battery last?
+A: USB-C charging, 2–3 hours on a single charge.
+
+Q: Is it safe for children?
+A: CE certified. Made from wood. No screen. Recommended for ages 4+.
+
+Q: Can teachers create their own tokens?
+A: Yes. Every token is a standard NFC tag. Write any code using a free phone app.
+
+Q: Can my child use it without a teacher?
+A: Yes. Lessons available on docs.primastem.com in 10 languages. Video tutorials on YouTube.
+
+---
+
+# Product Sheet (/sheet)
+
+Distributor-focused overview with full specifications, pricing (from €220 excl. VAT wholesale), and partnership terms. Download PDF available.
+
+---
+
+PrimaSTEM SAS · Cannes, France · info@primastem.com · primastem.com · docs.primastem.com

@@ -47,5 +47,27 @@ const {
 	<link rel="sitemap" href="/sitemap-index.xml" />
 	<meta name="generator" content={Astro.generator} />
 	<meta name="theme-color" content="#5AA02C" />
+	<script type="application/ld+json" set:html={JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "PrimaSTEM",
+		"url": "https://primastem.com",
+		"logo": "https://primastem.com/logo.svg",
+		"description": "Screen-free coding and mathematics for children ages 4–10. Wooden programmable robot.",
+		"email": "info@primastem.com",
+		"telephone": "+33624950936",
+		"address": {
+			"@type": "PostalAddress",
+			"addressLocality": "Cannes",
+			"addressCountry": "FR"
+		},
+		"sameAs": [
+			"https://youtube.com/@primastem",
+			"https://www.instagram.com/primastem.robot",
+			"https://www.facebook.com/primastem",
+			"https://www.linkedin.com/company/primastem"
+		]
+	})} />
+	<slot name="structured-data" />
 	<ClientRouter fallback="swap" />
 </head>

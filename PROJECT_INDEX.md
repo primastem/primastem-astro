@@ -1,5 +1,10 @@
 # PrimaSTEM Astro Project Index
 
+## Working Notes
+- **Layout debugging**: Always check CSS classes in code first (flex alignment, self-center vs self-start, grid spans), not just screenshots. Preview viewport may be mobile — desktop bugs won't show.
+- **Push only when asked**: Don't auto-push, wait for user command.
+- **Don't invent content**: All text comes from prepared .md files or user. Ask if unsure.
+
 ## Content Source Files (ready texts)
 Located in: `C:\Users\andrei\Documents\Claude\web\astro-site\src\content\`
 

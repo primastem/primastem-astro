@@ -26,9 +26,9 @@
 
 | Item | Details |
 |------|---------|
-| Ladybug robot | 125 mm ⌀, wood, USB-C, Bluetooth, 2–3 h battery |
+| Ladybug robot | 125 mm diameter, wood, USB-C, Bluetooth, 2–3 h battery |
 | Control board | 317 × 217 mm, wood, 11 dual slots |
-| Command tokens | 33 × 33 mm, NFC 13.56 MHz, Scratch color coding |
+| Command tokens | 33 × 33 mm, cardboard, NFC 13.56 MHz, Scratch color coding |
 | Teacher's guide (online) | Lesson plans, printables, activities at docs.primastem.com |
 
 ---
@@ -48,9 +48,9 @@
 | | |
 |---|---|
 | Material | Wood |
-| Robot | 125 mm ⌀, 44 mm H |
+| Robot | 125 mm diameter, 44 mm H |
 | Control board | 317 × 217 mm |
-| Tokens | 33 × 33 mm, NFC 13.56 MHz |
+| Tokens | 33 × 33 mm, cardboard, NFC 13.56 MHz |
 | Connectivity | Bluetooth ~5 m |
 | Battery | Li-Ion, USB-C, 2–3 hours |
 | Default step | 15 cm (any value, adjustable) |

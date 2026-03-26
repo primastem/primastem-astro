@@ -49,15 +49,15 @@ const {
 
 <Section id={id} classes={classes}>
 	<Row>
-		<Col span="6" classes="relative">
+		<Col span="6" classes={`relative order-2 ${imagePosition === 'left' ? 'lg:order-1' : 'lg:order-2'}`}>
 			<picture
 				class=`text-image__picture ${offsetImage  ? 'text-image__picture--offset' : ''} ${imagePosition === 'right' ? 'text-image__picture--offset-right' : ''}`
 			>
 				{mobileImage && <source srcset={mobileImage.src} media="(max-width: 1024px)" />}
-				<img src={image.src} alt={title} width={imageWidth} height={imageHeight} class="rounded-xl" />
+				<img src={image.src} alt={title} width={imageWidth} height={imageHeight} class="rounded-xl max-h-[28rem] lg:max-h-none w-auto mx-auto object-contain" loading="lazy" decoding="async" />
 			</picture>
 		</Col>
-		<Col span="6" classes={`self-center ${imagePosition === 'right' ? 'lg:-order-1' : ''}`}>
+		<Col span="6" classes={`self-center order-1 ${imagePosition === 'left' ? 'lg:order-2' : 'lg:order-1'}`}>
 			<div class="text-image__content">
 				<h2 class="text-image__heading" set:html={title} />
 				<div class="text-image__text" set:html={text} />

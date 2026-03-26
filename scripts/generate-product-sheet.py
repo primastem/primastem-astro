@@ -18,7 +18,7 @@ import os
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT = os.path.join(BASE, "public", "primastem-product-sheet.pdf")
 LOGO_SVG = os.path.join(BASE, "public", "logo.svg")
-HERO_IMG = os.path.join(BASE, "src", "assets", "hero-primastem.png")
+HERO_IMG = os.path.join(BASE, "src", "assets", "hero-primastem.jpg")
 
 # --- COLORS ---
 GREEN = HexColor("#5AA02C")
@@ -37,13 +37,14 @@ CW = W - ML - MR
 
 # --- STYLES ---
 ST = {}
-ST['tagline'] = ParagraphStyle('Tagline', fontName='Helvetica', fontSize=12, textColor=GRAY, leading=16, spaceAfter=0)
+ST['tagline'] = ParagraphStyle('Tagline', fontName='Helvetica', fontSize=12, textColor=GRAY, leading=16, spaceAfter=0, alignment=TA_CENTER)
 ST['desc'] = ParagraphStyle('Desc', fontName='Helvetica', fontSize=9, textColor=TEXT, leading=13, spaceAfter=0)
 ST['h1'] = ParagraphStyle('H1', fontName='Helvetica-Bold', fontSize=10, textColor=GREEN, spaceBefore=0, spaceAfter=4*mm, leading=13)
 ST['body'] = ParagraphStyle('Body', fontName='Helvetica', fontSize=8.5, textColor=TEXT, leading=12, spaceAfter=2*mm)
 ST['bullet'] = ParagraphStyle('Bullet', fontName='Helvetica', fontSize=8.5, textColor=TEXT, leading=12, leftIndent=4*mm, bulletIndent=0, spaceAfter=2*mm)
 ST['price'] = ParagraphStyle('Price', fontName='Helvetica-Bold', fontSize=13, textColor=GREEN, spaceBefore=0, spaceAfter=2*mm)
 ST['small'] = ParagraphStyle('Small', fontName='Helvetica', fontSize=7.5, textColor=LIGHT_GRAY, leading=10)
+ST['italic'] = ParagraphStyle('Italic', fontName='Helvetica-Oblique', fontSize=8.5, textColor=GRAY, leading=12, spaceAfter=2*mm)
 ST['contact_name'] = ParagraphStyle('CN', fontName='Helvetica-Bold', fontSize=9, textColor=DARK, alignment=TA_CENTER, spaceAfter=1.5*mm)
 ST['contact'] = ParagraphStyle('C', fontName='Helvetica', fontSize=8.5, textColor=TEXT, alignment=TA_CENTER, leading=13)
 ST['url'] = ParagraphStyle('URL', fontName='Helvetica-Bold', fontSize=10, textColor=GREEN, alignment=TA_CENTER, spaceBefore=2*mm)
@@ -87,20 +88,27 @@ def build():
     doc = BaseDocTemplate(OUTPUT, pagesize=A4, pageTemplates=[PageTemplate(id='main', frames=frame, onPage=footer_fn)])
     s = []
 
-    # LOGO
+    # LOGO (centered)
     try:
         d = svg2rlg(LOGO_SVG)
         if d:
             sc = 36/d.height; d.width*=sc; d.height*=sc; d.scale(sc,sc)
-            s.append(d)
+            logo_table = Table([[d]], colWidths=[CW])
+            logo_table.setStyle(TableStyle([
+                ('ALIGN',(0,0),(0,0),'CENTER'),
+                ('TOPPADDING',(0,0),(0,0),0),
+                ('BOTTOMPADDING',(0,0),(0,0),0),
+            ]))
+            s.append(logo_table)
     except: pass
 
     s.append(sp(4))
 
-    # TAGLINE + DESCRIPTION (left) + IMAGE (right) — two columns
+    # TAGLINE (centered)
     s.append(Paragraph("Screen-free coding and mathematics. Ages 4–10. Made from wood.", ST['tagline']))
     s.append(sp(4))
 
+    # DESCRIPTION + IMAGE
     desc_text = (
         "<b>PrimaSTEM</b> is a wooden programmable robot that teaches both coding "
         "and mathematics without a screen. Children place NFC command tokens on a "
@@ -159,9 +167,9 @@ def build():
     s.append(Paragraph("WHAT'S IN THE KIT", ST['h1']))
     c1, c2 = 38*mm, CW-38*mm
     kit = Table([
-        ["Ladybug robot","125 mm ⌀, wood, USB-C, Bluetooth, 2–3 h battery"],
+        ["Ladybug robot","Diameter 125 mm, wood, USB-C, Bluetooth, 2–3 h battery"],
         ["Control board","317 × 217 mm, wood, 11 dual slots"],
-        ["Command tokens","33 × 33 mm, NFC 13.56 MHz, Scratch color coding"],
+        ["Command tokens","33 × 33 mm, cardboard, NFC 13.56 MHz, Scratch color coding"],
         ["Teacher's guide","Online: lesson plans, printables at docs.primastem.com"],
     ], colWidths=[c1,c2])
     kit.setStyle(tbl_style())
@@ -187,14 +195,14 @@ def build():
     s.append(thin())
     s.append(sp(4))
 
-    # TECHNICAL SPECIFICATIONS (two-column table)
+    # TECHNICAL SPECIFICATIONS
     s.append(Paragraph("TECHNICAL SPECIFICATIONS", ST['h1']))
     hw = CW/2 - 1*mm
     lw, vw = 28*mm, hw-28*mm
     rows = [
-        ["Material","Wood","Connectivity","Bluetooth ~5 m"],
-        ["Robot","125 mm ⌀, 44 mm H","Battery","Li-Ion, USB-C, 2–3 h"],
-        ["Control board","317 × 217 mm","Default step","15 cm (adjustable)"],
+        ["Material","Wood (robot, board), cardboard (tokens)","Connectivity","Bluetooth ~5 m"],
+        ["Robot","Diameter 125 mm, H 44 mm","Battery","Li-Ion, USB-C, 2–3 h"],
+        ["Board","317 × 217 mm","Default step","15 cm (adjustable)"],
         ["Tokens","33 × 33 mm, NFC","Angles","1°–360°"],
         ["Slots","6×2 main + 5×2 func","Certification","CE, UKCA"],
         ["Audio","Voice + sounds","Age","4–10"],
@@ -228,6 +236,9 @@ def build():
         "Joint participation at trade shows. Territory exclusivity negotiable.", ST['body']))
     s.append(Paragraph(
         "Minimum order quantities, shipping terms, and lead times — discussed individually.", ST['body']))
+    s.append(Paragraph(
+        "All terms, pricing and exclusivity conditions are discussed individually. "
+        "Contact us to start the conversation.", ST['italic']))
 
     s.append(sp(2))
     s.append(thin())

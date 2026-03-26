@@ -13,7 +13,7 @@ import BasicCard from '../components/ui/cards/BasicCard.astro'
 import TextImage from '../components/blocks/basic/TextImage.astro'
 
 // Content
-import heroImage from '../assets/hero-primastem.png'
+import heroImage from '../assets/hero-primastem.jpg'
 import tokensImage from '../assets/tokens-by-color.jpg'
 import spiralImage from '../assets/robot-drawing.jpg'
 import mapsImage from '../assets/maps-on-grid.jpg'
@@ -27,6 +27,24 @@ const SEO = {
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
+	<script slot="structured-data" type="application/ld+json" set:html={JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "Product",
+		"name": "PrimaSTEM Educational Robot Kit",
+		"description": "Screen-free coding and mathematics for ages 4–10. Wooden programmable robot with NFC command tokens.",
+		"brand": { "@type": "Brand", "name": "PrimaSTEM" },
+		"manufacturer": { "@type": "Organization", "name": "PrimaSTEM SAS" },
+		"material": "Wood",
+		"audience": { "@type": "EducationalAudience", "educationalRole": "student", "suggestedMinAge": "4", "suggestedMaxAge": "10" },
+		"offers": {
+			"@type": "Offer",
+			"price": "247",
+			"priceCurrency": "EUR",
+			"priceValidUntil": "2026-12-31",
+			"availability": "https://schema.org/InStock",
+			"url": "https://primastem.com/contact"
+		}
+	})} />
 	<!-- HERO: HomeCTA style — title + steps left, video right -->
 	<Section id="product-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
@@ -58,6 +76,7 @@ const SEO = {
 						class="w-full h-full"
 					></iframe>
 				</div>
+				<p class="text-sm text-neutral-400 dark:text-neutral-500 text-center mt-4 italic">Video recorded with a prototype. Final product may differ.</p>
 			</Col>
 		</Row>
 	</Section>
@@ -98,14 +117,14 @@ const SEO = {
 					icon="squares-plus"
 				>
 					<ul class="text-sm space-y-1 list-disc list-inside">
-						<li>33 × 33 mm</li>
+						<li>33 × 33 mm, cardboard</li>
 						<li>NFC 13.56 MHz</li>
 						<li>Scratch color coding</li>
 						<li>Writable via phone app</li>
 					</ul>
 				</BasicCard>
 				<BasicCard
-					title="Teacher's guide"
+					title="Online Teacher's guide"
 					icon="book"
 				>
 					<ul class="text-sm space-y-1 list-disc list-inside">
@@ -116,11 +135,11 @@ const SEO = {
 					</ul>
 				</BasicCard>
 			</Col>
-			<Col span="6" classes="flex items-center">
+			<Col span="6" classes="flex items-center justify-center">
 				<Image
 					src={heroImage}
 					alt="PrimaSTEM complete kit: wooden control board with colorful command tokens, ladybug robot, and drawings"
-					class="rounded-xl"
+					class="rounded-xl max-h-[28rem] w-auto object-contain"
 					format="webp"
 				/>
 			</Col>
@@ -214,9 +233,9 @@ const SEO = {
 					<table class="w-full text-left text-base">
 						<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
 							<tr><td class="py-3 font-medium">Material</td><td class="py-3">Wood</td></tr>
-							<tr><td class="py-3 font-medium">Robot</td><td class="py-3">125 mm ⌀, 44 mm H</td></tr>
+							<tr><td class="py-3 font-medium">Robot</td><td class="py-3">125 mm diameter, 44 mm H</td></tr>
 							<tr><td class="py-3 font-medium">Control board</td><td class="py-3">317 × 217 mm</td></tr>
-							<tr><td class="py-3 font-medium">Tokens</td><td class="py-3">33 × 33 mm, NFC 13.56 MHz</td></tr>
+							<tr><td class="py-3 font-medium">Tokens</td><td class="py-3">100 pcs, 33 × 33 mm, cardboard, NFC 13.56 MHz</td></tr>
 							<tr><td class="py-3 font-medium">Connectivity</td><td class="py-3">Bluetooth ~5 m</td></tr>
 							<tr><td class="py-3 font-medium">Battery</td><td class="py-3">Li-Ion USB-C, 2–3 hours</td></tr>
 							<tr><td class="py-3 font-medium">Default step</td><td class="py-3">15 cm (any value, adjustable)</td></tr>
@@ -242,7 +261,7 @@ const SEO = {
 			</Col>
 		</Row>
 		<Row>
-			<Col span="6">
+			<Col span="3">
 				<BasicCard
 					title="Online docs"
 					subtitle="10 languages. Lesson plans, guides, and technical reference."
@@ -250,12 +269,28 @@ const SEO = {
 					link="https://docs.primastem.com"
 				/>
 			</Col>
-			<Col span="6">
+			<Col span="3">
 				<BasicCard
 					title="Video tutorials"
 					subtitle="Step-by-step videos on our YouTube channel."
 					icon="youtube-icon"
 					link="https://youtube.com/@primastem"
+				/>
+			</Col>
+			<Col span="3">
+				<BasicCard
+					title="Product sheet"
+					subtitle="Specifications, pricing, and kit overview for distributors."
+					icon="clipboard-document-list"
+					link="/sheet"
+				/>
+			</Col>
+			<Col span="3">
+				<BasicCard
+					title="FAQ"
+					subtitle="Common questions about PrimaSTEM, ordering, and technical details."
+					icon="chat-bubble-left-ellipsis"
+					link="/faq"
 				/>
 			</Col>
 		</Row>

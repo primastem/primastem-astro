@@ -10,7 +10,7 @@ import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
 import ContactCTA from '../components/blocks/CTA/ContactCTA.astro'
 
 // Content
-import heroImage from '../assets/hero-primastem.png'
+import heroImage from '../assets/hero-primastem.jpg'
 
 // SEO
 const SEO = {
@@ -86,14 +86,13 @@ const SEO = {
 			<h3>What's in the kit</h3>
 		</div>
 		<div class="basic-text">
-			<table class="w-full text-left text-base">
-				<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
-					<tr><td class="py-2 font-medium pr-4">Ladybug robot</td><td class="py-2">125 mm ⌀, wood, USB-C, Bluetooth, 2–3 h battery</td></tr>
-					<tr><td class="py-2 font-medium pr-4">Control board</td><td class="py-2">317 × 217 mm, wood, 11 dual slots</td></tr>
-					<tr><td class="py-2 font-medium pr-4">Command tokens</td><td class="py-2">33 × 33 mm, NFC 13.56 MHz, Scratch color coding</td></tr>
-					<tr><td class="py-2 font-medium pr-4">Teacher's guide (online)</td><td class="py-2">Lesson plans, printables, activities at docs.primastem.com</td></tr>
-				</tbody>
-			</table>
+			<ul>
+				<li><strong>Ladybug robot</strong> — wooden programmable robot with marker holder</li>
+				<li><strong>Control board</strong> — tangible programming interface with dual slots</li>
+				<li><strong>Command tokens</strong> — cardboard NFC tiles with Scratch color coding</li>
+				<li><strong>Teacher's guide</strong> — lesson plans and activities online at <a href="https://docs.primastem.com" class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">docs.primastem.com</a></li>
+			</ul>
+			<p class="text-sm text-neutral-500">See Technical specifications below for dimensions and details.</p>
 		</div>
 	</SidebarContent>
 
@@ -120,9 +119,9 @@ const SEO = {
 			<table class="w-full text-left text-base">
 				<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
 					<tr><td class="py-2 font-medium pr-4">Material</td><td class="py-2">Wood</td></tr>
-					<tr><td class="py-2 font-medium pr-4">Robot</td><td class="py-2">125 mm ⌀, 44 mm H</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Robot</td><td class="py-2">125 mm diameter, 44 mm H</td></tr>
 					<tr><td class="py-2 font-medium pr-4">Control board</td><td class="py-2">317 × 217 mm</td></tr>
-					<tr><td class="py-2 font-medium pr-4">Tokens</td><td class="py-2">33 × 33 mm, NFC 13.56 MHz</td></tr>
+					<tr><td class="py-2 font-medium pr-4">Tokens</td><td class="py-2">100 pcs, 33 × 33 mm, cardboard, NFC 13.56 MHz</td></tr>
 					<tr><td class="py-2 font-medium pr-4">Connectivity</td><td class="py-2">Bluetooth ~5 m</td></tr>
 					<tr><td class="py-2 font-medium pr-4">Battery</td><td class="py-2">Li-Ion, USB-C, 2–3 hours</td></tr>
 					<tr><td class="py-2 font-medium pr-4">Default step</td><td class="py-2">15 cm (any value, adjustable)</td></tr>
@@ -149,6 +148,9 @@ const SEO = {
 			</p>
 			<p>
 				Minimum order quantities, shipping terms, and lead times — discussed individually.
+			</p>
+			<p class="mt-4 italic text-neutral-500">
+				All terms, pricing and exclusivity conditions are discussed individually. Contact us to start the conversation.
 			</p>
 		</div>
 	</SidebarContent>

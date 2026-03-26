@@ -1,0 +1,51 @@
+# PrimaSTEM
+
+> Screen-free coding and mathematics for children ages 4–10. Wooden programmable robot with tangible NFC command tokens.
+
+PrimaSTEM is a wooden educational robot made in Cannes, France. Children place NFC command tokens on a control board to build programs — no screen, no app required. Two curriculum levels in one device: logic for ages 4–7 and mathematics for ages 7–10. The robot draws geometric figures (stars, spirals, polygons) making math visible. CE & UKCA certified.
+
+## Pages
+
+- [Home](https://primastem.com/): Overview, key features, pricing, video demo
+- [Product](https://primastem.com/product/): How it works, kit contents, commands, specifications
+- [Distributors](https://primastem.com/distributors/): Wholesale pricing, partnership terms, market opportunity
+- [Schools](https://primastem.com/schools/): Classroom use, curriculum alignment, rental options
+- [Parents](https://primastem.com/parents/): Home learning, age guidance, what's included
+- [About](https://primastem.com/about/): Company story, team, mission, certifications
+- [Contact](https://primastem.com/contact/): Email, WhatsApp, contact form
+- [FAQ](https://primastem.com/faq/): Common questions about product, ordering, technical details
+- [Product Sheet](https://primastem.com/sheet/): Distributor-focused specifications and pricing overview
+- [Legal Notice](https://primastem.com/legal/): French mentions légales
+- [Privacy Policy](https://primastem.com/privacy/): GDPR/RGPD compliant privacy policy
+
+## Documentation
+
+- Full documentation: https://docs.primastem.com (10 languages)
+- YouTube channel: https://youtube.com/@primastem
+
+## Contact
+
+- Email: info@primastem.com
+- WhatsApp: +33 6 24 95 09 36
+- Location: Cannes, France
+
+## Pricing
+
+- Retail: €247 excl. VAT per kit
+- Wholesale: from €220 excl. VAT
+
+## Key Facts
+
+- Material: Wood (robot, board), cardboard (tokens)
+- Age range: 4–10
+- Certification: CE & UKCA
+- Made in: Cannes, France
+- No screen, no app, no subscription
+- Open NFC platform — tokens writable with free phone app
+- Compatible with any grid map (step size adjustable: 10, 12, 15, 25 cm)
+- Voice feedback — board speaks each command
+- Documentation in 10 languages
+
+## Optional
+
+- [Full site content for LLM indexing](https://primastem.com/llms-full.txt)

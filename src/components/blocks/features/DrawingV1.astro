@@ -3,32 +3,47 @@
 import Section from '../../ui/Section.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
+import { Image } from 'astro:assets'
 
-const drawings = ['square', 'pentagon', 'star', 'spiral', 'heart']
+import pentagonImg from '../../../assets/drawings/drawing-pentagon.png'
+import starImg from '../../../assets/drawings/drawing-star.png'
+import spiralImg from '../../../assets/drawings/drawing-spiral-shape.png'
+import heartImg from '../../../assets/drawings/drawing-heart.png'
+
+const drawings = [
+	{ name: 'Pentagon', image: pentagonImg },
+	{ name: 'Star', image: starImg },
+	{ name: 'Spiral', image: spiralImg },
+	{ name: 'Heart', image: heartImg },
+]
 ---
 
-<Section id="drawing" padding="both">
+<Section id="drawing" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 	<Row>
 		<Col span="12" align="center">
 			<h2>The robot draws what <strong>the child programs</strong></h2>
-			<p class="text-lg pb-8">These are not illustrations. The robot drew them following a child's program.</p>
+			<p class="text-lg pb-8">The robot drew them following a child's program. <a href="https://youtube.com/@primastem" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">Watch the process on YouTube</a>.</p>
 		</Col>
 	</Row>
-	<Row>
-		<Col span="1" />
-		{drawings.map((name) => (
-			<Col span="2" spanMobile="4" align="center">
-				<div class="rounded-lg bg-neutral-100 dark:bg-neutral-700 aspect-square flex items-center justify-center text-neutral-400 mb-2">
-					<span class="text-xs">drawing-{name}.png</span>
+	<div class="flex flex-wrap justify-center gap-6 px-4">
+		{drawings.map((item) => (
+			<div class="flex flex-col items-center">
+				<div class="w-[200px] h-[200px] flex items-center justify-center rounded-lg bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 mb-2">
+					<Image
+						src={item.image}
+						alt={`Robot drawing: ${item.name}`}
+						class="max-w-[180px] max-h-[180px] object-contain"
+						format="webp"
+						width={200}
+					/>
 				</div>
-				<p class="text-sm text-neutral-500 dark:text-neutral-400 capitalize">{name}</p>
-			</Col>
+				<p class="text-sm text-neutral-500 dark:text-neutral-400 text-center">{item.name}</p>
+			</div>
 		))}
-		<Col span="1" />
-	</Row>
+	</div>
 	<Row>
 		<Col span="12" align="center">
-			<p class="text-base text-neutral-500 dark:text-neutral-400 pt-6"><code>Forward 50, Right 144, Repeat 5</code> = a star.</p>
+			<p class="text-base text-neutral-500 dark:text-neutral-400 pt-6"><code>Example:  (Repeat 5) [(Forward) (50), (Right) (144)] = a star.</code></p>
 		</Col>
 	</Row>
 </Section>

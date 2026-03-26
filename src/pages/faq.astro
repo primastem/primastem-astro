@@ -28,6 +28,15 @@ const header = {
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
+	<script slot="structured-data" type="application/ld+json" set:html={JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": faqData.map(faq => ({
+			"@type": "Question",
+			"name": faq.question,
+			"acceptedAnswer": { "@type": "Answer", "text": faq.reply }
+		}))
+	})} />
 	<Hero title={header.title} text={header.text} />
 	<FAQ
 		title="Product"
@@ -45,8 +54,8 @@ const header = {
 		data={faqTechnical}
 	/>
 	<TextImage
-		title="Why PrimaSTEM Offers Great Value"
-		text="One purchase — lasts through primary school. Two learning levels in one device. No subscriptions, no apps, no hidden costs. Complete kit with lesson plans and teacher's guide included."
+		title="Need more details?"
+		text="Our documentation covers everything — use the search bar to find answers instantly. Visit <a href='https://docs.primastem.com' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>docs.primastem.com</a>"
 		image={faqImage1}
 		mobileImage={faqImage1}
 		imagePosition="left"

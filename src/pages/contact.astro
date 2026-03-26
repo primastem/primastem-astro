@@ -2,7 +2,6 @@
 // Components
 import Layout from '../layouts/Layout.astro'
 import FormHero from '../components/blocks/hero/ContactHero.astro'
-import ContactCards from '../components/blocks/contact/PrimaContactCards.astro'
 
 // SEO
 const SEO = {
@@ -10,18 +9,53 @@ const SEO = {
 	description:
 		'Contact PrimaSTEM for questions, orders or partnerships. Email, WhatsApp, contact form. We respond within 24 hours. Cannes, France.'
 }
-const header = {
-	title: 'Get in <strong>touch</strong>',
-	text: 'Question, partnership or order — we respond within 24 hours.'
-}
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
 	<FormHero
-		title={header.title}
-		text={header.text}
+		title="Get in <strong>touch</strong>"
+		text="Question, partnership or order — we respond within 24 hours. Working languages: English, Français, Русский."
 		id="contact"
 		classes="bg-neutral-50 dark:bg-neutral-950/80"
-	/>
-	<ContactCards classes="dark:bg-neutral-950/80" />
+	>
+		<ul class="mt-6 space-y-2 text-base text-neutral-600 dark:text-neutral-400 list-none">
+			<li><strong>Email:</strong> <a href="mailto:info@primastem.com" class="text-primary-500 hover:underline">info@primastem.com</a></li>
+			<li><strong>WhatsApp:</strong> <a href="https://wa.me/33624950936" class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">+33 6 24 95 09 36</a></li>
+			<li><strong>Location:</strong> Cannes, France</li>
+			<li><strong>YouTube:</strong> <a href="https://youtube.com/@primastem" class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">youtube.com/@primastem</a></li>
+			<li><strong>Instagram:</strong> <a href="https://www.instagram.com/primastem.robot" class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">@primastem.robot</a></li>
+		</ul>
+		<div slot="form">
+			<div class="max-w-xl rounded-xl border border-neutral-200 bg-white p-8 dark:border-neutral-700 dark:bg-neutral-800">
+				<h2 class="text-xl font-bold mb-6">Get in Touch</h2>
+				<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+					<input type="hidden" name="form-name" value="contact" />
+					<p class="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
+					<div class="grid grid-cols-2 gap-4 mb-4">
+						<div class="relative">
+							<input type="text" name="name" id="name" required placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-5 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white" />
+							<label for="name" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Name <span class="text-primary-500">*</span></label>
+						</div>
+						<div class="relative">
+							<input type="text" name="organization" id="organization" placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-5 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white" />
+							<label for="organization" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Organization</label>
+						</div>
+					</div>
+					<div class="relative mb-4">
+						<input type="email" name="email" id="email" required placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-5 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white" />
+						<label for="email" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Email <span class="text-primary-500">*</span></label>
+					</div>
+					<div class="relative mb-4">
+						<input type="text" name="country" id="country" required placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-5 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white" />
+						<label for="country" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Country <span class="text-primary-500">*</span></label>
+					</div>
+					<div class="relative mb-6">
+						<textarea name="message" id="message" rows="4" required placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-6 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white resize-none"></textarea>
+						<label for="message" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Your Message <span class="text-primary-500">*</span></label>
+					</div>
+					<button type="submit" class="w-full rounded-lg bg-primary-500 px-6 py-3 text-white font-medium hover:bg-primary-600 transition-colors">Send message</button>
+				</form>
+			</div>
+		</div>
+	</FormHero>
 </Layout>

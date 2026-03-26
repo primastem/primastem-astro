@@ -5,21 +5,27 @@ import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
 import { Image } from 'astro:assets'
 
-// Reuse existing logos as placeholders — replace with partner logos later
-import logo1 from '../../../assets/logos/airtable-logo.svg'
-import logo2 from '../../../assets/logos/asana-logo.svg'
-import logo3 from '../../../assets/logos/basecamp-logo.svg'
-import logo4 from '../../../assets/logos/evernote-logo.svg'
+import logoCompagnie from '../../../assets/partners/compagnie-du-code-transparent.png'
+import logoTerra from '../../../assets/partners/terra-numerica.png'
+import logoA4 from '../../../assets/partners/a4.png'
 
-const images = [
-	{ image: logo1, alt: 'Terra Numerica' },
-	{ image: logo2, alt: 'INRIA' },
-	{ image: logo3, alt: 'EducAzur' },
-	{ image: logo4, alt: 'AFINEF' },
+const pngLogos = [
+	{ image: logoCompagnie, alt: 'La Compagnie du Code' },
+	{ image: logoTerra, alt: 'Terra Numerica' },
+	{ image: logoA4, alt: 'A4 Éducation' },
+]
+
+// SVG logos use raw <img> since Astro Image doesn't handle SVG well
+import logoLuxSrc from '../../../assets/partners/luxembourg-ministry.svg?url'
+import logoAfinefSrc from '../../../assets/partners/afinef.svg?url'
+
+const svgLogos = [
+	{ src: logoLuxSrc, alt: 'Ministry of Education Luxembourg' },
+	{ src: logoAfinefSrc, alt: 'AFINEF' },
 ]
 ---
 
-<Section padding="both">
+<Section padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 	<Row>
 		<Col span="12" align="center">
 			<h2 class="!mb-6 text-base font-normal text-neutral-400 dark:text-neutral-600">
@@ -27,17 +33,23 @@ const images = [
 			</h2>
 		</Col>
 	</Row>
-	<Row flex classes="!flex-row">
-		{images.map((item) => (
-			<Col>
-				<Image src={item.image} alt={item.alt} />
-			</Col>
+	<Row flex classes="!flex-row items-center justify-center gap-8 flex-wrap">
+		<div class="flex items-center justify-center">
+			<img src={svgLogos[0].src} alt={svgLogos[0].alt} class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity" loading="lazy" decoding="async" />
+		</div>
+		{pngLogos.map((item) => (
+			<div class="flex items-center justify-center">
+				<Image src={item.image} alt={item.alt} class="max-h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" loading="lazy" />
+			</div>
 		))}
+		<div class="flex items-center justify-center">
+			<img src={svgLogos[1].src} alt={svgLogos[1].alt} class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity" loading="lazy" decoding="async" />
+		</div>
 	</Row>
 	<Row>
 		<Col span="12" align="center">
 			<p class="text-lg text-neutral-500 dark:text-neutral-400 pt-6">
-				Already working in 5 countries. Documentation in 10 languages. CE certified. Made in Cannes, France.
+				Already working in 5 countries.
 			</p>
 		</Col>
 	</Row>
