@@ -10,7 +10,7 @@ Coding and math without a screen.
 
 The only screen-free tool that teaches both. Ages 4 to 10. Made from wood.
 
-€247 excl. VAT — complete kit, ready to use.
+From €220 excl. VAT.
 
 ## Two levels — one device
 
@@ -38,11 +38,11 @@ Watch how children learn coding and math with PrimaSTEM. Video recorded with a p
 
 Complete kit: robot, control board, command tokens, lesson plans and teacher's guide.
 
-School: €247 per kit, excl. VAT. Robot + control board + tokens. Lesson plans & teacher's guide online. Two learning levels in one device. Rental available.
+School: €831 for 3 kits, excl. VAT. Each additional kit +€277. Robot + control board + tokens. Lesson plans & teacher's guide online. Rental available.
 
 Distributor: €220 per kit, wholesale. Exclusive terms on request. Marketing support. Training included. Demo kit available.
 
-Parent: €247 per kit, + VAT. Complete kit, ready to use. No subscriptions, no apps. No hidden costs. Lasts through primary school.
+Parent: €297 per kit, + VAT. Complete kit, ready to use. No subscriptions, no apps. No hidden costs. Lasts through primary school.
 
 ## Trusted by our partners
 
@@ -93,7 +93,7 @@ The board speaks each token as it's placed. Helps children who can't read yet an
 
 Material: Wood. Robot: 125 mm diameter, 44 mm H. Control board: 317 × 217 mm. Tokens: 33 × 33 mm, cardboard, NFC 13.56 MHz. Connectivity: Bluetooth ~5 m. Battery: Li-Ion USB-C, 2–3 hours. Default step: 15 cm (any value, adjustable). Angles: 1°–360°. Mathematics: +, −, ×, ÷, √, ^, !. Slots: 6×2 main + 5×2 function. Audio: Voice feedback + sound samples. Certification: CE. Age: 4–10. Made in: Cannes, France.
 
-€247 excl. VAT. Complete kit, ready to use. Wholesale from €220.
+From €220 excl. VAT. Complete kit, ready to use.
 
 ---
 
@@ -117,7 +117,7 @@ Wholesale: from €220 excl. VAT. Marketing materials in your language. Technica
 
 # Schools (/schools)
 
-Coding and mathematics, ages 4–10. One device. No screen, no apps. Works with maps from any robots you already have. €247 excl. VAT per kit.
+Coding and mathematics, ages 4–10. One device. No screen, no apps. Works with maps from any robots you already have. €831 for 3 kits, excl. VAT.
 
 ## What children do
 
@@ -136,13 +136,13 @@ Objectives, materials, step-by-step instructions, printables. Full documentation
 
 Open platform. Sound maps. Voice feedback. Braille version in pilot testing.
 
-€247 excl. VAT. Complete kit. Rental available. Also available through distributors.
+€831 for 3 kits, excl. VAT. Each additional kit +€277. Rental available. Also available through distributors.
 
 ---
 
 # Parents (/parents)
 
-Real skills, real play, no screen. A wooden robot your child programs by hand. Ages 4–10. €247 + VAT.
+Real skills, real play, no screen. A wooden robot your child programs by hand. Ages 4–10. €297 + VAT.
 
 ## What is it
 
@@ -158,7 +158,7 @@ At 8–10: Mathematics. Precise angles, distances, arithmetic. The robot draws s
 
 Wood. Not plastic. No screen. No apps. It speaks. It draws. Made in France. CE certified.
 
-€247 + VAT. Complete kit.
+€297 + VAT. Complete kit.
 
 ---
 
@@ -214,7 +214,7 @@ Q: Does it work with maps from other robots?
 A: Yes. The default step size is adjustable — 10, 12, 15, 25 cm or any value.
 
 Q: How much does it cost?
-A: €247 excl. VAT for the complete kit. Wholesale from €220 for distributors.
+A: €831 for 3 kits for schools (each additional +€277). €297 + VAT for parents. Wholesale from €220 for distributors.
 
 Q: Can I rent instead of buying?
 A: Rental is available for schools.
