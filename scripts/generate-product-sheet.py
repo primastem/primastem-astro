@@ -230,7 +230,7 @@ def build():
 
     # WHOLESALE PRICING
     s.append(Paragraph("WHOLESALE PRICING", ST['h1']))
-    s.append(Paragraph("From €220 excl. VAT per kit.", ST['price']))
+    s.append(Paragraph("From €235 excl. VAT per kit. 100+ units/year: from €210.", ST['price']))
     s.append(Paragraph(
         "Marketing materials in your language. Technical support. "
         "Joint participation at trade shows. Territory exclusivity negotiable.", ST['body']))

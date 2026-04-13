@@ -65,7 +65,7 @@
 
 ### Wholesale pricing
 
-**From €220 excl. VAT per kit.**
+**From €235 excl. VAT per kit.** 100+ units/year: from €210. Other arrangements welcome.
 
 Marketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.
 

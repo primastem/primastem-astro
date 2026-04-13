@@ -24,17 +24,17 @@
 			"title": "Distributor",
 			"subtitle": "Exclusive terms available on request",
 			"currency": "€",
-			"price": "220",
+			"price": "235",
 			"priceLabel": "per kit, wholesale",
 			"buttonName": "Learn more",
 			"buttonLink": "/distributors"
 		},
 		"body": {
 			"listItems": [
-				{ "listItem": "Exclusive terms on request" },
+				{ "listItem": "100+ units/year: from €210" },
+				{ "listItem": "Other arrangements welcome" },
 				{ "listItem": "Marketing support" },
-				{ "listItem": "Training included" },
-				{ "listItem": "Demo kit available" }
+				{ "listItem": "Training included" }
 			]
 		},
 		"type": "featured"
