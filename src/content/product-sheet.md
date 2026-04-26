@@ -18,7 +18,7 @@
 - **The robot draws.** Stars, spirals, polygons, fractals — the demo moment that sells.
 - **Works with existing maps.** Adjustable step size: 10, 12, 15, 25 cm. Compatible with any grid map already in schools.
 - **Open NFC platform.** Teachers create custom tokens with a free phone app. Sound maps, language cards, story quests.
-- **Voice feedback & accessibility.** The board speaks each command. Braille version in pilot testing.
+- **Voice feedback & accessibility.** The board speaks each command in 14 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe. Braille version in pilot testing.
 
 ---
 
@@ -56,7 +56,7 @@
 | Default step | 15 cm (any value, adjustable) |
 | Angles | 1°–360° |
 | Slots | 6×2 main + 5×2 function |
-| Audio | Voice feedback + sound samples |
+| Audio | Voice feedback in 14 languages + sound samples |
 | Certification | CE, UKCA |
 | Age | 4–10 |
 | Made in | Cannes, France |
