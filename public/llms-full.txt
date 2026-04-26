@@ -87,11 +87,11 @@ Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone
 
 ## Voice feedback
 
-The board speaks each token as it's placed. Helps children who can't read yet and children with visual impairments. Braille version in pilot testing.
+The board speaks each token as it's placed in 14 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe. Helps children who can't read yet and children with visual impairments. Braille version in pilot testing.
 
 ## Specifications
 
-Material: Wood. Robot: 125 mm diameter, 44 mm H. Control board: 317 × 217 mm. Tokens: 33 × 33 mm, cardboard, NFC 13.56 MHz. Connectivity: Bluetooth ~5 m. Battery: Li-Ion USB-C, 2–3 hours. Default step: 15 cm (any value, adjustable). Angles: 1°–360°. Mathematics: +, −, ×, ÷, √, ^, !. Slots: 6×2 main + 5×2 function. Audio: Voice feedback + sound samples. Certification: CE. Age: 4–10. Made in: Cannes, France.
+Material: Wood. Robot: 125 mm diameter, 44 mm H. Control board: 317 × 217 mm. Tokens: 33 × 33 mm, cardboard, NFC 13.56 MHz. Connectivity: Bluetooth ~5 m. Battery: Li-Ion USB-C, 2–3 hours. Default step: 15 cm (any value, adjustable). Angles: 1°–360°. Mathematics: +, −, ×, ÷, √, ^, !. Slots: 6×2 main + 5×2 function. Audio: Voice feedback in 14 languages + sound samples. Certification: CE. Age: 4–10. Made in: Cannes, France.
 
 From €235 excl. VAT. Complete kit, ready to use.
 

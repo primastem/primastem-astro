@@ -44,7 +44,7 @@ PrimaSTEM is a wooden educational robot made in Cannes, France. Children place N
 - No screen, no app, no subscription
 - Open NFC platform — tokens writable with free phone app
 - Compatible with any grid map (step size adjustable: 10, 12, 15, 25 cm)
-- Voice feedback — board speaks each command
+- Voice feedback in 14 languages — board speaks each command
 - Documentation in 10 languages
 
 ## Optional
