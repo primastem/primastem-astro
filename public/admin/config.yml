@@ -110,3 +110,27 @@ collections:
               - { name: sidebarTitle, label: Sidebar heading, widget: string }
               - { name: sidebarText, label: Sidebar description, widget: string, required: false }
               - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: privacy_en
+        label: Privacy Policy (English)
+        file: src/content/pages/privacy.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
