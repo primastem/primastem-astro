@@ -1,0 +1,32 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | About Us — Screen-Free Education from Cannes, France",
+		"description": "We build educational technology without screens, inspired by Seymour Papert's constructionism and Montessori principles. Made in Cannes, France."
+	},
+	"hero": {
+		"title": "About <strong>PrimaSTEM</strong>",
+		"text": "French startup from Cannes building screen-free educational technology."
+	},
+	"sections": [
+		{
+			"sidebarTitle": "We make tools that help children think",
+			"sidebarText": "",
+			"body": "PrimaSTEM is a French startup from Cannes. We build screen-free educational technology inspired by Seymour Papert's constructionism and Montessori principles."
+		},
+		{
+			"sidebarTitle": "How it started",
+			"sidebarText": "",
+			"body": "We watched children spending more and more time in front of screens. We watched math scores fall. And we watched a child's eyes light up when they touched a wooden board and a robot, pressed a button — and the robot did exactly what they told it to.\n\nPapert said: the child should program the computer, not the other way around. We built a device where this works literally — wooden tokens, a tangible control board, a ladybug that draws.\n\nNo screen. Hands, eyes, thinking."
+		},
+		{
+			"sidebarTitle": "What we believe",
+			"sidebarText": "",
+			"body": "**Children learn by doing.** Not by watching — by doing.\n\n**Mathematics is beautiful.** When the robot draws a pentagonal spiral, the child sees math as a picture they created themselves.\n\n**Technology should be open.** Every token is a standard NFC tag. No subscriptions, no walled gardens.\n\n**Simplicity takes work.** A four-year-old starts in five minutes. A ten-year-old programs arithmetic progressions. Same device."
+		},
+		{
+			"sidebarTitle": "Where we are",
+			"sidebarText": "",
+			"body": "**Partners:** Terra Numerica / INRIA / CNRS, Educazur, AFINEF.\n\n**Clients:** France, Netherlands, Norway, Luxembourg, Spain.\n\n**Trade shows:** EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nuremberg)."
+		}
+	]
+}
