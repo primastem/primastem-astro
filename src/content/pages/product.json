@@ -1,0 +1,96 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | How It Works — Product Details",
+		"description": "Complete technical overview of the PrimaSTEM educational robot. Components, commands, drawing, specifications. From €235 excl. VAT."
+	},
+	"structuredData": {
+		"price": "235",
+		"priceValidUntil": "2026-12-31"
+	},
+	"hero": {
+		"title": "How PrimaSTEM <strong>works</strong>",
+		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
+		"videoCaption": "Video recorded with a prototype. Final product may differ.",
+		"steps": [
+			{ "number": "1", "text": "Place tokens left to right. Green LED = accepted. The board speaks the command." },
+			{ "number": "2", "text": "Press \"Start.\" The robot executes. LEDs show which command is running." },
+			{ "number": "3", "text": "Check the result. Wrong? Find the error, swap a token, run again." }
+		]
+	},
+	"kit": {
+		"title": "What's in the <strong>kit</strong>",
+		"cards": [
+			{ "title": "Ladybug robot", "icon": "robot", "items": ["125 mm diameter", "Wood", "USB-C charging", "2–3 hours battery"] },
+			{ "title": "Control board", "icon": "bolt", "items": ["317 × 217 mm", "Wood", "11 dual slots", "Bluetooth ~5 m"] },
+			{ "title": "Command tokens", "icon": "squares-plus", "items": ["33 × 33 mm, cardboard", "NFC 13.56 MHz", "Scratch color coding", "Writable via phone app"] },
+			{ "title": "Online Teacher's guide", "icon": "book", "items": ["Lesson plans online", "Activities & printables", "docs.primastem.com", "10 languages"] }
+		]
+	},
+	"commands": {
+		"title": "Commands",
+		"text": "<ul class='space-y-3 list-none'>\n\t\t\t<li><strong>Movement & Program:</strong> Forward, Backward, Left, Right, Random, Function, Pause.</li>\n\t\t\t<li><strong>Repeat:</strong> 2–999, Random repeat 1–6.</li>\n\t\t\t<li><strong>Mathematics:</strong> +, −, ×, ÷, √, ^</li>\n\t\t\t<li><strong>Numbers:</strong> 1–999</li>\n\t\t\t<li><strong>System:</strong> Default step size, calibration.</li>\n\t\t</ul>"
+	},
+	"drawing": {
+		"title": "Drawing",
+		"text": "Insert a marker. Every movement leaves a line.<br><br>Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression — the star turns into a spiral.<br><br>These shapes are programmed by children, drawn by the robot."
+	},
+	"maps": {
+		"title": "Works with any <strong>map</strong>",
+		"text": "Step size is adjustable. 10, 12, 15, 25 cm — any grid. Use maps from any robot already in your classroom. No new materials needed."
+	},
+	"openPlatform": {
+		"title": "Open <strong>platform</strong>",
+		"paragraphs": [
+			"Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app. Create your own numbers, loops or arithmetic operations.",
+			"NFC tags on the playing field — the robot plays audio when it drives over them. Language cards, musical fields, story quests."
+		]
+	},
+	"voiceFeedback": {
+		"title": "Voice <strong>feedback</strong>",
+		"paragraphs": [
+			"The board speaks each token as it's placed. Helps children who can't read yet and children with visual impairments.",
+			"Available in 14 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe.",
+			"Braille version in pilot testing."
+		]
+	},
+	"specs": {
+		"title": "Specifications",
+		"rows": [
+			{ "label": "Material", "value": "Wood" },
+			{ "label": "Robot", "value": "125 mm diameter, 44 mm H" },
+			{ "label": "Control board", "value": "317 × 217 mm" },
+			{ "label": "Tokens", "value": "100 pcs, 33 × 33 mm, cardboard, NFC 13.56 MHz" },
+			{ "label": "Connectivity", "value": "Bluetooth ~5 m" },
+			{ "label": "Battery", "value": "Li-Ion USB-C, 2–3 hours" },
+			{ "label": "Default step", "value": "15 cm (any value, adjustable)" },
+			{ "label": "Angles", "value": "1°–360°" },
+			{ "label": "Mathematics", "value": "+, −, ×, ÷, √, ^, !" },
+			{ "label": "Slots", "value": "6×2 main + 5×2 function" },
+			{ "label": "Audio", "value": "Voice feedback in 14 languages + sound samples" },
+			{ "label": "Certification", "value": "CE" },
+			{ "label": "Age", "value": "4–10" },
+			{ "label": "Made in", "value": "Cannes, France" }
+		]
+	},
+	"documentation": {
+		"title": "Documentation",
+		"cards": [
+			{ "title": "Online docs", "subtitle": "10 languages. Lesson plans, guides, and technical reference.", "icon": "document-text", "link": "https://docs.primastem.com" },
+			{ "title": "Video tutorials", "subtitle": "Step-by-step videos on our YouTube channel.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
+			{ "title": "Product sheet", "subtitle": "Specifications, pricing, and kit overview for distributors.", "icon": "clipboard-document-list", "link": "/sheet" },
+			{ "title": "FAQ", "subtitle": "Common questions about PrimaSTEM, ordering, and technical details.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" }
+		]
+	},
+	"order": {
+		"title": "From €235 <strong>excl. VAT</strong>",
+		"subtitle": "Complete kit, ready to use.",
+		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
+		"buttonText": "Request a quote",
+		"buttonLink": "/contact",
+		"segmentLinks": [
+			{ "text": "For schools", "link": "/schools" },
+			{ "text": "For distributors", "link": "/distributors" },
+			{ "text": "For parents", "link": "/parents" }
+		]
+	}
+}

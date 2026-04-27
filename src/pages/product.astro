@@ -1,32 +1,27 @@
 ---
 // Components
-// - Layout
 import Layout from '../layouts/Layout.astro'
-// - UI
 import Section from '../components/ui/Section.astro'
 import Row from '../components/ui/Row.astro'
 import Col from '../components/ui/Col.astro'
 import { Image } from 'astro:assets'
 import Button from '../components/ui/Button.astro'
 import BasicCard from '../components/ui/cards/BasicCard.astro'
-
 import TextImage from '../components/blocks/basic/TextImage.astro'
 
-// Content
+// Assets
 import heroImage from '../assets/hero-primastem.jpg'
 import tokensImage from '../assets/tokens-by-color.jpg'
 import spiralImage from '../assets/robot-drawing.jpg'
 import mapsImage from '../assets/maps-on-grid.jpg'
 
-// - SEO
-const SEO = {
-	title: 'PrimaSTEM | How It Works — Product Details',
-	description:
-		'Complete technical overview of the PrimaSTEM educational robot. Components, commands, drawing, specifications. From €235 excl. VAT.'
-}
+// Content (CMS-editable)
+import pageData from '../content/pages/product.json'
+
+const { seo, structuredData, hero, kit, commands, drawing, maps, openPlatform, voiceFeedback, specs, documentation, order } = pageData
 ---
 
-<Layout title={SEO.title} description={SEO.description}>
+<Layout title={seo.title} description={seo.description}>
 	<script slot="structured-data" type="application/ld+json" set:html={JSON.stringify({
 		"@context": "https://schema.org",
 		"@type": "Product",
@@ -38,37 +33,33 @@ const SEO = {
 		"audience": { "@type": "EducationalAudience", "educationalRole": "student", "suggestedMinAge": "4", "suggestedMaxAge": "10" },
 		"offers": {
 			"@type": "Offer",
-			"price": "235",
+			"price": structuredData.price,
 			"priceCurrency": "EUR",
-			"priceValidUntil": "2026-12-31",
+			"priceValidUntil": structuredData.priceValidUntil,
 			"availability": "https://schema.org/InStock",
 			"url": "https://primastem.com/contact"
 		}
 	})} />
-	<!-- HERO: HomeCTA style — title + steps left, video right -->
+	<!-- HERO -->
 	<Section id="product-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
 			<Col span="5" align="start">
-				<h1>How PrimaSTEM <strong>works</strong></h1>
+				<h1 set:html={hero.title} />
 				<div class="space-y-4">
-					<div class="flex gap-3">
-						<span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center font-bold">1</span>
-						<p>Place tokens left to right. Green LED = accepted. The board speaks the command.</p>
-					</div>
-					<div class="flex gap-3">
-						<span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center font-bold">2</span>
-						<p>Press "Start." The robot executes. LEDs show which command is running.</p>
-					</div>
-					<div class="flex gap-3">
-						<span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center font-bold">3</span>
-						<p>Check the result. Wrong? Find the error, swap a token, run again.</p>
-					</div>
+					{
+						hero.steps.map((step) => (
+							<div class="flex gap-3">
+								<span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center font-bold">{step.number}</span>
+								<p>{step.text}</p>
+							</div>
+						))
+					}
 				</div>
 			</Col>
 			<Col span="7">
 				<div class="aspect-video rounded-xl overflow-hidden" role="region" aria-label="PrimaSTEM product demo video">
 					<iframe
-						src="https://www.youtube.com/embed/Ztq_I1WBiVo"
+						src={hero.videoUrl}
 						title="PrimaSTEM 30-second demo"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen
@@ -76,64 +67,29 @@ const SEO = {
 						class="w-full h-full"
 					></iframe>
 				</div>
-				<p class="text-sm text-neutral-400 dark:text-neutral-500 text-center mt-4 italic">Video recorded with a prototype. Final product may differ.</p>
+				<p class="text-sm text-neutral-400 dark:text-neutral-500 text-center mt-4 italic">{hero.videoCaption}</p>
 			</Col>
 		</Row>
 	</Section>
 
-	<!-- WHAT'S IN THE KIT: 4 cards -->
+	<!-- WHAT'S IN THE KIT -->
 	<Section id="whats-included" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
 			<Col span="12" align="center" classes="mb-12">
-				<h2>What's in the <strong>kit</strong></h2>
+				<h2 set:html={kit.title} />
 			</Col>
 		</Row>
 		<Row>
 			<Col span="6" classes="grid grid-cols-2 gap-6">
-				<BasicCard
-					title="Ladybug robot"
-					icon="robot"
-				>
-					<ul class="text-sm space-y-1 list-disc list-inside">
-						<li>125 mm diameter</li>
-						<li>Wood</li>
-						<li>USB-C charging</li>
-						<li>2–3 hours battery</li>
-					</ul>
-				</BasicCard>
-				<BasicCard
-					title="Control board"
-					icon="bolt"
-				>
-					<ul class="text-sm space-y-1 list-disc list-inside">
-						<li>317 × 217 mm</li>
-						<li>Wood</li>
-						<li>11 dual slots</li>
-						<li>Bluetooth ~5 m</li>
-					</ul>
-				</BasicCard>
-				<BasicCard
-					title="Command tokens"
-					icon="squares-plus"
-				>
-					<ul class="text-sm space-y-1 list-disc list-inside">
-						<li>33 × 33 mm, cardboard</li>
-						<li>NFC 13.56 MHz</li>
-						<li>Scratch color coding</li>
-						<li>Writable via phone app</li>
-					</ul>
-				</BasicCard>
-				<BasicCard
-					title="Online Teacher's guide"
-					icon="book"
-				>
-					<ul class="text-sm space-y-1 list-disc list-inside">
-						<li>Lesson plans online</li>
-						<li>Activities &amp; printables</li>
-						<li>docs.primastem.com</li>
-						<li>10 languages</li>
-					</ul>
-				</BasicCard>
+				{
+					kit.cards.map((card) => (
+						<BasicCard title={card.title} icon={card.icon}>
+							<ul class="text-sm space-y-1 list-disc list-inside">
+								{card.items.map((item) => <li set:html={item} />)}
+							</ul>
+						</BasicCard>
+					))
+				}
 			</Col>
 			<Col span="6" classes="flex items-center justify-center">
 				<Image
@@ -146,41 +102,35 @@ const SEO = {
 		</Row>
 	</Section>
 
-	<!-- COMMANDS: TextImage -->
+	<!-- COMMANDS -->
 	<TextImage
-		title="Commands"
-		text="<ul class='space-y-3 list-none'>
-			<li><strong>Movement & Program:</strong> Forward, Backward, Left, Right, Random, Function, Pause.</li>
-			<li><strong>Repeat:</strong> 2–999, Random repeat 1–6.</li>
-			<li><strong>Mathematics:</strong> +, −, ×, ÷, √, ^</li>
-			<li><strong>Numbers:</strong> 1–999</li>
-			<li><strong>System:</strong> Default step size, calibration.</li>
-		</ul>"
+		title={commands.title}
+		text={commands.text}
 		image={tokensImage}
 		mobileImage={tokensImage}
 		imagePosition="right"
 	/>
 
-	<!-- DRAWING: TextImage -->
+	<!-- DRAWING -->
 	<TextImage
-		title="Drawing"
-		text="Insert a marker. Every movement leaves a line.<br><br>Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression — the star turns into a spiral.<br><br>These shapes are programmed by children, drawn by the robot."
+		title={drawing.title}
+		text={drawing.text}
 		image={spiralImage}
 		mobileImage={spiralImage}
 		imagePosition="right"
 		classes="bg-neutral-50 dark:bg-neutral-900"
 	/>
 
-	<!-- MAPS: TextImage (image left) -->
+	<!-- MAPS -->
 	<TextImage
-		title="Works with any <strong>map</strong>"
-		text="Step size is adjustable. 10, 12, 15, 25 cm — any grid. Use maps from any robot already in your classroom. No new materials needed."
+		title={maps.title}
+		text={maps.text}
 		image={mapsImage}
 		mobileImage={mapsImage}
 		imagePosition="left"
 	/>
 
-	<!-- OPEN PLATFORM: Icon left + text right -->
+	<!-- OPEN PLATFORM -->
 	<Section id="open-platform" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
 			<Col span="3" align="center" classes="flex items-center justify-center">
@@ -191,31 +141,26 @@ const SEO = {
 				</div>
 			</Col>
 			<Col span="9" align="start">
-				<h2>Open <strong>platform</strong></h2>
-				<p class="text-lg">
-					Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app. Create your own numbers, loops or arithmetic operations.
-				</p>
-				<p class="text-lg pb-0">
-					NFC tags on the playing field — the robot plays audio when it drives over them. Language cards, musical fields, story quests.
-				</p>
+				<h2 set:html={openPlatform.title} />
+				{
+					openPlatform.paragraphs.map((p, i) => (
+						<p class={i === openPlatform.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'}>{p}</p>
+					))
+				}
 			</Col>
 		</Row>
 	</Section>
 
-	<!-- VOICE FEEDBACK: text left + icon right -->
+	<!-- VOICE FEEDBACK -->
 	<Section id="voice-feedback" padding="both">
 		<Row>
 			<Col span="9" align="start">
-				<h2>Voice <strong>feedback</strong></h2>
-				<p class="text-lg">
-					The board speaks each token as it's placed. Helps children who can't read yet and children with visual impairments.
-				</p>
-				<p class="text-lg">
-					Available in 14 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe.
-				</p>
-				<p class="text-lg pb-0">
-					Braille version in pilot testing.
-				</p>
+				<h2 set:html={voiceFeedback.title} />
+				{
+					voiceFeedback.paragraphs.map((p, i) => (
+						<p class={i === voiceFeedback.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'}>{p}</p>
+					))
+				}
 			</Col>
 			<Col span="3" align="center" classes="flex items-center justify-center">
 				<div class="text-primary-500">
@@ -227,28 +172,19 @@ const SEO = {
 		</Row>
 	</Section>
 
-	<!-- SPECS: Table inside a card -->
+	<!-- SPECS -->
 	<Section id="specs" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
 			<Col span="12" align="center">
-				<h2>Specifications</h2>
+				<h2>{specs.title}</h2>
 				<div class="mt-6 mx-auto max-w-3xl rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 p-8">
 					<table class="w-full text-left text-base">
 						<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
-							<tr><td class="py-3 font-medium">Material</td><td class="py-3">Wood</td></tr>
-							<tr><td class="py-3 font-medium">Robot</td><td class="py-3">125 mm diameter, 44 mm H</td></tr>
-							<tr><td class="py-3 font-medium">Control board</td><td class="py-3">317 × 217 mm</td></tr>
-							<tr><td class="py-3 font-medium">Tokens</td><td class="py-3">100 pcs, 33 × 33 mm, cardboard, NFC 13.56 MHz</td></tr>
-							<tr><td class="py-3 font-medium">Connectivity</td><td class="py-3">Bluetooth ~5 m</td></tr>
-							<tr><td class="py-3 font-medium">Battery</td><td class="py-3">Li-Ion USB-C, 2–3 hours</td></tr>
-							<tr><td class="py-3 font-medium">Default step</td><td class="py-3">15 cm (any value, adjustable)</td></tr>
-							<tr><td class="py-3 font-medium">Angles</td><td class="py-3">1°–360°</td></tr>
-							<tr><td class="py-3 font-medium">Mathematics</td><td class="py-3">+, −, ×, ÷, √, ^, !</td></tr>
-							<tr><td class="py-3 font-medium">Slots</td><td class="py-3">6×2 main + 5×2 function</td></tr>
-							<tr><td class="py-3 font-medium">Audio</td><td class="py-3">Voice feedback in 14 languages + sound samples</td></tr>
-							<tr><td class="py-3 font-medium">Certification</td><td class="py-3">CE</td></tr>
-							<tr><td class="py-3 font-medium">Age</td><td class="py-3">4–10</td></tr>
-							<tr><td class="py-3 font-medium">Made in</td><td class="py-3">Cannes, France</td></tr>
+							{
+								specs.rows.map((row) => (
+									<tr><td class="py-3 font-medium">{row.label}</td><td class="py-3">{row.value}</td></tr>
+								))
+							}
 						</tbody>
 					</table>
 				</div>
@@ -256,66 +192,42 @@ const SEO = {
 		</Row>
 	</Section>
 
-	<!-- DOCUMENTATION V1: Two cards -->
+	<!-- DOCUMENTATION -->
 	<Section id="docs-v1" padding="both">
 		<Row>
 			<Col span="12" align="center" classes="mb-12">
-				<h2>Documentation</h2>
+				<h2>{documentation.title}</h2>
 			</Col>
 		</Row>
 		<Row>
-			<Col span="3">
-				<BasicCard
-					title="Online docs"
-					subtitle="10 languages. Lesson plans, guides, and technical reference."
-					icon="document-text"
-					link="https://docs.primastem.com"
-				/>
-			</Col>
-			<Col span="3">
-				<BasicCard
-					title="Video tutorials"
-					subtitle="Step-by-step videos on our YouTube channel."
-					icon="youtube-icon"
-					link="https://youtube.com/@primastem"
-				/>
-			</Col>
-			<Col span="3">
-				<BasicCard
-					title="Product sheet"
-					subtitle="Specifications, pricing, and kit overview for distributors."
-					icon="clipboard-document-list"
-					link="/sheet"
-				/>
-			</Col>
-			<Col span="3">
-				<BasicCard
-					title="FAQ"
-					subtitle="Common questions about PrimaSTEM, ordering, and technical details."
-					icon="chat-bubble-left-ellipsis"
-					link="/faq"
-				/>
-			</Col>
+			{
+				documentation.cards.map((card) => (
+					<Col span="3">
+						<BasicCard title={card.title} subtitle={card.subtitle} icon={card.icon} link={card.link} />
+					</Col>
+				))
+			}
 		</Row>
 	</Section>
 
-	<!-- ORDER V1: Dark CTA block -->
+	<!-- ORDER -->
 	<Section id="order-v1" padding="both" classes="bg-neutral-900 text-white dark:bg-neutral-800">
 		<Row>
 			<Col span="12" align="center">
-				<h2 class="text-white dark:text-white">From €235 <strong>excl. VAT</strong></h2>
-				<p class="text-lg text-neutral-300">Complete kit, ready to use.</p>
-				<p class="text-neutral-400"><a href="mailto:info@primastem.com" class="hover:text-white hover:underline">info@primastem.com</a> · <a href="https://wa.me/33624950936" class="hover:text-white hover:underline" target="_blank" rel="noopener noreferrer">+33 6 24 95 09 36</a></p>
+				<h2 class="text-white dark:text-white" set:html={order.title} />
+				<p class="text-lg text-neutral-300">{order.subtitle}</p>
+				<p class="text-neutral-400" set:html={order.contactLine} />
 				<div class="mt-6">
-					<Button size="lg" link="/contact">Request a quote</Button>
+					<Button size="lg" link={order.buttonLink}>{order.buttonText}</Button>
 				</div>
 				<div class="mt-6 flex justify-center gap-6">
-					<a href="/schools" class="text-primary-400 hover:underline">For schools</a>
-					<a href="/distributors" class="text-primary-400 hover:underline">For distributors</a>
-					<a href="/parents" class="text-primary-400 hover:underline">For parents</a>
+					{
+						order.segmentLinks.map((link) => (
+							<a href={link.link} class="text-primary-400 hover:underline">{link.text}</a>
+						))
+					}
 				</div>
 			</Col>
 		</Row>
 	</Section>
-
 </Layout>

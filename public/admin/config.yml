@@ -219,6 +219,117 @@ collections:
               - { name: subtitle, label: CTA subtitle, widget: string }
               - { name: buttonText, label: Button text, widget: string }
 
+      - name: product_en
+        label: Product (English)
+        file: src/content/pages/product.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: structuredData
+            label: Structured data
+            widget: object
+            fields:
+              - { name: price, label: Price (number only), widget: string }
+              - { name: priceValidUntil, label: Price valid until (YYYY-MM-DD), widget: string }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+              - name: steps
+                label: Steps
+                widget: list
+                fields:
+                  - { name: number, label: Step number, widget: string }
+                  - { name: text, label: Step text, widget: text }
+          - name: kit
+            label: What's in the kit
+            widget: object
+            fields:
+              - { name: title, label: Section title (HTML allowed), widget: string }
+              - name: cards
+                label: Kit cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: items, label: List items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: commands
+            label: Commands section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Text, widget: text }
+          - name: openPlatform
+            label: Open platform section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: voiceFeedback
+            label: Voice feedback section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: specs
+            label: Specifications
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - name: rows
+                label: Spec rows
+                widget: list
+                fields:
+                  - { name: label, label: Label, widget: string }
+                  - { name: value, label: Value, widget: string }
+          - name: documentation
+            label: Documentation cards
+            widget: object
+            fields:
+              - { name: title, label: Section title, widget: string }
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: subtitle, label: Card subtitle, widget: text }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+          - name: order
+            label: Order CTA section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: contactLine, label: Contact line (HTML allowed), widget: text }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+              - name: segmentLinks
+                label: Segment links
+                widget: list
+                fields:
+                  - { name: text, label: Link text, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+
       - name: schools_en
         label: Schools (English)
         file: src/content/pages/schools.json
