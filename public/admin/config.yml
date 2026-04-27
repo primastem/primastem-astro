@@ -219,6 +219,48 @@ collections:
               - { name: subtitle, label: CTA subtitle, widget: string }
               - { name: buttonText, label: Button text, widget: string }
 
+      - name: schools_en
+        label: Schools (English)
+        file: src/content/pages/schools.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - name: buttons
+                label: Buttons
+                widget: list
+                fields:
+                  - { name: text, label: Button text, widget: string }
+                  - { name: link, label: Button link, widget: string }
+                  - name: style
+                    label: Button style
+                    widget: select
+                    options: [primary, secondary, neutral]
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
       - name: distributors_en
         label: Distributors (English)
         file: src/content/pages/distributors.json
