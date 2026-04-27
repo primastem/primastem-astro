@@ -3,32 +3,50 @@
 import Layout from '../layouts/Layout.astro'
 import FormHero from '../components/blocks/hero/ContactHero.astro'
 
-// SEO
-const SEO = {
-	title: 'Contact PrimaSTEM — Questions, Orders, Partnerships',
-	description:
-		'Contact PrimaSTEM for questions, orders or partnerships. Email, WhatsApp, contact form. We respond within 24 hours. Cannes, France.'
-}
+// Content (CMS-editable)
+import pageData from '../content/pages/contact.json'
+
+const { seo, hero, formTitle, contactItems } = pageData
 ---
 
-<Layout title={SEO.title} description={SEO.description}>
+<Layout title={seo.title} description={seo.description}>
 	<FormHero
-		title="Get in <strong>touch</strong>"
-		text="Question, partnership or order — we respond within 24 hours. Working languages: English, Français, Русский."
+		title={hero.title}
+		text={hero.text}
 		id="contact"
 		classes="bg-neutral-50 dark:bg-neutral-950/80"
 	>
 		<ul class="mt-6 space-y-2 text-base text-neutral-600 dark:text-neutral-400 list-none">
-			<li><strong>Make an Google Meet appointment - </strong> <a href="https://calendar.app.google/EGTXmQS3eoFPeyfr7" class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">https://calendar.app.google/EGTXmQS3eoFPeyfr7</a></li>
-			<li><strong>Email:</strong> <a href="mailto:info@primastem.com" class="text-primary-500 hover:underline">info@primastem.com</a></li>
-			<li><strong>WhatsApp:</strong> <a href="https://wa.me/33624950936" class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">+33 6 24 95 09 36</a></li>
-			<li><strong>Location:</strong> Cannes, France</li>
-			<li><strong>YouTube:</strong> <a href="https://youtube.com/@primastem" class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">youtube.com/@primastem</a></li>
-			<li><strong>Instagram:</strong> <a href="https://www.instagram.com/primastem.robot" class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">@primastem.robot</a></li>
+			{
+				contactItems.map((item) => (
+					<li>
+						<strong>{item.label}</strong>
+						{item.href ? (
+							item.external ? (
+								<>
+									{' '}
+									<a href={item.href} class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">
+										{item.value}
+									</a>
+								</>
+							) : (
+								<>
+									{' '}
+									<a href={item.href} class="text-primary-500 hover:underline">
+										{item.value}
+									</a>
+								</>
+							)
+						) : (
+							<> {item.value}</>
+						)}
+					</li>
+				))
+			}
 		</ul>
 		<div slot="form">
 			<div class="max-w-xl rounded-xl border border-neutral-200 bg-white p-8 dark:border-neutral-700 dark:bg-neutral-800">
-				<h2 class="text-xl font-bold mb-6">Get in Touch</h2>
+				<h2 class="text-xl font-bold mb-6">{formTitle}</h2>
 				<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
 					<input type="hidden" name="form-name" value="contact" />
 					<p class="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>

@@ -158,3 +158,29 @@ collections:
               - { name: sidebarTitle, label: Sidebar heading, widget: string }
               - { name: sidebarText, label: Sidebar description, widget: string, required: false }
               - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: contact_en
+        label: Contact (English)
+        file: src/content/pages/contact.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - { name: formTitle, label: Form heading, widget: string }
+          - name: contactItems
+            label: Contact methods
+            widget: list
+            fields:
+              - { name: label, label: Label (e.g. "Email:"), widget: string }
+              - { name: value, label: Display text, widget: string }
+              - { name: href, label: Link URL (empty = plain text), widget: string, required: false }
+              - { name: external, label: External link (open in new tab), widget: boolean, default: false }
