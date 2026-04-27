@@ -87,6 +87,93 @@ collections:
   - name: pages
     label: Pages
     files:
+      - name: home_en
+        label: Homepage (English)
+        file: src/content/pages/home.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+          - name: twoLevels
+            label: Two levels section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - name: level1
+                label: Level 1 (Ages 4-7)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag (e.g. "Logic, Numbers"), widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+              - name: level2
+                label: Level 2 (Ages 7-10)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag, widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - name: drawings
+                label: Drawing names (image map is fixed in code)
+                widget: list
+                fields:
+                  - { name: name, label: Name (Pentagon/Star/Spiral/Heart), widget: string }
+              - { name: example, label: Example caption, widget: string }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Body text, widget: text }
+          - name: video
+            label: Video section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+          - name: trust
+            label: Trust section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: countriesLine, label: Countries line, widget: string }
+          - name: newsletter
+            label: Newsletter section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: formId, label: Mailerlite form ID, widget: string }
+          - name: tagline
+            label: Tagline section
+            widget: object
+            fields:
+              - { name: blockquote, label: Quote (HTML allowed), widget: text }
+              - { name: figcaption, label: Figcaption (e.g. "PrimaSTEM"), widget: string }
+              - { name: cite, label: Cite (e.g. "Made in..."), widget: string }
+
       - name: legal_en
         label: Legal Notice (English)
         file: src/content/pages/legal.json

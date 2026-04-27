@@ -1,5 +1,5 @@
 ---
-// Trust Section — using original socialproof/Basic pattern
+// Trust Section
 import Section from '../../ui/Section.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
@@ -15,7 +15,6 @@ const pngLogos = [
 	{ image: logoA4, alt: 'A4 Éducation' },
 ]
 
-// SVG logos use raw <img> since Astro Image doesn't handle SVG well
 import logoLuxSrc from '../../../assets/partners/luxembourg-ministry.svg?url'
 import logoAfinefSrc from '../../../assets/partners/afinef.svg?url'
 
@@ -23,14 +22,21 @@ const svgLogos = [
 	{ src: logoLuxSrc, alt: 'Ministry of Education Luxembourg' },
 	{ src: logoAfinefSrc, alt: 'AFINEF' },
 ]
+
+type Props = {
+	data: {
+		title: string
+		countriesLine: string
+	}
+}
+
+const { data } = Astro.props
 ---
 
 <Section padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 	<Row>
 		<Col span="12" align="center">
-			<h2 class="!mb-6 text-base font-normal text-neutral-400 dark:text-neutral-600">
-				Trusted by our <strong class="highlight">partners</strong>
-			</h2>
+			<h2 class="!mb-6 text-base font-normal text-neutral-400 dark:text-neutral-600" set:html={data.title} />
 		</Col>
 	</Row>
 	<Row flex classes="!flex-row items-center justify-center gap-8 flex-wrap">
@@ -48,9 +54,7 @@ const svgLogos = [
 	</Row>
 	<Row>
 		<Col span="12" align="center">
-			<p class="text-lg text-neutral-500 dark:text-neutral-400 pt-6">
-				Already working in 5 countries.
-			</p>
+			<p class="text-lg text-neutral-500 dark:text-neutral-400 pt-6">{data.countriesLine}</p>
 		</Col>
 	</Row>
 </Section>

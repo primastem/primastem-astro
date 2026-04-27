@@ -1,14 +1,23 @@
 ---
-// Maps Compatibility Section — using original TextImage component
+// Maps Compatibility Section — using TextImage component
 import TextImage from '../basic/TextImage.astro'
 
 import mapsImg from '../../../assets/map-beebot.jpg'
+
+type Props = {
+	data: {
+		title: string
+		text: string
+	}
+}
+
+const { data } = Astro.props
 ---
 
 <TextImage
 	id="maps-v2"
-	title="Works with maps <strong>you already have</strong>"
-	text="PrimaSTEM adapts to the content of other educational robots. Step size is adjustable — 10, 12, 15, 25 cm. Any grid map works. No new materials needed."
+	title={data.title}
+	text={data.text}
 	image={mapsImg}
 	imagePosition="right"
 	classes=""

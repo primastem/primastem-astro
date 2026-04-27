@@ -1,8 +1,6 @@
 ---
 // Components
-// - Layout
 import Layout from '../layouts/Layout.astro'
-// - UI
 import Hero from '../components/blocks/hero/HomeCTA.astro'
 import TwoLevels from '../components/blocks/features/TwoLevels.astro'
 import Drawing from '../components/blocks/features/DrawingV1.astro'
@@ -13,24 +11,20 @@ import Trust from '../components/blocks/features/TrustV2.astro'
 import Newsletter from '../components/blocks/features/NewsletterV1.astro'
 import Tagline from '../components/blocks/features/TaglineV3.astro'
 
-// - SEO
-const SEO = {
-	title: 'PrimaSTEM — Screen-Free Coding and Math for Ages 4–10',
-	description:
-		'The only screen-free education tool that teaches both coding and mathematics. Wooden programmable robot for children aged 4 to 10.'
-}
+// Content (CMS-editable)
+import homeData from '../content/pages/home.json'
 ---
 
-<Layout title={SEO.title} description={SEO.description}>
-	<Hero />
-	<TwoLevels />
-	<Drawing />
-	<Maps />
-	<Video />
+<Layout title={homeData.seo.title} description={homeData.seo.description}>
+	<Hero data={homeData.hero} />
+	<TwoLevels data={homeData.twoLevels} />
+	<Drawing data={homeData.drawing} />
+	<Maps data={homeData.maps} />
+	<Video data={homeData.video} />
 	<Pricing />
-	<Trust />
-	<Newsletter />
-	<Tagline />
+	<Trust data={homeData.trust} />
+	<Newsletter data={homeData.newsletter} />
+	<Tagline data={homeData.tagline} />
 </Layout>
 
 <script is:inline>

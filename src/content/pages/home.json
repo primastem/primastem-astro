@@ -1,0 +1,63 @@
+{
+	"seo": {
+		"title": "PrimaSTEM — Screen-Free Coding and Math for Ages 4–10",
+		"description": "The only screen-free education tool that teaches both coding and mathematics. Wooden programmable robot for children aged 4 to 10."
+	},
+	"hero": {
+		"title": "Coding and math <strong>without a screen.</strong>",
+		"subtitle": "The only screen-free tool that teaches both.<br />Ages 4 to 10.",
+		"price": "From €235 excl. VAT.",
+		"volumeLine": "100+ units/year: from €210.<br />Other arrangements welcome.",
+		"buttonText": "See pricing",
+		"buttonLink": "#pricing-v3"
+	},
+	"twoLevels": {
+		"title": "Two levels — <strong>one device</strong>",
+		"subtitle": "One purchase — lasts through primary school.",
+		"level1": {
+			"tag": "Logic, Numbers",
+			"age": "Ages 4–7",
+			"items": ["Logical step 15 cm (adjustable), 90° turns", "Mazes, sequences, debugging"]
+		},
+		"level2": {
+			"tag": "Mathematics, Coding",
+			"age": "Ages 7–10",
+			"items": ["Precise distances and angles of any value", "Arithmetic, geometry, marker drawing"]
+		}
+	},
+	"drawing": {
+		"title": "The robot draws what <strong>the child programs</strong>",
+		"subtitle": "The robot drew them following a child's program. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Watch the process on YouTube</a>.",
+		"drawings": [
+			{ "name": "Pentagon" },
+			{ "name": "Star" },
+			{ "name": "Spiral" },
+			{ "name": "Heart" }
+		],
+		"example": "Example:  (Repeat 5) [(Forward) (50), (Right) (144)] = a star."
+	},
+	"maps": {
+		"title": "Works with maps <strong>you already have</strong>",
+		"text": "PrimaSTEM adapts to the content of other educational robots. Step size is adjustable — 10, 12, 15, 25 cm. Any grid map works. No new materials needed."
+	},
+	"video": {
+		"title": "See it <strong>in action</strong>",
+		"subtitle": "Watch how children learn coding and math with PrimaSTEM.",
+		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
+		"videoCaption": "Video recorded with a prototype. Final product may differ."
+	},
+	"trust": {
+		"title": "Trusted by our <strong class=\"highlight\">partners</strong>",
+		"countriesLine": "Already working in 5 countries."
+	},
+	"newsletter": {
+		"title": "Stay <strong>updated</strong> with news and offers",
+		"subtitle": "No more than once a month.",
+		"formId": "jdJlRe"
+	},
+	"tagline": {
+		"blockquote": "Our attempt to make something people truly need.<br>Tangible and beautiful.",
+		"figcaption": "PrimaSTEM",
+		"cite": "Made in Cannes, France"
+	}
+}

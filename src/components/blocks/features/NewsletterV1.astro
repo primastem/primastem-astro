@@ -1,19 +1,29 @@
 ---
-// Newsletter V1 — Two columns: text left, form right
+// Newsletter V1
 import Section from '../../ui/Section.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
+
+type Props = {
+	data: {
+		title: string
+		subtitle: string
+		formId: string
+	}
+}
+
+const { data } = Astro.props
 ---
 
 <Section id="newsletter-v1" padding="both">
 	<Row>
 		<Col span="5" align="start" classes="text-center lg:text-left">
-			<h2>Stay <strong>updated</strong> with news and offers</h2>
-			<p class="text-lg">No more than once a month.</p>
+			<h2 set:html={data.title} />
+			<p class="text-lg">{data.subtitle}</p>
 		</Col>
 		<Col span="1" classes="hidden lg:block" />
 		<Col span="6" classes="flex items-center">
-			<div class="ml-embedded w-full" data-form="jdJlRe"></div>
+			<div class="ml-embedded w-full" data-form={data.formId}></div>
 		</Col>
 	</Row>
 </Section>

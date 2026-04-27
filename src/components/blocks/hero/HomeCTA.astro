@@ -1,32 +1,35 @@
 ---
 // Home page Hero Section
-// ------------
-// Description: Two-column hero with text on left, product image on right.
-
-// Components
-// - Layout
 import Section from '../../ui/Section.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
-// - UI
 import { Image } from 'astro:assets'
 import Button from '../../ui/Button.astro'
 
-// Content
 import heroImage from '../../../assets/hero-primastem.jpg'
+
+type Props = {
+	data: {
+		title: string
+		subtitle: string
+		price: string
+		volumeLine: string
+		buttonText: string
+		buttonLink: string
+	}
+}
+
+const { data } = Astro.props
 ---
 
 <Section id="intro" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 	<Row>
 		<Col span="6" align="start">
-			<h1>Coding and math <strong>without a screen.</strong></h1>
-			<p class="text-lg">
-				The only screen-free tool that teaches both.<br />
-				Ages 4 to 10.
-			</p>
-			<p class="text-xl font-bold">From €235 excl. VAT.</p>
-			<p>100+ units/year: from €210.<br />Other arrangements welcome.</p>
-			<Button size="lg" link="#pricing-v3">See pricing</Button>
+			<h1 set:html={data.title} />
+			<p class="text-lg" set:html={data.subtitle} />
+			<p class="text-xl font-bold">{data.price}</p>
+			<p set:html={data.volumeLine} />
+			<Button size="lg" link={data.buttonLink}>{data.buttonText}</Button>
 		</Col>
 		<Col span="6">
 			<Image

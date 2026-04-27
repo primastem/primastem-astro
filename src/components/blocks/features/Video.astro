@@ -3,13 +3,24 @@
 import Section from '../../ui/Section.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
+
+type Props = {
+	data: {
+		title: string
+		subtitle: string
+		videoUrl: string
+		videoCaption: string
+	}
+}
+
+const { data } = Astro.props
 ---
 
 <Section id="video" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 	<Row>
 		<Col span="12" align="center">
-			<h2>See it <strong>in action</strong></h2>
-			<p class="text-lg !mb-8">Watch how children learn coding and math with PrimaSTEM.</p>
+			<h2 set:html={data.title} />
+			<p class="text-lg !mb-8">{data.subtitle}</p>
 		</Col>
 	</Row>
 	<Row>
@@ -17,7 +28,7 @@ import Col from '../../ui/Col.astro'
 		<Col span="8">
 			<div class="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg" role="region" aria-label="Video demonstration of PrimaSTEM robot">
 				<iframe
-					src="https://www.youtube.com/embed/Ztq_I1WBiVo"
+					src={data.videoUrl}
 					title="PrimaSTEM — See it in action"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen
@@ -25,7 +36,7 @@ import Col from '../../ui/Col.astro'
 					class="absolute inset-0 w-full h-full"
 				></iframe>
 			</div>
-			<p class="text-sm text-neutral-400 dark:text-neutral-500 text-center mt-4 italic">Video recorded with a prototype. Final product may differ.</p>
+			<p class="text-sm text-neutral-400 dark:text-neutral-500 text-center mt-4 italic">{data.videoCaption}</p>
 		</Col>
 		<Col span="2" />
 	</Row>

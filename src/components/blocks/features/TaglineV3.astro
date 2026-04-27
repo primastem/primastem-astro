@@ -1,10 +1,20 @@
 ---
-// Tagline V3 — Testimonial style with aurora curtain background
+// Tagline V3 — Testimonial style with aurora background
 import Section from '../../ui/Section.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
 import Testimonial from '../../ui/Testimonial.astro'
 import AuroraBackground from '../../ui/AuroraBackground.astro'
+
+type Props = {
+	data: {
+		blockquote: string
+		figcaption: string
+		cite: string
+	}
+}
+
+const { data } = Astro.props
 ---
 
 <div class="relative overflow-hidden bg-neutral-900">
@@ -14,9 +24,9 @@ import AuroraBackground from '../../ui/AuroraBackground.astro'
 			<Col span="2" />
 			<Col span="8" align="center">
 				<Testimonial
-					blockquote="Our attempt to make something people truly need.<br>Tangible and beautiful."
-					figcaption="PrimaSTEM"
-					cite="Made in Cannes, France"
+					blockquote={data.blockquote}
+					figcaption={data.figcaption}
+					cite={data.cite}
 					size="lg"
 					align="center"
 					classes="md:max-w-2xl md:mx-auto lg:max-w-none"
