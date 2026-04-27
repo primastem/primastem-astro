@@ -15,6 +15,10 @@ import '@fontsource-variable/inter'
 import '@fontsource-variable/outfit'
 // Data
 import { configData } from '../config/config'
+// i18n
+import { getLangFromUrl, useTranslations } from '../i18n/utils'
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
 
 // Props
 type Props = {
@@ -39,7 +43,7 @@ const { title, description, ogImage, noindex, classes } = Astro.props
 		]}
 	>
 		<GoogleTagManagerBody />
-		<a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-primary-500 focus:text-white focus:rounded-lg">Skip to content</a>
+		<a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-primary-500 focus:text-white focus:rounded-lg">{t('a11y.skipToContent')}</a>
 		<NavigationBar />
 		<Main>
 			<slot />
