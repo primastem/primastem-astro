@@ -1,0 +1,84 @@
+backend:
+  name: github
+  repo: primastem/primastem-astro
+  branch: master
+
+media_folder: src/assets
+public_folder: /assets
+
+locale: en
+
+# To add a language: duplicate the _en file entry, change locale suffix and file path.
+
+collections:
+  # ── FAQ ──────────────────────────────────────────────────────────────────────
+  - name: faq
+    label: FAQ
+    files:
+      - name: faq_en
+        label: FAQ (English)
+        file: src/data/faq/en.json
+        fields:
+          - name: items
+            label: Questions
+            widget: list
+            fields:
+              - { name: question, label: Question, widget: string }
+              - { name: reply, label: Answer, widget: text }
+              - name: category
+                label: Category
+                widget: select
+                options:
+                  - { label: Product, value: product }
+                  - { label: Pricing, value: pricing }
+                  - { label: Technical, value: technical }
+              - { name: open, label: Open by default, widget: boolean, default: false }
+
+  # ── Pricing ──────────────────────────────────────────────────────────────────
+  - name: pricing
+    label: Pricing
+    files:
+      - name: pricing_en
+        label: Pricing tiers (English)
+        file: src/data/pricing/en.json
+        fields:
+          - name: items
+            label: Tiers
+            widget: list
+            fields:
+              - name: header
+                label: Header
+                widget: object
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: subtitle, label: Subtitle, widget: string }
+                  - { name: currency, label: Currency symbol, widget: string, default: "€" }
+                  - { name: price, label: Price (number only), widget: string }
+                  - { name: priceLabel, label: Price label, widget: string }
+                  - { name: buttonName, label: Button text, widget: string }
+                  - { name: buttonLink, label: Button link, widget: string }
+              - name: body
+                label: Body
+                widget: object
+                fields:
+                  - name: listItems
+                    label: Features
+                    widget: list
+                    fields:
+                      - { name: listItem, label: Feature, widget: string }
+              - name: type
+                label: Style
+                widget: select
+                options:
+                  - { label: Standard, value: basic }
+                  - { label: Featured (highlighted), value: featured }
+
+  # ── Product Sheet ─────────────────────────────────────────────────────────────
+  - name: product_sheet
+    label: Product Sheet
+    files:
+      - name: product_sheet_en
+        label: Product Sheet (English)
+        file: src/content/product-sheet.md
+        fields:
+          - { name: body, label: Content, widget: markdown }

@@ -1,62 +1,64 @@
-[
-	{
-		"header": {
-			"title": "School",
-			"subtitle": "Complete kit ready for the classroom",
-			"currency": "€",
-			"price": "831",
-			"priceLabel": "for 3 kits, excl. VAT",
-			"buttonName": "Learn more",
-			"buttonLink": "/schools"
+{
+	"items": [
+		{
+			"header": {
+				"title": "School",
+				"subtitle": "Complete kit ready for the classroom",
+				"currency": "€",
+				"price": "831",
+				"priceLabel": "for 3 kits, excl. VAT",
+				"buttonName": "Learn more",
+				"buttonLink": "/schools"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Robot + control board + tokens" },
+					{ "listItem": "Each additional kit +€277" },
+					{ "listItem": "Lesson plans & teacher's guide online" },
+					{ "listItem": "Rental available" }
+				]
+			},
+			"type": "basic"
 		},
-		"body": {
-			"listItems": [
-				{ "listItem": "Robot + control board + tokens" },
-				{ "listItem": "Each additional kit +€277" },
-				{ "listItem": "Lesson plans & teacher's guide online" },
-				{ "listItem": "Rental available" }
-			]
+		{
+			"header": {
+				"title": "Distributor",
+				"subtitle": "Exclusive terms available on request",
+				"currency": "€",
+				"price": "235",
+				"priceLabel": "per kit, wholesale",
+				"buttonName": "Learn more",
+				"buttonLink": "/distributors"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "100+ units/year: from €210" },
+					{ "listItem": "Other arrangements welcome" },
+					{ "listItem": "Marketing support" },
+					{ "listItem": "Training included" }
+				]
+			},
+			"type": "featured"
 		},
-		"type": "basic"
-	},
-	{
-		"header": {
-			"title": "Distributor",
-			"subtitle": "Exclusive terms available on request",
-			"currency": "€",
-			"price": "235",
-			"priceLabel": "per kit, wholesale",
-			"buttonName": "Learn more",
-			"buttonLink": "/distributors"
-		},
-		"body": {
-			"listItems": [
-				{ "listItem": "100+ units/year: from €210" },
-				{ "listItem": "Other arrangements welcome" },
-				{ "listItem": "Marketing support" },
-				{ "listItem": "Training included" }
-			]
-		},
-		"type": "featured"
-	},
-	{
-		"header": {
-			"title": "Parent",
-			"subtitle": "Everything for learning at home",
-			"currency": "€",
-			"price": "297",
-			"priceLabel": "per kit, + VAT",
-			"buttonName": "Learn more",
-			"buttonLink": "/parents"
-		},
-		"body": {
-			"listItems": [
-				{ "listItem": "Complete kit, ready to use" },
-				{ "listItem": "No subscriptions, no apps" },
-				{ "listItem": "No hidden costs" },
-				{ "listItem": "Lasts through primary school" }
-			]
-		},
-		"type": "basic"
-	}
-]
+		{
+			"header": {
+				"title": "Parent",
+				"subtitle": "Everything for learning at home",
+				"currency": "€",
+				"price": "297",
+				"priceLabel": "per kit, + VAT",
+				"buttonName": "Learn more",
+				"buttonLink": "/parents"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Complete kit, ready to use" },
+					{ "listItem": "No subscriptions, no apps" },
+					{ "listItem": "No hidden costs" },
+					{ "listItem": "Lasts through primary school" }
+				]
+			},
+			"type": "basic"
+		}
+	]
+}
