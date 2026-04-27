@@ -89,7 +89,7 @@ collections:
     files:
       - name: home_en
         label: Homepage (English)
-        file: src/content/pages/home.json
+        file: src/content/pages/en/home.json
         fields:
           - name: seo
             label: SEO
@@ -176,7 +176,7 @@ collections:
 
       - name: legal_en
         label: Legal Notice (English)
-        file: src/content/pages/legal.json
+        file: src/content/pages/en/legal.json
         fields:
           - name: seo
             label: SEO
@@ -200,7 +200,7 @@ collections:
 
       - name: privacy_en
         label: Privacy Policy (English)
-        file: src/content/pages/privacy.json
+        file: src/content/pages/en/privacy.json
         fields:
           - name: seo
             label: SEO
@@ -224,7 +224,7 @@ collections:
 
       - name: about_en
         label: About (English)
-        file: src/content/pages/about.json
+        file: src/content/pages/en/about.json
         fields:
           - name: seo
             label: SEO
@@ -248,7 +248,7 @@ collections:
 
       - name: contact_en
         label: Contact (English)
-        file: src/content/pages/contact.json
+        file: src/content/pages/en/contact.json
         fields:
           - name: seo
             label: SEO
@@ -274,7 +274,7 @@ collections:
 
       - name: parents_en
         label: Parents (English)
-        file: src/content/pages/parents.json
+        file: src/content/pages/en/parents.json
         fields:
           - name: seo
             label: SEO
@@ -308,7 +308,7 @@ collections:
 
       - name: product_en
         label: Product (English)
-        file: src/content/pages/product.json
+        file: src/content/pages/en/product.json
         fields:
           - name: seo
             label: SEO
@@ -419,7 +419,7 @@ collections:
 
       - name: schools_en
         label: Schools (English)
-        file: src/content/pages/schools.json
+        file: src/content/pages/en/schools.json
         fields:
           - name: seo
             label: SEO
@@ -461,7 +461,7 @@ collections:
 
       - name: distributors_en
         label: Distributors (English)
-        file: src/content/pages/distributors.json
+        file: src/content/pages/en/distributors.json
         fields:
           - name: seo
             label: SEO

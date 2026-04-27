@@ -1,0 +1,450 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777225438844,
+  "projectRoot": "C:\\Users\\andrei\\Documents\\GitHub\\primastem-astro",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "astro",
+        "version": "6.0.2",
+        "category": "fullstack"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "astro dev",
+      "start": "astro dev",
+      "build": "astro check && astro build",
+      "preview": "astro preview",
+      "astro": "astro"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "scripts",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 14,
+      "lastAccessed": 1777225438782,
+      "keyFiles": [
+        "404.html",
+        "favicon.svg",
+        "index.html",
+        "llms-full.txt",
+        "llms.txt"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 8,
+      "lastAccessed": 1777225438784,
+      "keyFiles": [
+        "favicon.svg",
+        "llms-full.txt",
+        "llms.txt",
+        "logo-dark.svg",
+        "logo.svg"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 1,
+      "lastAccessed": 1777225438797,
+      "keyFiles": [
+        "generate-product-sheet.py"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 3,
+      "lastAccessed": 1777225438799,
+      "keyFiles": [
+        "content.config.ts",
+        "env.d.ts"
+      ]
+    },
+    "src\\assets": {
+      "path": "src\\assets",
+      "purpose": "Static assets",
+      "fileCount": 11,
+      "lastAccessed": 1777225438811,
+      "keyFiles": [
+        "badge.svg",
+        "board-3d.jpg",
+        "board-on-map.jpg"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1777225438818,
+      "keyFiles": []
+    },
+    "src\\config": {
+      "path": "src\\config",
+      "purpose": "Configuration files",
+      "fileCount": 5,
+      "lastAccessed": 1777225438820,
+      "keyFiles": [
+        "analytics.ts",
+        "config.ts",
+        "footerNavigation.ts"
+      ]
+    },
+    "src\\data": {
+      "path": "src\\data",
+      "purpose": "Data files",
+      "fileCount": 0,
+      "lastAccessed": 1777225438824,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "public\\admin\\config.yml",
+      "accessCount": 18,
+      "lastAccessed": 1777315972788,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\product.astro",
+      "accessCount": 7,
+      "lastAccessed": 1777315956335,
+      "type": "file"
+    },
+    {
+      "path": "src\\layouts\\Layout.astro",
+      "accessCount": 6,
+      "lastAccessed": 1777312978210,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\blocks\\features\\TaglineV3.astro",
+      "accessCount": 5,
+      "lastAccessed": 1777315314331,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\schools.astro",
+      "accessCount": 5,
+      "lastAccessed": 1777315957507,
+      "type": "file"
+    },
+    {
+      "path": "astro.config.mjs",
+      "accessCount": 4,
+      "lastAccessed": 1777312781920,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 4,
+      "lastAccessed": 1777312919283,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components\\ui\\Footer.astro",
+      "accessCount": 4,
+      "lastAccessed": 1777312982267,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\faq.astro",
+      "accessCount": 4,
+      "lastAccessed": 1777313187382,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\blocks\\features\\PricingV3.astro",
+      "accessCount": 4,
+      "lastAccessed": 1777313191649,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\Testimonial.astro",
+      "accessCount": 3,
+      "lastAccessed": 1776604482021,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\sheet.astro",
+      "accessCount": 3,
+      "lastAccessed": 1777227853604,
+      "type": "file"
+    },
+    {
+      "path": "src\\content\\product-sheet.md",
+      "accessCount": 3,
+      "lastAccessed": 1777227864364,
+      "type": "file"
+    },
+    {
+      "path": "public\\llms-full.txt",
+      "accessCount": 3,
+      "lastAccessed": 1777228021545,
+      "type": "file"
+    },
+    {
+      "path": "public\\primastem-product-sheet.html",
+      "accessCount": 3,
+      "lastAccessed": 1777228025221,
+      "type": "file"
+    },
+    {
+      "path": "src\\data\\json-files\\faqData.json",
+      "accessCount": 3,
+      "lastAccessed": 1777312929478,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\blocks\\features\\TrustV2.astro",
+      "accessCount": 3,
+      "lastAccessed": 1777315306311,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\blocks\\features\\NewsletterV1.astro",
+      "accessCount": 3,
+      "lastAccessed": 1777315309721,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\about.astro",
+      "accessCount": 3,
+      "lastAccessed": 1777315960606,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\contact.astro",
+      "accessCount": 3,
+      "lastAccessed": 1777315961712,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\legal.astro",
+      "accessCount": 3,
+      "lastAccessed": 1777315962840,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\privacy.astro",
+      "accessCount": 3,
+      "lastAccessed": 1777315963951,
+      "type": "file"
+    },
+    {
+      "path": "tailwind.config.mjs",
+      "accessCount": 2,
+      "lastAccessed": 1777225609992,
+      "type": "file"
+    },
+    {
+      "path": "src\\styles\\global.css",
+      "accessCount": 2,
+      "lastAccessed": 1777225633087,
+      "type": "file"
+    },
+    {
+      "path": "public\\llms.txt",
+      "accessCount": 2,
+      "lastAccessed": 1777228022711,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 2,
+      "lastAccessed": 1777306053277,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\blocks\\head\\partials\\Seo.astro",
+      "accessCount": 2,
+      "lastAccessed": 1777312710331,
+      "type": "file"
+    },
+    {
+      "path": "src\\i18n\\utils.ts",
+      "accessCount": 2,
+      "lastAccessed": 1777312829920,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\NavigationBar.astro",
+      "accessCount": 2,
+      "lastAccessed": 1777312901015,
+      "type": "file"
+    },
+    {
+      "path": "src\\config\\navigationBar.ts",
+      "accessCount": 2,
+      "lastAccessed": 1777312901674,
+      "type": "file"
+    },
+    {
+      "path": "src\\data\\json-files\\primastemPricing.json",
+      "accessCount": 2,
+      "lastAccessed": 1777312930420,
+      "type": "file"
+    },
+    {
+      "path": "src\\data\\faq\\en.json",
+      "accessCount": 2,
+      "lastAccessed": 1777313157275,
+      "type": "file"
+    },
+    {
+      "path": "src\\data\\pricing\\en.json",
+      "accessCount": 2,
+      "lastAccessed": 1777313164288,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\Col.astro",
+      "accessCount": 1,
+      "lastAccessed": 1776602946032,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\Row.astro",
+      "accessCount": 1,
+      "lastAccessed": 1776602946667,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\Section.astro",
+      "accessCount": 1,
+      "lastAccessed": 1776603292890,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\AuroraBackground.astro",
+      "accessCount": 1,
+      "lastAccessed": 1776603322888,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1777225610226,
+      "type": "file"
+    },
+    {
+      "path": "src\\config\\config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777225613633,
+      "type": "file"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1777225614437,
+      "type": "file"
+    },
+    {
+      "path": "src\\content.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777225625035,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1777225629498,
+      "type": "file"
+    },
+    {
+      "path": "src\\data",
+      "accessCount": 1,
+      "lastAccessed": 1777225671934,
+      "type": "directory"
+    },
+    {
+      "path": "public",
+      "accessCount": 1,
+      "lastAccessed": 1777227991858,
+      "type": "directory"
+    },
+    {
+      "path": "src\\pages\\robots.txt.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777306138591,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\blocks\\head\\Header.astro",
+      "accessCount": 1,
+      "lastAccessed": 1777306140281,
+      "type": "file"
+    },
+    {
+      "path": "src\\components",
+      "accessCount": 1,
+      "lastAccessed": 1777306184346,
+      "type": "directory"
+    },
+    {
+      "path": "src\\i18n\\languages.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777312766998,
+      "type": "file"
+    },
+    {
+      "path": "src\\i18n\\ui.ts",
+      "accessCount": 1,
+      "lastAccessed": 1777312769640,
+      "type": "file"
+    },
+    {
+      "path": "public\\admin\\index.html",
+      "accessCount": 1,
+      "lastAccessed": 1777313167085,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
