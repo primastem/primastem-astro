@@ -1,0 +1,40 @@
+{
+	"seo": {
+		"title": "PrimaSTEM for Parents — Screen-Free Coding Toy",
+		"description": "Wooden programmable robot for children 4–10. No screen, no apps. Teaches coding and math through play. CE certified. Made in France. €297 + VAT."
+	},
+	"hero": {
+		"title": "Real skills, real play, <strong>no screen.</strong>",
+		"subtitle": "A wooden robot your child programs by hand. Ages 4–10.",
+		"price": "€297 + VAT.",
+		"buttonText": "Watch video",
+		"buttonLink": "https://youtube.com/@primastem"
+	},
+	"sections": [
+		{
+			"sidebarTitle": "What is it",
+			"sidebarText": "",
+			"body": "Tokens on a wooden board — \"forward,\" \"turn right,\" \"repeat 3 times.\" That's the program. The child sees it, touches it, rearranges it. Presses a button — the robot executes.\n\nSomething went wrong? Find the mistake, fix it, run again."
+		},
+		{
+			"sidebarTitle": "Grows with your child",
+			"sidebarText": "",
+			"body": "**At 4–5:** Simple commands and numbers. Mazes on colorful maps.\n\n**At 6–7:** Functions and loops. \"Instead of writing it five times — tell the robot: repeat.\"\n\n**At 8–10:** Mathematics. Precise angles, distances, arithmetic. Insert a marker — the robot draws stars, spirals, geometric patterns."
+		},
+		{
+			"sidebarTitle": "Programming you can put on the fridge",
+			"sidebarText": "",
+			"body": "The child programs. The robot draws. Real math, real art, real paper."
+		},
+		{
+			"sidebarTitle": "Why this one",
+			"sidebarText": "",
+			"body": "**Wood.** Not plastic.\n\n**No screen.** No apps.\n\n**It speaks.** Says each token aloud — works before a child learns to read.\n\n**It draws.** Stars, spirals, hearts.\n\n**Made in France.** CE certified."
+		}
+	],
+	"cta": {
+		"title": "€297 <strong>+ VAT</strong>",
+		"subtitle": "Complete kit. Order from us or through a distributor in your country.",
+		"buttonText": "Request a quote"
+	}
+}
