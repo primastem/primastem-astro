@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd \\\"C:\\\\Users\\\\andrei\\\\Documents\\\\GitHub\\\\primastem-astro\\\" && npm run build 2>&1\",\"timeout\":120000,\"description\":\"Build to verify Phase 1 changes\"}",
-  "error": "Exit code 1\n\n> astro-oxygenna-theme@0.0.1 build\n> astro check && astro build\n\n\u001b[2m19:59:57\u001b[22m \u001b[34m[vite]\u001b[39m Re-optimizing dependencies because vite config has changed\n\u001b[2m20:00:00\u001b[22m \u001b[34m[content]\u001b[39m Syncing content\n\u001b[2m20:00:00\u001b[22m \u001b[34m[content]\u001b[39m Astro config changed\n\u001b[2m20:00:00\u001b[22m \u001b[34m[content]\u001b[39m Clearing content store\n\u001b[33m\u001b[1m20:00:00\u001b[22m [WARN] [glob-loader]\u001b[39m The base directory \"C:\\Users\\andrei\\Documents\\GitHub\\primastem-astro\\src\\content\\blog\\\" does not exist.\n\u001b...",
-  "timestamp": "2026-04-27T18:00:10.662Z",
-  "retry_count": 1
-}
