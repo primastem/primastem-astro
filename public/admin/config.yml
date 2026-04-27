@@ -82,3 +82,31 @@ collections:
         file: src/content/product-sheet.md
         fields:
           - { name: body, label: Content, widget: markdown }
+
+  # ── Pages ────────────────────────────────────────────────────────────────────
+  - name: pages
+    label: Pages
+    files:
+      - name: legal_en
+        label: Legal Notice (English)
+        file: src/content/pages/legal.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
