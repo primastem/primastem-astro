@@ -9,34 +9,34 @@ import Button from '../components/ui/Button.astro'
 import SidebarContent from '../components/blocks/basic/StickySidebar.astro'
 import ContactCTA from '../components/blocks/CTA/ContactCTA.astro'
 
-// Content
+// Asset
 import heroImage from '../assets/board-3d.jpg'
 
-// SEO
-const SEO = {
-	title: 'PrimaSTEM for Distributors — Wholesale Educational Robot',
-	description:
-		'Screen-free coding and math robot for ages 4–10. Wholesale from €235 excl. VAT. CE certified. 10 languages. Volume pricing for 100+ units/year.'
-}
+// Content (CMS-editable)
+import { marked } from 'marked'
+import pageData from '../content/pages/distributors.json'
+
+const { seo, hero, sections, cta } = pageData
 ---
 
-<Layout title={SEO.title} description={SEO.description}>
+<Layout title={seo.title} description={seo.description}>
 	<!-- HERO -->
 	<Section id="distributors-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
 			<Col span="6" align="start">
-				<h1>A screen-free education tool <strong>the market is asking for.</strong></h1>
-				<p class="text-lg">
-					Schools, preschools, Montessori, after-school programs, parents — one product for all.
-				</p>
-				<p class="text-lg">
-					Coding + mathematics. Ages 4–10. Wood. CE certified. 10 languages.
-				</p>
-				<p class="text-xl font-bold">Wholesale from €235 excl. VAT.</p>
-				<p>100+ units/year: from €210.<br />Other arrangements welcome.</p>
+				<h1 set:html={hero.title} />
+				<p class="text-lg">{hero.subtitle1}</p>
+				<p class="text-lg">{hero.subtitle2}</p>
+				<p class="text-xl font-bold">{hero.price}</p>
+				<p set:html={hero.volumeLine} />
 				<div class="flex gap-4 flex-wrap">
-					<Button size="lg" link="/contact">Request a quote</Button>
-					<Button size="lg" style="secondary" link="/sheet">Product sheet</Button>
+					{
+						hero.buttons.map((btn) => (
+							<Button size="lg" style={btn.style as 'primary' | 'secondary' | 'neutral'} link={btn.link}>
+								{btn.text}
+							</Button>
+						))
+					}
 				</div>
 			</Col>
 			<Col span="6">
@@ -51,77 +51,17 @@ const SEO = {
 		</Row>
 	</Section>
 
-	<!-- THE MARKET -->
-	<SidebarContent>
-		<div slot="sidebar">
-			<h3>The market</h3>
-		</div>
-		<div class="basic-text">
-			<p>
-				<a href="https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en.html" target="_blank" rel="noopener noreferrer" class="text-primary-500 hover:underline">PISA 2022</a>: math scores are declining across Europe. Governments are restricting screens in schools. Schools need screen-free STEM tools — but the ones available only teach basic directions.
-			</p>
-			<p>
-				PrimaSTEM combines tangible programming with real mathematics. Arbitrary angles, arithmetic operations, geometric drawing. One product for ages 4–10. A school buys once and uses it for years.
-			</p>
-		</div>
-	</SidebarContent>
+	{
+		sections.map((section, idx) => (
+			<SidebarContent classes={idx % 2 === 1 ? 'bg-neutral-50 dark:bg-neutral-900' : ''}>
+				<div slot="sidebar">
+					<h3>{section.sidebarTitle}</h3>
+					{section.sidebarText && <p>{section.sidebarText}</p>}
+				</div>
+				<div class="basic-text" set:html={marked.parse(section.body)} />
+			</SidebarContent>
+		))
+	}
 
-	<!-- WHAT SELLS -->
-	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
-		<div slot="sidebar">
-			<h3>What sells</h3>
-		</div>
-		<div class="basic-text">
-			<p>
-				<strong>Two age groups — one device.</strong> Ages 4–7: logic, mazes, simple programs and numbers. Ages 7–10: precise distances, any angle, arithmetic, geometry — drawing. One product for all of primary school.
-			</p>
-			<p>
-				<strong>Works with existing maps.</strong> Adapts to the content of other educational robots. Default step is adjustable — 10, 12, 15 or 25 cm. The school doesn't need to change anything.
-			</p>
-			<p>
-				<strong>The robot draws.</strong> Spirals, stars, polygons, fractals — programmed by children, drawn by the robot on paper or a whiteboard. This is the demo moment that sells.
-			</p>
-			<p>
-				<strong>Teachers create their own tokens.</strong> Any numbers, loops or arithmetic operations — through a free phone app in under a minute. Interactive sound maps — the robot plays audio when it drives over an NFC tag on the field.
-			</p>
-			<p>
-				<strong>Braille version</strong> in pilot testing — an untapped market segment.
-			</p>
-		</div>
-	</SidebarContent>
-
-	<!-- CATALOGUE READY -->
-	<SidebarContent>
-		<div slot="sidebar">
-			<h3>Ready for your catalogue</h3>
-		</div>
-		<div class="basic-text">
-			<p>
-				CE certified. USB-C charging, 2–3 hours of battery life. Bluetooth. Lesson plans and teacher's guide online at <a href="https://docs.primastem.com" class="text-primary-500 hover:underline" target="_blank" rel="noopener noreferrer">docs.primastem.com</a> in 10 languages. YouTube tutorials.
-			</p>
-		</div>
-	</SidebarContent>
-
-	<!-- TERMS -->
-	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
-		<div slot="sidebar">
-			<h3>Terms</h3>
-		</div>
-		<div class="basic-text">
-			<p>
-				<strong>Wholesale: from €235 excl. VAT.</strong> 100+ units/year: from €210. Other arrangements welcome.
-			</p>
-			<p>
-				Marketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.
-			</p>
-			<p>
-				Present in: France (direct sales), Netherlands, Luxembourg (pilot with Ministry of Education). Expanding into Spain.
-			</p>
-			<p>
-				<strong>All terms, pricing and exclusivity conditions are discussed individually. Contact us to start the conversation.</strong>
-			</p>
-		</div>
-	</SidebarContent>
-
-	<ContactCTA title="Request a <strong>quote</strong>" buttonText="Get in touch" />
+	<ContactCTA title={cta.title} subtitle={cta.subtitle} buttonText={cta.buttonText} />
 </Layout>

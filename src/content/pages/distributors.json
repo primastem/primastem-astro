@@ -1,0 +1,44 @@
+{
+	"seo": {
+		"title": "PrimaSTEM for Distributors — Wholesale Educational Robot",
+		"description": "Screen-free coding and math robot for ages 4–10. Wholesale from €235 excl. VAT. CE certified. 10 languages. Volume pricing for 100+ units/year."
+	},
+	"hero": {
+		"title": "A screen-free education tool <strong>the market is asking for.</strong>",
+		"subtitle1": "Schools, preschools, Montessori, after-school programs, parents — one product for all.",
+		"subtitle2": "Coding + mathematics. Ages 4–10. Wood. CE certified. 10 languages.",
+		"price": "Wholesale from €235 excl. VAT.",
+		"volumeLine": "100+ units/year: from €210.<br />Other arrangements welcome.",
+		"buttons": [
+			{ "text": "Request a quote", "link": "/contact", "style": "primary" },
+			{ "text": "Product sheet", "link": "/sheet", "style": "secondary" }
+		]
+	},
+	"sections": [
+		{
+			"sidebarTitle": "The market",
+			"sidebarText": "",
+			"body": "<a href=\"https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">PISA 2022</a>: math scores are declining across Europe. Governments are restricting screens in schools. Schools need screen-free STEM tools — but the ones available only teach basic directions.\n\nPrimaSTEM combines tangible programming with real mathematics. Arbitrary angles, arithmetic operations, geometric drawing. One product for ages 4–10. A school buys once and uses it for years."
+		},
+		{
+			"sidebarTitle": "What sells",
+			"sidebarText": "",
+			"body": "**Two age groups — one device.** Ages 4–7: logic, mazes, simple programs and numbers. Ages 7–10: precise distances, any angle, arithmetic, geometry — drawing. One product for all of primary school.\n\n**Works with existing maps.** Adapts to the content of other educational robots. Default step is adjustable — 10, 12, 15 or 25 cm. The school doesn't need to change anything.\n\n**The robot draws.** Spirals, stars, polygons, fractals — programmed by children, drawn by the robot on paper or a whiteboard. This is the demo moment that sells.\n\n**Teachers create their own tokens.** Any numbers, loops or arithmetic operations — through a free phone app in under a minute. Interactive sound maps — the robot plays audio when it drives over an NFC tag on the field.\n\n**Braille version** in pilot testing — an untapped market segment."
+		},
+		{
+			"sidebarTitle": "Ready for your catalogue",
+			"sidebarText": "",
+			"body": "CE certified. USB-C charging, 2–3 hours of battery life. Bluetooth. Lesson plans and teacher's guide online at <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 languages. YouTube tutorials."
+		},
+		{
+			"sidebarTitle": "Terms",
+			"sidebarText": "",
+			"body": "**Wholesale: from €235 excl. VAT.** 100+ units/year: from €210. Other arrangements welcome.\n\nMarketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.\n\nPresent in: France (direct sales), Netherlands, Luxembourg (pilot with Ministry of Education). Expanding into Spain.\n\n**All terms, pricing and exclusivity conditions are discussed individually. Contact us to start the conversation.**"
+		}
+	],
+	"cta": {
+		"title": "Request a <strong>quote</strong>",
+		"subtitle": "",
+		"buttonText": "Get in touch"
+	}
+}
