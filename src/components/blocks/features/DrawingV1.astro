@@ -21,16 +21,10 @@ type Props = {
 
 const { data } = Astro.props
 
-// Image map keyed by name. Only names in this map will render with an image.
-const imageMap: Record<string, ImageMetadata> = {
-	Pentagon: pentagonImg,
-	Star: starImg,
-	Spiral: spiralImg,
-	Heart: heartImg,
-}
+const imagesByIndex: ImageMetadata[] = [pentagonImg, starImg, spiralImg, heartImg]
 const drawingsWithImages = data.drawings
-	.filter((d) => imageMap[d.name])
-	.map((d) => ({ name: d.name, image: imageMap[d.name] }))
+	.map((d, i) => ({ name: d.name, image: imagesByIndex[i] }))
+	.filter((d) => d.image)
 ---
 
 <Section id="drawing" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
