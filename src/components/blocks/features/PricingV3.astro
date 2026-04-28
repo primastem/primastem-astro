@@ -14,10 +14,12 @@ import pricingRu from '../../../content/pricing/ru.json'
 const pricingByLocale: Record<string, typeof pricingEn> = { en: pricingEn, fr: pricingFr, de: pricingDe, es: pricingEs, ru: pricingRu }
 const locale = Astro.currentLocale ?? 'en'
 const pricingDataRaw = pricingByLocale[locale] ?? pricingEn
+const prefix = locale === 'en' ? '' : `/${locale}`
 
 const pricingData = pricingDataRaw.items.map((item) => ({
 	...item,
-	type: item.type as 'basic' | 'featured'
+	type: item.type as 'basic' | 'featured',
+	header: { ...item.header, buttonLink: `${prefix}${item.header.buttonLink}` }
 }))
 ---
 
