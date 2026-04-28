@@ -500,3 +500,1971 @@ collections:
               - { name: title, label: CTA title (HTML allowed), widget: string }
               - { name: subtitle, label: CTA subtitle, widget: string, required: false }
               - { name: buttonText, label: Button text, widget: string }
+
+  # ── FAQ (French / Français) ───────────────────────────────────────────────────
+  - name: faq-fr
+    label: FAQ (Français)
+    files:
+      - name: faq_fr
+        label: FAQ (Français)
+        file: src/content/faq/fr.json
+        fields:
+          - name: items
+            label: Questions
+            widget: list
+            fields:
+              - { name: question, label: Question, widget: string }
+              - { name: reply, label: Answer, widget: text }
+              - name: category
+                label: Category
+                widget: select
+                options:
+                  - { label: Product, value: product }
+                  - { label: Pricing, value: pricing }
+                  - { label: Technical, value: technical }
+              - { name: open, label: Open by default, widget: boolean, default: false }
+
+  # ── Pricing (French / Français) ───────────────────────────────────────────────
+  - name: pricing-fr
+    label: Pricing (Français)
+    files:
+      - name: pricing_fr
+        label: Pricing tiers (Français)
+        file: src/content/pricing/fr.json
+        fields:
+          - name: items
+            label: Tiers
+            widget: list
+            fields:
+              - name: header
+                label: Header
+                widget: object
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: subtitle, label: Subtitle, widget: string }
+                  - { name: currency, label: Currency symbol, widget: string, default: "€" }
+                  - { name: price, label: Price (number only), widget: string }
+                  - { name: priceLabel, label: Price label, widget: string }
+                  - { name: buttonName, label: Button text, widget: string }
+                  - { name: buttonLink, label: Button link, widget: string }
+              - name: body
+                label: Body
+                widget: object
+                fields:
+                  - name: listItems
+                    label: Features
+                    widget: list
+                    fields:
+                      - { name: listItem, label: Feature, widget: string }
+              - name: type
+                label: Style
+                widget: select
+                options:
+                  - { label: Standard, value: basic }
+                  - { label: Featured (highlighted), value: featured }
+
+  # ── Product Sheet (French / Français) ────────────────────────────────────────
+  - name: product_sheet-fr
+    label: Product Sheet (Français)
+    files:
+      - name: product_sheet_fr
+        label: Product Sheet (Français)
+        file: src/content/product-sheet/fr.md
+        fields:
+          - { name: body, label: Content, widget: markdown }
+
+  # ── Pages (French / Français) ─────────────────────────────────────────────────
+  - name: pages-fr
+    label: Pages (Français)
+    files:
+      - name: home_fr
+        label: Homepage (Français)
+        file: src/content/pages/fr/home.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+          - name: twoLevels
+            label: Two levels section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - name: level1
+                label: Level 1 (Ages 4-7)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag (e.g. "Logic, Numbers"), widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+              - name: level2
+                label: Level 2 (Ages 7-10)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag, widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - name: drawings
+                label: Drawing names (image map is fixed in code)
+                widget: list
+                fields:
+                  - { name: name, label: Name (Pentagon/Star/Spiral/Heart), widget: string }
+              - { name: example, label: Example caption, widget: string }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Body text, widget: text }
+          - name: video
+            label: Video section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+          - name: trust
+            label: Trust section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: countriesLine, label: Countries line, widget: string }
+          - name: newsletter
+            label: Newsletter section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: formId, label: Mailerlite form ID, widget: string }
+          - name: tagline
+            label: Tagline section
+            widget: object
+            fields:
+              - { name: blockquote, label: Quote (HTML allowed), widget: text }
+              - { name: figcaption, label: Figcaption (e.g. "PrimaSTEM"), widget: string }
+              - { name: cite, label: Cite (e.g. "Made in..."), widget: string }
+
+      - name: legal_fr
+        label: Legal Notice (Français)
+        file: src/content/pages/fr/legal.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: privacy_fr
+        label: Privacy Policy (Français)
+        file: src/content/pages/fr/privacy.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: about_fr
+        label: About (Français)
+        file: src/content/pages/fr/about.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: contact_fr
+        label: Contact (Français)
+        file: src/content/pages/fr/contact.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - { name: formTitle, label: Form heading, widget: string }
+          - name: contactItems
+            label: Contact methods
+            widget: list
+            fields:
+              - { name: label, label: Label (e.g. "Email:"), widget: string }
+              - { name: value, label: Display text, widget: string }
+              - { name: href, label: Link URL (empty = plain text), widget: string, required: false }
+              - { name: external, label: External link (open in new tab), widget: boolean, default: false }
+
+      - name: parents_fr
+        label: Parents (Français)
+        file: src/content/pages/fr/parents.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
+      - name: product_fr
+        label: Product (Français)
+        file: src/content/pages/fr/product.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: structuredData
+            label: Structured data
+            widget: object
+            fields:
+              - { name: price, label: Price (number only), widget: string }
+              - { name: priceValidUntil, label: Price valid until (YYYY-MM-DD), widget: string }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+              - name: steps
+                label: Steps
+                widget: list
+                fields:
+                  - { name: number, label: Step number, widget: string }
+                  - { name: text, label: Step text, widget: text }
+          - name: kit
+            label: What's in the kit
+            widget: object
+            fields:
+              - { name: title, label: Section title (HTML allowed), widget: string }
+              - name: cards
+                label: Kit cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: items, label: List items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: commands
+            label: Commands section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Text, widget: text }
+          - name: openPlatform
+            label: Open platform section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: voiceFeedback
+            label: Voice feedback section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: specs
+            label: Specifications
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - name: rows
+                label: Spec rows
+                widget: list
+                fields:
+                  - { name: label, label: Label, widget: string }
+                  - { name: value, label: Value, widget: string }
+          - name: documentation
+            label: Documentation cards
+            widget: object
+            fields:
+              - { name: title, label: Section title, widget: string }
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: subtitle, label: Card subtitle, widget: text }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+          - name: order
+            label: Order CTA section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: contactLine, label: Contact line (HTML allowed), widget: text }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+              - name: segmentLinks
+                label: Segment links
+                widget: list
+                fields:
+                  - { name: text, label: Link text, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+
+      - name: schools_fr
+        label: Schools (Français)
+        file: src/content/pages/fr/schools.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - name: buttons
+                label: Buttons
+                widget: list
+                fields:
+                  - { name: text, label: Button text, widget: string }
+                  - { name: link, label: Button link, widget: string }
+                  - name: style
+                    label: Button style
+                    widget: select
+                    options: [primary, secondary, neutral]
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
+      - name: distributors_fr
+        label: Distributors (Français)
+        file: src/content/pages/fr/distributors.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle1, label: Subtitle line 1, widget: string }
+              - { name: subtitle2, label: Subtitle line 2, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - name: buttons
+                label: Buttons
+                widget: list
+                fields:
+                  - { name: text, label: Button text, widget: string }
+                  - { name: link, label: Button link, widget: string }
+                  - name: style
+                    label: Button style
+                    widget: select
+                    options: [primary, secondary, neutral]
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string, required: false }
+              - { name: buttonText, label: Button text, widget: string }
+
+  # ── FAQ (German / Deutsch) ────────────────────────────────────────────────────
+  - name: faq-de
+    label: FAQ (Deutsch)
+    files:
+      - name: faq_de
+        label: FAQ (Deutsch)
+        file: src/content/faq/de.json
+        fields:
+          - name: items
+            label: Questions
+            widget: list
+            fields:
+              - { name: question, label: Question, widget: string }
+              - { name: reply, label: Answer, widget: text }
+              - name: category
+                label: Category
+                widget: select
+                options:
+                  - { label: Product, value: product }
+                  - { label: Pricing, value: pricing }
+                  - { label: Technical, value: technical }
+              - { name: open, label: Open by default, widget: boolean, default: false }
+
+  # ── Pricing (German / Deutsch) ────────────────────────────────────────────────
+  - name: pricing-de
+    label: Pricing (Deutsch)
+    files:
+      - name: pricing_de
+        label: Pricing tiers (Deutsch)
+        file: src/content/pricing/de.json
+        fields:
+          - name: items
+            label: Tiers
+            widget: list
+            fields:
+              - name: header
+                label: Header
+                widget: object
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: subtitle, label: Subtitle, widget: string }
+                  - { name: currency, label: Currency symbol, widget: string, default: "€" }
+                  - { name: price, label: Price (number only), widget: string }
+                  - { name: priceLabel, label: Price label, widget: string }
+                  - { name: buttonName, label: Button text, widget: string }
+                  - { name: buttonLink, label: Button link, widget: string }
+              - name: body
+                label: Body
+                widget: object
+                fields:
+                  - name: listItems
+                    label: Features
+                    widget: list
+                    fields:
+                      - { name: listItem, label: Feature, widget: string }
+              - name: type
+                label: Style
+                widget: select
+                options:
+                  - { label: Standard, value: basic }
+                  - { label: Featured (highlighted), value: featured }
+
+  # ── Product Sheet (German / Deutsch) ─────────────────────────────────────────
+  - name: product_sheet-de
+    label: Product Sheet (Deutsch)
+    files:
+      - name: product_sheet_de
+        label: Product Sheet (Deutsch)
+        file: src/content/product-sheet/de.md
+        fields:
+          - { name: body, label: Content, widget: markdown }
+
+  # ── Pages (German / Deutsch) ──────────────────────────────────────────────────
+  - name: pages-de
+    label: Pages (Deutsch)
+    files:
+      - name: home_de
+        label: Homepage (Deutsch)
+        file: src/content/pages/de/home.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+          - name: twoLevels
+            label: Two levels section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - name: level1
+                label: Level 1 (Ages 4-7)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag (e.g. "Logic, Numbers"), widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+              - name: level2
+                label: Level 2 (Ages 7-10)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag, widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - name: drawings
+                label: Drawing names (image map is fixed in code)
+                widget: list
+                fields:
+                  - { name: name, label: Name (Pentagon/Star/Spiral/Heart), widget: string }
+              - { name: example, label: Example caption, widget: string }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Body text, widget: text }
+          - name: video
+            label: Video section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+          - name: trust
+            label: Trust section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: countriesLine, label: Countries line, widget: string }
+          - name: newsletter
+            label: Newsletter section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: formId, label: Mailerlite form ID, widget: string }
+          - name: tagline
+            label: Tagline section
+            widget: object
+            fields:
+              - { name: blockquote, label: Quote (HTML allowed), widget: text }
+              - { name: figcaption, label: Figcaption (e.g. "PrimaSTEM"), widget: string }
+              - { name: cite, label: Cite (e.g. "Made in..."), widget: string }
+
+      - name: legal_de
+        label: Legal Notice (Deutsch)
+        file: src/content/pages/de/legal.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: privacy_de
+        label: Privacy Policy (Deutsch)
+        file: src/content/pages/de/privacy.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: about_de
+        label: About (Deutsch)
+        file: src/content/pages/de/about.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: contact_de
+        label: Contact (Deutsch)
+        file: src/content/pages/de/contact.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - { name: formTitle, label: Form heading, widget: string }
+          - name: contactItems
+            label: Contact methods
+            widget: list
+            fields:
+              - { name: label, label: Label (e.g. "Email:"), widget: string }
+              - { name: value, label: Display text, widget: string }
+              - { name: href, label: Link URL (empty = plain text), widget: string, required: false }
+              - { name: external, label: External link (open in new tab), widget: boolean, default: false }
+
+      - name: parents_de
+        label: Parents (Deutsch)
+        file: src/content/pages/de/parents.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
+      - name: product_de
+        label: Product (Deutsch)
+        file: src/content/pages/de/product.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: structuredData
+            label: Structured data
+            widget: object
+            fields:
+              - { name: price, label: Price (number only), widget: string }
+              - { name: priceValidUntil, label: Price valid until (YYYY-MM-DD), widget: string }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+              - name: steps
+                label: Steps
+                widget: list
+                fields:
+                  - { name: number, label: Step number, widget: string }
+                  - { name: text, label: Step text, widget: text }
+          - name: kit
+            label: What's in the kit
+            widget: object
+            fields:
+              - { name: title, label: Section title (HTML allowed), widget: string }
+              - name: cards
+                label: Kit cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: items, label: List items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: commands
+            label: Commands section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Text, widget: text }
+          - name: openPlatform
+            label: Open platform section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: voiceFeedback
+            label: Voice feedback section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: specs
+            label: Specifications
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - name: rows
+                label: Spec rows
+                widget: list
+                fields:
+                  - { name: label, label: Label, widget: string }
+                  - { name: value, label: Value, widget: string }
+          - name: documentation
+            label: Documentation cards
+            widget: object
+            fields:
+              - { name: title, label: Section title, widget: string }
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: subtitle, label: Card subtitle, widget: text }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+          - name: order
+            label: Order CTA section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: contactLine, label: Contact line (HTML allowed), widget: text }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+              - name: segmentLinks
+                label: Segment links
+                widget: list
+                fields:
+                  - { name: text, label: Link text, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+
+      - name: schools_de
+        label: Schools (Deutsch)
+        file: src/content/pages/de/schools.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - name: buttons
+                label: Buttons
+                widget: list
+                fields:
+                  - { name: text, label: Button text, widget: string }
+                  - { name: link, label: Button link, widget: string }
+                  - name: style
+                    label: Button style
+                    widget: select
+                    options: [primary, secondary, neutral]
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
+      - name: distributors_de
+        label: Distributors (Deutsch)
+        file: src/content/pages/de/distributors.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle1, label: Subtitle line 1, widget: string }
+              - { name: subtitle2, label: Subtitle line 2, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - name: buttons
+                label: Buttons
+                widget: list
+                fields:
+                  - { name: text, label: Button text, widget: string }
+                  - { name: link, label: Button link, widget: string }
+                  - name: style
+                    label: Button style
+                    widget: select
+                    options: [primary, secondary, neutral]
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string, required: false }
+              - { name: buttonText, label: Button text, widget: string }
+
+  # ── FAQ (Spanish / Español) ───────────────────────────────────────────────────
+  - name: faq-es
+    label: FAQ (Español)
+    files:
+      - name: faq_es
+        label: FAQ (Español)
+        file: src/content/faq/es.json
+        fields:
+          - name: items
+            label: Questions
+            widget: list
+            fields:
+              - { name: question, label: Question, widget: string }
+              - { name: reply, label: Answer, widget: text }
+              - name: category
+                label: Category
+                widget: select
+                options:
+                  - { label: Product, value: product }
+                  - { label: Pricing, value: pricing }
+                  - { label: Technical, value: technical }
+              - { name: open, label: Open by default, widget: boolean, default: false }
+
+  # ── Pricing (Spanish / Español) ───────────────────────────────────────────────
+  - name: pricing-es
+    label: Pricing (Español)
+    files:
+      - name: pricing_es
+        label: Pricing tiers (Español)
+        file: src/content/pricing/es.json
+        fields:
+          - name: items
+            label: Tiers
+            widget: list
+            fields:
+              - name: header
+                label: Header
+                widget: object
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: subtitle, label: Subtitle, widget: string }
+                  - { name: currency, label: Currency symbol, widget: string, default: "€" }
+                  - { name: price, label: Price (number only), widget: string }
+                  - { name: priceLabel, label: Price label, widget: string }
+                  - { name: buttonName, label: Button text, widget: string }
+                  - { name: buttonLink, label: Button link, widget: string }
+              - name: body
+                label: Body
+                widget: object
+                fields:
+                  - name: listItems
+                    label: Features
+                    widget: list
+                    fields:
+                      - { name: listItem, label: Feature, widget: string }
+              - name: type
+                label: Style
+                widget: select
+                options:
+                  - { label: Standard, value: basic }
+                  - { label: Featured (highlighted), value: featured }
+
+  # ── Product Sheet (Spanish / Español) ────────────────────────────────────────
+  - name: product_sheet-es
+    label: Product Sheet (Español)
+    files:
+      - name: product_sheet_es
+        label: Product Sheet (Español)
+        file: src/content/product-sheet/es.md
+        fields:
+          - { name: body, label: Content, widget: markdown }
+
+  # ── Pages (Spanish / Español) ─────────────────────────────────────────────────
+  - name: pages-es
+    label: Pages (Español)
+    files:
+      - name: home_es
+        label: Homepage (Español)
+        file: src/content/pages/es/home.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+          - name: twoLevels
+            label: Two levels section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - name: level1
+                label: Level 1 (Ages 4-7)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag (e.g. "Logic, Numbers"), widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+              - name: level2
+                label: Level 2 (Ages 7-10)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag, widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - name: drawings
+                label: Drawing names (image map is fixed in code)
+                widget: list
+                fields:
+                  - { name: name, label: Name (Pentagon/Star/Spiral/Heart), widget: string }
+              - { name: example, label: Example caption, widget: string }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Body text, widget: text }
+          - name: video
+            label: Video section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+          - name: trust
+            label: Trust section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: countriesLine, label: Countries line, widget: string }
+          - name: newsletter
+            label: Newsletter section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: formId, label: Mailerlite form ID, widget: string }
+          - name: tagline
+            label: Tagline section
+            widget: object
+            fields:
+              - { name: blockquote, label: Quote (HTML allowed), widget: text }
+              - { name: figcaption, label: Figcaption (e.g. "PrimaSTEM"), widget: string }
+              - { name: cite, label: Cite (e.g. "Made in..."), widget: string }
+
+      - name: legal_es
+        label: Legal Notice (Español)
+        file: src/content/pages/es/legal.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: privacy_es
+        label: Privacy Policy (Español)
+        file: src/content/pages/es/privacy.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: about_es
+        label: About (Español)
+        file: src/content/pages/es/about.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: contact_es
+        label: Contact (Español)
+        file: src/content/pages/es/contact.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - { name: formTitle, label: Form heading, widget: string }
+          - name: contactItems
+            label: Contact methods
+            widget: list
+            fields:
+              - { name: label, label: Label (e.g. "Email:"), widget: string }
+              - { name: value, label: Display text, widget: string }
+              - { name: href, label: Link URL (empty = plain text), widget: string, required: false }
+              - { name: external, label: External link (open in new tab), widget: boolean, default: false }
+
+      - name: parents_es
+        label: Parents (Español)
+        file: src/content/pages/es/parents.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
+      - name: product_es
+        label: Product (Español)
+        file: src/content/pages/es/product.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: structuredData
+            label: Structured data
+            widget: object
+            fields:
+              - { name: price, label: Price (number only), widget: string }
+              - { name: priceValidUntil, label: Price valid until (YYYY-MM-DD), widget: string }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+              - name: steps
+                label: Steps
+                widget: list
+                fields:
+                  - { name: number, label: Step number, widget: string }
+                  - { name: text, label: Step text, widget: text }
+          - name: kit
+            label: What's in the kit
+            widget: object
+            fields:
+              - { name: title, label: Section title (HTML allowed), widget: string }
+              - name: cards
+                label: Kit cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: items, label: List items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: commands
+            label: Commands section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Text, widget: text }
+          - name: openPlatform
+            label: Open platform section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: voiceFeedback
+            label: Voice feedback section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: specs
+            label: Specifications
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - name: rows
+                label: Spec rows
+                widget: list
+                fields:
+                  - { name: label, label: Label, widget: string }
+                  - { name: value, label: Value, widget: string }
+          - name: documentation
+            label: Documentation cards
+            widget: object
+            fields:
+              - { name: title, label: Section title, widget: string }
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: subtitle, label: Card subtitle, widget: text }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+          - name: order
+            label: Order CTA section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: contactLine, label: Contact line (HTML allowed), widget: text }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+              - name: segmentLinks
+                label: Segment links
+                widget: list
+                fields:
+                  - { name: text, label: Link text, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+
+      - name: schools_es
+        label: Schools (Español)
+        file: src/content/pages/es/schools.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - name: buttons
+                label: Buttons
+                widget: list
+                fields:
+                  - { name: text, label: Button text, widget: string }
+                  - { name: link, label: Button link, widget: string }
+                  - name: style
+                    label: Button style
+                    widget: select
+                    options: [primary, secondary, neutral]
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
+      - name: distributors_es
+        label: Distributors (Español)
+        file: src/content/pages/es/distributors.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle1, label: Subtitle line 1, widget: string }
+              - { name: subtitle2, label: Subtitle line 2, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - name: buttons
+                label: Buttons
+                widget: list
+                fields:
+                  - { name: text, label: Button text, widget: string }
+                  - { name: link, label: Button link, widget: string }
+                  - name: style
+                    label: Button style
+                    widget: select
+                    options: [primary, secondary, neutral]
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string, required: false }
+              - { name: buttonText, label: Button text, widget: string }
+
+  # ── FAQ (Russian / Русский) ───────────────────────────────────────────────────
+  - name: faq-ru
+    label: FAQ (Русский)
+    files:
+      - name: faq_ru
+        label: FAQ (Русский)
+        file: src/content/faq/ru.json
+        fields:
+          - name: items
+            label: Questions
+            widget: list
+            fields:
+              - { name: question, label: Question, widget: string }
+              - { name: reply, label: Answer, widget: text }
+              - name: category
+                label: Category
+                widget: select
+                options:
+                  - { label: Product, value: product }
+                  - { label: Pricing, value: pricing }
+                  - { label: Technical, value: technical }
+              - { name: open, label: Open by default, widget: boolean, default: false }
+
+  # ── Pricing (Russian / Русский) ───────────────────────────────────────────────
+  - name: pricing-ru
+    label: Pricing (Русский)
+    files:
+      - name: pricing_ru
+        label: Pricing tiers (Русский)
+        file: src/content/pricing/ru.json
+        fields:
+          - name: items
+            label: Tiers
+            widget: list
+            fields:
+              - name: header
+                label: Header
+                widget: object
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: subtitle, label: Subtitle, widget: string }
+                  - { name: currency, label: Currency symbol, widget: string, default: "€" }
+                  - { name: price, label: Price (number only), widget: string }
+                  - { name: priceLabel, label: Price label, widget: string }
+                  - { name: buttonName, label: Button text, widget: string }
+                  - { name: buttonLink, label: Button link, widget: string }
+              - name: body
+                label: Body
+                widget: object
+                fields:
+                  - name: listItems
+                    label: Features
+                    widget: list
+                    fields:
+                      - { name: listItem, label: Feature, widget: string }
+              - name: type
+                label: Style
+                widget: select
+                options:
+                  - { label: Standard, value: basic }
+                  - { label: Featured (highlighted), value: featured }
+
+  # ── Product Sheet (Russian / Русский) ────────────────────────────────────────
+  - name: product_sheet-ru
+    label: Product Sheet (Русский)
+    files:
+      - name: product_sheet_ru
+        label: Product Sheet (Русский)
+        file: src/content/product-sheet/ru.md
+        fields:
+          - { name: body, label: Content, widget: markdown }
+
+  # ── Pages (Russian / Русский) ─────────────────────────────────────────────────
+  - name: pages-ru
+    label: Pages (Русский)
+    files:
+      - name: home_ru
+        label: Homepage (Русский)
+        file: src/content/pages/ru/home.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+          - name: twoLevels
+            label: Two levels section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - name: level1
+                label: Level 1 (Ages 4-7)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag (e.g. "Logic, Numbers"), widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+              - name: level2
+                label: Level 2 (Ages 7-10)
+                widget: object
+                fields:
+                  - { name: tag, label: Tag, widget: string }
+                  - { name: age, label: Age range, widget: string }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - name: drawings
+                label: Drawing names (image map is fixed in code)
+                widget: list
+                fields:
+                  - { name: name, label: Name (Pentagon/Star/Spiral/Heart), widget: string }
+              - { name: example, label: Example caption, widget: string }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Body text, widget: text }
+          - name: video
+            label: Video section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+          - name: trust
+            label: Trust section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: countriesLine, label: Countries line, widget: string }
+          - name: newsletter
+            label: Newsletter section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: formId, label: Mailerlite form ID, widget: string }
+          - name: tagline
+            label: Tagline section
+            widget: object
+            fields:
+              - { name: blockquote, label: Quote (HTML allowed), widget: text }
+              - { name: figcaption, label: Figcaption (e.g. "PrimaSTEM"), widget: string }
+              - { name: cite, label: Cite (e.g. "Made in..."), widget: string }
+
+      - name: legal_ru
+        label: Legal Notice (Русский)
+        file: src/content/pages/ru/legal.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: privacy_ru
+        label: Privacy Policy (Русский)
+        file: src/content/pages/ru/privacy.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: about_ru
+        label: About (Русский)
+        file: src/content/pages/ru/about.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+
+      - name: contact_ru
+        label: Contact (Русский)
+        file: src/content/pages/ru/contact.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Subtitle, widget: string }
+          - { name: formTitle, label: Form heading, widget: string }
+          - name: contactItems
+            label: Contact methods
+            widget: list
+            fields:
+              - { name: label, label: Label (e.g. "Email:"), widget: string }
+              - { name: value, label: Display text, widget: string }
+              - { name: href, label: Link URL (empty = plain text), widget: string, required: false }
+              - { name: external, label: External link (open in new tab), widget: boolean, default: false }
+
+      - name: parents_ru
+        label: Parents (Русский)
+        file: src/content/pages/ru/parents.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
+      - name: product_ru
+        label: Product (Русский)
+        file: src/content/pages/ru/product.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: structuredData
+            label: Structured data
+            widget: object
+            fields:
+              - { name: price, label: Price (number only), widget: string }
+              - { name: priceValidUntil, label: Price valid until (YYYY-MM-DD), widget: string }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: videoUrl, label: YouTube embed URL, widget: string }
+              - { name: videoCaption, label: Video caption, widget: string }
+              - name: steps
+                label: Steps
+                widget: list
+                fields:
+                  - { name: number, label: Step number, widget: string }
+                  - { name: text, label: Step text, widget: text }
+          - name: kit
+            label: What's in the kit
+            widget: object
+            fields:
+              - { name: title, label: Section title (HTML allowed), widget: string }
+              - name: cards
+                label: Kit cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: items, label: List items, widget: list, field: { name: item, label: Item, widget: string } }
+          - name: commands
+            label: Commands section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: drawing
+            label: Drawing section
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text (HTML allowed), widget: text }
+          - name: maps
+            label: Maps section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: text, label: Text, widget: text }
+          - name: openPlatform
+            label: Open platform section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: voiceFeedback
+            label: Voice feedback section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+          - name: specs
+            label: Specifications
+            widget: object
+            fields:
+              - { name: title, label: Title, widget: string }
+              - name: rows
+                label: Spec rows
+                widget: list
+                fields:
+                  - { name: label, label: Label, widget: string }
+                  - { name: value, label: Value, widget: string }
+          - name: documentation
+            label: Documentation cards
+            widget: object
+            fields:
+              - { name: title, label: Section title, widget: string }
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - { name: title, label: Card title, widget: string }
+                  - { name: subtitle, label: Card subtitle, widget: text }
+                  - { name: icon, label: Icon name, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+          - name: order
+            label: Order CTA section
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: contactLine, label: Contact line (HTML allowed), widget: text }
+              - { name: buttonText, label: Button text, widget: string }
+              - { name: buttonLink, label: Button link, widget: string }
+              - name: segmentLinks
+                label: Segment links
+                widget: list
+                fields:
+                  - { name: text, label: Link text, widget: string }
+                  - { name: link, label: Link URL, widget: string }
+
+      - name: schools_ru
+        label: Schools (Русский)
+        file: src/content/pages/ru/schools.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - name: buttons
+                label: Buttons
+                widget: list
+                fields:
+                  - { name: text, label: Button text, widget: string }
+                  - { name: link, label: Button link, widget: string }
+                  - name: style
+                    label: Button style
+                    widget: select
+                    options: [primary, secondary, neutral]
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string }
+              - { name: buttonText, label: Button text, widget: string }
+
+      - name: distributors_ru
+        label: Distributors (Русский)
+        file: src/content/pages/ru/distributors.json
+        fields:
+          - name: seo
+            label: SEO
+            widget: object
+            fields:
+              - { name: title, label: Page title, widget: string }
+              - { name: description, label: Meta description, widget: text }
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - { name: title, label: Title (HTML allowed), widget: string }
+              - { name: subtitle1, label: Subtitle line 1, widget: string }
+              - { name: subtitle2, label: Subtitle line 2, widget: string }
+              - { name: price, label: Price line, widget: string }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - name: buttons
+                label: Buttons
+                widget: list
+                fields:
+                  - { name: text, label: Button text, widget: string }
+                  - { name: link, label: Button link, widget: string }
+                  - name: style
+                    label: Button style
+                    widget: select
+                    options: [primary, secondary, neutral]
+          - name: sections
+            label: Sections
+            widget: list
+            fields:
+              - { name: sidebarTitle, label: Sidebar heading, widget: string }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
+              - { name: body, label: Body content (markdown), widget: markdown }
+          - name: cta
+            label: Bottom CTA
+            widget: object
+            fields:
+              - { name: title, label: CTA title (HTML allowed), widget: string }
+              - { name: subtitle, label: CTA subtitle, widget: string, required: false }
+              - { name: buttonText, label: Button text, widget: string }
