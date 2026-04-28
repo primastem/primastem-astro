@@ -5,7 +5,15 @@ import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
 import PricingTable from '../../ui/pricing-tables/PricingTable.astro'
 
-import pricingDataRaw from '../../../content/pricing/en.json'
+import pricingEn from '../../../content/pricing/en.json'
+import pricingFr from '../../../content/pricing/fr.json'
+import pricingDe from '../../../content/pricing/de.json'
+import pricingEs from '../../../content/pricing/es.json'
+import pricingRu from '../../../content/pricing/ru.json'
+
+const pricingByLocale: Record<string, typeof pricingEn> = { en: pricingEn, fr: pricingFr, de: pricingDe, es: pricingEs, ru: pricingRu }
+const locale = Astro.currentLocale ?? 'en'
+const pricingDataRaw = pricingByLocale[locale] ?? pricingEn
 
 const pricingData = pricingDataRaw.items.map((item) => ({
 	...item,
@@ -16,8 +24,8 @@ const pricingData = pricingDataRaw.items.map((item) => ({
 <Section id="pricing-v3" padding="both">
 	<Row>
 		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
-			<h2>Choose <strong>your path</strong></h2>
-			<p class="pb-0 text-lg">Complete kit: robot, control board, command tokens, lesson plans and teacher's guide.</p>
+			<h2 set:html={pricingDataRaw.sectionTitle} />
+			<p class="pb-0 text-lg">{pricingDataRaw.sectionSubtitle}</p>
 		</Col>
 	</Row>
 	<Row>
