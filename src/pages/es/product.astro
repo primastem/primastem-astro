@@ -19,6 +19,7 @@ import mapsImage from '../../assets/maps-on-grid.jpg'
 import pageData from '../../content/pages/es/product.json'
 
 const { seo, structuredData, hero, kit, commands, drawing, maps, openPlatform, voiceFeedback, specs, documentation, order } = pageData
+const prefix = `/${Astro.currentLocale ?? 'es'}`
 ---
 
 <Layout title={seo.title} description={seo.description}>
@@ -218,12 +219,12 @@ const { seo, structuredData, hero, kit, commands, drawing, maps, openPlatform, v
 				<p class="text-lg text-neutral-300">{order.subtitle}</p>
 				<p class="text-neutral-400" set:html={order.contactLine} />
 				<div class="mt-6">
-					<Button size="lg" link={order.buttonLink}>{order.buttonText}</Button>
+					<Button size="lg" link={prefix + order.buttonLink}>{order.buttonText}</Button>
 				</div>
 				<div class="mt-6 flex justify-center gap-6">
 					{
 						order.segmentLinks.map((link) => (
-							<a href={link.link} class="text-primary-400 hover:underline">{link.text}</a>
+							<a href={prefix + link.link} class="text-primary-400 hover:underline">{link.text}</a>
 						))
 					}
 				</div>
