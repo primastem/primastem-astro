@@ -11,16 +11,28 @@ This file is read by Claude Code at the start of every session. It documents pro
 
 ## Content structure
 
+Astro convention: `src/content/{type}/{lang}/...`
+
 ```
-src/content/en/
-├── pages/         (9 page-specific JSONs: home, product, schools, parents,
+src/content/
+├── pages/
+│   └── en/        (9 page-specific JSONs: home, product, schools, parents,
 │                   distributors, about, contact, legal, privacy)
-├── faq.json       (FAQ entries shown on /faq)
-├── pricing.json   (3 pricing tiers, used on / and other pages via PricingV3)
-└── product-sheet.md (currently unused, kept for future)
+├── faq/
+│   └── en.json    (FAQ entries shown on /faq)
+├── pricing/
+│   └── en.json    (3 pricing tiers, used on / via PricingV3 block)
+└── product-sheet/
+    └── en.md      (currently unused, kept for future)
 ```
 
-Adding a language = `cp -r src/content/en src/content/{lang}` + translate + register in `astro.config.mjs` + `src/i18n/languages.ts`.
+Adding a language `fr`:
+1. `cp -r src/content/pages/en src/content/pages/fr` + translate
+2. `cp src/content/faq/en.json src/content/faq/fr.json` + translate
+3. `cp src/content/pricing/en.json src/content/pricing/fr.json` + translate
+4. `cp src/content/product-sheet/en.md src/content/product-sheet/fr.md` + translate
+5. Register `fr` in `astro.config.mjs` `i18n.locales` + `src/i18n/languages.ts`
+6. Duplicate `src/pages/*.astro` → `src/pages/fr/*.astro` and update imports to `/fr/` JSONs
 
 ## Hot workflows
 
@@ -35,12 +47,12 @@ When the user asks to "update HTML" / "обнови хтмл":
 2. Compare text content against current website sources of truth:
    | HTML section | Source |
    |---|---|
-   | Description / intro | `src/content/en/pages/about.json` + `product.json` |
-   | Pricing block | `src/content/en/pages/distributors.json` (cta + Terms section body) |
-   | Specs table | `src/content/en/pages/product.json` → `specs.rows` |
-   | Commands list | `src/content/en/pages/product.json` → `commands.text` |
+   | Description / intro | `src/content/pages/en/about.json` + `product.json` |
+   | Pricing block | `src/content/pages/en/distributors.json` (cta + Terms section body) |
+   | Specs table | `src/content/pages/en/product.json` → `specs.rows` |
+   | Commands list | `src/content/pages/en/product.json` → `commands.text` |
    | Voice languages | 14 langs (English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe) |
-   | Pricing numbers | `src/content/en/pricing.json` |
+   | Pricing numbers | `src/content/pricing/en.json` |
 3. Edit HTML to match. Inline CSS only (must work offline for PDF export).
 4. Commit and push.
 5. Tell user: open HTML in browser → Ctrl+P → "Save as PDF" → replace `public/primastem-product-sheet.pdf`.
