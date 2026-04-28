@@ -6,8 +6,6 @@ backend:
 media_folder: src/assets
 public_folder: /assets
 
-locale: en
-
 # To add a language: duplicate the _en file entry, change locale suffix and file path.
 
 collections:
