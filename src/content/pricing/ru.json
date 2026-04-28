@@ -1,0 +1,64 @@
+{
+	"items": [
+		{
+			"header": {
+				"title": "Школа",
+				"subtitle": "Полный комплект для класса",
+				"currency": "€",
+				"price": "831",
+				"priceLabel": "за 3 комплекта, без НДС",
+				"buttonName": "Подробнее",
+				"buttonLink": "/schools"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Робот + панель управления + жетоны" },
+					{ "listItem": "Каждый дополнительный комплект +€277" },
+					{ "listItem": "Планы уроков и руководство для учителя онлайн" },
+					{ "listItem": "Аренда доступна" }
+				]
+			},
+			"type": "basic"
+		},
+		{
+			"header": {
+				"title": "Дистрибьютор",
+				"subtitle": "Эксклюзивные условия по запросу",
+				"currency": "€",
+				"price": "235",
+				"priceLabel": "за комплект, оптом",
+				"buttonName": "Подробнее",
+				"buttonLink": "/distributors"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "100+ единиц/год: от €210" },
+					{ "listItem": "Другие условия обсуждаются" },
+					{ "listItem": "Маркетинговая поддержка" },
+					{ "listItem": "Обучение включено" }
+				]
+			},
+			"type": "featured"
+		},
+		{
+			"header": {
+				"title": "Родитель",
+				"subtitle": "Всё для обучения дома",
+				"currency": "€",
+				"price": "297",
+				"priceLabel": "за комплект, + НДС",
+				"buttonName": "Подробнее",
+				"buttonLink": "/parents"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Полный комплект, готов к использованию" },
+					{ "listItem": "Без подписок, без приложений" },
+					{ "listItem": "Без скрытых расходов" },
+					{ "listItem": "На всю начальную школу" }
+				]
+			},
+			"type": "basic"
+		}
+	]
+}

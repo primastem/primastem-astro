@@ -1,0 +1,49 @@
+{
+	"seo": {
+		"title": "Связаться с PrimaSTEM — Вопросы, заказы, партнёрство",
+		"description": "Свяжитесь с PrimaSTEM по вопросам, заказам или партнёрству. Email, WhatsApp, контактная форма. Отвечаем в течение 24 часов. Канны, Франция."
+	},
+	"hero": {
+		"title": "Свяжитесь <strong>с нами</strong>",
+		"text": "Вопрос, партнёрство или заказ — отвечаем в течение 24 часов. Рабочие языки: English, Français, Русский."
+	},
+	"formTitle": "Написать нам",
+	"contactItems": [
+		{
+			"label": "Записаться на встречу в Google Meet — ",
+			"value": "https://calendar.app.google/EGTXmQS3eoFPeyfr7",
+			"href": "https://calendar.app.google/EGTXmQS3eoFPeyfr7",
+			"external": true
+		},
+		{
+			"label": "Email:",
+			"value": "info@primastem.com",
+			"href": "mailto:info@primastem.com",
+			"external": false
+		},
+		{
+			"label": "WhatsApp:",
+			"value": "+33 6 24 95 09 36",
+			"href": "https://wa.me/33624950936",
+			"external": true
+		},
+		{
+			"label": "Адрес:",
+			"value": "Канны, Франция",
+			"href": "",
+			"external": false
+		},
+		{
+			"label": "YouTube:",
+			"value": "youtube.com/@primastem",
+			"href": "https://youtube.com/@primastem",
+			"external": true
+		},
+		{
+			"label": "Instagram:",
+			"value": "@primastem.robot",
+			"href": "https://www.instagram.com/primastem.robot",
+			"external": true
+		}
+	]
+}

@@ -1,0 +1,233 @@
+---
+// Components
+import Layout from '../../layouts/Layout.astro'
+import Section from '../../components/ui/Section.astro'
+import Row from '../../components/ui/Row.astro'
+import Col from '../../components/ui/Col.astro'
+import { Image } from 'astro:assets'
+import Button from '../../components/ui/Button.astro'
+import BasicCard from '../../components/ui/cards/BasicCard.astro'
+import TextImage from '../../components/blocks/basic/TextImage.astro'
+
+// Assets
+import heroImage from '../../assets/hero-primastem.jpg'
+import tokensImage from '../../assets/tokens-by-color.jpg'
+import spiralImage from '../../assets/robot-drawing.jpg'
+import mapsImage from '../../assets/maps-on-grid.jpg'
+
+// Content (CMS-editable)
+import pageData from '../../content/pages/es/product.json'
+
+const { seo, structuredData, hero, kit, commands, drawing, maps, openPlatform, voiceFeedback, specs, documentation, order } = pageData
+---
+
+<Layout title={seo.title} description={seo.description}>
+	<script slot="structured-data" type="application/ld+json" set:html={JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "Product",
+		"name": "PrimaSTEM Educational Robot Kit",
+		"description": "Screen-free coding and mathematics for ages 4–10. Wooden programmable robot with NFC command tokens.",
+		"brand": { "@type": "Brand", "name": "PrimaSTEM" },
+		"manufacturer": { "@type": "Organization", "name": "PrimaSTEM SAS" },
+		"material": "Wood",
+		"audience": { "@type": "EducationalAudience", "educationalRole": "student", "suggestedMinAge": "4", "suggestedMaxAge": "10" },
+		"offers": {
+			"@type": "Offer",
+			"price": structuredData.price,
+			"priceCurrency": "EUR",
+			"priceValidUntil": structuredData.priceValidUntil,
+			"availability": "https://schema.org/InStock",
+			"url": "https://primastem.com/contact"
+		}
+	})} />
+	<!-- HERO -->
+	<Section id="product-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="5" align="start">
+				<h1 set:html={hero.title} />
+				<div class="space-y-4">
+					{
+						hero.steps.map((step) => (
+							<div class="flex gap-3">
+								<span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary-500 text-white flex items-center justify-center font-bold">{step.number}</span>
+								<p>{step.text}</p>
+							</div>
+						))
+					}
+				</div>
+			</Col>
+			<Col span="7">
+				<div class="aspect-video rounded-xl overflow-hidden" role="region" aria-label="PrimaSTEM product demo video">
+					<iframe
+						src={hero.videoUrl}
+						title="PrimaSTEM 30-second demo"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+						loading="lazy"
+						class="w-full h-full"
+					></iframe>
+				</div>
+				<p class="text-sm text-neutral-400 dark:text-neutral-500 text-center mt-4 italic">{hero.videoCaption}</p>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- WHAT'S IN THE KIT -->
+	<Section id="whats-included" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="12" align="center" classes="mb-12">
+				<h2 set:html={kit.title} />
+			</Col>
+		</Row>
+		<Row>
+			<Col span="6" classes="grid grid-cols-2 gap-6">
+				{
+					kit.cards.map((card) => (
+						<BasicCard title={card.title} icon={card.icon}>
+							<ul class="text-sm space-y-1 list-disc list-inside">
+								{card.items.map((item) => <li set:html={item} />)}
+							</ul>
+						</BasicCard>
+					))
+				}
+			</Col>
+			<Col span="6" classes="flex items-center justify-center">
+				<Image
+					src={heroImage}
+					alt="PrimaSTEM complete kit: wooden control board with colorful command tokens, ladybug robot, and drawings"
+					class="rounded-xl max-h-[28rem] w-auto object-contain"
+					format="webp"
+				/>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- COMMANDS -->
+	<TextImage
+		title={commands.title}
+		text={commands.text}
+		image={tokensImage}
+		mobileImage={tokensImage}
+		imagePosition="right"
+	/>
+
+	<!-- DRAWING -->
+	<TextImage
+		title={drawing.title}
+		text={drawing.text}
+		image={spiralImage}
+		mobileImage={spiralImage}
+		imagePosition="right"
+		classes="bg-neutral-50 dark:bg-neutral-900"
+	/>
+
+	<!-- MAPS -->
+	<TextImage
+		title={maps.title}
+		text={maps.text}
+		image={mapsImage}
+		mobileImage={mapsImage}
+		imagePosition="left"
+	/>
+
+	<!-- OPEN PLATFORM -->
+	<Section id="open-platform" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="3" align="center" classes="flex items-center justify-center">
+				<div class="text-primary-500">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-32 h-32">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 0 1 7.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 0 1 1.06 0Z" />
+					</svg>
+				</div>
+			</Col>
+			<Col span="9" align="start">
+				<h2 set:html={openPlatform.title} />
+				{
+					openPlatform.paragraphs.map((p, i) => (
+						<p class={i === openPlatform.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'}>{p}</p>
+					))
+				}
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- VOICE FEEDBACK -->
+	<Section id="voice-feedback" padding="both">
+		<Row>
+			<Col span="9" align="start">
+				<h2 set:html={voiceFeedback.title} />
+				{
+					voiceFeedback.paragraphs.map((p, i) => (
+						<p class={i === voiceFeedback.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'}>{p}</p>
+					))
+				}
+			</Col>
+			<Col span="3" align="center" classes="flex items-center justify-center">
+				<div class="text-primary-500">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-32 h-32">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+					</svg>
+				</div>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- SPECS -->
+	<Section id="specs" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="12" align="center">
+				<h2>{specs.title}</h2>
+				<div class="mt-6 mx-auto max-w-3xl rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 p-8">
+					<table class="w-full text-left text-base">
+						<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
+							{
+								specs.rows.map((row) => (
+									<tr><td class="py-3 font-medium">{row.label}</td><td class="py-3">{row.value}</td></tr>
+								))
+							}
+						</tbody>
+					</table>
+				</div>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- DOCUMENTATION -->
+	<Section id="docs-v1" padding="both">
+		<Row>
+			<Col span="12" align="center" classes="mb-12">
+				<h2>{documentation.title}</h2>
+			</Col>
+		</Row>
+		<Row>
+			{
+				documentation.cards.map((card) => (
+					<Col span="3">
+						<BasicCard title={card.title} subtitle={card.subtitle} icon={card.icon} link={card.link} />
+					</Col>
+				))
+			}
+		</Row>
+	</Section>
+
+	<!-- ORDER -->
+	<Section id="order-v1" padding="both" classes="bg-neutral-900 text-white dark:bg-neutral-800">
+		<Row>
+			<Col span="12" align="center">
+				<h2 class="text-white dark:text-white" set:html={order.title} />
+				<p class="text-lg text-neutral-300">{order.subtitle}</p>
+				<p class="text-neutral-400" set:html={order.contactLine} />
+				<div class="mt-6">
+					<Button size="lg" link={order.buttonLink}>{order.buttonText}</Button>
+				</div>
+				<div class="mt-6 flex justify-center gap-6">
+					{
+						order.segmentLinks.map((link) => (
+							<a href={link.link} class="text-primary-400 hover:underline">{link.text}</a>
+						))
+					}
+				</div>
+			</Col>
+		</Row>
+	</Section>
+</Layout>

@@ -1,0 +1,49 @@
+{
+	"seo": {
+		"title": "PrimaSTEM kontaktieren — Fragen, Bestellungen, Partnerschaften",
+		"description": "Kontaktieren Sie PrimaSTEM für Fragen, Bestellungen oder Partnerschaften. E-Mail, WhatsApp, Kontaktformular. Wir antworten innerhalb von 24 Stunden. Cannes, Frankreich."
+	},
+	"hero": {
+		"title": "Nehmen Sie <strong>Kontakt auf</strong>",
+		"text": "Frage, Partnerschaft oder Bestellung — wir antworten innerhalb von 24 Stunden. Arbeitssprachen: English, Français, Русский."
+	},
+	"formTitle": "Kontakt aufnehmen",
+	"contactItems": [
+		{
+			"label": "Google Meet-Termin vereinbaren - ",
+			"value": "https://calendar.app.google/EGTXmQS3eoFPeyfr7",
+			"href": "https://calendar.app.google/EGTXmQS3eoFPeyfr7",
+			"external": true
+		},
+		{
+			"label": "E-Mail:",
+			"value": "info@primastem.com",
+			"href": "mailto:info@primastem.com",
+			"external": false
+		},
+		{
+			"label": "WhatsApp:",
+			"value": "+33 6 24 95 09 36",
+			"href": "https://wa.me/33624950936",
+			"external": true
+		},
+		{
+			"label": "Standort:",
+			"value": "Cannes, Frankreich",
+			"href": "",
+			"external": false
+		},
+		{
+			"label": "YouTube:",
+			"value": "youtube.com/@primastem",
+			"href": "https://youtube.com/@primastem",
+			"external": true
+		},
+		{
+			"label": "Instagram:",
+			"value": "@primastem.robot",
+			"href": "https://www.instagram.com/primastem.robot",
+			"external": true
+		}
+	]
+}

@@ -1,0 +1,36 @@
+---
+// Components
+import Layout from '../../layouts/Layout.astro'
+import Hero from '../../components/blocks/hero/HomeCTA.astro'
+import TwoLevels from '../../components/blocks/features/TwoLevels.astro'
+import Drawing from '../../components/blocks/features/DrawingV1.astro'
+import Maps from '../../components/blocks/features/MapsV2.astro'
+import Pricing from '../../components/blocks/features/PricingV3.astro'
+import Video from '../../components/blocks/features/Video.astro'
+import Trust from '../../components/blocks/features/TrustV2.astro'
+import Newsletter from '../../components/blocks/features/NewsletterV1.astro'
+import Tagline from '../../components/blocks/features/TaglineV3.astro'
+
+// Content (CMS-editable)
+import homeData from '../../content/pages/ru/home.json'
+---
+
+<Layout title={homeData.seo.title} description={homeData.seo.description}>
+	<Hero data={homeData.hero} />
+	<TwoLevels data={homeData.twoLevels} />
+	<Drawing data={homeData.drawing} />
+	<Maps data={homeData.maps} />
+	<Video data={homeData.video} />
+	<Pricing />
+	<Trust data={homeData.trust} />
+	<Newsletter data={homeData.newsletter} />
+	<Tagline data={homeData.tagline} />
+</Layout>
+
+<script is:inline>
+	(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+	.push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+	n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+	(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+	ml('account', '1306223');
+</script>

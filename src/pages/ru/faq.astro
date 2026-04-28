@@ -1,0 +1,66 @@
+---
+// Components
+// - Layout
+import Layout from '../../layouts/Layout.astro'
+// - UI
+import Hero from '../../components/blocks/hero/PageHeader.astro'
+import FAQ from '../../components/blocks/FAQ/FaqSticky.astro'
+import TextImage from '../../components/blocks/basic/TextImage.astro'
+
+// Data
+import faqDataRaw from '../../content/faq/ru.json'
+const faqData = faqDataRaw.items
+const faqProduct = faqData.filter((faq) => faq.category === 'product')
+const faqPricing = faqData.filter((faq) => faq.category === 'pricing')
+const faqTechnical = faqData.filter((faq) => faq.category === 'technical')
+
+// Content
+import faqImage1 from '../../assets/faq/faq-01.png'
+// - SEO
+const SEO = {
+	title: 'PrimaSTEM | Часто задаваемые вопросы',
+	description:
+		'Ответы на частые вопросы о PrimaSTEM — цены, функции продукта, совместимость и первые шаги с нашим образовательным роботом без экрана.'
+}
+const header = {
+	title: 'Часто задаваемые <strong>вопросы</strong>',
+	text: 'Ответы на частые вопросы о PrimaSTEM'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<script slot="structured-data" type="application/ld+json" set:html={JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": faqData.map(faq => ({
+			"@type": "Question",
+			"name": faq.question,
+			"acceptedAnswer": { "@type": "Answer", "text": faq.reply }
+		}))
+	})} />
+	<Hero title={header.title} text={header.text} />
+	<FAQ
+		title="Продукт"
+		text="Как работает PrimaSTEM, что входит в комплект и на что он способен."
+		data={faqProduct}
+	/>
+	<FAQ
+		title="Цены и доступность"
+		text="Стоимость, варианты заказа и дистрибьюторы."
+		data={faqPricing}
+	/>
+	<FAQ
+		title="Технические вопросы"
+		text="Аккумулятор, безопасность, кастомизация и доступность."
+		data={faqTechnical}
+	/>
+	<TextImage
+		title="Нужно больше информации?"
+		text="Наша документация охватывает всё — воспользуйтесь строкой поиска, чтобы найти ответ сразу. Перейдите на <a href='https://docs.primastem.com' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>docs.primastem.com</a>"
+		image={faqImage1}
+		mobileImage={faqImage1}
+		imagePosition="left"
+		offsetImage
+		classes="bg-neutral-50 dark:bg-neutral-900 lg:!py-64"
+	/>
+</Layout>

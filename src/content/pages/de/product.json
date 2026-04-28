@@ -1,0 +1,96 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | So funktioniert es — Produktdetails",
+		"description": "Vollständige technische Übersicht des PrimaSTEM-Lernroboters. Komponenten, Befehle, Zeichnen, Spezifikationen. Ab €235 zzgl. MwSt."
+	},
+	"structuredData": {
+		"price": "235",
+		"priceValidUntil": "2026-12-31"
+	},
+	"hero": {
+		"title": "So funktioniert <strong>PrimaSTEM</strong>",
+		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
+		"videoCaption": "Video mit einem Prototyp aufgenommen. Das Endprodukt kann abweichen.",
+		"steps": [
+			{ "number": "1", "text": "Tokens von links nach rechts platzieren. Grüne LED = akzeptiert. Das Board spricht den Befehl aus." },
+			{ "number": "2", "text": "\"Start\" drücken. Der Roboter führt aus. LEDs zeigen, welcher Befehl gerade läuft." },
+			{ "number": "3", "text": "Ergebnis prüfen. Falsch? Fehler suchen, Token tauschen, erneut starten." }
+		]
+	},
+	"kit": {
+		"title": "Was im <strong>Set enthalten ist</strong>",
+		"cards": [
+			{ "title": "Marienkäfer-Roboter", "icon": "robot", "items": ["125 mm Durchmesser", "Holz", "USB-C-Aufladung", "2–3 Stunden Akkulaufzeit"] },
+			{ "title": "Steuerboard", "icon": "bolt", "items": ["317 × 217 mm", "Holz", "11 Doppelsteckplätze", "Bluetooth ~5 m"] },
+			{ "title": "Befehlstokens", "icon": "squares-plus", "items": ["33 × 33 mm, Karton", "NFC 13,56 MHz", "Farbcodierung per Kratzen", "Beschreibbar per Handy-App"] },
+			{ "title": "Online-Lehrerhandbuch", "icon": "book", "items": ["Unterrichtspläne online", "Aktivitäten & Druckvorlagen", "docs.primastem.com", "10 Sprachen"] }
+		]
+	},
+	"commands": {
+		"title": "Befehle",
+		"text": "<ul class='space-y-3 list-none'>\n\t\t\t<li><strong>Bewegung & Programm:</strong> Vorwärts, Rückwärts, Links, Rechts, Zufällig, Funktion, Pause.</li>\n\t\t\t<li><strong>Wiederholen:</strong> 2–999, Zufällige Wiederholung 1–6.</li>\n\t\t\t<li><strong>Mathematik:</strong> +, −, ×, ÷, √, ^</li>\n\t\t\t<li><strong>Zahlen:</strong> 1–999</li>\n\t\t\t<li><strong>System:</strong> Standardschrittgröße, Kalibrierung.</li>\n\t\t</ul>"
+	},
+	"drawing": {
+		"title": "Zeichnen",
+		"text": "Einen Stift einsetzen. Jede Bewegung hinterlässt eine Linie.<br><br>Vorwärts 50, Rechts 144, Wiederholen 5 = ein Stern. Eine arithmetische Progression hinzufügen — der Stern wird zur Spirale.<br><br>Diese Formen werden von Kindern programmiert und vom Roboter gezeichnet."
+	},
+	"maps": {
+		"title": "Funktioniert mit jeder <strong>Karte</strong>",
+		"text": "Die Schrittgröße ist einstellbar. 10, 12, 15, 25 cm — jedes Raster. Verwenden Sie Karten von jedem Roboter, den Sie bereits im Unterricht haben. Kein neues Material nötig."
+	},
+	"openPlatform": {
+		"title": "Offene <strong>Plattform</strong>",
+		"paragraphs": [
+			"Jedes Token ist ein Standard-NFC-Tag (13,56 MHz). Schreiben Sie beliebige Codes mit einer kostenlosen Handy-App. Erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen.",
+			"NFC-Tags auf dem Spielfeld — der Roboter spielt Audio ab, wenn er darüberfährt. Sprachkarten, Musikfelder, Geschichtenquests."
+		]
+	},
+	"voiceFeedback": {
+		"title": "Sprach-<strong>rückmeldung</strong>",
+		"paragraphs": [
+			"Das Board spricht jeden Token aus, wenn er platziert wird. Hilft Kindern, die noch nicht lesen können, und Kindern mit Sehbehinderungen.",
+			"Verfügbar in 14 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe.",
+			"Braille-Version in der Pilottestung."
+		]
+	},
+	"specs": {
+		"title": "Spezifikationen",
+		"rows": [
+			{ "label": "Material", "value": "Holz" },
+			{ "label": "Roboter", "value": "125 mm Durchmesser, 44 mm H" },
+			{ "label": "Steuerboard", "value": "317 × 217 mm" },
+			{ "label": "Tokens", "value": "100 Stk., 33 × 33 mm, Karton, NFC 13,56 MHz" },
+			{ "label": "Konnektivität", "value": "Bluetooth ~5 m" },
+			{ "label": "Akku", "value": "Li-Ion USB-C, 2–3 Stunden" },
+			{ "label": "Standardschritt", "value": "15 cm (beliebiger Wert, einstellbar)" },
+			{ "label": "Winkel", "value": "1°–360°" },
+			{ "label": "Mathematik", "value": "+, −, ×, ÷, √, ^, !" },
+			{ "label": "Steckplätze", "value": "6×2 Haupt + 5×2 Funktion" },
+			{ "label": "Audio", "value": "Sprachrückmeldung in 14 Sprachen + Klangbeispiele" },
+			{ "label": "Zertifizierung", "value": "CE" },
+			{ "label": "Alter", "value": "4–10" },
+			{ "label": "Hergestellt in", "value": "Cannes, Frankreich" }
+		]
+	},
+	"documentation": {
+		"title": "Dokumentation",
+		"cards": [
+			{ "title": "Online-Dokumentation", "subtitle": "10 Sprachen. Unterrichtspläne, Anleitungen und technische Referenz.", "icon": "document-text", "link": "https://docs.primastem.com" },
+			{ "title": "Video-Tutorials", "subtitle": "Schritt-für-Schritt-Videos auf unserem YouTube-Kanal.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
+			{ "title": "Produktblatt", "subtitle": "Spezifikationen, Preise und Set-Übersicht für Händler.", "icon": "clipboard-document-list", "link": "/sheet" },
+			{ "title": "FAQ", "subtitle": "Häufige Fragen zu PrimaSTEM, Bestellungen und technischen Details.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" }
+		]
+	},
+	"order": {
+		"title": "Ab €235 <strong>zzgl. MwSt.</strong>",
+		"subtitle": "Komplettes Set, sofort einsatzbereit.",
+		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
+		"buttonText": "Angebot anfordern",
+		"buttonLink": "/contact",
+		"segmentLinks": [
+			{ "text": "Für Schulen", "link": "/schools" },
+			{ "text": "Für Händler", "link": "/distributors" },
+			{ "text": "Für Eltern", "link": "/parents" }
+		]
+	}
+}

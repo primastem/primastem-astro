@@ -1,0 +1,27 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | Política de Privacidad",
+		"description": "Política de privacidad de PrimaSTEM. Cumplimiento del RGPD. Recogida y tratamiento de datos, sus derechos."
+	},
+	"hero": {
+		"title": "Política de <strong>Privacidad</strong>",
+		"text": "Última actualización: 23 de marzo de 2026"
+	},
+	"sections": [
+		{
+			"sidebarTitle": "Responsable del tratamiento",
+			"sidebarText": "Información sobre la entidad responsable del tratamiento de sus datos personales.",
+			"body": "#### PRIMASTEM SAS\n\n11 rue de Magdebourg, 75016 París, Francia  \nSIRET: 944 985 720 00019  \nEmail: info@primastem.com\n\n#### Datos que recogemos\n\nRecogemos los siguientes datos a través de nuestro formulario de contacto:\n\n- Nombre y apellidos\n- Dirección de email\n- Nombre de la organización (opcional)\n- País\n- Contenido del mensaje\n- Tipo de solicitud\n\n#### Finalidad del tratamiento\n\nLos datos que recogemos se utilizan para:\n\n- Responder a sus solicitudes de información\n- Procesar sus pedidos\n- Contactarle en el contexto de una asociación comercial\n- Mejorar nuestros servicios"
+		},
+		{
+			"sidebarTitle": "Base jurídica y derechos",
+			"sidebarText": "Información sobre la base jurídica del tratamiento y sus derechos según el RGPD.",
+			"body": "#### Base jurídica\n\nEl tratamiento de sus datos se basa en:\n\n- Su consentimiento (artículo 6.1.a RGPD)\n- La ejecución de un contrato (artículo 6.1.b RGPD)\n- Nuestro interés legítimo (artículo 6.1.f RGPD)\n\n#### Destinatarios de los datos\n\nSus datos son tratados únicamente por el equipo de PrimaSTEM. No se transfieren a terceros, salvo cuando la ley lo exija.\n\n#### Plazo de conservación\n\nLos datos se conservan durante 3 años desde el último contacto.\n\n#### Sus derechos\n\nConforme al RGPD, usted tiene los siguientes derechos:\n\n- Derecho de acceso\n- Derecho de rectificación\n- Derecho de supresión\n- Derecho de limitación del tratamiento\n- Derecho a la portabilidad de los datos\n- Derecho de oposición\n\nPara ejercer estos derechos, contáctenos: info@primastem.com"
+		},
+		{
+			"sidebarTitle": "Cookies y actualizaciones",
+			"sidebarText": "Información sobre el uso de cookies y las actualizaciones de esta política.",
+			"body": "#### Cookies\n\nEste sitio utiliza Google Analytics para analizar el tráfico. Puede rechazar las cookies a través del banner que aparece en su primera visita o mediante la configuración de su navegador.\n\n#### Alojamiento\n\nEste sitio está alojado por Netlify, Inc., 44 Montgomery Street, Suite 300, San Francisco, California 94104, USA.\n\n#### Actualizaciones\n\nNos reservamos el derecho de modificar esta política en cualquier momento. La fecha de la última actualización aparece en la parte superior de esta página."
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | Datenschutzerklärung",
+		"description": "Datenschutzerklärung von PrimaSTEM. DSGVO-konform. Datenerhebung, -verarbeitung, Ihre Rechte."
+	},
+	"hero": {
+		"title": "<strong>Datenschutzerklärung</strong>",
+		"text": "Zuletzt aktualisiert: 23. März 2026"
+	},
+	"sections": [
+		{
+			"sidebarTitle": "Verantwortlicher",
+			"sidebarText": "Informationen über die für die Verarbeitung Ihrer personenbezogenen Daten verantwortliche Stelle.",
+			"body": "#### PRIMASTEM SAS\n\n11 rue de Magdebourg, 75016 Paris, Frankreich  \nSIRET: 944 985 720 00019  \nE-Mail: info@primastem.com\n\n#### Daten, die wir erheben\n\nWir erheben folgende Daten über unser Kontaktformular:\n\n- Vor- und Nachname\n- E-Mail-Adresse\n- Organisationsname (optional)\n- Land\n- Nachrichteninhalt\n- Art der Anfrage\n\n#### Zweck der Verarbeitung\n\nDie von uns erhobenen Daten werden verwendet, um:\n\n- Auf Ihre Informationsanfragen zu antworten\n- Ihre Bestellungen zu bearbeiten\n- Sie im Rahmen einer Geschäftspartnerschaft zu kontaktieren\n- Unsere Dienste zu verbessern"
+		},
+		{
+			"sidebarTitle": "Rechtsgrundlage und Rechte",
+			"sidebarText": "Informationen zur Rechtsgrundlage der Verarbeitung und Ihren DSGVO-Rechten.",
+			"body": "#### Rechtsgrundlage\n\nDie Verarbeitung Ihrer Daten basiert auf:\n\n- Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)\n- Der Erfüllung eines Vertrags (Art. 6 Abs. 1 lit. b DSGVO)\n- Unserem berechtigten Interesse (Art. 6 Abs. 1 lit. f DSGVO)\n\n#### Empfänger der Daten\n\nIhre Daten werden ausschließlich vom PrimaSTEM-Team verarbeitet. Sie werden nicht an Dritte weitergegeben, außer wenn dies gesetzlich vorgeschrieben ist.\n\n#### Aufbewahrungsfrist\n\nDaten werden 3 Jahre ab dem letzten Kontakt aufbewahrt.\n\n#### Ihre Rechte\n\nGemäß der DSGVO haben Sie folgende Rechte:\n\n- Recht auf Auskunft\n- Recht auf Berichtigung\n- Recht auf Löschung\n- Recht auf Einschränkung der Verarbeitung\n- Recht auf Datenübertragbarkeit\n- Widerspruchsrecht\n\nUm diese Rechte auszuüben, kontaktieren Sie uns: info@primastem.com"
+		},
+		{
+			"sidebarTitle": "Cookies und Aktualisierungen",
+			"sidebarText": "Informationen zur Cookie-Nutzung und Aktualisierungen dieser Richtlinie.",
+			"body": "#### Cookies\n\nDiese Website verwendet Google Analytics zur Analyse des Datenverkehrs. Sie können Cookies über das Banner ablehnen, das bei Ihrem ersten Besuch angezeigt wird, oder über Ihre Browser-Einstellungen.\n\n#### Hosting\n\nDiese Website wird von Netlify, Inc., 44 Montgomery Street, Suite 300, San Francisco, California 94104, USA, gehostet.\n\n#### Aktualisierungen\n\nWir behalten uns das Recht vor, diese Richtlinie jederzeit zu ändern. Das Datum der letzten Aktualisierung ist oben auf dieser Seite angegeben."
+		}
+	]
+}

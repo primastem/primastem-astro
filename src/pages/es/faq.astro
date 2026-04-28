@@ -1,0 +1,66 @@
+---
+// Components
+// - Layout
+import Layout from '../../layouts/Layout.astro'
+// - UI
+import Hero from '../../components/blocks/hero/PageHeader.astro'
+import FAQ from '../../components/blocks/FAQ/FaqSticky.astro'
+import TextImage from '../../components/blocks/basic/TextImage.astro'
+
+// Data
+import faqDataRaw from '../../content/faq/es.json'
+const faqData = faqDataRaw.items
+const faqProduct = faqData.filter((faq) => faq.category === 'product')
+const faqPricing = faqData.filter((faq) => faq.category === 'pricing')
+const faqTechnical = faqData.filter((faq) => faq.category === 'technical')
+
+// Content
+import faqImage1 from '../../assets/faq/faq-01.png'
+// - SEO
+const SEO = {
+	title: 'PrimaSTEM | Preguntas frecuentes',
+	description:
+		'Encuentre respuestas a las preguntas más comunes sobre PrimaSTEM — precios, funciones del producto, compatibilidad y primeros pasos con nuestro robot educativo sin pantalla.'
+}
+const header = {
+	title: 'Preguntas <strong>frecuentes</strong>',
+	text: 'Encuentre respuestas a las preguntas más comunes sobre PrimaSTEM'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+	<script slot="structured-data" type="application/ld+json" set:html={JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": faqData.map(faq => ({
+			"@type": "Question",
+			"name": faq.question,
+			"acceptedAnswer": { "@type": "Answer", "text": faq.reply }
+		}))
+	})} />
+	<Hero title={header.title} text={header.text} />
+	<FAQ
+		title="Producto"
+		text="Cómo funciona PrimaSTEM, qué incluye y qué puede hacer."
+		data={faqProduct}
+	/>
+	<FAQ
+		title="Precios y disponibilidad"
+		text="Costes, opciones de pedido y distribuidores."
+		data={faqPricing}
+	/>
+	<FAQ
+		title="Técnico"
+		text="Batería, seguridad, personalización y accesibilidad."
+		data={faqTechnical}
+	/>
+	<TextImage
+		title="¿Necesita más detalles?"
+		text="Nuestra documentación lo cubre todo — use la barra de búsqueda para encontrar respuestas de inmediato. Visítenos en <a href='https://docs.primastem.com' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>docs.primastem.com</a>"
+		image={faqImage1}
+		mobileImage={faqImage1}
+		imagePosition="left"
+		offsetImage
+		classes="bg-neutral-50 dark:bg-neutral-900 lg:!py-64"
+	/>
+</Layout>

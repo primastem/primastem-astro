@@ -1,0 +1,40 @@
+{
+	"seo": {
+		"title": "PrimaSTEM für Eltern — Bildschirmfreies Programmierspielzeug",
+		"description": "Programmierbarer Holzroboter für Kinder von 4–10 Jahren. Kein Bildschirm, keine Apps. Vermittelt Programmieren und Mathematik durch Spielen. CE-zertifiziert. Hergestellt in Frankreich. €297 + MwSt."
+	},
+	"hero": {
+		"title": "Echte Fähigkeiten, echtes Spielen, <strong>kein Bildschirm.</strong>",
+		"subtitle": "Ein Holzroboter, den Ihr Kind mit den Händen programmiert. Alter 4–10.",
+		"price": "€297 + MwSt.",
+		"buttonText": "Video ansehen",
+		"buttonLink": "https://youtube.com/@primastem"
+	},
+	"sections": [
+		{
+			"sidebarTitle": "Was ist das",
+			"sidebarText": "",
+			"body": "Tokens auf einem Holzbrett — »vorwärts«, »rechts abbiegen«, »3 Mal wiederholen«. Das ist das Programm. Das Kind sieht es, berührt es, ordnet es um. Drückt einen Knopf — der Roboter führt aus.\n\nEtwas lief schief? Fehler finden, korrigieren, erneut starten."
+		},
+		{
+			"sidebarTitle": "Wächst mit Ihrem Kind mit",
+			"sidebarText": "",
+			"body": "**Mit 4–5:** Einfache Befehle und Zahlen. Labyrinthe auf bunten Karten.\n\n**Mit 6–7:** Funktionen und Schleifen. »Statt es fünf Mal zu schreiben — sag dem Roboter: Wiederholen.«\n\n**Mit 8–10:** Mathematik. Genaue Winkel, Abstände, Arithmetik. Einen Stift einsetzen — der Roboter zeichnet Sterne, Spiralen, geometrische Muster."
+		},
+		{
+			"sidebarTitle": "Programmieren, das man an den Kühlschrank hängen kann",
+			"sidebarText": "",
+			"body": "Das Kind programmiert. Der Roboter zeichnet. Echte Mathematik, echte Kunst, echtes Papier."
+		},
+		{
+			"sidebarTitle": "Warum gerade dieser",
+			"sidebarText": "",
+			"body": "**Holz.** Kein Plastik.\n\n**Kein Bildschirm.** Keine Apps.\n\n**Er spricht.** Sagt jeden Token laut — funktioniert, bevor ein Kind lesen kann.\n\n**Er zeichnet.** Sterne, Spiralen, Herzen.\n\n**Hergestellt in Frankreich.** CE-zertifiziert."
+		}
+	],
+	"cta": {
+		"title": "€297 <strong>+ MwSt.</strong>",
+		"subtitle": "Komplettes Set. Direkt bei uns oder über einen Händler in Ihrem Land bestellen.",
+		"buttonText": "Angebot anfordern"
+	}
+}

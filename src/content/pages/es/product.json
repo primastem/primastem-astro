@@ -1,0 +1,96 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | Cómo Funciona — Detalles del Producto",
+		"description": "Descripción técnica completa del robot educativo PrimaSTEM. Componentes, comandos, dibujo, especificaciones. Desde €235 sin IVA."
+	},
+	"structuredData": {
+		"price": "235",
+		"priceValidUntil": "2026-12-31"
+	},
+	"hero": {
+		"title": "Cómo funciona <strong>PrimaSTEM</strong>",
+		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
+		"videoCaption": "Video grabado con un prototipo. El producto final puede diferir.",
+		"steps": [
+			{ "number": "1", "text": "Coloque las fichas de izquierda a derecha. LED verde = aceptado. El tablero pronuncia el comando." },
+			{ "number": "2", "text": "Pulse \"Inicio\". El robot ejecuta. Los LED muestran qué comando está en ejecución." },
+			{ "number": "3", "text": "Compruebe el resultado. ¿Incorrecto? Encuentre el error, cambie una ficha y vuelva a ejecutar." }
+		]
+	},
+	"kit": {
+		"title": "Qué hay en el <strong>kit</strong>",
+		"cards": [
+			{ "title": "Robot mariquita", "icon": "robot", "items": ["125 mm de diámetro", "Madera", "Carga USB-C", "Batería 2–3 horas"] },
+			{ "title": "Tablero de control", "icon": "bolt", "items": ["317 × 217 mm", "Madera", "11 ranuras dobles", "Bluetooth ~5 m"] },
+			{ "title": "Fichas de comandos", "icon": "squares-plus", "items": ["33 × 33 mm, cartón", "NFC 13,56 MHz", "Código de colores Scratch", "Programables con aplicación móvil"] },
+			{ "title": "Guía docente en línea", "icon": "book", "items": ["Planes de lección en línea", "Actividades e imprimibles", "docs.primastem.com", "10 idiomas"] }
+		]
+	},
+	"commands": {
+		"title": "Comandos",
+		"text": "<ul class='space-y-3 list-none'>\n\t\t\t<li><strong>Movimiento y Programa:</strong> Avanzar, Retroceder, Izquierda, Derecha, Aleatorio, Función, Pausa.</li>\n\t\t\t<li><strong>Repetir:</strong> 2–999, Repetición aleatoria 1–6.</li>\n\t\t\t<li><strong>Matemáticas:</strong> +, −, ×, ÷, √, ^</li>\n\t\t\t<li><strong>Números:</strong> 1–999</li>\n\t\t\t<li><strong>Sistema:</strong> Tamaño de paso predeterminado, calibración.</li>\n\t\t</ul>"
+	},
+	"drawing": {
+		"title": "Dibujo",
+		"text": "Inserte un marcador. Cada movimiento deja una línea.<br><br>Avanzar 50, Girar derecha 144, Repetir 5 = una estrella. Añada una progresión aritmética — la estrella se convierte en espiral.<br><br>Estas formas son programadas por los niños y dibujadas por el robot."
+	},
+	"maps": {
+		"title": "Funciona con cualquier <strong>mapa</strong>",
+		"text": "El tamaño del paso es ajustable. 10, 12, 15, 25 cm — cualquier cuadrícula. Use los mapas de cualquier robot que ya tenga en su aula. No se necesitan materiales nuevos."
+	},
+	"openPlatform": {
+		"title": "Plataforma <strong>abierta</strong>",
+		"paragraphs": [
+			"Cada ficha es una etiqueta NFC estándar (13,56 MHz). Escriba cualquier código con una aplicación gratuita para teléfono. Cree sus propios números, bucles u operaciones aritméticas.",
+			"Etiquetas NFC en el campo de juego — el robot reproduce audio al pasar sobre ellas. Tarjetas de idiomas, campos musicales, misiones narrativas."
+		]
+	},
+	"voiceFeedback": {
+		"title": "Retroalimentación <strong>de voz</strong>",
+		"paragraphs": [
+			"El tablero pronuncia cada ficha al colocarla. Ayuda a los niños que aún no saben leer y a los niños con discapacidad visual.",
+			"Disponible en 14 idiomas: English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe.",
+			"Versión en Braille en fase piloto."
+		]
+	},
+	"specs": {
+		"title": "Especificaciones",
+		"rows": [
+			{ "label": "Material", "value": "Madera" },
+			{ "label": "Robot", "value": "125 mm de diámetro, 44 mm de altura" },
+			{ "label": "Tablero de control", "value": "317 × 217 mm" },
+			{ "label": "Fichas", "value": "100 unidades, 33 × 33 mm, cartón, NFC 13,56 MHz" },
+			{ "label": "Conectividad", "value": "Bluetooth ~5 m" },
+			{ "label": "Batería", "value": "Li-Ion USB-C, 2–3 horas" },
+			{ "label": "Paso predeterminado", "value": "15 cm (cualquier valor, ajustable)" },
+			{ "label": "Ángulos", "value": "1°–360°" },
+			{ "label": "Matemáticas", "value": "+, −, ×, ÷, √, ^, !" },
+			{ "label": "Ranuras", "value": "6×2 principales + 5×2 función" },
+			{ "label": "Audio", "value": "Retroalimentación de voz en 14 idiomas + muestras de sonido" },
+			{ "label": "Certificación", "value": "CE" },
+			{ "label": "Edad", "value": "4–10" },
+			{ "label": "Fabricado en", "value": "Cannes, Francia" }
+		]
+	},
+	"documentation": {
+		"title": "Documentación",
+		"cards": [
+			{ "title": "Documentación en línea", "subtitle": "10 idiomas. Planes de lección, guías y referencia técnica.", "icon": "document-text", "link": "https://docs.primastem.com" },
+			{ "title": "Tutoriales en vídeo", "subtitle": "Vídeos paso a paso en nuestro canal de YouTube.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
+			{ "title": "Ficha del producto", "subtitle": "Especificaciones, precios y resumen del kit para distribuidores.", "icon": "clipboard-document-list", "link": "/sheet" },
+			{ "title": "FAQ", "subtitle": "Preguntas frecuentes sobre PrimaSTEM, pedidos y detalles técnicos.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" }
+		]
+	},
+	"order": {
+		"title": "Desde €235 <strong>sin IVA</strong>",
+		"subtitle": "Kit completo, listo para usar.",
+		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
+		"buttonText": "Solicitar presupuesto",
+		"buttonLink": "/contact",
+		"segmentLinks": [
+			{ "text": "Para colegios", "link": "/schools" },
+			{ "text": "Para distribuidores", "link": "/distributors" },
+			{ "text": "Para padres", "link": "/parents" }
+		]
+	}
+}

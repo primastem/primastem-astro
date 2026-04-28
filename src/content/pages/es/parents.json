@@ -1,0 +1,40 @@
+{
+	"seo": {
+		"title": "PrimaSTEM para Padres — Juguete de Programación sin Pantalla",
+		"description": "Robot de madera programable para niños de 4–10 años. Sin pantalla, sin aplicaciones. Enseña programación y matemáticas a través del juego. Certificado CE. Fabricado en Francia. €297 + IVA."
+	},
+	"hero": {
+		"title": "Habilidades reales, juego real, <strong>sin pantalla.</strong>",
+		"subtitle": "Un robot de madera que su hijo programa con las manos. Edades 4–10.",
+		"price": "€297 + IVA.",
+		"buttonText": "Ver vídeo",
+		"buttonLink": "https://youtube.com/@primastem"
+	},
+	"sections": [
+		{
+			"sidebarTitle": "Qué es",
+			"sidebarText": "",
+			"body": "Fichas en un tablero de madera — «avanzar», «girar a la derecha», «repetir 3 veces». Ese es el programa. El niño lo ve, lo toca, lo reorganiza. Pulsa un botón — el robot ejecuta.\n\n¿Algo salió mal? Encuentra el error, lo corrige y vuelve a ejecutar."
+		},
+		{
+			"sidebarTitle": "Crece con su hijo",
+			"sidebarText": "",
+			"body": "**A los 4–5 años:** Comandos simples y números. Laberintos en mapas de colores.\n\n**A los 6–7 años:** Funciones y bucles. «En lugar de escribirlo cinco veces — dile al robot: repite».\n\n**A los 8–10 años:** Matemáticas. Ángulos y distancias precisas, aritmética. Inserte un marcador — el robot dibuja estrellas, espirales y patrones geométricos."
+		},
+		{
+			"sidebarTitle": "Programación que se puede poner en la nevera",
+			"sidebarText": "",
+			"body": "El niño programa. El robot dibuja. Matemáticas reales, arte real, papel real."
+		},
+		{
+			"sidebarTitle": "Por qué este",
+			"sidebarText": "",
+			"body": "**Madera.** No plástico.\n\n**Sin pantalla.** Sin aplicaciones.\n\n**Habla.** Pronuncia cada ficha en voz alta — funciona antes de que el niño aprenda a leer.\n\n**Dibuja.** Estrellas, espirales, corazones.\n\n**Fabricado en Francia.** Certificado CE."
+		}
+	],
+	"cta": {
+		"title": "€297 <strong>+ IVA</strong>",
+		"subtitle": "Kit completo. Pida directamente a nosotros o a través de un distribuidor en su país.",
+		"buttonText": "Solicitar presupuesto"
+	}
+}

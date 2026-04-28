@@ -1,0 +1,64 @@
+{
+	"items": [
+		{
+			"header": {
+				"title": "Colegio",
+				"subtitle": "Kit completo listo para el aula",
+				"currency": "€",
+				"price": "831",
+				"priceLabel": "por 3 kits, sin IVA",
+				"buttonName": "Saber más",
+				"buttonLink": "/schools"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Robot + tablero de control + fichas" },
+					{ "listItem": "Cada kit adicional +€277" },
+					{ "listItem": "Planes de lección y guía docente en línea" },
+					{ "listItem": "Alquiler disponible" }
+				]
+			},
+			"type": "basic"
+		},
+		{
+			"header": {
+				"title": "Distribuidor",
+				"subtitle": "Condiciones exclusivas disponibles a solicitud",
+				"currency": "€",
+				"price": "235",
+				"priceLabel": "por kit, precio mayorista",
+				"buttonName": "Saber más",
+				"buttonLink": "/distributors"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "100+ unidades/año: desde €210" },
+					{ "listItem": "Otros acuerdos bienvenidos" },
+					{ "listItem": "Apoyo de marketing" },
+					{ "listItem": "Formación incluida" }
+				]
+			},
+			"type": "featured"
+		},
+		{
+			"header": {
+				"title": "Padres",
+				"subtitle": "Todo para aprender en casa",
+				"currency": "€",
+				"price": "297",
+				"priceLabel": "por kit, + IVA",
+				"buttonName": "Saber más",
+				"buttonLink": "/parents"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Kit completo, listo para usar" },
+					{ "listItem": "Sin suscripciones, sin aplicaciones" },
+					{ "listItem": "Sin costes ocultos" },
+					{ "listItem": "Dura toda la primaria" }
+				]
+			},
+			"type": "basic"
+		}
+	]
+}

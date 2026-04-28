@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "question": "Für welches Alter ist PrimaSTEM geeignet?",
+      "reply": "Ab 4 Jahren. Das Board spricht jeden Token aus — Zahlenkenntnisse sind nicht erforderlich. Kinder von 4–7 Jahren arbeiten mit Logik und einfachen Programmen. Kinder von 7–10 Jahren fügen Mathematik, genaue Winkel und Zeichnen hinzu.",
+      "category": "product",
+      "open": true
+    },
+    {
+      "question": "Wie funktioniert es?",
+      "reply": "Kinder platzieren Befehlstokens auf einem Holzbrett — das ist ihr Programm. Start drücken — der Roboter führt aus. Falsches Ergebnis? Fehler finden, Token tauschen, erneut starten. Kein Bildschirm, keine Apps.",
+      "category": "product",
+      "open": false
+    },
+    {
+      "question": "Was ist im Set enthalten?",
+      "reply": "Marienkäfer-Roboter (Holz, USB-C, Bluetooth), Steuerboard mit 11 Doppelsteckplätzen, Befehlstokens (Karton, NFC, farbcodiert) sowie ein Online-Lehrerhandbuch mit Unterrichtsplänen.",
+      "category": "product",
+      "open": false
+    },
+    {
+      "question": "Kann der Roboter zeichnen?",
+      "reply": "Ja. Einen Stift einsetzen und jede Bewegung hinterlässt eine Linie. Kinder programmieren Sterne, Spiralen, Polygone, Fraktale. Vorwärts 50, Rechts 144, Wiederholen 5 = ein Stern.",
+      "category": "product",
+      "open": false
+    },
+    {
+      "question": "Funktioniert er mit Karten von anderen Robotern?",
+      "reply": "Ja. Die Standard-Schrittgröße ist einstellbar — 10, 12, 15, 25 cm oder ein beliebiger Wert. PrimaSTEM funktioniert mit jeder Rasterkarte, die Sie bereits haben.",
+      "category": "product",
+      "open": false
+    },
+    {
+      "question": "Was kostet es?",
+      "reply": "€831 für 3 Sets für Schulen (jedes weitere +€277). €297 + MwSt. für Eltern. Großhandel ab €235 für Händler (100+ Einheiten/Jahr: ab €210). Kontaktieren Sie uns für Preise in Ihrem Land.",
+      "category": "pricing",
+      "open": true
+    },
+    {
+      "question": "Kann ich mieten statt kaufen?",
+      "reply": "Miete ist für Schulen möglich. Kontaktieren Sie uns für Details und Preise.",
+      "category": "pricing",
+      "open": false
+    },
+    {
+      "question": "Gibt es einen Händler in meinem Land?",
+      "reply": "Wir haben Partner in Frankreich, den Niederlanden, Norwegen, Luxemburg und Spanien. Kontaktieren Sie uns, um einen Händler in Ihrer Nähe zu finden oder direkt zu bestellen.",
+      "category": "pricing",
+      "open": false
+    },
+    {
+      "question": "Wie lange hält der Akku?",
+      "reply": "USB-C-Aufladung, läuft 2–3 Stunden mit einer Ladung.",
+      "category": "technical",
+      "open": true
+    },
+    {
+      "question": "Ist es sicher für Kinder?",
+      "reply": "CE-zertifiziert. Aus Holz gefertigt. Kein Bildschirm. Bluetooth-Verbindung. Empfohlen ab 4 Jahren aufgrund der Token-Größe.",
+      "category": "technical",
+      "open": false
+    },
+    {
+      "question": "Können Lehrkräfte eigene Tokens erstellen?",
+      "reply": "Ja. Jedes Token ist ein Standard-NFC-Tag (13,56 MHz). Schreiben Sie beliebige Codes mit einer kostenlosen Handy-App — erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen in unter einer Minute.",
+      "category": "technical",
+      "open": false
+    },
+    {
+      "question": "Kann mein Kind es ohne Lehrkraft verwenden?",
+      "reply": "Ja. Unterrichtspläne sind auf der Dokumentationsseite in 10 Sprachen verfügbar, geeignet für Eltern. Video-Tutorials auf YouTube.",
+      "category": "technical",
+      "open": false
+    }
+  ]
+}

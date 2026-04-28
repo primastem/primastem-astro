@@ -1,0 +1,63 @@
+{
+	"seo": {
+		"title": "PrimaSTEM — Programmieren und Mathe ohne Bildschirm für Kinder von 4–10 Jahren",
+		"description": "Das einzige bildschirmfreie Lernmittel, das sowohl Programmieren als auch Mathematik vermittelt. Hölzerner programmierbarer Roboter für Kinder von 4 bis 10 Jahren."
+	},
+	"hero": {
+		"title": "Programmieren und Mathe <strong>ohne Bildschirm.</strong>",
+		"subtitle": "Das einzige bildschirmfreie Werkzeug, das beides lehrt.<br />Für Kinder von 4 bis 10 Jahren.",
+		"price": "Ab €235 zzgl. MwSt.",
+		"volumeLine": "100+ Einheiten/Jahr: ab €210.<br />Andere Vereinbarungen möglich.",
+		"buttonText": "Preise ansehen",
+		"buttonLink": "#pricing-v3"
+	},
+	"twoLevels": {
+		"title": "Zwei Stufen — <strong>ein Gerät</strong>",
+		"subtitle": "Ein Kauf — für die gesamte Grundschulzeit.",
+		"level1": {
+			"tag": "Logik, Zahlen",
+			"age": "Alter 4–7",
+			"items": ["Logischer Schritt 15 cm (einstellbar), 90°-Drehungen", "Labyrinthe, Sequenzen, Debuggen"]
+		},
+		"level2": {
+			"tag": "Mathematik, Programmieren",
+			"age": "Alter 7–10",
+			"items": ["Genaue Abstände und beliebige Winkel", "Arithmetik, Geometrie, Zeichnen mit Stift"]
+		}
+	},
+	"drawing": {
+		"title": "Der Roboter zeichnet, was <strong>das Kind programmiert</strong>",
+		"subtitle": "Der Roboter hat diese nach dem Programm eines Kindes gezeichnet. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Den Prozess auf YouTube ansehen</a>.",
+		"drawings": [
+			{ "name": "Fünfeck" },
+			{ "name": "Stern" },
+			{ "name": "Spirale" },
+			{ "name": "Herz" }
+		],
+		"example": "Beispiel: (Wiederholen 5) [(Vorwärts) (50), (Rechts) (144)] = ein Stern."
+	},
+	"maps": {
+		"title": "Funktioniert mit Karten, <strong>die Sie bereits haben</strong>",
+		"text": "PrimaSTEM passt sich den Inhalten anderer Lernroboter an. Die Schrittgröße ist einstellbar — 10, 12, 15, 25 cm. Jede Rasterkarte funktioniert. Kein neues Material nötig."
+	},
+	"video": {
+		"title": "Sehen Sie es <strong>in Aktion</strong>",
+		"subtitle": "Sehen Sie, wie Kinder mit PrimaSTEM Programmieren und Mathematik lernen.",
+		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
+		"videoCaption": "Video mit einem Prototyp aufgenommen. Das Endprodukt kann abweichen."
+	},
+	"trust": {
+		"title": "Von unseren <strong class=\"highlight\">Partnern</strong> vertraut",
+		"countriesLine": "Bereits in 5 Ländern im Einsatz."
+	},
+	"newsletter": {
+		"title": "Bleiben Sie mit Neuigkeiten und Angeboten <strong>auf dem Laufenden</strong>",
+		"subtitle": "Nicht mehr als einmal im Monat.",
+		"formId": "jdJlRe"
+	},
+	"tagline": {
+		"blockquote": "Unser Versuch, etwas zu schaffen, das die Menschen wirklich brauchen.<br>Greifbar und schön.",
+		"figcaption": "PrimaSTEM",
+		"cite": "Hergestellt in Cannes, Frankreich"
+	}
+}

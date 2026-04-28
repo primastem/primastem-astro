@@ -1,0 +1,64 @@
+{
+	"items": [
+		{
+			"header": {
+				"title": "Schule",
+				"subtitle": "Komplettes Set für den Unterricht",
+				"currency": "€",
+				"price": "831",
+				"priceLabel": "für 3 Sets, zzgl. MwSt.",
+				"buttonName": "Mehr erfahren",
+				"buttonLink": "/schools"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Roboter + Steuerboard + Tokens" },
+					{ "listItem": "Jedes weitere Set +€277" },
+					{ "listItem": "Unterrichtspläne & Lehrerhandbuch online" },
+					{ "listItem": "Miete möglich" }
+				]
+			},
+			"type": "basic"
+		},
+		{
+			"header": {
+				"title": "Händler",
+				"subtitle": "Exklusive Konditionen auf Anfrage",
+				"currency": "€",
+				"price": "235",
+				"priceLabel": "pro Set, Großhandel",
+				"buttonName": "Mehr erfahren",
+				"buttonLink": "/distributors"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "100+ Einheiten/Jahr: ab €210" },
+					{ "listItem": "Andere Vereinbarungen möglich" },
+					{ "listItem": "Marketing-Support" },
+					{ "listItem": "Schulung inklusive" }
+				]
+			},
+			"type": "featured"
+		},
+		{
+			"header": {
+				"title": "Eltern",
+				"subtitle": "Alles fürs Lernen zu Hause",
+				"currency": "€",
+				"price": "297",
+				"priceLabel": "pro Set, + MwSt.",
+				"buttonName": "Mehr erfahren",
+				"buttonLink": "/parents"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Komplettes Set, sofort einsatzbereit" },
+					{ "listItem": "Keine Abonnements, keine Apps" },
+					{ "listItem": "Keine versteckten Kosten" },
+					{ "listItem": "Für die gesamte Grundschulzeit" }
+				]
+			},
+			"type": "basic"
+		}
+	]
+}

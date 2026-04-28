@@ -1,0 +1,44 @@
+{
+	"seo": {
+		"title": "PrimaSTEM für Händler — Bildungsroboter im Großhandel",
+		"description": "Bildschirmfreier Programmier- und Mathe-Roboter für Kinder von 4–10 Jahren. Großhandel ab €235 zzgl. MwSt. CE-zertifiziert. 10 Sprachen. Mengenpreise für 100+ Einheiten/Jahr."
+	},
+	"hero": {
+		"title": "Ein bildschirmfreies Lernmittel, <strong>nach dem der Markt fragt.</strong>",
+		"subtitle1": "Schulen, Vorschulen, Montessori, Nachmittagsprogramme, Eltern — ein Produkt für alle.",
+		"subtitle2": "Programmieren + Mathematik. Alter 4–10. Holz. CE-zertifiziert. 10 Sprachen.",
+		"price": "Großhandel ab €235 zzgl. MwSt.",
+		"volumeLine": "100+ Einheiten/Jahr: ab €210.<br />Andere Vereinbarungen möglich.",
+		"buttons": [
+			{ "text": "Angebot anfordern", "link": "/contact", "style": "primary" },
+			{ "text": "Produktblatt", "link": "/sheet", "style": "secondary" }
+		]
+	},
+	"sections": [
+		{
+			"sidebarTitle": "Der Markt",
+			"sidebarText": "",
+			"body": "<a href=\"https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">PISA 2022</a>: Mathematikergebnisse sinken europaweit. Regierungen beschränken Bildschirme in Schulen. Schulen brauchen bildschirmfreie MINT-Werkzeuge — aber die verfügbaren lehren nur einfache Richtungen.\n\nPrimaSTEM verbindet greifbares Programmieren mit echter Mathematik. Beliebige Winkel, Rechenoperationen, geometrisches Zeichnen. Ein Produkt für Kinder von 4–10 Jahren. Eine Schule kauft einmal und nutzt es jahrelang."
+		},
+		{
+			"sidebarTitle": "Was sich verkauft",
+			"sidebarText": "",
+			"body": "**Zwei Altersgruppen — ein Gerät.** Alter 4–7: Logik, Labyrinthe, einfache Programme und Zahlen. Alter 7–10: genaue Abstände, beliebige Winkel, Arithmetik, Geometrie — Zeichnen. Ein Produkt für die gesamte Grundschulzeit.\n\n**Funktioniert mit vorhandenen Karten.** Passt sich den Inhalten anderer Lernroboter an. Der Standardschritt ist einstellbar — 10, 12, 15 oder 25 cm. Die Schule muss nichts ändern.\n\n**Der Roboter zeichnet.** Spiralen, Sterne, Polygone, Fraktale — von Kindern programmiert, vom Roboter auf Papier oder Whiteboard gezeichnet. Das ist der Demo-Moment, der verkauft.\n\n**Lehrkräfte erstellen eigene Tokens.** Beliebige Zahlen, Schleifen oder Rechenoperationen — über eine kostenlose Handy-App in unter einer Minute. Interaktive Klangkarten — der Roboter spielt Audio ab, wenn er über einen NFC-Tag auf dem Feld fährt.\n\n**Braille-Version** in der Pilottestung — ein noch unerschlossenes Marktsegment."
+		},
+		{
+			"sidebarTitle": "Bereit für Ihren Katalog",
+			"sidebarText": "",
+			"body": "CE-zertifiziert. USB-C-Aufladung, 2–3 Stunden Akkulaufzeit. Bluetooth. Unterrichtspläne und Lehrerhandbuch online unter <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 Sprachen. YouTube-Tutorials."
+		},
+		{
+			"sidebarTitle": "Konditionen",
+			"sidebarText": "",
+			"body": "**Großhandel: ab €235 zzgl. MwSt.** 100+ Einheiten/Jahr: ab €210. Andere Vereinbarungen möglich.\n\nMarketingmaterialien in Ihrer Sprache. Technischer Support. Gemeinsame Messebeteiligung. Gebietsexklusivität verhandelbar.\n\nPräsent in: Frankreich (Direktvertrieb), Niederlande, Luxemburg (Pilot mit Bildungsministerium). Expansion nach Spanien.\n\n**Alle Konditionen, Preise und Exklusivitätsbedingungen werden individuell besprochen. Kontaktieren Sie uns, um das Gespräch zu beginnen.**"
+		}
+	],
+	"cta": {
+		"title": "Angebot <strong>anfordern</strong>",
+		"subtitle": "",
+		"buttonText": "Kontakt aufnehmen"
+	}
+}

@@ -1,0 +1,64 @@
+---
+// Components
+import Layout from '../../layouts/Layout.astro'
+import Section from '../../components/ui/Section.astro'
+import Row from '../../components/ui/Row.astro'
+import Col from '../../components/ui/Col.astro'
+import { Image } from 'astro:assets'
+import Button from '../../components/ui/Button.astro'
+import SidebarContent from '../../components/blocks/basic/StickySidebar.astro'
+import ContactCTA from '../../components/blocks/CTA/ContactCTA.astro'
+// Asset
+import heroImage from '../../assets/board-with-robot-top.jpg'
+
+// Content (CMS-editable)
+import { marked } from 'marked'
+import pageData from '../../content/pages/de/parents.json'
+
+const { seo, hero, sections, cta } = pageData
+
+// Adjust hero section index offset: hero is index 0, then sections follow.
+// Original alternating pattern: hero (bg-neutral-50), section1 (no bg), section2 (bg-neutral-50), section3 (no bg), section4 (bg-neutral-50)
+// Mapping: section idx 0 → no bg, idx 1 → bg, idx 2 → no bg, idx 3 → bg
+---
+
+<Layout title={seo.title} description={seo.description}>
+	<!-- HERO -->
+	<Section id="parents-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="6" align="start">
+				<h1 set:html={hero.title} />
+				<p class="text-lg">{hero.subtitle}</p>
+				<p class="text-xl font-bold">{hero.price}</p>
+				<Button size="lg" link={hero.buttonLink}>{hero.buttonText}</Button>
+			</Col>
+			<Col span="6">
+				<Image
+					src={heroImage}
+					alt="PrimaSTEM complete kit"
+					class="rounded-xl"
+					format="webp"
+					loading="eager"
+				/>
+			</Col>
+		</Row>
+	</Section>
+
+	{
+		sections.map((section, idx) => (
+			<SidebarContent classes={idx % 2 === 1 ? 'bg-neutral-50 dark:bg-neutral-900' : ''}>
+				<div slot="sidebar">
+					<h3>{section.sidebarTitle}</h3>
+					{section.sidebarText && <p>{section.sidebarText}</p>}
+				</div>
+				<div class="basic-text" set:html={marked.parse(section.body)} />
+			</SidebarContent>
+		))
+	}
+
+	<ContactCTA
+		title={cta.title}
+		subtitle={cta.subtitle}
+		buttonText={cta.buttonText}
+	/>
+</Layout>

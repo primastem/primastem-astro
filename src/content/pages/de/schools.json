@@ -1,0 +1,47 @@
+{
+	"seo": {
+		"title": "PrimaSTEM für Schulen — Bildschirmfreier Programmier- und Mathe-Roboter",
+		"description": "Programmierbarer Holzroboter für den Unterricht. Zwei Lehrplanstufen (4–7 Logik, 7–10 Mathe). Unterrichtspläne inklusive. €831 für 3 Sets, zzgl. MwSt."
+	},
+	"hero": {
+		"title": "Programmieren und Mathematik, Alter 4–10. <strong>Ein Gerät.</strong>",
+		"subtitle": "Kein Bildschirm, keine Apps. Funktioniert mit Karten von allen Robotern, die Sie bereits haben.",
+		"price": "€831 für 3 Sets, zzgl. MwSt. Jedes weitere Set +€277.",
+		"buttons": [
+			{ "text": "Demo ansehen", "link": "https://youtube.com/@primastem", "style": "primary" },
+			{ "text": "Unterrichtspläne ansehen", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" }
+		]
+	},
+	"sections": [
+		{
+			"sidebarTitle": "Was Kinder tun",
+			"sidebarText": "",
+			"body": "Sie platzieren Befehlstokens auf dem Board — das ist ihr Programm, vollständig sichtbar. »Start« drücken. Der Roboter führt aus. Falsches Ergebnis? Fehler finden, Token tauschen, erneut starten.\n\nSequenzen, Funktionen, Schleifen, Debuggen. Kein Bildschirm. Nur die Hände.\n\nEin Spielzeug, das lehrt. Ein Werkzeug, mit dem man gerne spielt."
+		},
+		{
+			"sidebarTitle": "Zwei Stufen",
+			"sidebarText": "",
+			"body": "**Alter 4–7: Logik.** Logische Schritte, 90°-Drehungen. Vorwärts, rückwärts, links, rechts, Funktion, Wiederholen. Planung, Sequenzen, Debuggen, Zählen.\n\nPrimaSTEM passt sich den Methoden anderer Lernroboter an. Die Schrittgröße kann beliebig sein — zum Beispiel 10, 12, 15 oder 20 cm. Funktioniert mit jeder Rasterkarte, die Sie bereits haben.\n\n**Alter 7–10: Mathematik.** Genaue Abstände in mm und beliebige Winkel in Grad: 1°–360°. Arithmetik: +, −, ×, ÷, √, ^. Negative Zahlen. Progressionen.\n\nEinen Stift einsetzen — der Roboter zeichnet Polygone, Sterne, Spiralen, Fraktale auf Papier oder einem Whiteboard."
+		},
+		{
+			"sidebarTitle": "Der Roboter zeichnet",
+			"sidebarText": "",
+			"body": "Das sind keine Illustrationen. Kinder haben diese programmiert.\n\nVorwärts 50, Rechts 144, Wiederholen 5 = ein Stern. Mathematik, die man sehen kann."
+		},
+		{
+			"sidebarTitle": "Unterrichtspläne inklusive",
+			"sidebarText": "",
+			"body": "Lernziele, Materialien, Schritt-für-Schritt-Anleitungen, Druckvorlagen. Öffnen und unterrichten.\n\nVollständige Dokumentation unter <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> — 10 Sprachen."
+		},
+		{
+			"sidebarTitle": "Was Lehrkräfte nicht erwarten",
+			"sidebarText": "",
+			"body": "**Offene Plattform.** Jedes Token ist ein Standard-NFC-Tag. Erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen über eine kostenlose Handy-App.\n\n**Klangkarten.** NFC-Tags auf dem Spielfeld platzieren — der Roboter spielt Audio ab, wenn er darüberfährt.\n\n**Sprachrückmeldung.** Das Board spricht jeden Token laut aus, wenn er platziert wird — in 14 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe. Hilft Kindern, die noch nicht lesen können, und Kindern mit Sehbehinderungen.\n\n**Braille-Version** in der Pilottestung. Zugänglich für Kinder mit Seh- und Aufmerksamkeitsbeeinträchtigungen."
+		}
+	],
+	"cta": {
+		"title": "€831 <strong>für 3 Sets, zzgl. MwSt.</strong>",
+		"subtitle": "Komplettes Set: Roboter, Steuerboard, Tokens, Aktivitätshandbuch auf der Dokumentationsseite. Miete möglich. Auch über Händler erhältlich.",
+		"buttonText": "Kontakt aufnehmen"
+	}
+}

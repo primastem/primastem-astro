@@ -1,0 +1,27 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | Aviso Legal",
+		"description": "Aviso legal de primastem.com. Información del editor, alojamiento, propiedad intelectual."
+	},
+	"hero": {
+		"title": "Aviso <strong>Legal</strong>",
+		"text": "Información legal conforme a la legislación francesa"
+	},
+	"sections": [
+		{
+			"sidebarTitle": "Editor del sitio",
+			"sidebarText": "Información sobre la empresa que publica primastem.com.",
+			"body": "#### PRIMASTEM SAS\n\nSociedad por acciones simplificada (SAS)  \nCapital social: €30.000  \nSIREN: 944 985 720  \nSIRET: 944 985 720 00019  \nRCS París  \nIVA intracomunitario: FR58944985720\n\nDomicilio social: 11 rue de Magdebourg, 75016 París, Francia  \nDirector de publicación: Mikael Harnois\n\n#### Contacto\n\nEmail: info@primastem.com  \nTeléfono: +33 6 24 95 09 36"
+		},
+		{
+			"sidebarTitle": "Alojamiento",
+			"sidebarText": "Información sobre el proveedor de alojamiento del sitio.",
+			"body": "#### Proveedor de alojamiento\n\nNetlify, Inc.  \n512 2nd Street, Suite 200, San Francisco, CA 94107, USA  \n<a href=\"https://www.netlify.com\" target=\"_blank\" rel=\"noopener\">https://www.netlify.com</a>"
+		},
+		{
+			"sidebarTitle": "Propiedad intelectual",
+			"sidebarText": "Información sobre la protección de los contenidos del sitio.",
+			"body": "#### Propiedad intelectual\n\nTodos los contenidos de este sitio (textos, imágenes, vídeos, logotipos, iconos) son propiedad de PRIMASTEM SAS o de sus socios y están protegidos por las leyes de propiedad intelectual francesas e internacionales. Cualquier reproducción, incluso parcial, está prohibida sin autorización previa.\n\n#### Créditos\n\nDiseño, desarrollo y fotografía: PRIMASTEM SAS"
+		}
+	]
+}
