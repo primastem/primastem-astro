@@ -35,6 +35,7 @@ export const ui: Record<Lang, Record<string, string>> = {
 		'footer.link.privacy': 'Privacy Policy',
 		'footer.link.about': 'About',
 		'footer.link.contact': 'Contact',
+		'cta.title': 'Get in <strong>touch</strong>',
 	},
 	fr: {
 		'nav.product': 'Produit',
@@ -62,6 +63,7 @@ export const ui: Record<Lang, Record<string, string>> = {
 		'footer.link.privacy': 'Politique de confidentialité',
 		'footer.link.about': 'À propos',
 		'footer.link.contact': 'Contact',
+		'cta.title': 'Prenez <strong>contact</strong>',
 	},
 	de: {
 		'nav.product': 'Produkt',
@@ -89,6 +91,7 @@ export const ui: Record<Lang, Record<string, string>> = {
 		'footer.link.privacy': 'Datenschutz',
 		'footer.link.about': 'Über uns',
 		'footer.link.contact': 'Kontakt',
+		'cta.title': 'Nehmen Sie <strong>Kontakt</strong> auf',
 	},
 	es: {
 		'nav.product': 'Producto',
@@ -116,6 +119,7 @@ export const ui: Record<Lang, Record<string, string>> = {
 		'footer.link.privacy': 'Política de privacidad',
 		'footer.link.about': 'Nosotros',
 		'footer.link.contact': 'Contacto',
+		'cta.title': 'Póngase en <strong>contacto</strong>',
 	},
 	ru: {
 		'nav.product': 'Продукт',
@@ -143,5 +147,6 @@ export const ui: Record<Lang, Record<string, string>> = {
 		'footer.link.privacy': 'Политика конфиденциальности',
 		'footer.link.about': 'О нас',
 		'footer.link.contact': 'Контакты',
+		'cta.title': 'Свяжитесь <strong>с нами</strong>',
 	},
 } as const;

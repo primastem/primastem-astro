@@ -7,6 +7,12 @@ import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
 import Button from '../../ui/Button.astro'
 import { configData } from '../../../config/config.ts'
+import { getLangFromUrl, useTranslations } from '../../../i18n/utils'
+import { defaultLang } from '../../../i18n/languages'
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+const prefix = lang === defaultLang ? '' : `/${lang}`
 
 type Props = {
 	title?: string
@@ -18,10 +24,10 @@ type Props = {
 }
 
 const {
-	title = 'Get in <strong>touch</strong>',
+	title = t('cta.title'),
 	subtitle = '',
-	buttonText = 'Contact us',
-	buttonLink = '/contact',
+	buttonText = t('common.contactUs'),
+	buttonLink = `${prefix}/contact`,
 	secondButtonText = '',
 	secondButtonLink = ''
 } = Astro.props
