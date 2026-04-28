@@ -16,6 +16,7 @@
 import { Icon } from 'astro-icon/components'
 import Button from './Button.astro'
 import Switcher from './ModeSwitcher.astro'
+import LanguageSwitcher from './LanguageSwitcher.astro'
 
 // Data
 import { navigationBarData } from '../../config/navigationBar'
@@ -99,6 +100,9 @@ const savedNavActions = navActions.map((action) => ({
 					))
 				}
 			</ul>
+
+			<!-- Language Switcher -->
+			<LanguageSwitcher />
 
 			<!-- Theme Switcher -->
 			<Switcher />

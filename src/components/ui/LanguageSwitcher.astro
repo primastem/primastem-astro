@@ -1,0 +1,98 @@
+---
+// Language Switcher
+// ------------
+// Description: dropdown to switch between configured locales.
+// Reads current locale from URL, generates links to same path under other locales.
+
+import { Icon } from 'astro-icon/components'
+import { languages, defaultLang } from '../../i18n/languages'
+import type { Lang } from '../../i18n/languages'
+
+const langCodes = Object.keys(languages) as Lang[]
+const currentPath = Astro.url.pathname
+
+// Detect current locale from URL prefix
+let currentLocale: Lang = defaultLang
+for (const code of langCodes) {
+	if (code === defaultLang) continue
+	if (currentPath === `/${code}` || currentPath === `/${code}/` || currentPath.startsWith(`/${code}/`)) {
+		currentLocale = code
+		break
+	}
+}
+
+// Strip locale prefix to get base path (relative to default locale)
+let basePath = currentPath
+if (currentLocale !== defaultLang) {
+	if (currentPath === `/${currentLocale}` || currentPath === `/${currentLocale}/`) {
+		basePath = '/'
+	} else if (currentPath.startsWith(`/${currentLocale}/`)) {
+		basePath = currentPath.substring(currentLocale.length + 1) // strip "/xx"
+	}
+}
+
+// Build URL for each locale at same page
+function urlFor(target: Lang): string {
+	if (target === defaultLang) return basePath
+	return `/${target}${basePath === '/' ? '/' : basePath}`
+}
+
+const currentLang = languages[currentLocale]
+---
+
+<div id="language-switcher" class="relative">
+	<button
+		type="button"
+		id="language-switcher-button"
+		class="flex items-center gap-1 px-2 py-2 text-sm font-medium hover:text-primary-500 transition-colors"
+		aria-haspopup="true"
+		aria-expanded="false"
+		aria-label="Change language"
+	>
+		<span class="uppercase text-xs tracking-wider">{currentLocale}</span>
+		<Icon name="chevron-down" class="h-4 w-4 transition-transform" />
+	</button>
+	<ul
+		id="language-switcher-menu"
+		class="hidden absolute right-0 top-full mt-1 z-30 min-w-[10rem] rounded-md border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 shadow-lg overflow-hidden"
+		role="menu"
+	>
+		{
+			langCodes.map((code) => (
+				<li role="none">
+					<a
+						href={urlFor(code)}
+						role="menuitem"
+						class:list={[
+							'block px-4 py-2 text-sm hover:bg-neutral-50 dark:hover:bg-neutral-700 transition-colors',
+							{ 'font-semibold text-primary-500': code === currentLocale }
+						]}
+					>
+						{languages[code].name}
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</div>
+
+<script>
+	const btn = document.getElementById('language-switcher-button')
+	const menu = document.getElementById('language-switcher-menu')
+	if (btn && menu) {
+		btn.addEventListener('click', (e) => {
+			e.stopPropagation()
+			const open = !menu.classList.contains('hidden')
+			menu.classList.toggle('hidden')
+			btn.setAttribute('aria-expanded', String(!open))
+			btn.querySelector('svg')?.classList.toggle('rotate-180')
+		})
+		document.addEventListener('click', (e) => {
+			if (!menu.contains(e.target as Node) && !btn.contains(e.target as Node)) {
+				menu.classList.add('hidden')
+				btn.setAttribute('aria-expanded', 'false')
+				btn.querySelector('svg')?.classList.remove('rotate-180')
+			}
+		})
+	}
+</script>
