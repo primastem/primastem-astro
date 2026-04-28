@@ -38,6 +38,23 @@
 			})
 		}
 
+		// Language selector
+		const langSelector = document.getElementById('lang-selector')
+		if (langSelector) {
+			const langBtn = langSelector.querySelector('.lang-selector__btn')
+			if (langBtn) {
+				langBtn.addEventListener('click', (e) => {
+					e.stopPropagation()
+					langSelector.classList.toggle('open')
+				})
+			}
+			document.addEventListener('click', (e) => {
+				if (!langSelector.contains(e.target)) {
+					langSelector.classList.remove('open')
+				}
+			})
+		}
+
 		// Modals
 		function openModal(modal) {
 			if (modal && modal.classList.contains('modal')) {

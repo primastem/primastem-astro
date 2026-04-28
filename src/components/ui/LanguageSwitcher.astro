@@ -1,7 +1,4 @@
 ---
-// Language Switcher — uses the theme's submenu pattern (header__menu-item / header__submenu)
-// so the visual style matches the other nav dropdowns. Open/close handled by LocalScripts.
-
 import { Icon } from 'astro-icon/components'
 import { languages, defaultLang } from '../../i18n/languages'
 import type { Lang } from '../../i18n/languages'
@@ -9,7 +6,6 @@ import type { Lang } from '../../i18n/languages'
 const langCodes = Object.keys(languages) as Lang[]
 const currentPath = Astro.url.pathname
 
-// Detect current locale from URL prefix
 let currentLocale: Lang = defaultLang
 for (const code of langCodes) {
 	if (code === defaultLang) continue
@@ -19,7 +15,6 @@ for (const code of langCodes) {
 	}
 }
 
-// Strip locale prefix to get base path (relative to default locale)
 let basePath = currentPath
 if (currentLocale !== defaultLang) {
 	if (currentPath === `/${currentLocale}` || currentPath === `/${currentLocale}/`) {
@@ -29,31 +24,61 @@ if (currentLocale !== defaultLang) {
 	}
 }
 
-// Build URL for each locale at same page
 function urlFor(target: Lang): string {
 	if (target === defaultLang) return basePath
 	return `/${target}${basePath === '/' ? '/' : basePath}`
 }
 ---
 
-<li role="none" class="header__menu-item">
-	<span role="menuitem" class="header__menu-link uppercase tracking-wider text-sm" aria-haspopup="true">
-		{currentLocale}
-		<Icon name="chevron-down" class="header__menu-chevron" />
-	</span>
-	<ul class="header__submenu">
-		{
-			langCodes.map((code) => (
-				<li role="none" class="header__submenu-item">
-					<a
-						href={urlFor(code)}
-						role="menuitem"
-						class:list={['header__menu-link', { active: code === currentLocale }]}
-					>
-						{languages[code].name}
-					</a>
-				</li>
-			))
-		}
+<div id="lang-selector" class="lang-selector">
+	<button class="lang-selector__btn" aria-label="Change language" aria-haspopup="true">
+		<span class="lang-selector__code">{currentLocale.toUpperCase()}</span>
+		<Icon name="chevron-down" class="lang-selector__chevron" />
+	</button>
+	<ul class="lang-selector__dropdown">
+		{langCodes.map((code) => (
+			<li>
+				<a
+					href={urlFor(code)}
+					class:list={['lang-selector__option', { active: code === currentLocale }]}
+				>
+					<span class="lang-selector__option-code">{code.toUpperCase()}</span>
+					<span class="lang-selector__option-name">{languages[code].name}</span>
+				</a>
+			</li>
+		))}
 	</ul>
-</li>
+</div>
+
+<style>
+	.lang-selector {
+		@apply order-2 relative flex h-full items-center;
+	}
+	.lang-selector__btn {
+		@apply flex h-full cursor-pointer items-center gap-1 px-2 text-sm font-semibold uppercase tracking-wider text-neutral-700 transition-colors duration-300 hover:text-primary-500 dark:text-neutral-50 dark:hover:text-primary-400;
+	}
+	.lang-selector__chevron {
+		@apply h-3.5 w-3.5 transition-transform duration-200;
+	}
+	.lang-selector.open .lang-selector__chevron {
+		@apply rotate-180;
+	}
+	.lang-selector__dropdown {
+		@apply absolute right-0 top-full hidden min-w-44 rounded-b-lg bg-white/90 py-1 shadow-lg shadow-neutral-700/5 backdrop-blur-sm dark:bg-neutral-900/90 dark:shadow-neutral-950/50;
+	}
+	.lang-selector.open .lang-selector__dropdown {
+		@apply block;
+	}
+	.lang-selector__option {
+		@apply flex items-center gap-3 px-4 py-2.5 text-sm text-neutral-700 transition-colors duration-200 hover:bg-neutral-100 hover:text-primary-500 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:hover:text-primary-400;
+	}
+	.lang-selector__option.active {
+		@apply text-primary-500 font-semibold;
+	}
+	.lang-selector__option-code {
+		@apply text-xs font-bold uppercase tracking-wider opacity-60;
+	}
+	.lang-selector__option-name {
+		@apply text-sm;
+	}
+</style>
