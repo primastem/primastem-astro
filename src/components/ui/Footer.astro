@@ -10,13 +10,43 @@ import { Icon } from 'astro-icon/components'
 
 // Data
 import { socialLinks } from '../../config/socialLinks'
-import { footerNavigationData } from '../../config/footerNavigation'
 // i18n
 import { getLangFromUrl, useTranslations } from '../../i18n/utils'
+import { defaultLang } from '../../i18n/languages'
+
 const lang = getLangFromUrl(Astro.url)
 const t = useTranslations(lang)
+const isDefaultLocale = lang === defaultLang
 
-const { footerAbout, footerColumns, subFooter } = footerNavigationData
+function localizePath(link: string): string {
+	if (isDefaultLocale) return link
+	return `/${lang}${link}`
+}
+
+const footerColumns = [
+	{
+		category: t('footer.col.product'),
+		links: [
+			{ label: t('footer.link.product'), href: localizePath('/product') },
+			{ label: t('footer.link.sheet'), href: '/sheet' },
+			{ label: t('footer.link.faq'), href: localizePath('/faq') },
+		]
+	},
+	{
+		category: t('footer.col.legal'),
+		links: [
+			{ label: t('footer.link.legal'), href: localizePath('/legal') },
+			{ label: t('footer.link.privacy'), href: localizePath('/privacy') },
+		]
+	},
+	{
+		category: t('footer.col.about'),
+		links: [
+			{ label: t('footer.link.about'), href: localizePath('/about') },
+			{ label: t('footer.link.contact'), href: localizePath('/contact') },
+		]
+	},
+]
 ---
 
 <footer class="footer">
@@ -25,22 +55,20 @@ const { footerAbout, footerColumns, subFooter } = footerNavigationData
 		<div class="footer__container">
 			<div class="footer__cols">
 				<div class="footer__col">
-					<a aria-label="website logo" aria-current="page" class="footer__main-brand" href="/">
-						<img src={footerAbout.logo.src} alt={footerAbout.logo.alt} class="block dark:hidden h-6 w-auto" loading="lazy" decoding="async" />
-						<img src="/logo-dark.svg" alt={footerAbout.logo.alt} class="hidden dark:block h-6 w-auto" loading="lazy" decoding="async" />
+					<a aria-label="website logo" aria-current="page" class="footer__main-brand" href={isDefaultLocale ? '/' : `/${lang}/`}>
+						<img src="/logo.svg" alt="PrimaSTEM" class="block dark:hidden h-6 w-auto" loading="lazy" decoding="async" />
+						<img src="/logo-dark.svg" alt="PrimaSTEM" class="hidden dark:block h-6 w-auto" loading="lazy" decoding="async" />
 					</a>
-					<p>
-						{footerAbout.aboutText}
-					</p>
+					<p>{t('footer.aboutText')}</p>
 				</div>
 				{
 					footerColumns.map((column) => (
 						<div class="footer__col">
 							<h3>{column.category}</h3>
 							<ul>
-								{column.subCategories.map((subCategory) => (
+								{column.links.map((link) => (
 									<li>
-										<a href={subCategory.subCategoryLink}> {subCategory.subCategory} </a>
+										<a href={link.href}>{link.label}</a>
 									</li>
 								))}
 							</ul>
@@ -54,7 +82,7 @@ const { footerAbout, footerColumns, subFooter } = footerNavigationData
 	<div class="footer__sub">
 		<div class="footer__container">
 			<div class="footer__sub-cols">
-				<div class="footer__sub-col">{subFooter.copywriteText}</div>
+				<div class="footer__sub-col">{t('footer.copyright')}</div>
 				<nav aria-labelledby="footer-social-links-dark" class="footer__sub-col text-right">
 					<h2 class="sr-only" id="footer-social-links-dark">{t('a11y.socialLinks')}</h2>
 					<ul>
