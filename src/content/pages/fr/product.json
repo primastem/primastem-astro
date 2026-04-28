@@ -1,0 +1,96 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | Comment ça marche — Détails du produit",
+		"description": "Présentation technique complète du robot éducatif PrimaSTEM. Composants, commandes, dessin, spécifications. À partir de 235 € HT."
+	},
+	"structuredData": {
+		"price": "235",
+		"priceValidUntil": "2026-12-31"
+	},
+	"hero": {
+		"title": "Comment <strong>fonctionne</strong> PrimaSTEM",
+		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
+		"videoCaption": "Vidéo enregistrée avec un prototype. Le produit final peut différer.",
+		"steps": [
+			{ "number": "1", "text": "Posez les jetons de gauche à droite. LED verte = accepté. Le tableau énonce la commande à voix haute." },
+			{ "number": "2", "text": "Appuyez sur « Démarrer ». Le robot exécute. Les LED indiquent quelle commande est en cours." },
+			{ "number": "3", "text": "Vérifiez le résultat. Faux ? Trouvez l'erreur, changez un jeton, relancez." }
+		]
+	},
+	"kit": {
+		"title": "Le contenu du <strong>kit</strong>",
+		"cards": [
+			{ "title": "Robot coccinelle", "icon": "robot", "items": ["125 mm de diamètre", "Bois", "Recharge USB-C", "2 à 3 h d'autonomie"] },
+			{ "title": "Tableau de contrôle", "icon": "bolt", "items": ["317 × 217 mm", "Bois", "11 emplacements doubles", "Bluetooth ~5 m"] },
+			{ "title": "Jetons de commande", "icon": "squares-plus", "items": ["33 × 33 mm, carton", "NFC 13,56 MHz", "Codage couleur Scratch", "Programmables via une appli mobile"] },
+			{ "title": "Guide de l'enseignant en ligne", "icon": "book", "items": ["Plans de cours en ligne", "Activités et fiches imprimables", "docs.primastem.com", "10 langues"] }
+		]
+	},
+	"commands": {
+		"title": "Commandes",
+		"text": "<ul class='space-y-3 list-none'>\n\t\t\t<li><strong>Mouvement et programme :</strong> Avancer, Reculer, Gauche, Droite, Aléatoire, Fonction, Pause.</li>\n\t\t\t<li><strong>Répéter :</strong> 2–999, Répétition aléatoire 1–6.</li>\n\t\t\t<li><strong>Mathématiques :</strong> +, −, ×, ÷, √, ^</li>\n\t\t\t<li><strong>Nombres :</strong> 1–999</li>\n\t\t\t<li><strong>Système :</strong> Pas par défaut, calibration.</li>\n\t\t</ul>"
+	},
+	"drawing": {
+		"title": "Dessin",
+		"text": "Insérez un feutre. Chaque mouvement laisse un trait.<br><br>Avancer 50, Droite 144, Répéter 5 = une étoile. Ajoutez une progression arithmétique — l'étoile devient une spirale.<br><br>Ces formes sont programmées par les enfants et tracées par le robot."
+	},
+	"maps": {
+		"title": "Compatible avec n'importe quelle <strong>carte</strong>",
+		"text": "Le pas est réglable. 10, 12, 15, 25 cm — n'importe quel quadrillage. Utilisez les cartes des robots déjà présents dans votre classe. Aucun nouveau matériel à acheter."
+	},
+	"openPlatform": {
+		"title": "Plateforme <strong>ouverte</strong>",
+		"paragraphs": [
+			"Chaque jeton est une étiquette NFC standard (13,56 MHz). Programmez n'importe quel code via une appli mobile gratuite. Créez vos propres nombres, boucles ou opérations arithmétiques.",
+			"Posez des étiquettes NFC sur le terrain de jeu — le robot joue un son lorsqu'il passe dessus. Cartes de langues, champs musicaux, quêtes narratives."
+		]
+	},
+	"voiceFeedback": {
+		"title": "Retour <strong>vocal</strong>",
+		"paragraphs": [
+			"Le tableau énonce chaque jeton au moment où on le pose. Une aide précieuse pour les enfants qui ne savent pas encore lire et pour ceux ayant une déficience visuelle.",
+			"Disponible en 14 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe.",
+			"Version braille en phase pilote."
+		]
+	},
+	"specs": {
+		"title": "Spécifications",
+		"rows": [
+			{ "label": "Matériau", "value": "Bois" },
+			{ "label": "Robot", "value": "125 mm de diamètre, 44 mm de hauteur" },
+			{ "label": "Tableau de contrôle", "value": "317 × 217 mm" },
+			{ "label": "Jetons", "value": "100 pcs, 33 × 33 mm, carton, NFC 13,56 MHz" },
+			{ "label": "Connectivité", "value": "Bluetooth ~5 m" },
+			{ "label": "Batterie", "value": "Li-Ion USB-C, 2 à 3 h" },
+			{ "label": "Pas par défaut", "value": "15 cm (valeur libre, réglable)" },
+			{ "label": "Angles", "value": "1°–360°" },
+			{ "label": "Mathématiques", "value": "+, −, ×, ÷, √, ^, !" },
+			{ "label": "Emplacements", "value": "6×2 principaux + 5×2 fonction" },
+			{ "label": "Audio", "value": "Retour vocal en 14 langues + échantillons sonores" },
+			{ "label": "Certification", "value": "CE" },
+			{ "label": "Âge", "value": "4–10 ans" },
+			{ "label": "Fabriqué à", "value": "Cannes, France" }
+		]
+	},
+	"documentation": {
+		"title": "Documentation",
+		"cards": [
+			{ "title": "Documentation en ligne", "subtitle": "10 langues. Plans de cours, guides et référence technique.", "icon": "document-text", "link": "https://docs.primastem.com" },
+			{ "title": "Tutoriels vidéo", "subtitle": "Vidéos pas à pas sur notre chaîne YouTube.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
+			{ "title": "Fiche produit", "subtitle": "Spécifications, tarifs et présentation du kit pour les distributeurs.", "icon": "clipboard-document-list", "link": "/sheet" },
+			{ "title": "FAQ", "subtitle": "Questions fréquentes sur PrimaSTEM, les commandes et les détails techniques.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" }
+		]
+	},
+	"order": {
+		"title": "À partir de 235 € <strong>HT</strong>",
+		"subtitle": "Kit complet, prêt à l'emploi.",
+		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
+		"buttonText": "Demander un devis",
+		"buttonLink": "/contact",
+		"segmentLinks": [
+			{ "text": "Pour les écoles", "link": "/schools" },
+			{ "text": "Pour les distributeurs", "link": "/distributors" },
+			{ "text": "Pour les parents", "link": "/parents" }
+		]
+	}
+}

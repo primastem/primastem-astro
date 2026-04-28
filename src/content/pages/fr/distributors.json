@@ -1,0 +1,44 @@
+{
+	"seo": {
+		"title": "PrimaSTEM pour les distributeurs — Robot éducatif en gros",
+		"description": "Robot de programmation et de mathématiques sans écran, de 4 à 10 ans. En gros à partir de 235 € HT. Certifié CE. 10 langues. Tarifs volume pour 100 unités/an et plus."
+	},
+	"hero": {
+		"title": "Un outil pédagogique sans écran <strong>que le marché demande.</strong>",
+		"subtitle1": "Écoles, maternelles, Montessori, périscolaire, parents — un seul produit pour tous.",
+		"subtitle2": "Programmation + mathématiques. De 4 à 10 ans. Bois. Certifié CE. 10 langues.",
+		"price": "Prix de gros à partir de 235 € HT.",
+		"volumeLine": "100 unités/an et plus : à partir de 210 €.<br />Autres conditions étudiées.",
+		"buttons": [
+			{ "text": "Demander un devis", "link": "/contact", "style": "primary" },
+			{ "text": "Fiche produit", "link": "/sheet", "style": "secondary" }
+		]
+	},
+	"sections": [
+		{
+			"sidebarTitle": "Le marché",
+			"sidebarText": "",
+			"body": "<a href=\"https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">PISA 2022</a> : les résultats en mathématiques baissent dans toute l'Europe. Les gouvernements limitent les écrans à l'école. Les écoles ont besoin d'outils STEM sans écran — mais ceux qui existent n'enseignent que les directions de base.\n\nPrimaSTEM associe la programmation tangible à de vraies mathématiques. Angles arbitraires, opérations arithmétiques, dessin géométrique. Un seul produit pour les 4 à 10 ans. L'école achète une fois et l'utilise pendant des années."
+		},
+		{
+			"sidebarTitle": "Ce qui se vend",
+			"sidebarText": "",
+			"body": "**Deux tranches d'âge — un seul appareil.** 4–7 ans : logique, labyrinthes, programmes simples et nombres. 7–10 ans : distances précises, angles de toute valeur, arithmétique, géométrie — dessin. Un seul produit pour toute l'école primaire.\n\n**Compatible avec les cartes existantes.** S'adapte aux contenus des autres robots éducatifs. Le pas par défaut est ajustable — 10, 12, 15 ou 25 cm. L'école n'a rien à changer.\n\n**Le robot dessine.** Spirales, étoiles, polygones, fractales — programmés par les enfants, tracés par le robot sur papier ou tableau blanc. C'est le moment de démo qui déclenche la vente.\n\n**Les enseignants créent leurs propres jetons.** N'importe quels nombres, boucles ou opérations arithmétiques — via une application mobile gratuite, en moins d'une minute. Cartes sonores interactives — le robot émet un son lorsqu'il passe sur une étiquette NFC du terrain.\n\n**Version braille** en phase pilote — un segment de marché encore inexploité."
+		},
+		{
+			"sidebarTitle": "Prêt pour votre catalogue",
+			"sidebarText": "",
+			"body": "Certifié CE. Recharge USB-C, 2 à 3 heures d'autonomie. Bluetooth. Plans de cours et guide de l'enseignant en ligne sur <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 langues. Tutoriels YouTube."
+		},
+		{
+			"sidebarTitle": "Conditions",
+			"sidebarText": "",
+			"body": "**Prix de gros : à partir de 235 € HT.** 100 unités/an et plus : à partir de 210 €. Autres conditions étudiées.\n\nSupports marketing dans votre langue. Support technique. Participation conjointe aux salons. Exclusivité territoriale négociable.\n\nPrésent en : France (vente directe), Pays-Bas, Luxembourg (pilote avec le ministère de l'Éducation). Expansion en Espagne.\n\n**Toutes les conditions, tarifs et exclusivités sont discutés au cas par cas. Contactez-nous pour entamer la conversation.**"
+		}
+	],
+	"cta": {
+		"title": "Demander un <strong>devis</strong>",
+		"subtitle": "",
+		"buttonText": "Nous contacter"
+	}
+}

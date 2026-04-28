@@ -1,0 +1,63 @@
+{
+	"seo": {
+		"title": "PrimaSTEM — Programmation et mathématiques sans écran, dès 4 ans",
+		"description": "Le seul outil pédagogique sans écran qui enseigne à la fois la programmation et les mathématiques. Robot programmable en bois pour les enfants de 4 à 10 ans."
+	},
+	"hero": {
+		"title": "La programmation et les mathématiques <strong>sans écran.</strong>",
+		"subtitle": "Le seul outil sans écran qui enseigne les deux.<br />De 4 à 10 ans.",
+		"price": "À partir de 235 € HT.",
+		"volumeLine": "100 unités/an et plus : à partir de 210 €.<br />Autres conditions sur demande.",
+		"buttonText": "Voir les tarifs",
+		"buttonLink": "#pricing-v3"
+	},
+	"twoLevels": {
+		"title": "Deux niveaux — <strong>un seul appareil</strong>",
+		"subtitle": "Un seul achat — il accompagne toute l'école primaire.",
+		"level1": {
+			"tag": "Logique, Nombres",
+			"age": "4 à 7 ans",
+			"items": ["Pas logique de 15 cm (réglable), virages à 90°", "Labyrinthes, séquences, débogage"]
+		},
+		"level2": {
+			"tag": "Mathématiques, Programmation",
+			"age": "7 à 10 ans",
+			"items": ["Distances et angles précis, valeurs libres", "Arithmétique, géométrie, dessin au feutre"]
+		}
+	},
+	"drawing": {
+		"title": "Le robot dessine ce que <strong>l'enfant programme</strong>",
+		"subtitle": "Le robot les a tracés en suivant le programme d'un enfant. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Voir le procédé sur YouTube</a>.",
+		"drawings": [
+			{ "name": "Pentagone" },
+			{ "name": "Étoile" },
+			{ "name": "Spirale" },
+			{ "name": "Cœur" }
+		],
+		"example": "Exemple :  (Répéter 5) [(Avancer) (50), (Droite) (144)] = une étoile."
+	},
+	"maps": {
+		"title": "Compatible avec les cartes <strong>que vous avez déjà</strong>",
+		"text": "PrimaSTEM s'adapte au contenu des autres robots éducatifs. Le pas est réglable — 10, 12, 15, 25 cm. Toute carte quadrillée fonctionne. Aucun nouveau matériel à acheter."
+	},
+	"video": {
+		"title": "Voyez-le <strong>en action</strong>",
+		"subtitle": "Découvrez comment les enfants apprennent la programmation et les mathématiques avec PrimaSTEM.",
+		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
+		"videoCaption": "Vidéo enregistrée avec un prototype. Le produit final peut différer."
+	},
+	"trust": {
+		"title": "La confiance de nos <strong class=\"highlight\">partenaires</strong>",
+		"countriesLine": "Déjà présent dans 5 pays."
+	},
+	"newsletter": {
+		"title": "Recevez nos <strong>actualités</strong> et nos offres",
+		"subtitle": "Pas plus d'une fois par mois.",
+		"formId": "jdJlRe"
+	},
+	"tagline": {
+		"blockquote": "Notre tentative de créer quelque chose dont les gens ont vraiment besoin.<br>Tangible et beau.",
+		"figcaption": "PrimaSTEM",
+		"cite": "Conçu à Cannes, France"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"items": [
+		{
+			"header": {
+				"title": "École",
+				"subtitle": "Kit complet prêt pour la classe",
+				"currency": "€",
+				"price": "831",
+				"priceLabel": "HT pour 3 kits",
+				"buttonName": "En savoir plus",
+				"buttonLink": "/schools"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Robot + tableau de contrôle + jetons" },
+					{ "listItem": "Chaque kit supplémentaire +277 €" },
+					{ "listItem": "Plans de cours et guide de l'enseignant en ligne" },
+					{ "listItem": "Location possible" }
+				]
+			},
+			"type": "basic"
+		},
+		{
+			"header": {
+				"title": "Distributeur",
+				"subtitle": "Conditions exclusives sur demande",
+				"currency": "€",
+				"price": "235",
+				"priceLabel": "par kit, prix de gros",
+				"buttonName": "En savoir plus",
+				"buttonLink": "/distributors"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "100 unités/an et plus : à partir de 210 €" },
+					{ "listItem": "Autres conditions étudiées" },
+					{ "listItem": "Support marketing" },
+					{ "listItem": "Formation incluse" }
+				]
+			},
+			"type": "featured"
+		},
+		{
+			"header": {
+				"title": "Parent",
+				"subtitle": "Tout pour apprendre à la maison",
+				"currency": "€",
+				"price": "297",
+				"priceLabel": "par kit, HT",
+				"buttonName": "En savoir plus",
+				"buttonLink": "/parents"
+			},
+			"body": {
+				"listItems": [
+					{ "listItem": "Kit complet, prêt à l'emploi" },
+					{ "listItem": "Sans abonnement, sans application" },
+					{ "listItem": "Aucun coût caché" },
+					{ "listItem": "Accompagne toute l'école primaire" }
+				]
+			},
+			"type": "basic"
+		}
+	]
+}

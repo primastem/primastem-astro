@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "question": "À partir de quel âge PrimaSTEM est-il adapté ?",
+      "reply": "Dès 4 ans. Le tableau énonce chaque jeton à voix haute — savoir lire les nombres n'est pas nécessaire. De 4 à 7 ans, les enfants travaillent la logique et les programmes simples. De 7 à 10 ans, ils ajoutent les mathématiques, les angles précis et le dessin.",
+      "category": "product",
+      "open": true
+    },
+    {
+      "question": "Comment ça fonctionne ?",
+      "reply": "Les enfants posent les jetons de commande sur un tableau en bois — c'est leur programme. Ils appuient sur Démarrer et le robot exécute. Mauvais résultat ? On trouve l'erreur, on change un jeton, on relance. Sans écran, sans application.",
+      "category": "product",
+      "open": false
+    },
+    {
+      "question": "Que contient le kit ?",
+      "reply": "Le robot coccinelle (bois, USB-C, Bluetooth), le tableau de contrôle avec 11 emplacements doubles, les jetons de commande (carton, NFC, code couleur) et un guide de l'enseignant en ligne avec des plans de cours.",
+      "category": "product",
+      "open": false
+    },
+    {
+      "question": "Le robot dessine-t-il vraiment ?",
+      "reply": "Oui. Insérez un feutre et chaque mouvement laisse un trait. Les enfants programment des étoiles, des spirales, des polygones, des fractales. Avancer 50, Droite 144, Répéter 5 = une étoile.",
+      "category": "product",
+      "open": false
+    },
+    {
+      "question": "Est-il compatible avec les cartes des autres robots ?",
+      "reply": "Oui. Le pas par défaut est réglable — 10, 12, 15, 25 cm ou n'importe quelle valeur. PrimaSTEM fonctionne avec n'importe quelle carte quadrillée que vous possédez déjà.",
+      "category": "product",
+      "open": false
+    },
+    {
+      "question": "Combien ça coûte ?",
+      "reply": "831 € HT pour 3 kits pour les écoles (chaque kit supplémentaire +277 €). 297 € HT pour les parents. Prix de gros à partir de 235 € pour les distributeurs (100 unités/an et plus : à partir de 210 €). Contactez-nous pour les tarifs dans votre pays.",
+      "category": "pricing",
+      "open": true
+    },
+    {
+      "question": "Peut-on louer plutôt qu'acheter ?",
+      "reply": "La location est possible pour les écoles. Contactez-nous pour les conditions et les tarifs.",
+      "category": "pricing",
+      "open": false
+    },
+    {
+      "question": "Y a-t-il un distributeur dans mon pays ?",
+      "reply": "Nous avons des partenaires en France, aux Pays-Bas, en Norvège, au Luxembourg et en Espagne. Contactez-nous pour trouver un distributeur près de chez vous ou pour commander directement.",
+      "category": "pricing",
+      "open": false
+    },
+    {
+      "question": "Quelle est l'autonomie de la batterie ?",
+      "reply": "Recharge USB-C, autonomie de 2 à 3 heures par charge.",
+      "category": "technical",
+      "open": true
+    },
+    {
+      "question": "Est-ce sûr pour les enfants ?",
+      "reply": "Certifié CE. En bois. Sans écran. Connexion Bluetooth. Recommandé à partir de 4 ans en raison de la taille des jetons.",
+      "category": "technical",
+      "open": false
+    },
+    {
+      "question": "Les enseignants peuvent-ils créer leurs propres jetons ?",
+      "reply": "Oui. Chaque jeton est une étiquette NFC standard (13,56 MHz). Programmez n'importe quel code via une application mobile gratuite — créez vos propres nombres, boucles ou opérations arithmétiques en moins d'une minute.",
+      "category": "technical",
+      "open": false
+    },
+    {
+      "question": "Mon enfant peut-il l'utiliser sans enseignant ?",
+      "reply": "Oui. Les leçons sont disponibles sur le site de documentation en 10 langues, adaptées aux parents. Tutoriels vidéo sur YouTube.",
+      "category": "technical",
+      "open": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+	"seo": {
+		"title": "PrimaSTEM pour les écoles — Robot de programmation et de maths sans écran",
+		"description": "Robot programmable en bois pour la classe. Deux niveaux pédagogiques (4–7 logique, 7–10 maths). Plans de cours inclus. 831 € HT pour 3 kits."
+	},
+	"hero": {
+		"title": "Programmation et mathématiques, de 4 à 10 ans. <strong>Un seul appareil.</strong>",
+		"subtitle": "Sans écran, sans application. Compatible avec les cartes des robots que vous avez déjà.",
+		"price": "831 € HT pour 3 kits. Chaque kit supplémentaire +277 €.",
+		"buttons": [
+			{ "text": "Voir la démo", "link": "https://youtube.com/@primastem", "style": "primary" },
+			{ "text": "Voir les plans de cours", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" }
+		]
+	},
+	"sections": [
+		{
+			"sidebarTitle": "Ce que font les enfants",
+			"sidebarText": "",
+			"body": "Ils placent les jetons de commande sur la console — c'est leur programme, visible en entier. Ils appuient sur « Démarrer ». Le robot exécute. Mauvais résultat ? On trouve l'erreur, on change un jeton, on relance.\n\nSéquences, fonctions, boucles, débogage. Sans écran. Avec les mains.\n\nUn jouet qui apprend. Un outil avec lequel il est plaisant de jouer."
+		},
+		{
+			"sidebarTitle": "Deux niveaux",
+			"sidebarText": "",
+			"body": "**4–7 ans : Logique.** Pas logiques, virages à 90°. Avancer, reculer, gauche, droite, fonction, répéter. Planification, séquences, débogage, comptage.\n\nPrimaSTEM s'adapte aux méthodes de tout autre robot éducatif. Le pas peut prendre n'importe quelle valeur — par exemple 10, 12, 15 ou 20 cm. Compatible avec n'importe quelle carte quadrillée que vous possédez déjà.\n\n**7–10 ans : Mathématiques.** Distances précises en mm et angles de toute valeur en degrés : 1°–360°. Arithmétique : +, −, ×, ÷, √, ^. Nombres négatifs. Progressions.\n\nInsérez un feutre — le robot dessine polygones, étoiles, spirales et fractales sur papier ou tableau blanc."
+		},
+		{
+			"sidebarTitle": "Le robot dessine",
+			"sidebarText": "",
+			"body": "Ce ne sont pas des illustrations. Ce sont les enfants qui les ont programmées.\n\nAvancer 50, Droite 144, Répéter 5 = une étoile. Des mathématiques que l'on voit."
+		},
+		{
+			"sidebarTitle": "Cours inclus",
+			"sidebarText": "",
+			"body": "Objectifs, matériel, instructions pas à pas, fiches imprimables. Ouvrez et enseignez.\n\nDocumentation complète sur <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> — 10 langues."
+		},
+		{
+			"sidebarTitle": "Ce que les enseignants n'attendent pas",
+			"sidebarText": "",
+			"body": "**Plateforme ouverte.** Chaque jeton est une étiquette NFC standard. Créez vos propres nombres, boucles ou opérations arithmétiques via une application mobile gratuite.\n\n**Cartes sonores.** Placez des étiquettes NFC sur le terrain de jeu — le robot émet un son lorsqu'il passe dessus.\n\n**Retour vocal.** La console énonce chaque jeton à voix haute au moment où il est posé, en 14 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe. Aide les enfants qui ne savent pas encore lire et ceux ayant une déficience visuelle.\n\n**Version braille** en phase pilote. Accessible aux enfants atteints de troubles visuels et de l'attention."
+		}
+	],
+	"cta": {
+		"title": "831 € <strong>HT pour 3 kits</strong>",
+		"subtitle": "Kit complet : robot, console de commande, jetons, guide d'activités sur le site de documentation. Location possible. Disponible également via nos distributeurs.",
+		"buttonText": "Nous contacter"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"seo": {
+		"title": "PrimaSTEM pour les parents — Jouet de programmation sans écran",
+		"description": "Robot programmable en bois pour enfants de 4 à 10 ans. Sans écran, sans application. Apprend la programmation et les maths par le jeu. Certifié CE. Fabriqué en France. 297 € HT."
+	},
+	"hero": {
+		"title": "De vraies compétences, du vrai jeu, <strong>sans écran.</strong>",
+		"subtitle": "Un robot en bois que votre enfant programme à la main. De 4 à 10 ans.",
+		"price": "297 € HT.",
+		"buttonText": "Voir la vidéo",
+		"buttonLink": "https://youtube.com/@primastem"
+	},
+	"sections": [
+		{
+			"sidebarTitle": "C'est quoi",
+			"sidebarText": "",
+			"body": "Des jetons sur une console en bois — « avancer », « tourner à droite », « répéter 3 fois ». Voilà le programme. L'enfant le voit, le touche, le réorganise. Il appuie sur un bouton — le robot exécute.\n\nQuelque chose s'est mal passé ? On trouve l'erreur, on la corrige, on relance."
+		},
+		{
+			"sidebarTitle": "Grandit avec votre enfant",
+			"sidebarText": "",
+			"body": "**À 4–5 ans :** commandes simples et nombres. Labyrinthes sur cartes colorées.\n\n**À 6–7 ans :** fonctions et boucles. « Au lieu de l'écrire cinq fois — dis au robot : répète. »\n\n**À 8–10 ans :** mathématiques. Angles précis, distances, arithmétique. Insérez un feutre — le robot dessine étoiles, spirales et motifs géométriques."
+		},
+		{
+			"sidebarTitle": "Une programmation à mettre sur le frigo",
+			"sidebarText": "",
+			"body": "L'enfant programme. Le robot dessine. De vraies maths, du vrai art, du vrai papier."
+		},
+		{
+			"sidebarTitle": "Pourquoi celui-ci",
+			"sidebarText": "",
+			"body": "**En bois.** Pas en plastique.\n\n**Sans écran.** Sans application.\n\n**Il parle.** Il énonce chaque jeton à voix haute — fonctionne avant que l'enfant sache lire.\n\n**Il dessine.** Étoiles, spirales, cœurs.\n\n**Fabriqué en France.** Certifié CE."
+		}
+	],
+	"cta": {
+		"title": "297 € <strong>HT</strong>",
+		"subtitle": "Kit complet. Commandez chez nous ou auprès d'un distributeur de votre pays.",
+		"buttonText": "Demander un devis"
+	}
+}
