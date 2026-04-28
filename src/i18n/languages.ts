@@ -1,16 +1,13 @@
 // i18n — Language definitions
-// Active locales are in `languages`. To add a new language:
-//   1. Uncomment the entry here
-//   2. Add to `ui.ts`
-//   3. Add locale to `astro.config.mjs` i18n.locales + fallback
-//   4. Duplicate src/pages/*.astro → src/pages/{lang}/*.astro and translate
+// Active locales drive the language switcher and translation lookups.
 
 export const languages = {
 	en: { name: 'English', dir: 'ltr', dateLocale: 'en-GB' },
-	// fr: { name: 'Français', dir: 'ltr', dateLocale: 'fr-FR' },
-	// ru: { name: 'Русский', dir: 'ltr', dateLocale: 'ru-RU' },
-	// de: { name: 'Deutsch', dir: 'ltr', dateLocale: 'de-DE' },
-	// es: { name: 'Español', dir: 'ltr', dateLocale: 'es-ES' },
+	fr: { name: 'Français', dir: 'ltr', dateLocale: 'fr-FR' },
+	de: { name: 'Deutsch', dir: 'ltr', dateLocale: 'de-DE' },
+	es: { name: 'Español', dir: 'ltr', dateLocale: 'es-ES' },
+	ru: { name: 'Русский', dir: 'ltr', dateLocale: 'ru-RU' },
+	// Future locales — voice feedback list:
 	// it: { name: 'Italiano', dir: 'ltr', dateLocale: 'it-IT' },
 	// nl: { name: 'Nederlands', dir: 'ltr', dateLocale: 'nl-NL' },
 	// no: { name: 'Norsk', dir: 'ltr', dateLocale: 'nb-NO' },
