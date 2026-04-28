@@ -18,7 +18,7 @@
 ### Arguments clés (5 points)
 
 - **Deux tranches d'âge — un seul appareil.** Logique pour les 4–7 ans, mathématiques pour les 7–10 ans. Un seul achat couvre toute l'école primaire.
-- **Le robot dessine.** Étoiles, spirales, polygones, fractales — c'est le moment de démo qui déclenche la vente.
+- **Le robot dessine.** Étoiles, spirales, polygones, fractales — c'est l'argument démo qui fait mouche.
 - **Compatible avec les cartes existantes.** Pas réglable : 10, 12, 15, 25 cm. Compatible avec n'importe quelle carte quadrillée déjà en classe.
 - **Plateforme NFC ouverte.** Les enseignants créent des jetons sur mesure via une application mobile gratuite. Cartes sonores, cartes linguistiques, parcours narratifs.
 - **Retour vocal et accessibilité.** Le tableau énonce chaque commande en 14 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe. Version braille en phase pilote.

@@ -42,7 +42,7 @@
 		"title": "Plateforme <strong>ouverte</strong>",
 		"paragraphs": [
 			"Chaque jeton est une étiquette NFC standard (13,56 MHz). Programmez n'importe quel code via une appli mobile gratuite. Créez vos propres nombres, boucles ou opérations arithmétiques.",
-			"Posez des étiquettes NFC sur le terrain de jeu — le robot joue un son lorsqu'il passe dessus. Cartes de langues, champs musicaux, quêtes narratives."
+			"Posez des étiquettes NFC sur le terrain de jeu — le robot émet un son lorsqu'il passe dessus. Cartes de langues, champs musicaux, quêtes narratives."
 		]
 	},
 	"voiceFeedback": {
