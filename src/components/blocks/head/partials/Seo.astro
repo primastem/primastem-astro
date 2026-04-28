@@ -2,14 +2,9 @@
 // SEO Component
 // ------------
 // Description: A component to add SEO meta tags to the page.
-// Properties:
-// - title: The page title
-// - description: The page description
-// - ogImage: The page image for Open Graph
-// - canonical: Whether to use the canonical URL
-// - noindex: Whether to add noindex and nofollow meta tags
 
-// Props
+import { languages, defaultLang } from '../../../../i18n/languages'
+
 type Props = {
 	title?: string
 	description?: string
@@ -19,6 +14,25 @@ type Props = {
 }
 
 const { title, description, ogImage, canonical, noindex } = Astro.props
+
+// Build hreflang alternate links
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://primastem.com'
+const currentPath = Astro.url.pathname
+const langCodes = Object.keys(languages) as (keyof typeof languages)[]
+
+let basePath = currentPath
+for (const code of langCodes) {
+	if (code === defaultLang) continue
+	if (currentPath === `/${code}` || currentPath === `/${code}/`) { basePath = '/'; break }
+	if (currentPath.startsWith(`/${code}/`)) { basePath = currentPath.substring(code.length + 1); break }
+}
+
+const hreflangLinks = langCodes.map((code) => ({
+	hreflang: code,
+	href: code === defaultLang
+		? `${siteUrl}${basePath}`
+		: `${siteUrl}/${code}${basePath === '/' ? '/' : basePath}`
+}))
 ---
 
 <Fragment>
@@ -36,4 +50,8 @@ const { title, description, ogImage, canonical, noindex } = Astro.props
 	<meta property="twitter:image" content={ogImage} />
 	{canonical && <link rel="canonical" href={Astro.url} />}
 	{noindex && <meta name="robots" content="noindex,nofollow" />}
+	{hreflangLinks.map((link) => (
+		<link rel="alternate" hreflang={link.hreflang} href={link.href} />
+	))}
+	<link rel="alternate" hreflang="x-default" href={`${siteUrl}${basePath}`} />
 </Fragment>
