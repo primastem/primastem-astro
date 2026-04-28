@@ -8,6 +8,7 @@ import { Image } from 'astro:assets'
 import Button from '../../components/ui/Button.astro'
 import SidebarContent from '../../components/blocks/basic/StickySidebar.astro'
 import ContactCTA from '../../components/blocks/CTA/ContactCTA.astro'
+import Drawing from '../../components/blocks/features/DrawingV1.astro'
 
 // Asset
 import heroImage from '../../assets/board-on-map.jpg'
@@ -15,6 +16,7 @@ import heroImage from '../../assets/board-on-map.jpg'
 // Content (CMS-editable)
 import { marked } from 'marked'
 import pageData from '../../content/pages/de/schools.json'
+import homeData from '../../content/pages/de/home.json'
 
 const { seo, hero, sections, cta } = pageData
 ---
@@ -51,13 +53,16 @@ const { seo, hero, sections, cta } = pageData
 
 	{
 		sections.map((section, idx) => (
-			<SidebarContent classes={idx % 2 === 1 ? 'bg-neutral-50 dark:bg-neutral-900' : ''}>
-				<div slot="sidebar">
-					<h3>{section.sidebarTitle}</h3>
-					{section.sidebarText && <p>{section.sidebarText}</p>}
-				</div>
-				<div class="basic-text" set:html={marked.parse(section.body)} />
-			</SidebarContent>
+			<>
+				<SidebarContent classes={idx % 2 === 1 ? 'bg-neutral-50 dark:bg-neutral-900' : ''}>
+					<div slot="sidebar">
+						<h3>{section.sidebarTitle}</h3>
+						{section.sidebarText && <p>{section.sidebarText}</p>}
+					</div>
+					<div class="basic-text" set:html={marked.parse(section.body)} />
+				</SidebarContent>
+				{idx === 2 && <Drawing data={homeData.drawing} />}
+			</>
 		))
 	}
 
