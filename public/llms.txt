@@ -18,6 +18,15 @@ PrimaSTEM is a wooden educational robot made in Cannes, France. Children place N
 - [Legal Notice](https://primastem.com/legal/): French mentions légales
 - [Privacy Policy](https://primastem.com/privacy/): GDPR/RGPD compliant privacy policy
 
+## Localized versions
+
+Available in 5 languages: English (default), French (/fr/), German (/de/), Spanish (/es/), Russian (/ru/)
+
+- [French site](https://primastem.com/fr/): Full site in Français
+- [German site](https://primastem.com/de/): Full site in Deutsch
+- [Spanish site](https://primastem.com/es/): Full site in Español
+- [Russian site](https://primastem.com/ru/): Full site in Русский
+
 ## Documentation
 
 - Full documentation: https://docs.primastem.com (10 languages)
