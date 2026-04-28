@@ -8,7 +8,7 @@ import FAQ from '../components/blocks/FAQ/FaqSticky.astro'
 import TextImage from '../components/blocks/basic/TextImage.astro'
 
 // Data
-import faqDataRaw from '../data/faq/en.json'
+import faqDataRaw from '../content/en/faq.json'
 const faqData = faqDataRaw.items
 const faqProduct = faqData.filter((faq) => faq.category === 'product')
 const faqPricing = faqData.filter((faq) => faq.category === 'pricing')
