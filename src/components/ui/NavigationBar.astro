@@ -18,17 +18,28 @@ import Button from './Button.astro'
 import Switcher from './ModeSwitcher.astro'
 import LanguageSwitcher from './LanguageSwitcher.astro'
 
+// i18n
+import { getLangFromUrl, useTranslations } from '../../i18n/utils'
+import { defaultLang } from '../../i18n/languages'
+
 // Data
 import { navigationBarData } from '../../config/navigationBar'
 const { logo, navItems, navActions } = navigationBarData
 
-// Determine current path
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+const isDefaultLocale = lang === defaultLang
+
 const path = new URL(Astro.request.url).pathname
 function isActivePath(currentPath: string): boolean {
 	return path === currentPath || path === `${currentPath}/`
 }
 
-// Type assertion for navActions to ensure type safety
+function localizePath(link: string): string {
+	if (isDefaultLocale) return link
+	return `/${lang}${link}`
+}
+
 const savedNavActions = navActions.map((action) => ({
 	...action,
 	size: action.size as 'base' | 'lg' | 'sm',
@@ -40,7 +51,7 @@ const savedNavActions = navActions.map((action) => ({
 	<div class="header__container">
 		<nav aria-label="main navigation" role="navigation" class="header__nav">
 			<!-- Logo -->
-			<a href="/" class="header__logo">
+			<a href={isDefaultLocale ? '/' : `/${lang}/`} class="header__logo">
 				<img src={logo.src} alt={logo.alt} class="header__logo-light h-9 w-auto" loading="eager" />
 				<img src="/logo-dark.svg" alt={logo.alt} class="header__logo-dark h-9 w-auto" loading="eager" />
 			</a>
@@ -62,42 +73,46 @@ const savedNavActions = navActions.map((action) => ({
 			<!-- Navigation links -->
 			<ul role="menubar" aria-label="Select page" class="header__menu">
 				{
-					navItems.map((item) => (
-						<li role="none" class="header__menu-item">
-							{!item.submenu ? (
-								<a
-									href={item.link}
-									role="menuitem"
-									class={`header__menu-link ${isActivePath(item.link) ? 'active' : ''}`}
-								>
-									{item.name}
-								</a>
-							) : (
-								<span
-									role="menuitem"
-									class={`header__menu-link ${isActivePath(item.link) ? 'active' : ''}`}
-								>
-									{item.name}
-									<Icon name="chevron-down" class="header__menu-chevron" />
-								</span>
-							)}
-							{item.submenu && (
-								<ul class="header__submenu">
-									{item.submenu.map((subItem) => (
-										<li role="none" class="header__submenu-item">
-											<a
-												href={subItem.link}
-												role="menuitem"
-												class={`header__menu-link ${isActivePath(subItem.link) ? 'active' : ''}`}
-											>
-												{subItem.name}
-											</a>
-										</li>
-									))}
-								</ul>
-							)}
-						</li>
-					))
+					navItems.map((item) => {
+						const localizedLink = localizePath(item.link)
+						const navKey = `nav.${item.name.toLowerCase()}`
+						return (
+							<li role="none" class="header__menu-item">
+								{!item.submenu ? (
+									<a
+										href={localizedLink}
+										role="menuitem"
+										class={`header__menu-link ${isActivePath(localizedLink) ? 'active' : ''}`}
+									>
+										{t(navKey)}
+									</a>
+								) : (
+									<span
+										role="menuitem"
+										class={`header__menu-link ${isActivePath(localizedLink) ? 'active' : ''}`}
+									>
+										{t(navKey)}
+										<Icon name="chevron-down" class="header__menu-chevron" />
+									</span>
+								)}
+								{item.submenu && (
+									<ul class="header__submenu">
+										{item.submenu.map((subItem) => (
+											<li role="none" class="header__submenu-item">
+												<a
+													href={localizePath(subItem.link)}
+													role="menuitem"
+													class={`header__menu-link ${isActivePath(localizePath(subItem.link)) ? 'active' : ''}`}
+												>
+													{subItem.name}
+												</a>
+											</li>
+										))}
+									</ul>
+								)}
+							</li>
+						)
+					})
 				}
 			</ul>
 
@@ -112,7 +127,7 @@ const savedNavActions = navActions.map((action) => ({
 				{
 					savedNavActions.map((action) => (
 						<Button classes="flex-auto" size={action.size} style={action.style} link={action.link}>
-							{action.name}
+							{t('nav.docs')}
 						</Button>
 					))
 				}

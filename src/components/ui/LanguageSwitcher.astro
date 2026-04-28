@@ -55,7 +55,7 @@ function urlFor(target: Lang): string {
 		@apply order-2 relative flex h-full items-center;
 	}
 	.lang-selector__btn {
-		@apply flex h-full cursor-pointer items-center gap-1 px-2 text-sm font-semibold uppercase tracking-wider text-neutral-700 transition-colors duration-300 hover:text-primary-500 dark:text-neutral-50 dark:hover:text-primary-400;
+		@apply flex h-full cursor-pointer items-center gap-1 px-2 text-sm font-semibold uppercase tracking-wider text-neutral-700 outline-none ring-0 transition-colors duration-300 hover:text-primary-500 focus:outline-none focus:ring-0 dark:text-neutral-50 dark:hover:text-primary-400;
 	}
 	.lang-selector__chevron {
 		@apply h-3.5 w-3.5 transition-transform duration-200;
