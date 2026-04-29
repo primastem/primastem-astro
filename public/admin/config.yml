@@ -24,17 +24,19 @@ collections:
           - name: items
             label: Questions
             widget: list
+            i18n: true
             fields:
-              - { name: question, label: Question, widget: string }
-              - { name: reply, label: Answer, widget: text }
+              - { name: question, label: Question, widget: string, i18n: true }
+              - { name: reply, label: Answer, widget: text, i18n: true }
               - name: category
                 label: Category
                 widget: select
+                i18n: true
                 options:
                   - { label: Product, value: product }
                   - { label: Pricing, value: pricing }
                   - { label: Technical, value: technical }
-              - { name: open, label: Open by default, widget: boolean, default: false }
+              - { name: open, label: Open by default, widget: boolean, default: false, i18n: true }
 
   # ── Pricing ──────────────────────────────────────────────────────────────────
   - name: pricing
@@ -46,35 +48,40 @@ collections:
         file: src/content/pricing/{{locale}}.json
         i18n: true
         fields:
-          - { name: sectionTitle, label: Section title, widget: string }
-          - { name: sectionSubtitle, label: Section subtitle, widget: string }
+          - { name: sectionTitle, label: Section title, widget: string, i18n: true }
+          - { name: sectionSubtitle, label: Section subtitle, widget: string, i18n: true }
           - name: items
             label: Tiers
             widget: list
+            i18n: true
             fields:
               - name: header
                 label: Header
                 widget: object
+                i18n: true
                 fields:
-                  - { name: title, label: Title, widget: string }
-                  - { name: subtitle, label: Subtitle, widget: string }
-                  - { name: currency, label: Currency symbol, widget: string, default: "€" }
-                  - { name: price, label: Price (number only), widget: string }
-                  - { name: priceLabel, label: Price label, widget: string }
-                  - { name: buttonName, label: Button text, widget: string }
-                  - { name: buttonLink, label: Button link, widget: string }
+                  - { name: title, label: Title, widget: string, i18n: true }
+                  - { name: subtitle, label: Subtitle, widget: string, i18n: true }
+                  - { name: currency, label: Currency symbol, widget: string, default: "€", i18n: true }
+                  - { name: price, label: Price (number only), widget: string, i18n: true }
+                  - { name: priceLabel, label: Price label, widget: string, i18n: true }
+                  - { name: buttonName, label: Button text, widget: string, i18n: true }
+                  - { name: buttonLink, label: Button link, widget: string, i18n: true }
               - name: body
                 label: Body
                 widget: object
+                i18n: true
                 fields:
                   - name: listItems
                     label: Features
                     widget: list
+                    i18n: true
                     fields:
-                      - { name: listItem, label: Feature, widget: string }
+                      - { name: listItem, label: Feature, widget: string, i18n: true }
               - name: type
                 label: Style
                 widget: select
+                i18n: true
                 options:
                   - { label: Standard, value: basic }
                   - { label: Featured (highlighted), value: featured }
@@ -89,7 +96,7 @@ collections:
         file: src/content/product-sheet/{{locale}}.md
         i18n: true
         fields:
-          - { name: body, label: Content, widget: markdown }
+          - { name: body, label: Content, widget: markdown, i18n: true }
 
   # ── Pages ────────────────────────────────────────────────────────────────────
   - name: pages
@@ -104,85 +111,97 @@ collections:
           - name: seo
             label: SEO
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Page title, widget: string }
-              - { name: description, label: Meta description, widget: text }
+              - { name: title, label: Page title, widget: string, i18n: true }
+              - { name: description, label: Meta description, widget: text, i18n: true }
           - name: hero
             label: Hero
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
-              - { name: price, label: Price line, widget: string }
-              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
-              - { name: buttonText, label: Button text, widget: string }
-              - { name: buttonLink, label: Button link, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string, i18n: true }
+              - { name: price, label: Price line, widget: string, i18n: true }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string, i18n: true }
+              - { name: buttonText, label: Button text, widget: string, i18n: true }
+              - { name: buttonLink, label: Button link, widget: string, i18n: true }
           - name: twoLevels
             label: Two levels section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: subtitle, label: Subtitle, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: Subtitle, widget: string, i18n: true }
               - name: level1
                 label: Level 1 (Ages 4-7)
                 widget: object
+                i18n: true
                 fields:
-                  - { name: tag, label: Tag (e.g. "Logic, Numbers"), widget: string }
-                  - { name: age, label: Age range, widget: string }
-                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+                  - { name: tag, label: Tag (e.g. "Logic, Numbers"), widget: string, i18n: true }
+                  - { name: age, label: Age range, widget: string, i18n: true }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string, i18n: true } }
               - name: level2
                 label: Level 2 (Ages 7-10)
                 widget: object
+                i18n: true
                 fields:
-                  - { name: tag, label: Tag, widget: string }
-                  - { name: age, label: Age range, widget: string }
-                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string } }
+                  - { name: tag, label: Tag, widget: string, i18n: true }
+                  - { name: age, label: Age range, widget: string, i18n: true }
+                  - { name: items, label: Bullet items, widget: list, field: { name: item, label: Item, widget: string, i18n: true } }
           - name: drawing
             label: Drawing section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: subtitle, label: Subtitle (HTML allowed), widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: Subtitle (HTML allowed), widget: string, i18n: true }
               - name: drawings
                 label: Drawing names (image map is fixed in code)
                 widget: list
+                i18n: true
                 fields:
-                  - { name: name, label: Name (Pentagon/Star/Spiral/Heart), widget: string }
-              - { name: example, label: Example caption, widget: string }
+                  - { name: name, label: Name (Pentagon/Star/Spiral/Heart), widget: string, i18n: true }
+              - { name: example, label: Example caption, widget: string, i18n: true }
           - name: maps
             label: Maps section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: text, label: Body text, widget: text }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: text, label: Body text, widget: text, i18n: true }
           - name: video
             label: Video section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: subtitle, label: Subtitle, widget: string }
-              - { name: videoUrl, label: YouTube embed URL, widget: string }
-              - { name: videoCaption, label: Video caption, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: Subtitle, widget: string, i18n: true }
+              - { name: videoUrl, label: YouTube embed URL, widget: string, i18n: true }
+              - { name: videoCaption, label: Video caption, widget: string, i18n: true }
           - name: trust
             label: Trust section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: countriesLine, label: Countries line, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: countriesLine, label: Countries line, widget: string, i18n: true }
           - name: newsletter
             label: Newsletter section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: subtitle, label: Subtitle, widget: string }
-              - { name: formId, label: Mailerlite form ID, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: Subtitle, widget: string, i18n: true }
+              - { name: formId, label: Mailerlite form ID, widget: string, i18n: true }
           - name: tagline
             label: Tagline section
             widget: object
+            i18n: true
             fields:
-              - { name: blockquote, label: Quote (HTML allowed), widget: text }
-              - { name: figcaption, label: Figcaption (e.g. "PrimaSTEM"), widget: string }
-              - { name: cite, label: Cite (e.g. "Made in..."), widget: string }
+              - { name: blockquote, label: Quote (HTML allowed), widget: text, i18n: true }
+              - { name: figcaption, label: Figcaption (e.g. "PrimaSTEM"), widget: string, i18n: true }
+              - { name: cite, label: Cite (e.g. "Made in..."), widget: string, i18n: true }
 
       - name: legal
         label: Legal Notice
@@ -192,22 +211,25 @@ collections:
           - name: seo
             label: SEO
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Page title, widget: string }
-              - { name: description, label: Meta description, widget: text }
+              - { name: title, label: Page title, widget: string, i18n: true }
+              - { name: description, label: Meta description, widget: text, i18n: true }
           - name: hero
             label: Hero
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: text, label: Subtitle, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: text, label: Subtitle, widget: string, i18n: true }
           - name: sections
             label: Sections
             widget: list
+            i18n: true
             fields:
-              - { name: sidebarTitle, label: Sidebar heading, widget: string }
-              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
-              - { name: body, label: Body content (markdown), widget: markdown }
+              - { name: sidebarTitle, label: Sidebar heading, widget: string, i18n: true }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false, i18n: true }
+              - { name: body, label: Body content (markdown), widget: markdown, i18n: true }
 
       - name: privacy
         label: Privacy Policy
@@ -217,22 +239,25 @@ collections:
           - name: seo
             label: SEO
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Page title, widget: string }
-              - { name: description, label: Meta description, widget: text }
+              - { name: title, label: Page title, widget: string, i18n: true }
+              - { name: description, label: Meta description, widget: text, i18n: true }
           - name: hero
             label: Hero
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: text, label: Subtitle, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: text, label: Subtitle, widget: string, i18n: true }
           - name: sections
             label: Sections
             widget: list
+            i18n: true
             fields:
-              - { name: sidebarTitle, label: Sidebar heading, widget: string }
-              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
-              - { name: body, label: Body content (markdown), widget: markdown }
+              - { name: sidebarTitle, label: Sidebar heading, widget: string, i18n: true }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false, i18n: true }
+              - { name: body, label: Body content (markdown), widget: markdown, i18n: true }
 
       - name: about
         label: About
@@ -242,22 +267,25 @@ collections:
           - name: seo
             label: SEO
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Page title, widget: string }
-              - { name: description, label: Meta description, widget: text }
+              - { name: title, label: Page title, widget: string, i18n: true }
+              - { name: description, label: Meta description, widget: text, i18n: true }
           - name: hero
             label: Hero
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: text, label: Subtitle, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: text, label: Subtitle, widget: string, i18n: true }
           - name: sections
             label: Sections
             widget: list
+            i18n: true
             fields:
-              - { name: sidebarTitle, label: Sidebar heading, widget: string }
-              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
-              - { name: body, label: Body content (markdown), widget: markdown }
+              - { name: sidebarTitle, label: Sidebar heading, widget: string, i18n: true }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false, i18n: true }
+              - { name: body, label: Body content (markdown), widget: markdown, i18n: true }
 
       - name: contact
         label: Contact
@@ -267,24 +295,27 @@ collections:
           - name: seo
             label: SEO
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Page title, widget: string }
-              - { name: description, label: Meta description, widget: text }
+              - { name: title, label: Page title, widget: string, i18n: true }
+              - { name: description, label: Meta description, widget: text, i18n: true }
           - name: hero
             label: Hero
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: text, label: Subtitle, widget: string }
-          - { name: formTitle, label: Form heading, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: text, label: Subtitle, widget: string, i18n: true }
+          - { name: formTitle, label: Form heading, widget: string, i18n: true }
           - name: contactItems
             label: Contact methods
             widget: list
+            i18n: true
             fields:
-              - { name: label, label: Label (e.g. "Email:"), widget: string }
-              - { name: value, label: Display text, widget: string }
-              - { name: href, label: Link URL (empty = plain text), widget: string, required: false }
-              - { name: external, label: External link (open in new tab), widget: boolean, default: false }
+              - { name: label, label: Label (e.g. "Email:"), widget: string, i18n: true }
+              - { name: value, label: Display text, widget: string, i18n: true }
+              - { name: href, label: Link URL (empty = plain text), widget: string, required: false, i18n: true }
+              - { name: external, label: External link (open in new tab), widget: boolean, default: false, i18n: true }
 
       - name: parents
         label: Parents
@@ -294,32 +325,36 @@ collections:
           - name: seo
             label: SEO
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Page title, widget: string }
-              - { name: description, label: Meta description, widget: text }
+              - { name: title, label: Page title, widget: string, i18n: true }
+              - { name: description, label: Meta description, widget: text, i18n: true }
           - name: hero
             label: Hero
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: subtitle, label: Subtitle, widget: string }
-              - { name: price, label: Price line, widget: string }
-              - { name: buttonText, label: Button text, widget: string }
-              - { name: buttonLink, label: Button link, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: Subtitle, widget: string, i18n: true }
+              - { name: price, label: Price line, widget: string, i18n: true }
+              - { name: buttonText, label: Button text, widget: string, i18n: true }
+              - { name: buttonLink, label: Button link, widget: string, i18n: true }
           - name: sections
             label: Sections
             widget: list
+            i18n: true
             fields:
-              - { name: sidebarTitle, label: Sidebar heading, widget: string }
-              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
-              - { name: body, label: Body content (markdown), widget: markdown }
+              - { name: sidebarTitle, label: Sidebar heading, widget: string, i18n: true }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false, i18n: true }
+              - { name: body, label: Body content (markdown), widget: markdown, i18n: true }
           - name: cta
             label: Bottom CTA
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: CTA title (HTML allowed), widget: string }
-              - { name: subtitle, label: CTA subtitle, widget: string }
-              - { name: buttonText, label: Button text, widget: string }
+              - { name: title, label: CTA title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: CTA subtitle, widget: string, i18n: true }
+              - { name: buttonText, label: Button text, widget: string, i18n: true }
 
       - name: product
         label: Product
@@ -329,109 +364,126 @@ collections:
           - name: seo
             label: SEO
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Page title, widget: string }
-              - { name: description, label: Meta description, widget: text }
+              - { name: title, label: Page title, widget: string, i18n: true }
+              - { name: description, label: Meta description, widget: text, i18n: true }
           - name: structuredData
             label: Structured data
             widget: object
+            i18n: true
             fields:
-              - { name: price, label: Price (number only), widget: string }
-              - { name: priceValidUntil, label: Price valid until (YYYY-MM-DD), widget: string }
+              - { name: price, label: Price (number only), widget: string, i18n: true }
+              - { name: priceValidUntil, label: Price valid until (YYYY-MM-DD), widget: string, i18n: true }
           - name: hero
             label: Hero
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: videoUrl, label: YouTube embed URL, widget: string }
-              - { name: videoCaption, label: Video caption, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: videoUrl, label: YouTube embed URL, widget: string, i18n: true }
+              - { name: videoCaption, label: Video caption, widget: string, i18n: true }
               - name: steps
                 label: Steps
                 widget: list
+                i18n: true
                 fields:
-                  - { name: number, label: Step number, widget: string }
-                  - { name: text, label: Step text, widget: text }
+                  - { name: number, label: Step number, widget: string, i18n: true }
+                  - { name: text, label: Step text, widget: text, i18n: true }
           - name: kit
             label: What's in the kit
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Section title (HTML allowed), widget: string }
+              - { name: title, label: Section title (HTML allowed), widget: string, i18n: true }
               - name: cards
                 label: Kit cards
                 widget: list
+                i18n: true
                 fields:
-                  - { name: title, label: Card title, widget: string }
-                  - { name: icon, label: Icon name, widget: string }
-                  - { name: items, label: List items, widget: list, field: { name: item, label: Item, widget: string } }
+                  - { name: title, label: Card title, widget: string, i18n: true }
+                  - { name: icon, label: Icon name, widget: string, i18n: true }
+                  - { name: items, label: List items, widget: list, field: { name: item, label: Item, widget: string, i18n: true } }
           - name: commands
             label: Commands section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title, widget: string }
-              - { name: text, label: Text (HTML allowed), widget: text }
+              - { name: title, label: Title, widget: string, i18n: true }
+              - { name: text, label: Text (HTML allowed), widget: text, i18n: true }
           - name: drawing
             label: Drawing section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title, widget: string }
-              - { name: text, label: Text (HTML allowed), widget: text }
+              - { name: title, label: Title, widget: string, i18n: true }
+              - { name: text, label: Text (HTML allowed), widget: text, i18n: true }
           - name: maps
             label: Maps section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: text, label: Text, widget: text }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: text, label: Text, widget: text, i18n: true }
           - name: openPlatform
             label: Open platform section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text, i18n: true } }
           - name: voiceFeedback
             label: Voice feedback section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text } }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: paragraphs, label: Paragraphs, widget: list, field: { name: para, label: Paragraph, widget: text, i18n: true } }
           - name: specs
             label: Specifications
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title, widget: string }
+              - { name: title, label: Title, widget: string, i18n: true }
               - name: rows
                 label: Spec rows
                 widget: list
+                i18n: true
                 fields:
-                  - { name: label, label: Label, widget: string }
-                  - { name: value, label: Value, widget: string }
+                  - { name: label, label: Label, widget: string, i18n: true }
+                  - { name: value, label: Value, widget: string, i18n: true }
           - name: documentation
             label: Documentation cards
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Section title, widget: string }
+              - { name: title, label: Section title, widget: string, i18n: true }
               - name: cards
                 label: Cards
                 widget: list
+                i18n: true
                 fields:
-                  - { name: title, label: Card title, widget: string }
-                  - { name: subtitle, label: Card subtitle, widget: text }
-                  - { name: icon, label: Icon name, widget: string }
-                  - { name: link, label: Link URL, widget: string }
+                  - { name: title, label: Card title, widget: string, i18n: true }
+                  - { name: subtitle, label: Card subtitle, widget: text, i18n: true }
+                  - { name: icon, label: Icon name, widget: string, i18n: true }
+                  - { name: link, label: Link URL, widget: string, i18n: true }
           - name: order
             label: Order CTA section
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: subtitle, label: Subtitle, widget: string }
-              - { name: contactLine, label: Contact line (HTML allowed), widget: text }
-              - { name: buttonText, label: Button text, widget: string }
-              - { name: buttonLink, label: Button link, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: Subtitle, widget: string, i18n: true }
+              - { name: contactLine, label: Contact line (HTML allowed), widget: text, i18n: true }
+              - { name: buttonText, label: Button text, widget: string, i18n: true }
+              - { name: buttonLink, label: Button link, widget: string, i18n: true }
               - name: segmentLinks
                 label: Segment links
                 widget: list
+                i18n: true
                 fields:
-                  - { name: text, label: Link text, widget: string }
-                  - { name: link, label: Link URL, widget: string }
+                  - { name: text, label: Link text, widget: string, i18n: true }
+                  - { name: link, label: Link URL, widget: string, i18n: true }
 
       - name: schools
         label: Schools
@@ -441,40 +493,46 @@ collections:
           - name: seo
             label: SEO
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Page title, widget: string }
-              - { name: description, label: Meta description, widget: text }
+              - { name: title, label: Page title, widget: string, i18n: true }
+              - { name: description, label: Meta description, widget: text, i18n: true }
           - name: hero
             label: Hero
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: subtitle, label: Subtitle, widget: string }
-              - { name: price, label: Price line, widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: Subtitle, widget: string, i18n: true }
+              - { name: price, label: Price line, widget: string, i18n: true }
               - name: buttons
                 label: Buttons
                 widget: list
+                i18n: true
                 fields:
-                  - { name: text, label: Button text, widget: string }
-                  - { name: link, label: Button link, widget: string }
+                  - { name: text, label: Button text, widget: string, i18n: true }
+                  - { name: link, label: Button link, widget: string, i18n: true }
                   - name: style
                     label: Button style
                     widget: select
+                    i18n: true
                     options: [primary, secondary, neutral]
           - name: sections
             label: Sections
             widget: list
+            i18n: true
             fields:
-              - { name: sidebarTitle, label: Sidebar heading, widget: string }
-              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
-              - { name: body, label: Body content (markdown), widget: markdown }
+              - { name: sidebarTitle, label: Sidebar heading, widget: string, i18n: true }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false, i18n: true }
+              - { name: body, label: Body content (markdown), widget: markdown, i18n: true }
           - name: cta
             label: Bottom CTA
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: CTA title (HTML allowed), widget: string }
-              - { name: subtitle, label: CTA subtitle, widget: string }
-              - { name: buttonText, label: Button text, widget: string }
+              - { name: title, label: CTA title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: CTA subtitle, widget: string, i18n: true }
+              - { name: buttonText, label: Button text, widget: string, i18n: true }
 
       - name: distributors
         label: Distributors
@@ -484,39 +542,45 @@ collections:
           - name: seo
             label: SEO
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Page title, widget: string }
-              - { name: description, label: Meta description, widget: text }
+              - { name: title, label: Page title, widget: string, i18n: true }
+              - { name: description, label: Meta description, widget: text, i18n: true }
           - name: hero
             label: Hero
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: Title (HTML allowed), widget: string }
-              - { name: subtitle1, label: Subtitle line 1, widget: string }
-              - { name: subtitle2, label: Subtitle line 2, widget: string }
-              - { name: price, label: Price line, widget: string }
-              - { name: volumeLine, label: Volume line (HTML allowed), widget: string }
+              - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle1, label: Subtitle line 1, widget: string, i18n: true }
+              - { name: subtitle2, label: Subtitle line 2, widget: string, i18n: true }
+              - { name: price, label: Price line, widget: string, i18n: true }
+              - { name: volumeLine, label: Volume line (HTML allowed), widget: string, i18n: true }
               - name: buttons
                 label: Buttons
                 widget: list
+                i18n: true
                 fields:
-                  - { name: text, label: Button text, widget: string }
-                  - { name: link, label: Button link, widget: string }
+                  - { name: text, label: Button text, widget: string, i18n: true }
+                  - { name: link, label: Button link, widget: string, i18n: true }
                   - name: style
                     label: Button style
                     widget: select
+                    i18n: true
                     options: [primary, secondary, neutral]
           - name: sections
             label: Sections
             widget: list
+            i18n: true
             fields:
-              - { name: sidebarTitle, label: Sidebar heading, widget: string }
-              - { name: sidebarText, label: Sidebar description, widget: string, required: false }
-              - { name: body, label: Body content (markdown), widget: markdown }
+              - { name: sidebarTitle, label: Sidebar heading, widget: string, i18n: true }
+              - { name: sidebarText, label: Sidebar description, widget: string, required: false, i18n: true }
+              - { name: body, label: Body content (markdown), widget: markdown, i18n: true }
           - name: cta
             label: Bottom CTA
             widget: object
+            i18n: true
             fields:
-              - { name: title, label: CTA title (HTML allowed), widget: string }
-              - { name: subtitle, label: CTA subtitle, widget: string, required: false }
-              - { name: buttonText, label: Button text, widget: string }
+              - { name: title, label: CTA title (HTML allowed), widget: string, i18n: true }
+              - { name: subtitle, label: CTA subtitle, widget: string, required: false, i18n: true }
+              - { name: buttonText, label: Button text, widget: string, i18n: true }
