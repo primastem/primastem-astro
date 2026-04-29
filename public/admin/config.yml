@@ -19,6 +19,7 @@ collections:
       - name: faq
         label: FAQ
         file: src/content/faq/{{locale}}.json
+        i18n: true
         fields:
           - name: items
             label: Questions
@@ -43,6 +44,7 @@ collections:
       - name: pricing
         label: Pricing tiers
         file: src/content/pricing/{{locale}}.json
+        i18n: true
         fields:
           - { name: sectionTitle, label: Section title, widget: string }
           - { name: sectionSubtitle, label: Section subtitle, widget: string }
@@ -85,6 +87,7 @@ collections:
       - name: product_sheet
         label: Product Sheet
         file: src/content/product-sheet/{{locale}}.md
+        i18n: true
         fields:
           - { name: body, label: Content, widget: markdown }
 
@@ -96,6 +99,7 @@ collections:
       - name: home
         label: Homepage
         file: src/content/pages/{{locale}}/home.json
+        i18n: true
         fields:
           - name: seo
             label: SEO
@@ -183,6 +187,7 @@ collections:
       - name: legal
         label: Legal Notice
         file: src/content/pages/{{locale}}/legal.json
+        i18n: true
         fields:
           - name: seo
             label: SEO
@@ -207,6 +212,7 @@ collections:
       - name: privacy
         label: Privacy Policy
         file: src/content/pages/{{locale}}/privacy.json
+        i18n: true
         fields:
           - name: seo
             label: SEO
@@ -231,6 +237,7 @@ collections:
       - name: about
         label: About
         file: src/content/pages/{{locale}}/about.json
+        i18n: true
         fields:
           - name: seo
             label: SEO
@@ -255,6 +262,7 @@ collections:
       - name: contact
         label: Contact
         file: src/content/pages/{{locale}}/contact.json
+        i18n: true
         fields:
           - name: seo
             label: SEO
@@ -281,6 +289,7 @@ collections:
       - name: parents
         label: Parents
         file: src/content/pages/{{locale}}/parents.json
+        i18n: true
         fields:
           - name: seo
             label: SEO
@@ -315,6 +324,7 @@ collections:
       - name: product
         label: Product
         file: src/content/pages/{{locale}}/product.json
+        i18n: true
         fields:
           - name: seo
             label: SEO
@@ -426,6 +436,7 @@ collections:
       - name: schools
         label: Schools
         file: src/content/pages/{{locale}}/schools.json
+        i18n: true
         fields:
           - name: seo
             label: SEO
@@ -468,6 +479,7 @@ collections:
       - name: distributors
         label: Distributors
         file: src/content/pages/{{locale}}/distributors.json
+        i18n: true
         fields:
           - name: seo
             label: SEO
