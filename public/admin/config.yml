@@ -36,7 +36,7 @@ collections:
                   - { label: Product, value: product }
                   - { label: Pricing, value: pricing }
                   - { label: Technical, value: technical }
-              - { name: open, label: Open by default, widget: boolean, default: false, i18n: true }
+              - { name: open, label: Open by default, widget: boolean, default: false, i18n: duplicate }
 
   # ── Pricing ──────────────────────────────────────────────────────────────────
   - name: pricing
@@ -62,11 +62,11 @@ collections:
                 fields:
                   - { name: title, label: Title, widget: string, i18n: true }
                   - { name: subtitle, label: Subtitle, widget: string, i18n: true }
-                  - { name: currency, label: Currency symbol, widget: string, default: "€", i18n: true }
+                  - { name: currency, label: Currency symbol, widget: string, default: "€", i18n: duplicate }
                   - { name: price, label: Price (number only), widget: string, i18n: true }
                   - { name: priceLabel, label: Price label, widget: string, i18n: true }
                   - { name: buttonName, label: Button text, widget: string, i18n: true }
-                  - { name: buttonLink, label: Button link, widget: string, i18n: true }
+                  - { name: buttonLink, label: Button link, widget: string, i18n: duplicate }
               - name: body
                 label: Body
                 widget: object
@@ -125,7 +125,7 @@ collections:
               - { name: price, label: Price line, widget: string, i18n: true }
               - { name: volumeLine, label: Volume line (HTML allowed), widget: string, i18n: true }
               - { name: buttonText, label: Button text, widget: string, i18n: true }
-              - { name: buttonLink, label: Button link, widget: string, i18n: true }
+              - { name: buttonLink, label: Button link, widget: string, i18n: duplicate }
           - name: twoLevels
             label: Two levels section
             widget: object
@@ -177,7 +177,7 @@ collections:
             fields:
               - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
               - { name: subtitle, label: Subtitle, widget: string, i18n: true }
-              - { name: videoUrl, label: YouTube embed URL, widget: string, i18n: true }
+              - { name: videoUrl, label: YouTube embed URL, widget: string, i18n: duplicate }
               - { name: videoCaption, label: Video caption, widget: string, i18n: true }
           - name: trust
             label: Trust section
@@ -193,7 +193,7 @@ collections:
             fields:
               - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
               - { name: subtitle, label: Subtitle, widget: string, i18n: true }
-              - { name: formId, label: Mailerlite form ID, widget: string, i18n: true }
+              - { name: formId, label: Mailerlite form ID, widget: string, i18n: duplicate }
           - name: tagline
             label: Tagline section
             widget: object
@@ -314,8 +314,8 @@ collections:
             fields:
               - { name: label, label: Label (e.g. "Email:"), widget: string, i18n: true }
               - { name: value, label: Display text, widget: string, i18n: true }
-              - { name: href, label: Link URL (empty = plain text), widget: string, required: false, i18n: true }
-              - { name: external, label: External link (open in new tab), widget: boolean, default: false, i18n: true }
+              - { name: href, label: Link URL (empty = plain text), widget: string, required: false, i18n: duplicate }
+              - { name: external, label: External link (open in new tab), widget: boolean, default: false, i18n: duplicate }
 
       - name: parents
         label: Parents
@@ -338,7 +338,7 @@ collections:
               - { name: subtitle, label: Subtitle, widget: string, i18n: true }
               - { name: price, label: Price line, widget: string, i18n: true }
               - { name: buttonText, label: Button text, widget: string, i18n: true }
-              - { name: buttonLink, label: Button link, widget: string, i18n: true }
+              - { name: buttonLink, label: Button link, widget: string, i18n: duplicate }
           - name: sections
             label: Sections
             widget: list
@@ -374,14 +374,14 @@ collections:
             i18n: true
             fields:
               - { name: price, label: Price (number only), widget: string, i18n: true }
-              - { name: priceValidUntil, label: Price valid until (YYYY-MM-DD), widget: string, i18n: true }
+              - { name: priceValidUntil, label: Price valid until (YYYY-MM-DD), widget: string, i18n: duplicate }
           - name: hero
             label: Hero
             widget: object
             i18n: true
             fields:
               - { name: title, label: Title (HTML allowed), widget: string, i18n: true }
-              - { name: videoUrl, label: YouTube embed URL, widget: string, i18n: true }
+              - { name: videoUrl, label: YouTube embed URL, widget: string, i18n: duplicate }
               - { name: videoCaption, label: Video caption, widget: string, i18n: true }
               - name: steps
                 label: Steps
@@ -402,7 +402,7 @@ collections:
                 i18n: true
                 fields:
                   - { name: title, label: Card title, widget: string, i18n: true }
-                  - { name: icon, label: Icon name, widget: string, i18n: true }
+                  - { name: icon, label: Icon name, widget: string, i18n: duplicate }
                   - { name: items, label: List items, widget: list, field: { name: item, label: Item, widget: string, i18n: true } }
           - name: commands
             label: Commands section
@@ -465,8 +465,8 @@ collections:
                 fields:
                   - { name: title, label: Card title, widget: string, i18n: true }
                   - { name: subtitle, label: Card subtitle, widget: text, i18n: true }
-                  - { name: icon, label: Icon name, widget: string, i18n: true }
-                  - { name: link, label: Link URL, widget: string, i18n: true }
+                  - { name: icon, label: Icon name, widget: string, i18n: duplicate }
+                  - { name: link, label: Link URL, widget: string, i18n: duplicate }
           - name: order
             label: Order CTA section
             widget: object
@@ -476,14 +476,14 @@ collections:
               - { name: subtitle, label: Subtitle, widget: string, i18n: true }
               - { name: contactLine, label: Contact line (HTML allowed), widget: text, i18n: true }
               - { name: buttonText, label: Button text, widget: string, i18n: true }
-              - { name: buttonLink, label: Button link, widget: string, i18n: true }
+              - { name: buttonLink, label: Button link, widget: string, i18n: duplicate }
               - name: segmentLinks
                 label: Segment links
                 widget: list
                 i18n: true
                 fields:
                   - { name: text, label: Link text, widget: string, i18n: true }
-                  - { name: link, label: Link URL, widget: string, i18n: true }
+                  - { name: link, label: Link URL, widget: string, i18n: duplicate }
 
       - name: schools
         label: Schools
@@ -511,11 +511,11 @@ collections:
                 i18n: true
                 fields:
                   - { name: text, label: Button text, widget: string, i18n: true }
-                  - { name: link, label: Button link, widget: string, i18n: true }
+                  - { name: link, label: Button link, widget: string, i18n: duplicate }
                   - name: style
                     label: Button style
                     widget: select
-                    i18n: true
+                    i18n: duplicate
                     options: [primary, secondary, neutral]
           - name: sections
             label: Sections
@@ -562,11 +562,11 @@ collections:
                 i18n: true
                 fields:
                   - { name: text, label: Button text, widget: string, i18n: true }
-                  - { name: link, label: Button link, widget: string, i18n: true }
+                  - { name: link, label: Button link, widget: string, i18n: duplicate }
                   - name: style
                     label: Button style
                     widget: select
-                    i18n: true
+                    i18n: duplicate
                     options: [primary, secondary, neutral]
           - name: sections
             label: Sections
