@@ -10,6 +10,7 @@ i18n:
   structure: multiple_files
   locales: [en, fr, de, es, ru]
   default_locale: en
+  initial_locales: all
 
 collections:
   # ── FAQ ──────────────────────────────────────────────────────────────────────
