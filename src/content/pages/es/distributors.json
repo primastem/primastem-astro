@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM para Distribuidores — Robot Educativo al por Mayor",
-		"description": "Robot de programación y matemáticas sin pantalla para edades 4–10. Precio mayorista desde €235 sin IVA. Certificado CE. 10 idiomas. Precios por volumen para 100+ unidades/año."
+		"description": "Robot de programación y matemáticas sin pantalla para edades 4–10. Precio mayorista desde €235 sin IVA. Certificado CE + UKCA. 15 idiomas. Precios por volumen para 100/500+ unidades/año."
 	},
 	"hero": {
 		"title": "Una herramienta educativa sin pantalla <strong>que el mercado está pidiendo.</strong>",
 		"subtitle1": "Colegios, guarderías, Montessori, actividades extraescolares, padres — un producto para todos.",
-		"subtitle2": "Programación + matemáticas. Edades 4–10. Madera. Certificado CE. 10 idiomas.",
+		"subtitle2": "Programación + matemáticas. Edades 4–10. Madera. Certificado CE + UKCA. 15 idiomas.",
 		"price": "Precio mayorista desde €235 sin IVA.",
 		"volumeLine": "100+ unidades/año: desde €210.<br />Otros acuerdos bienvenidos.",
 		"buttons": [
@@ -28,12 +28,27 @@
 		{
 			"sidebarTitle": "Listo para su catálogo",
 			"sidebarText": "",
-			"body": "Certificado CE. Carga USB-C, 2–3 horas de autonomía. Bluetooth. Planes de lección y guía docente en línea en <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 idiomas. Tutoriales en YouTube."
+			"body": "Certificado CE + UKCA. Carga USB-C, 2–3 horas de autonomía. Bluetooth. Planes de lección y guía docente en línea en <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 idiomas. Tutoriales en YouTube."
 		},
 		{
 			"sidebarTitle": "Condiciones",
 			"sidebarText": "",
 			"body": "**Mayorista: desde €235 sin IVA.** 100+ unidades/año: desde €210. Otros acuerdos bienvenidos.\n\nMateriales de marketing en su idioma. Soporte técnico. Participación conjunta en ferias. Exclusividad territorial negociable.\n\nPresente en: Francia (ventas directas), Países Bajos, Luxemburgo (piloto con el Ministerio de Educación). En expansión hacia España.\n\n**Todas las condiciones, precios y términos de exclusividad se discuten individualmente. Contáctenos para iniciar la conversación.**"
+		},
+		{
+			"sidebarTitle": "Por qué PrimaSTEM",
+			"sidebarText": "",
+			"body": "PrimaSTEM es un producto nuevo y exclusivo — no un sustituto de Cubetto o Matatalab. Es la única herramienta sin pantalla que permite a los niños **hacer matemáticas reales (aritmética + geometría) con las manos**, además de programación.\n\n#### Comparación general\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Facilidad de uso | alta | baja | **alta** |\n| Precisión | baja | media | **alta** |\n| Funcionalidad | baja | media | **alta** |\n| Materiales ecológicos | media | baja | **alta** |\n| Alcance docente plurianual | baja | media | **alta** |\n\n#### Capacidades concretas\n\n| Capacidad | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Pasos de movimiento | Solo cuadrícula fija | 100 mm fijos | **De 1 mm a 900 mm** |\n| Ángulos de giro | Solo 90° | Valores discretos (p. ej. 45°, 90°) | **Cualquier ángulo libremente** |\n| Contenido matemático | Ninguno | Ninguno | **Aritmética con fichas físicas** |\n| Geometría / dibujo | Ninguno | Formas limitadas | **Geometría precisa + dibujo con rotulador** |\n| Rango de edad | 4–6 | 7–9 | **4–10 (un dispositivo)** |\n| Materiales | Madera + ~50 % plástico | Todo plástico | **Contrachapado + cartón** |\n| Diseñado + fabricado en | Reino Unido / China | China | **Francia** |"
+		},
+		{
+			"sidebarTitle": "Referencias",
+			"sidebarText": "",
+			"body": "**Ministerio de Educación de Luxemburgo** — piloto escolar en marcha en 2026.\n\n**Code N Play** (Bélgica) — socio distribuidor.\n\n**Terra Numerica** (Francia) — unidades en talleres científicos.\n\nSocios adicionales: La Compagnie du Code, A4 Education, AFINEF."
+		},
+		{
+			"sidebarTitle": "Precios",
+			"sidebarText": "",
+			"body": "PVP recomendado: **297 € / kit (+ IVA)**.\n\n| Nivel | Precio mayorista (excl. IVA) | Margen @ 297 € |\n|---|:---:|:---:|\n| Estándar | 235 € | 21 % |\n| 100+ unidades/año | 210 € | 29 % |\n| 500+ unidades/año | 200 € | 33 % |\n\nPago anticipado para nuevos distribuidores. MOQ flexible."
 		}
 	],
 	"cta": {

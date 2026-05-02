@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM for Distributors — Wholesale Educational Robot",
-		"description": "Screen-free coding and math robot for ages 4–10. Wholesale from €235 excl. VAT. CE certified. 10 languages. Volume pricing for 100+ units/year."
+		"description": "Screen-free coding and math robot for ages 4–10. Wholesale from €235 excl. VAT. CE + UKCA certified. 15 languages. Volume pricing for 100+/500+ units/year."
 	},
 	"hero": {
 		"title": "A screen-free education tool <strong>the market is asking for.</strong>",
 		"subtitle1": "Schools, preschools, Montessori, after-school programs, parents — one product for all.",
-		"subtitle2": "Coding + mathematics. Ages 4–10. Wood. CE certified. 10 languages.",
+		"subtitle2": "Coding + mathematics. Ages 4–10. Wood. CE + UKCA certified. 15 languages.",
 		"price": "Wholesale from €235 excl. VAT.",
 		"volumeLine": "100+ units/year: from €210.<br />Other arrangements welcome.",
 		"buttons": [
@@ -28,12 +28,27 @@
 		{
 			"sidebarTitle": "Ready for your catalogue",
 			"sidebarText": "",
-			"body": "CE certified. USB-C charging, 2–3 hours of battery life. Bluetooth. Lesson plans and teacher's guide online at <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 languages. YouTube tutorials."
+			"body": "CE + UKCA certified. USB-C charging, 2–3 hours of battery life. Bluetooth. Lesson plans and teacher's guide online at <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 languages. YouTube tutorials."
 		},
 		{
 			"sidebarTitle": "Terms",
 			"sidebarText": "",
 			"body": "**Wholesale: from €235 excl. VAT.** 100+ units/year: from €210. Other arrangements welcome.\n\nMarketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.\n\nPresent in: France (direct sales), Netherlands, Luxembourg (pilot with Ministry of Education). Expanding into Spain.\n\n**All terms, pricing and exclusivity conditions are discussed individually. Contact us to start the conversation.**"
+		},
+		{
+			"sidebarTitle": "Why PrimaSTEM",
+			"sidebarText": "",
+			"body": "PrimaSTEM is an exclusive new product — not a Cubetto or Matatalab replacement. It is the only screen-free tool that lets children do **real math (arithmetic + geometry) with their hands**, alongside coding.\n\n#### Overall comparison\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Ease of use | high | low | **high** |\n| Precision | low | medium | **high** |\n| Functionality | low | medium | **high** |\n| Eco materials | medium | low | **high** |\n| Multi-year teaching span | low | medium | **high** |\n\n#### Concrete capabilities\n\n| Capability | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Movement steps | Fixed grid only | Fixed 100 mm | **Any distance 1 mm – 900 mm** |\n| Turn angles | 90° only | Discrete values (e.g. 45°, 90°) | **Any angle, freely set** |\n| Math content | None | None | **Real arithmetic via physical tokens** |\n| Geometry / drawing | None | Limited shapes | **Precise geometry + marker drawing** |\n| Age range covered | 4–6 | 7–9 | **4–10 (one device)** |\n| Materials | Plywood + ~50% plastic | All plastic | **Plywood + cardboard** |\n| Designed + made in | UK / China | China | **France** |"
+		},
+		{
+			"sidebarTitle": "Proof",
+			"sidebarText": "",
+			"body": "**Ministry of Education Luxembourg** — school pilot running 2026.\n\n**Code N Play** (Belgium) — distribution partner.\n\n**Terra Numerica** (France) — units deployed in science workshops.\n\nAdditional partners: La Compagnie du Code, A4 Education, AFINEF."
+		},
+		{
+			"sidebarTitle": "Pricing",
+			"sidebarText": "",
+			"body": "Retail MSRP: **€297 / kit (+ VAT)**.\n\n| Tier | Wholesale (excl. VAT) | Margin @ €297 retail |\n|---|:---:|:---:|\n| Standard | €235 | 21% |\n| 100+ units / yr | €210 | 29% |\n| 500+ units / yr | €200 | 33% |\n\nPrepayment for new distributors. MOQ flexible."
 		}
 	],
 	"cta": {

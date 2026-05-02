@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM für Händler — Bildungsroboter im Großhandel",
-		"description": "Bildschirmfreier Programmier- und Mathe-Roboter für Kinder von 4–10 Jahren. Großhandel ab €235 zzgl. MwSt. CE-zertifiziert. 10 Sprachen. Mengenpreise für 100+ Einheiten/Jahr."
+		"description": "Bildschirmfreier Programmier- und Mathe-Roboter für Kinder von 4–10 Jahren. Großhandel ab €235 zzgl. MwSt. CE + UKCA zertifiziert. 15 Sprachen. Mengenpreise für 100/500+ Einheiten/Jahr."
 	},
 	"hero": {
 		"title": "Ein bildschirmfreies Lernmittel, <strong>nach dem der Markt fragt.</strong>",
 		"subtitle1": "Schulen, Vorschulen, Montessori, Nachmittagsprogramme, Eltern — ein Produkt für alle.",
-		"subtitle2": "Programmieren + Mathematik. Alter 4–10. Holz. CE-zertifiziert. 10 Sprachen.",
+		"subtitle2": "Programmieren + Mathematik. Alter 4–10. Holz. CE + UKCA zertifiziert. 15 Sprachen.",
 		"price": "Großhandel ab €235 zzgl. MwSt.",
 		"volumeLine": "100+ Einheiten/Jahr: ab €210.<br />Andere Vereinbarungen möglich.",
 		"buttons": [
@@ -28,12 +28,27 @@
 		{
 			"sidebarTitle": "Bereit für Ihren Katalog",
 			"sidebarText": "",
-			"body": "CE-zertifiziert. USB-C-Aufladung, 2–3 Stunden Akkulaufzeit. Bluetooth. Unterrichtspläne und Lehrerhandbuch online unter <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 Sprachen. YouTube-Tutorials."
+			"body": "CE + UKCA zertifiziert. USB-C-Aufladung, 2–3 Stunden Akkulaufzeit. Bluetooth. Unterrichtspläne und Lehrerhandbuch online unter <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 Sprachen. YouTube-Tutorials."
 		},
 		{
 			"sidebarTitle": "Konditionen",
 			"sidebarText": "",
 			"body": "**Großhandel: ab €235 zzgl. MwSt.** 100+ Einheiten/Jahr: ab €210. Andere Vereinbarungen möglich.\n\nMarketingmaterialien in Ihrer Sprache. Technischer Support. Gemeinsame Messebeteiligung. Gebietsexklusivität verhandelbar.\n\nPräsent in: Frankreich (Direktvertrieb), Niederlande, Luxemburg (Pilot mit Bildungsministerium). Expansion nach Spanien.\n\n**Alle Konditionen, Preise und Exklusivitätsbedingungen werden individuell besprochen. Kontaktieren Sie uns, um das Gespräch zu beginnen.**"
+		},
+		{
+			"sidebarTitle": "Warum PrimaSTEM",
+			"sidebarText": "",
+			"body": "PrimaSTEM ist ein exklusives neues Produkt — kein Ersatz für Cubetto oder Matatalab. Es ist das einzige bildschirmfreie Werkzeug, mit dem Kinder **echte Mathematik (Arithmetik + Geometrie) mit den Händen** üben können, neben dem Programmieren.\n\n#### Gesamtvergleich\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Benutzerfreundlichkeit | hoch | niedrig | **hoch** |\n| Präzision | niedrig | mittel | **hoch** |\n| Funktionalität | niedrig | mittel | **hoch** |\n| Ökomaterialien | mittel | niedrig | **hoch** |\n| Mehrjährige Lehrspanne | niedrig | mittel | **hoch** |\n\n#### Konkrete Fähigkeiten\n\n| Fähigkeit | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Bewegungsschritte | Nur festes Raster | 100 mm fest | **1 mm bis 900 mm frei** |\n| Drehwinkel | Nur 90° | Diskrete Werte (z. B. 45°, 90°) | **Jeder Winkel frei einstellbar** |\n| Mathematikinhalt | Keiner | Keiner | **Arithmetik über physische Tokens** |\n| Geometrie / Zeichnen | Keiner | Begrenzte Formen | **Präzise Geometrie + Stiftzeichnen** |\n| Altersbereich | 4–6 | 7–9 | **4–10 (ein Gerät)** |\n| Materialien | Sperrholz + ~50 % Plastik | Alles Plastik | **Sperrholz + Karton** |\n| Entwickelt + hergestellt in | UK / China | China | **Frankreich** |"
+		},
+		{
+			"sidebarTitle": "Nachweise",
+			"sidebarText": "",
+			"body": "**Bildungsministerium Luxemburg** — Schulpilotprojekt läuft 2026.\n\n**Code N Play** (Belgien) — Vertriebspartner.\n\n**Terra Numerica** (Frankreich) — Geräte in Wissenschaftswerkstätten im Einsatz.\n\nWeitere Partner: La Compagnie du Code, A4 Education, AFINEF."
+		},
+		{
+			"sidebarTitle": "Preise",
+			"sidebarText": "",
+			"body": "Empfohlener Verkaufspreis: **297 € / Set (+ MwSt.)**.\n\n| Stufe | Großhandelspreis (exkl. MwSt.) | Marge @ 297 € |\n|---|:---:|:---:|\n| Standard | 235 € | 21 % |\n| 100+ Einheiten/Jahr | 210 € | 29 % |\n| 500+ Einheiten/Jahr | 200 € | 33 % |\n\nVorauszahlung für neue Distributoren. MOQ flexibel."
 		}
 	],
 	"cta": {
