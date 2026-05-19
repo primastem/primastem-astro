@@ -36,7 +36,7 @@
 		{
 			"sidebarTitle": "Ce que les enseignants n'attendent pas",
 			"sidebarText": "",
-			"body": "**Plateforme ouverte.** Chaque jeton est une étiquette NFC standard. Créez vos propres nombres, boucles ou opérations arithmétiques via une application mobile gratuite.\n\n**Cartes sonores.** Placez des étiquettes NFC sur le terrain de jeu — le robot émet un son lorsqu'il passe dessus.\n\n**Retour vocal.** La console énonce chaque jeton à voix haute au moment où il est posé, en 14 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe. Aide les enfants qui ne savent pas encore lire et ceux ayant une déficience visuelle.\n\n**Version braille** en phase pilote. Accessible aux enfants atteints de troubles visuels et de l'attention."
+			"body": "**Plateforme ouverte.** Chaque jeton est une étiquette NFC standard. Créez vos propres nombres, boucles ou opérations arithmétiques via une application mobile gratuite.\n\n**Cartes sonores.** Placez des étiquettes NFC sur le terrain de jeu — le robot émet un son lorsqu'il passe dessus.\n\n**Retour vocal.** La console énonce chaque jeton à voix haute au moment où il est posé, en 17 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Aide les enfants qui ne savent pas encore lire et ceux ayant une déficience visuelle.\n\n**Version braille** en phase pilote. Accessible aux enfants atteints de troubles visuels et de l'attention."
 		}
 	],
 	"cta": {
