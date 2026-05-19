@@ -7,7 +7,7 @@ This file is read by Claude Code at the start of every session. It documents pro
 - Astro 6 static site, deployed on Netlify (auto-deploy on push to `master`)
 - CMS: Sveltia at `/admin/` (GitHub OAuth via Netlify)
 - Build: `npm run build`
-- All editable content lives in `src/content/{lang}/` (only `en` for now)
+- All editable content lives in `src/content/pages/{lang}/` — active locales: **en, fr, ru, de, es**
 
 ## Content structure
 
@@ -51,7 +51,7 @@ When the user asks to "update HTML" / "обнови хтмл":
    | Pricing block | `src/content/pages/en/distributors.json` (cta + Terms section body) |
    | Specs table | `src/content/pages/en/product.json` → `specs.rows` |
    | Commands list | `src/content/pages/en/product.json` → `commands.text` |
-   | Voice languages | 14 langs (English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe) |
+   | Voice languages | 17 langs (English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית) |
    | Pricing numbers | `src/content/pricing/en.json` |
 3. Edit HTML to match. Inline CSS only (must work offline for PDF export).
 4. Commit and push.
@@ -77,7 +77,7 @@ diff <(sed 's/<[^>]*>/ /g; s/&#39;/\x27/g; s/&quot;/"/g' .baseline/{page}/index.
 ## Known inconsistencies (DO NOT silently "fix" — ask first)
 
 - **Cert:** `product.json` says "CE" only. Sheet HTML and `sheet.astro` say "CE & UKCA". Both are deployed; ask user before changing.
-- **Documentation languages:** docs.primastem.com is in **10 languages**. Voice feedback is in **14 languages**. Different things, both true.
+- **Documentation languages:** docs.primastem.com is in **10 languages**. Voice feedback is in **17 languages** (English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית). Different things, both true.
 - **Distributor countries:** Distributors page lists 4 (FR, NL, LU, expanding ES). FAQ says 5 (adds Norway). Use distributors page wording in product sheet HTML.
 
 ## Snapshot tags for rollback
