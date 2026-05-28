@@ -7,15 +7,15 @@
 				"title": "Colegio",
 				"subtitle": "Kit completo listo para el aula",
 				"currency": "€",
-				"price": "831",
-				"priceLabel": "por 3 kits, sin IVA",
+				"price": "297",
+				"priceLabel": "por kit, sin IVA",
 				"buttonName": "Saber más",
 				"buttonLink": "/schools"
 			},
 			"body": {
 				"listItems": [
 					{ "listItem": "Robot + tablero de control + fichas" },
-					{ "listItem": "Cada kit adicional +€277" },
+					{ "listItem": "Precios por volumen a consulta" },
 					{ "listItem": "Planes de lección y guía docente en línea" },
 					{ "listItem": "Alquiler disponible" }
 				]

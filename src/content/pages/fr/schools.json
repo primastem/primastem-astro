@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM pour les écoles — Robot de programmation et de maths sans écran",
-		"description": "Robot programmable en bois pour la classe. Deux niveaux pédagogiques (4–7 logique, 7–10 maths). Plans de cours inclus. 831 € HT pour 3 kits."
+		"description": "Robot programmable en bois pour la classe. Deux niveaux pédagogiques (4–7 logique, 7–10 maths). Plans de cours inclus. À partir de 297 € HT par kit."
 	},
 	"hero": {
 		"title": "Programmation et mathématiques, de 4 à 10 ans. <strong>Un seul appareil.</strong>",
 		"subtitle": "Sans écran, sans application. Compatible avec les cartes des robots que vous avez déjà.",
-		"price": "831 € HT pour 3 kits. Chaque kit supplémentaire +277 €.",
+		"price": "À partir de 297 € HT par kit. Tarifs dégressifs et location sur demande.",
 		"buttons": [
 			{ "text": "Voir la démo", "link": "https://youtube.com/@primastem", "style": "primary" },
 			{ "text": "Voir les plans de cours", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" }
@@ -40,7 +40,7 @@
 		}
 	],
 	"cta": {
-		"title": "831 € <strong>HT pour 3 kits</strong>",
+		"title": "À partir de 297 € <strong>HT par kit</strong>",
 		"subtitle": "Kit complet : robot, console de commande, jetons, guide d'activités sur le site de documentation. Location possible. Disponible également via nos distributeurs.",
 		"buttonText": "Nous contacter"
 	}

@@ -7,15 +7,15 @@
 				"title": "Schule",
 				"subtitle": "Komplettes Set für den Unterricht",
 				"currency": "€",
-				"price": "831",
-				"priceLabel": "für 3 Sets, zzgl. MwSt.",
+				"price": "297",
+				"priceLabel": "pro Set, zzgl. MwSt.",
 				"buttonName": "Mehr erfahren",
 				"buttonLink": "/schools"
 			},
 			"body": {
 				"listItems": [
 					{ "listItem": "Roboter + Steuerboard + Tokens" },
-					{ "listItem": "Jedes weitere Set +€277" },
+					{ "listItem": "Mengenpreise auf Anfrage" },
 					{ "listItem": "Unterrichtspläne & Lehrerhandbuch online" },
 					{ "listItem": "Miete möglich" }
 				]

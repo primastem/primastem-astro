@@ -7,15 +7,15 @@
 				"title": "École",
 				"subtitle": "Kit complet prêt pour la classe",
 				"currency": "€",
-				"price": "831",
-				"priceLabel": "HT pour 3 kits",
+				"price": "297",
+				"priceLabel": "HT par kit",
 				"buttonName": "En savoir plus",
 				"buttonLink": "/schools"
 			},
 			"body": {
 				"listItems": [
 					{ "listItem": "Robot + tableau de contrôle + jetons" },
-					{ "listItem": "Chaque kit supplémentaire +277 €" },
+					{ "listItem": "Tarifs dégressifs sur demande" },
 					{ "listItem": "Plans de cours et guide de l'enseignant en ligne" },
 					{ "listItem": "Location possible" }
 				]

@@ -7,15 +7,15 @@
 				"title": "School",
 				"subtitle": "Complete kit ready for the classroom",
 				"currency": "€",
-				"price": "831",
-				"priceLabel": "for 3 kits, excl. VAT",
+				"price": "297",
+				"priceLabel": "per kit, excl. VAT",
 				"buttonName": "Learn more",
 				"buttonLink": "/schools"
 			},
 			"body": {
 				"listItems": [
 					{ "listItem": "Robot + control board + tokens" },
-					{ "listItem": "Each additional kit +€277" },
+					{ "listItem": "Volume pricing on request" },
 					{ "listItem": "Lesson plans & teacher's guide online" },
 					{ "listItem": "Rental available" }
 				]

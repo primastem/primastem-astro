@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM para Colegios — Robot de Programación y Matemáticas sin Pantalla",
-		"description": "Robot de madera programable para uso en el aula. Dos niveles curriculares (4–7 lógica, 7–10 matemáticas). Planes de lección incluidos. €831 por 3 kits, sin IVA."
+		"description": "Robot de madera programable para uso en el aula. Dos niveles curriculares (4–7 lógica, 7–10 matemáticas). Planes de lección incluidos. Desde €297 por kit, sin IVA."
 	},
 	"hero": {
 		"title": "Programación y matemáticas, edades 4–10. <strong>Un dispositivo.</strong>",
 		"subtitle": "Sin pantalla, sin aplicaciones. Funciona con los mapas de cualquier robot que ya tenga.",
-		"price": "€831 por 3 kits, sin IVA. Cada kit adicional +€277.",
+		"price": "Desde €297 por kit, sin IVA. Opciones de volumen y alquiler a consulta.",
 		"buttons": [
 			{ "text": "Ver demostración", "link": "https://youtube.com/@primastem", "style": "primary" },
 			{ "text": "Ver planes de lección", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" }
@@ -40,7 +40,7 @@
 		}
 	],
 	"cta": {
-		"title": "€831 <strong>por 3 kits, sin IVA</strong>",
+		"title": "Desde €297 <strong>por kit, sin IVA</strong>",
 		"subtitle": "Kit completo: robot, tablero de control, fichas, guía de actividades en el sitio de documentación. Alquiler disponible. También disponible a través de distribuidores.",
 		"buttonText": "Ponerse en contacto"
 	}
