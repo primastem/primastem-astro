@@ -21,7 +21,7 @@
 - **Le robot dessine.** Étoiles, spirales, polygones, fractales — c'est l'argument démo qui fait mouche.
 - **Compatible avec les cartes existantes.** Pas réglable : 10, 12, 15, 25 cm. Compatible avec n'importe quelle carte quadrillée déjà en classe.
 - **Plateforme NFC ouverte.** Les enseignants créent des jetons sur mesure via une application mobile gratuite. Cartes sonores, cartes linguistiques, parcours narratifs.
-- **Retour vocal et accessibilité.** Le tableau énonce chaque commande en 14 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Nederlands, Norsk, Polski, Svenska, 日本語, Português (Brasil), Türkçe. Version braille en phase pilote.
+- **Retour vocal et accessibilité.** Le tableau énonce chaque commande en 17 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Version braille en phase pilote.
 
 ---
 
@@ -59,7 +59,7 @@
 | Pas par défaut | 15 cm (toute valeur, réglable) |
 | Angles | 1°–360° |
 | Emplacements | 6×2 principaux + 5×2 fonction |
-| Audio | Retour vocal en 14 langues + échantillons sonores |
+| Audio | Retour vocal en 17 langues + échantillons sonores |
 | Certification | CE, UKCA |
 | Âge | 4–10 ans |
 | Fabriqué à | Cannes, France |
