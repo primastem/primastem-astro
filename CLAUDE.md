@@ -64,10 +64,11 @@ When the user asks to "update HTML" / "обнови хтмл":
    | Voice languages | 17 langs (English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית) |
    | Pricing numbers | `src/content/pricing/en.json` |
 3. Edit HTML to match. Inline CSS only (must work offline for PDF export).
-4. Commit and push.
-5. Tell user: open HTML in browser → Ctrl+P → "Save as PDF" → replace `public/primastem-product-sheet.pdf`.
+4. **Regenerate the PDF: `npm run sheet:pdf`** (renders HTML → PDF via headless Chrome/Edge — `scripts/gen-sheet-pdf.mjs`). No manual Ctrl+P needed; PDF always matches HTML. Verify the result by Reading `public/primastem-product-sheet.pdf`.
+5. Commit and push HTML + PDF together.
 
-**DO NOT regenerate PDF yourself** — user does it manually via browser print dialog (preserves @page CSS).
+Print layout notes: `@page margin 16mm/15mm` (A4 print margins); Specifications section has `.page-break` (`page-break-before:always`) → clean 2-page split; pricing banner is **light/white** (print-friendly, no dark fill). Keep it print-first (this is a downloadable PDF for emailing, NOT for printing the website).
+NOTE: `scripts/generate-product-sheet.py` (reportlab) is the OLD approach — superseded by the HTML→headless route. Don't use it.
 
 ### Editing pages content
 
