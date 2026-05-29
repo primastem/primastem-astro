@@ -24,3 +24,8 @@ pnpm-debug.log*
 .idea/
 .baseline/
 .omc/
+
+# agent / local tooling
+.claude/
+*.bak
+_fix*.py
