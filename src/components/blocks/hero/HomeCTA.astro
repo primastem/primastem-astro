@@ -3,10 +3,9 @@
 import Section from '../../ui/Section.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
-import { Image } from 'astro:assets'
 import Button from '../../ui/Button.astro'
 
-import heroImage from '../../../assets/hero-primastem.jpg'
+// hero-primastem.jpg still used on /product and the product sheet — kept in repo.
 
 type Props = {
 	data: {
@@ -32,13 +31,18 @@ const { data } = Astro.props
 			<Button size="lg" link={data.buttonLink}>{data.buttonText}</Button>
 		</Col>
 		<Col span="6">
-			<Image
-				src={heroImage}
-				alt="PrimaSTEM complete kit: wooden control board with colorful command tokens, ladybug robot, and drawings made by the robot"
-				class="rounded-xl"
-				format="webp"
-				loading="eager"
-			/>
+			<div class="flex justify-center">
+				<div class="relative w-full max-w-[300px] aspect-[9/16] overflow-hidden rounded-xl shadow-lg">
+					<iframe
+						class="absolute inset-0 h-full w-full"
+						src="https://www.youtube-nocookie.com/embed/cr27t8_W4qo?rel=0"
+						title="PrimaSTEM in action"
+						loading="eager"
+						allow="accelerated-sensors; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe>
+				</div>
+			</div>
 		</Col>
 	</Row>
 </Section>
