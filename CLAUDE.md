@@ -34,6 +34,16 @@ Adding a language `fr`:
 5. Register `fr` in `astro.config.mjs` `i18n.locales` + `src/i18n/languages.ts`
 6. Duplicate `src/pages/*.astro` → `src/pages/fr/*.astro` and update imports to `/fr/` JSONs
 
+## ⚠️ PRODUCT SHEET — never forget these two HARDCODED files
+
+There is a `/sheet` page and a printable PDF. **Both are HARDCODED, NOT in `src/content` JSON**, so global content edits (pricing, voice languages, certification, countries) silently MISS them. This already bit us once.
+
+**Whenever you change pricing / voice-language count / certification / country claims anywhere, you MUST also update BOTH:**
+1. **`src/pages/sheet.astro`** — the `/sheet` page (hardcoded HTML, English only; localized `*/sheet.astro` are empty placeholders).
+2. **`public/primastem-product-sheet.html`** — the PDF source (then tell user to regenerate the PDF — see below).
+
+Quick audit after any pricing/spec change: `grep -n "€235\|€210\|€297\|14 language\|CE &\|Norway\|Present in" src/pages/sheet.astro public/primastem-product-sheet.html`
+
 ## Hot workflows
 
 ### Updating the printable product sheet HTML
