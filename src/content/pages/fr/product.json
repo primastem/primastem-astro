@@ -1,7 +1,7 @@
 {
 	"seo": {
 		"title": "PrimaSTEM | Comment ça marche — Détails du produit",
-		"description": "Présentation technique complète du robot éducatif PrimaSTEM. Composants, commandes, dessin, spécifications. À partir de 235 € HT."
+		"description": "Présentation technique complète du robot éducatif PrimaSTEM. Composants, commandes, dessin, spécifications. À partir de 210 €/kit dès 100 unités/an."
 	},
 	"structuredData": {
 		"price": "235",
@@ -82,8 +82,8 @@
 		]
 	},
 	"order": {
-		"title": "À partir de 235 € <strong>HT</strong>",
-		"subtitle": "Prix de gros à l'unité pour distributeurs — 210 € dès 100/an, 200 € dès 500/an.",
+		"title": "À partir de 210 € <strong>/ kit dès 100/an</strong>",
+		"subtitle": "235 € standard · 200 € dès 500/an · prix de gros, HT.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
 		"buttonText": "Demander un devis",
 		"buttonLink": "/contact",

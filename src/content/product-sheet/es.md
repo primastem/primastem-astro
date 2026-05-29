@@ -68,7 +68,7 @@
 
 ### Wholesale pricing
 
-**From €235 excl. VAT per kit.** 100+ units/year: from €210. Other arrangements welcome.
+**From €210 / kit at 100+ units/year.** €235 standard · €200 at 500+ · excl. VAT. You set your own retail and margin.
 
 Marketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.
 
@@ -86,7 +86,7 @@ Minimum order quantities, shipping terms, and lead times — discussed individua
 
 ### Present in
 
-France (direct sales), Netherlands, Norway, Luxembourg, Spain. Expanding.
+Luxembourg (Ministry of Education pilot), Belgium (Code N Play), France. Distributor conversations underway across Europe.
 
 Trade shows: EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nuremberg).
 

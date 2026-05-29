@@ -1,7 +1,7 @@
 {
 	"seo": {
 		"title": "PrimaSTEM | So funktioniert es — Produktdetails",
-		"description": "Vollständige technische Übersicht des PrimaSTEM-Lernroboters. Komponenten, Befehle, Zeichnen, Spezifikationen. Ab €235 zzgl. MwSt."
+		"description": "Vollständige technische Übersicht des PrimaSTEM-Lernroboters. Komponenten, Befehle, Zeichnen, Spezifikationen. Ab €210/Set bei 100+ Einheiten/Jahr."
 	},
 	"structuredData": {
 		"price": "235",
@@ -82,8 +82,8 @@
 		]
 	},
 	"order": {
-		"title": "Ab €235 <strong>zzgl. MwSt.</strong>",
-		"subtitle": "Großhandel-Stückpreis für Händler — €210 ab 100/Jahr, €200 ab 500/Jahr.",
+		"title": "Ab €210 <strong>/ Set bei 100+/Jahr</strong>",
+		"subtitle": "€235 Standard · €200 ab 500+/Jahr · Großhandel, exkl. MwSt.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
 		"buttonText": "Angebot anfordern",
 		"buttonLink": "/contact",
