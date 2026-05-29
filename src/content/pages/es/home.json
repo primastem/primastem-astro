@@ -6,8 +6,8 @@
 	"hero": {
 		"title": "Programación y matemáticas <strong>sin pantalla.</strong>",
 		"subtitle": "La única herramienta sin pantalla que enseña ambas.<br />De 4 a 10 años.",
-		"price": "Desde €235 sin IVA.",
-		"volumeLine": "100+ unidades/año: desde €210.<br />Otros acuerdos bienvenidos.",
+		"price": "Desde €210 / kit con 100+ unidades/año.",
+		"volumeLine": "€235 estándar · €200 con 500+/año · sin IVA.<br />Otros acuerdos bienvenidos.",
 		"buttonText": "Ver precios",
 		"buttonLink": "#pricing-v3"
 	},
@@ -48,7 +48,7 @@
 	},
 	"trust": {
 		"title": "Elegido por nuestros <strong class=\"highlight\">socios</strong>",
-		"countriesLine": "Ya trabajamos en 5 países."
+		"countriesLine": "Primeros pilotos y socios en Europa."
 	},
 	"newsletter": {
 		"title": "Manténgase <strong>informado</strong> con noticias y ofertas",

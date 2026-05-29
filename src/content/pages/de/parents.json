@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM für Eltern — Bildschirmfreies Programmierspielzeug",
-		"description": "Programmierbarer Holzroboter für Kinder von 4–10 Jahren. Kein Bildschirm, keine Apps. Vermittelt Programmieren und Mathematik durch Spielen. CE-zertifiziert. Hergestellt in Frankreich. €297 + MwSt."
+		"description": "Programmierbarer Holzroboter für Kinder von 4–10 Jahren. Kein Bildschirm, keine Apps. Vermittelt Programmieren und Mathematik durch Spielen. CE + UKCA zertifiziert. Hergestellt in Frankreich. Erhältlich über unsere Händler."
 	},
 	"hero": {
 		"title": "Echte Fähigkeiten, echtes Spielen, <strong>kein Bildschirm.</strong>",
 		"subtitle": "Ein Holzroboter, den Ihr Kind mit den Händen programmiert. Alter 4–10.",
-		"price": "€297 + MwSt.",
+		"price": "Direkt bei uns oder über einen Händler in Ihrem Land bestellen.",
 		"buttonText": "Video ansehen",
 		"buttonLink": "https://youtube.com/@primastem"
 	},
@@ -29,12 +29,12 @@
 		{
 			"sidebarTitle": "Warum gerade dieser",
 			"sidebarText": "",
-			"body": "**Holz.** Kein Plastik.\n\n**Kein Bildschirm.** Keine Apps.\n\n**Er spricht.** Sagt jeden Token laut — funktioniert, bevor ein Kind lesen kann.\n\n**Er zeichnet.** Sterne, Spiralen, Herzen.\n\n**Hergestellt in Frankreich.** CE-zertifiziert."
+			"body": "**Holz.** Kein Plastik.\n\n**Kein Bildschirm.** Keine Apps.\n\n**Er spricht.** Sagt jeden Token laut — funktioniert, bevor ein Kind lesen kann.\n\n**Er zeichnet.** Sterne, Spiralen, Herzen.\n\n**Hergestellt in Frankreich.** CE + UKCA zertifiziert."
 		}
 	],
 	"cta": {
-		"title": "€297 <strong>+ MwSt.</strong>",
+		"title": "PrimaSTEM <strong>nach Hause holen</strong>",
 		"subtitle": "Komplettes Set. Direkt bei uns oder über einen Händler in Ihrem Land bestellen.",
-		"buttonText": "Angebot anfordern"
+		"buttonText": "Kontakt aufnehmen"
 	}
 }

@@ -6,8 +6,8 @@
 	"hero": {
 		"title": "Programmieren und Mathe <strong>ohne Bildschirm.</strong>",
 		"subtitle": "Das einzige bildschirmfreie Werkzeug, das beides lehrt.<br />Für Kinder von 4 bis 10 Jahren.",
-		"price": "Ab €235 zzgl. MwSt.",
-		"volumeLine": "100+ Einheiten/Jahr: ab €210.<br />Andere Vereinbarungen möglich.",
+		"price": "Ab €210 / Set bei 100+ Einheiten/Jahr.",
+		"volumeLine": "€235 Standard · €200 ab 500+/Jahr · zzgl. MwSt.<br />Andere Vereinbarungen möglich.",
 		"buttonText": "Preise ansehen",
 		"buttonLink": "#pricing-v3"
 	},
@@ -48,7 +48,7 @@
 	},
 	"trust": {
 		"title": "Von unseren <strong class=\"highlight\">Partnern</strong> vertraut",
-		"countriesLine": "Bereits in 5 Ländern im Einsatz."
+		"countriesLine": "Erste Pilotprojekte und Partner in Europa."
 	},
 	"newsletter": {
 		"title": "Bleiben Sie mit Neuigkeiten und Angeboten <strong>auf dem Laufenden</strong>",

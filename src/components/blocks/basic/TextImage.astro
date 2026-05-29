@@ -45,6 +45,9 @@ const {
 	classes ,
 	offsetImage = false
 } = Astro.props
+
+// Plain-text alt (title may contain HTML like <strong>)
+const altText = (title ?? '').replace(/<[^>]*>/g, '')
 ---
 
 <Section id={id} classes={classes}>
@@ -54,7 +57,7 @@ const {
 				class=`text-image__picture ${offsetImage  ? 'text-image__picture--offset' : ''} ${imagePosition === 'right' ? 'text-image__picture--offset-right' : ''}`
 			>
 				{mobileImage && <source srcset={mobileImage.src} media="(max-width: 1024px)" />}
-				<img src={image.src} alt={title} width={imageWidth} height={imageHeight} class="rounded-xl max-h-[28rem] lg:max-h-none w-auto mx-auto object-contain" loading="lazy" decoding="async" />
+				<img src={image.src} alt={altText} width={imageWidth} height={imageHeight} class="rounded-xl max-h-[28rem] lg:max-h-none w-auto mx-auto object-contain" loading="lazy" decoding="async" />
 			</picture>
 		</Col>
 		<Col span="6" classes={`self-center order-1 ${imagePosition === 'left' ? 'lg:order-2' : 'lg:order-1'}`}>

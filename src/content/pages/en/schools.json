@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM for Schools — Screen-Free Coding and Math Robot",
-		"description": "Programmable wooden robot for classroom use. Two curriculum levels (4–7 logic, 7–10 math). Lesson plans included. From €297 per kit, excl. VAT."
+		"description": "Programmable wooden robot for classroom use. Two curriculum levels (4–7 logic, 7–10 math). Lesson plans included. Volume pricing on request."
 	},
 	"hero": {
 		"title": "Coding and mathematics, ages 4–10. <strong>One device.</strong>",
-		"subtitle": "No screen, no apps. Works with maps from any robots you already have.",
-		"price": "From €297 per kit, excl. VAT. Volume & rental options on request.",
+		"subtitle": "No screen, no apps. Works with maps from any robot you already have.",
+		"price": "Volume pricing — request a quote.",
 		"buttons": [
 			{ "text": "Watch demo", "link": "https://youtube.com/@primastem", "style": "primary" },
 			{ "text": "View lesson plans", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" }
@@ -40,7 +40,7 @@
 		}
 	],
 	"cta": {
-		"title": "From €297 <strong>per kit, excl. VAT</strong>",
+		"title": "Request <strong>a quote</strong>",
 		"subtitle": "Complete kit: robot, control board, tokens, activity guide on the documentation site. Rental available. Also available through distributors.",
 		"buttonText": "Get in touch"
 	}

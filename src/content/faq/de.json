@@ -32,7 +32,7 @@
     },
     {
       "question": "Was kostet es?",
-      "reply": "Schulen: ab €297 pro Set, zzgl. MwSt. (Mengen- & Mietpreise auf Anfrage). Eltern: €297 + MwSt. Händler: Großhandel ab €235 (100+ Einheiten/Jahr: ab €210). Kontaktieren Sie uns für Preise in Ihrem Land.",
+      "reply": "Händler: Großhandel ab €235 (100+ Einheiten/Jahr: €210, 500+: €200). Schulen und Familien: über unsere Händler erhältlich — kontaktieren Sie uns für einen Partner in Ihrem Land.",
       "category": "pricing",
       "open": true
     },
@@ -44,7 +44,7 @@
     },
     {
       "question": "Gibt es einen Händler in meinem Land?",
-      "reply": "Wir haben Partner in Frankreich, den Niederlanden, Norwegen, Luxemburg und Spanien. Kontaktieren Sie uns, um einen Händler in Ihrer Nähe zu finden oder direkt zu bestellen.",
+      "reply": "Wir stehen am Anfang — erste Pilotprojekte und Partner in Frankreich, Belgien und Luxemburg, Händlergespräche europaweit. Kontaktieren Sie uns, um direkt zu bestellen oder PrimaSTEM in Ihr Land zu bringen.",
       "category": "pricing",
       "open": false
     },
@@ -56,7 +56,7 @@
     },
     {
       "question": "Ist es sicher für Kinder?",
-      "reply": "CE-zertifiziert. Aus Holz gefertigt. Kein Bildschirm. Bluetooth-Verbindung. Empfohlen ab 4 Jahren aufgrund der Token-Größe.",
+      "reply": "CE + UKCA zertifiziert. Aus Holz gefertigt. Kein Bildschirm. Bluetooth-Verbindung. Empfohlen ab 4 Jahren aufgrund der Token-Größe.",
       "category": "technical",
       "open": false
     },

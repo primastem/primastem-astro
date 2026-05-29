@@ -7,8 +7,8 @@
 				"title": "Школа",
 				"subtitle": "Полный комплект для класса",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "за комплект, без НДС",
+				"price": "",
+				"priceLabel": "По запросу",
 				"buttonName": "Подробнее",
 				"buttonLink": "/schools"
 			},
@@ -27,14 +27,14 @@
 				"title": "Дистрибьютор",
 				"subtitle": "Эксклюзивные условия по запросу",
 				"currency": "€",
-				"price": "235",
-				"priceLabel": "за комплект, оптом",
+				"price": "210",
+				"priceLabel": "за комплект, 100+/год",
 				"buttonName": "Подробнее",
 				"buttonLink": "/distributors"
 			},
 			"body": {
 				"listItems": [
-					{ "listItem": "100+ единиц/год: от €210" },
+					{ "listItem": "€235 стандарт · €200 от 500+/год" },
 					{ "listItem": "Другие условия обсуждаются" },
 					{ "listItem": "Маркетинговая поддержка" },
 					{ "listItem": "Обучение включено" }
@@ -47,8 +47,8 @@
 				"title": "Родитель",
 				"subtitle": "Всё для обучения дома",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "за комплект, + НДС",
+				"price": "",
+				"priceLabel": "У нас или через дистрибьютора",
 				"buttonName": "Подробнее",
 				"buttonLink": "/parents"
 			},

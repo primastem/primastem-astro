@@ -6,8 +6,8 @@
 	"hero": {
 		"title": "La programmation et les mathématiques <strong>sans écran.</strong>",
 		"subtitle": "Le seul outil sans écran qui enseigne les deux.<br />De 4 à 10 ans.",
-		"price": "À partir de 235 € HT.",
-		"volumeLine": "100 unités/an et plus : à partir de 210 €.<br />Autres conditions sur demande.",
+		"price": "À partir de 210 € / kit dès 100 unités/an.",
+		"volumeLine": "235 € standard · 200 € dès 500/an · HT.<br />Autres conditions sur demande.",
 		"buttonText": "Voir les tarifs",
 		"buttonLink": "#pricing-v3"
 	},
@@ -48,7 +48,7 @@
 	},
 	"trust": {
 		"title": "La confiance de nos <strong class=\"highlight\">partenaires</strong>",
-		"countriesLine": "Déjà présent dans 5 pays."
+		"countriesLine": "Premiers pilotes et partenaires en Europe."
 	},
 	"newsletter": {
 		"title": "Recevez nos <strong>actualités</strong> et nos offres",

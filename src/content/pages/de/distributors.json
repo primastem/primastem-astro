@@ -7,8 +7,8 @@
 		"title": "Ein bildschirmfreies Lernmittel, <strong>nach dem der Markt fragt.</strong>",
 		"subtitle1": "Schulen, Vorschulen, Montessori, Nachmittagsprogramme, Eltern — ein Produkt für alle.",
 		"subtitle2": "Programmieren + Mathematik. Alter 4–10. Holz. CE + UKCA zertifiziert. 17 Sprachen.",
-		"price": "Großhandel ab €235 zzgl. MwSt.",
-		"volumeLine": "100+ Einheiten/Jahr: ab €210.<br />Andere Vereinbarungen möglich.",
+		"price": "Ab €210 / Set bei 100+ Einheiten/Jahr.",
+		"volumeLine": "€235 Standard · €200 ab 500+/Jahr · zzgl. MwSt.<br />Andere Vereinbarungen möglich.",
 		"buttons": [
 			{ "text": "Angebot anfordern", "link": "/contact", "style": "primary" },
 			{ "text": "Produktblatt", "link": "/sheet", "style": "secondary" }
@@ -33,7 +33,7 @@
 		{
 			"sidebarTitle": "Konditionen",
 			"sidebarText": "",
-			"body": "**Großhandel: ab €235 zzgl. MwSt.** 100+ Einheiten/Jahr: ab €210. Andere Vereinbarungen möglich.\n\nMarketingmaterialien in Ihrer Sprache. Technischer Support. Gemeinsame Messebeteiligung. Gebietsexklusivität verhandelbar.\n\nPräsent in: Frankreich (Direktvertrieb), Niederlande, Luxemburg (Pilot mit Bildungsministerium). Expansion nach Spanien.\n\n**Alle Konditionen, Preise und Exklusivitätsbedingungen werden individuell besprochen. Kontaktieren Sie uns, um das Gespräch zu beginnen.**"
+			"body": "**Großhandel: ab €235 zzgl. MwSt.** 100+ Einheiten/Jahr: ab €210. Andere Vereinbarungen möglich.\n\nMarketingmaterialien in Ihrer Sprache. Technischer Support. Gemeinsame Messebeteiligung. Gebietsexklusivität verhandelbar.\n\n**Alle Konditionen, Preise und Exklusivitätsbedingungen werden individuell besprochen. Kontaktieren Sie uns, um das Gespräch zu beginnen.**"
 		},
 		{
 			"sidebarTitle": "Warum PrimaSTEM",
@@ -48,7 +48,7 @@
 		{
 			"sidebarTitle": "Preise",
 			"sidebarText": "",
-			"body": "Empfohlener Verkaufspreis: **297 € / Set (+ MwSt.)**.\n\n| Stufe | Großhandelspreis (exkl. MwSt.) | Marge @ 297 € |\n|---|:---:|:---:|\n| Standard | 235 € | 21 % |\n| 100+ Einheiten/Jahr | 210 € | 29 % |\n| 500+ Einheiten/Jahr | 200 € | 33 % |\n\nVorauszahlung für neue Distributoren. MOQ flexibel."
+			"body": "| Stufe | Großhandelspreis (exkl. MwSt.) |\n|---|:---:|\n| Standard | 235 € |\n| 100+ Einheiten/Jahr | 210 € |\n| 500+ Einheiten/Jahr | 200 € |\n\nSie bestimmen Ihren Verkaufspreis und Ihre Marge selbst — Ihr Markt, Ihre Entscheidung. Vorauszahlung für neue Distributoren. MOQ flexibel."
 		}
 	],
 	"cta": {

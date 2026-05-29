@@ -67,7 +67,7 @@
 			{ "label": "Mathematik", "value": "+, −, ×, ÷, √, ^, !" },
 			{ "label": "Steckplätze", "value": "6×2 Haupt + 5×2 Funktion" },
 			{ "label": "Audio", "value": "Sprachrückmeldung in 17 Sprachen + Klangbeispiele" },
-			{ "label": "Zertifizierung", "value": "CE" },
+			{ "label": "Zertifizierung", "value": "CE + UKCA" },
 			{ "label": "Alter", "value": "4–10" },
 			{ "label": "Hergestellt in", "value": "Cannes, Frankreich" }
 		]
@@ -83,7 +83,7 @@
 	},
 	"order": {
 		"title": "Ab €235 <strong>zzgl. MwSt.</strong>",
-		"subtitle": "Komplettes Set, sofort einsatzbereit.",
+		"subtitle": "Großhandel-Stückpreis für Händler — €210 ab 100/Jahr, €200 ab 500/Jahr.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
 		"buttonText": "Angebot anfordern",
 		"buttonLink": "/contact",

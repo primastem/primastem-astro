@@ -32,7 +32,7 @@
     },
     {
       "question": "Combien ça coûte ?",
-      "reply": "Écoles : à partir de 297 € HT par kit (tarifs dégressifs et location sur demande). Parents : 297 € HT. Distributeurs : prix de gros à partir de 235 € (100 unités/an et plus : à partir de 210 €). Contactez-nous pour les tarifs dans votre pays.",
+      "reply": "Distributeurs : prix de gros à partir de 235 € (100 unités/an : 210 €, 500+ : 200 €). Écoles et familles : disponible via nos distributeurs — contactez-nous pour un partenaire dans votre pays.",
       "category": "pricing",
       "open": true
     },
@@ -44,7 +44,7 @@
     },
     {
       "question": "Y a-t-il un distributeur dans mon pays ?",
-      "reply": "Nous avons des partenaires en France, aux Pays-Bas, en Norvège, au Luxembourg et en Espagne. Contactez-nous pour trouver un distributeur près de chez vous ou pour commander directement.",
+      "reply": "Nous débutons — premiers pilotes et partenaires en France, Belgique et Luxembourg, avec des discussions distributeurs dans toute l'Europe. Contactez-nous pour commander directement ou pour amener PrimaSTEM dans votre pays.",
       "category": "pricing",
       "open": false
     },
@@ -56,7 +56,7 @@
     },
     {
       "question": "Est-ce sûr pour les enfants ?",
-      "reply": "Certifié CE. En bois. Sans écran. Connexion Bluetooth. Recommandé à partir de 4 ans en raison de la taille des jetons.",
+      "reply": "Certifié CE + UKCA. En bois. Sans écran. Connexion Bluetooth. Recommandé à partir de 4 ans en raison de la taille des jetons.",
       "category": "technical",
       "open": false
     },

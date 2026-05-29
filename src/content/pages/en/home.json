@@ -6,8 +6,8 @@
 	"hero": {
 		"title": "Coding and math <strong>without a screen.</strong>",
 		"subtitle": "The only screen-free tool that teaches both.<br />Ages 4 to 10.",
-		"price": "From €235 excl. VAT.",
-		"volumeLine": "100+ units/year: from €210.<br />Other arrangements welcome.",
+		"price": "From €210 / kit at 100+ units/year.",
+		"volumeLine": "€235 standard · €200 at 500+/year · excl. VAT.<br />Other arrangements welcome.",
 		"buttonText": "See pricing",
 		"buttonLink": "#pricing-v3"
 	},
@@ -48,7 +48,7 @@
 	},
 	"trust": {
 		"title": "Trusted by our <strong class=\"highlight\">partners</strong>",
-		"countriesLine": "Already working in 5 countries."
+		"countriesLine": "Early pilots and partners across Europe."
 	},
 	"newsletter": {
 		"title": "Stay <strong>updated</strong> with news and offers",

@@ -7,8 +7,8 @@
 				"title": "Colegio",
 				"subtitle": "Kit completo listo para el aula",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "por kit, sin IVA",
+				"price": "",
+				"priceLabel": "Solicitar presupuesto",
 				"buttonName": "Saber más",
 				"buttonLink": "/schools"
 			},
@@ -27,14 +27,14 @@
 				"title": "Distribuidor",
 				"subtitle": "Condiciones exclusivas disponibles a solicitud",
 				"currency": "€",
-				"price": "235",
-				"priceLabel": "por kit, precio mayorista",
+				"price": "210",
+				"priceLabel": "por kit, 100+/año",
 				"buttonName": "Saber más",
 				"buttonLink": "/distributors"
 			},
 			"body": {
 				"listItems": [
-					{ "listItem": "100+ unidades/año: desde €210" },
+					{ "listItem": "€235 estándar · €200 con 500+/año" },
 					{ "listItem": "Otros acuerdos bienvenidos" },
 					{ "listItem": "Apoyo de marketing" },
 					{ "listItem": "Formación incluida" }
@@ -47,8 +47,8 @@
 				"title": "Padres",
 				"subtitle": "Todo para aprender en casa",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "por kit, + IVA",
+				"price": "",
+				"priceLabel": "Directo o vía distribuidor",
 				"buttonName": "Saber más",
 				"buttonLink": "/parents"
 			},

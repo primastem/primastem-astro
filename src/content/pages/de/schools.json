@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM für Schulen — Bildschirmfreier Programmier- und Mathe-Roboter",
-		"description": "Programmierbarer Holzroboter für den Unterricht. Zwei Lehrplanstufen (4–7 Logik, 7–10 Mathe). Unterrichtspläne inklusive. Ab €297 pro Set, zzgl. MwSt."
+		"description": "Programmierbarer Holzroboter für den Unterricht. Zwei Lehrplanstufen (4–7 Logik, 7–10 Mathe). Unterrichtspläne inklusive. Mengenpreise auf Anfrage."
 	},
 	"hero": {
 		"title": "Programmieren und Mathematik, Alter 4–10. <strong>Ein Gerät.</strong>",
 		"subtitle": "Kein Bildschirm, keine Apps. Funktioniert mit Karten von allen Robotern, die Sie bereits haben.",
-		"price": "Ab €297 pro Set, zzgl. MwSt. Mengen- & Mietoptionen auf Anfrage.",
+		"price": "Mengenpreise — auf Anfrage.",
 		"buttons": [
 			{ "text": "Demo ansehen", "link": "https://youtube.com/@primastem", "style": "primary" },
 			{ "text": "Unterrichtspläne ansehen", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" }
@@ -40,7 +40,7 @@
 		}
 	],
 	"cta": {
-		"title": "Ab €297 <strong>pro Set, zzgl. MwSt.</strong>",
+		"title": "Angebot <strong>anfordern</strong>",
 		"subtitle": "Komplettes Set: Roboter, Steuerboard, Tokens, Aktivitätshandbuch auf der Dokumentationsseite. Miete möglich. Auch über Händler erhältlich.",
 		"buttonText": "Kontakt aufnehmen"
 	}

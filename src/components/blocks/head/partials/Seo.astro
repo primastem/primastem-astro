@@ -15,6 +15,9 @@ type Props = {
 
 const { title, description, ogImage, canonical, noindex } = Astro.props
 
+// Absolute URL for social images (LinkedIn / WhatsApp unfurlers require absolute)
+const ogImageAbs = new URL(ogImage ?? '/og.jpg', Astro.site ?? 'https://primastem.com').toString()
+
 // Build hreflang alternate links
 const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? 'https://primastem.com'
 const currentPath = Astro.url.pathname
@@ -42,12 +45,12 @@ const hreflangLinks = langCodes.map((code) => ({
 	<meta property="og:url" content={Astro.url} />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:image" content={ogImage} />
+	<meta property="og:image" content={ogImageAbs} />
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:url" content={Astro.url} />
 	<meta property="twitter:title" content={title} />
 	<meta property="twitter:description" content={description} />
-	<meta property="twitter:image" content={ogImage} />
+	<meta property="twitter:image" content={ogImageAbs} />
 	{canonical && <link rel="canonical" href={Astro.url} />}
 	{noindex && <meta name="robots" content="noindex,nofollow" />}
 	{hreflangLinks.map((link) => (

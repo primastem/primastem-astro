@@ -32,7 +32,7 @@
     },
     {
       "question": "¿Cuánto cuesta?",
-      "reply": "Colegios: desde €297 por kit, sin IVA (precios por volumen y alquiler a consulta). Padres: €297 + IVA. Distribuidores: precio mayorista desde €235 (100+ unidades/año: desde €210). Contáctenos para conocer los precios en su país.",
+      "reply": "Distribuidores: precio mayorista desde €235 (100+ unidades/año: €210, 500+: €200). Colegios y familias: disponible a través de nuestros distribuidores — contáctenos para un socio en su país.",
       "category": "pricing",
       "open": true
     },
@@ -44,7 +44,7 @@
     },
     {
       "question": "¿Hay un distribuidor en mi país?",
-      "reply": "Tenemos socios en Francia, Países Bajos, Noruega, Luxemburgo y España. Contáctenos para encontrar un distribuidor cerca de usted o para hacer un pedido directo.",
+      "reply": "Estamos empezando — primeros pilotos y socios en Francia, Bélgica y Luxemburgo, con conversaciones con distribuidores en toda Europa. Contáctenos para hacer un pedido directo o para llevar PrimaSTEM a su país.",
       "category": "pricing",
       "open": false
     },
@@ -56,7 +56,7 @@
     },
     {
       "question": "¿Es seguro para los niños?",
-      "reply": "Certificado CE. Fabricado en madera. Sin pantalla. Conexión Bluetooth. Recomendado para mayores de 4 años debido al tamaño de las fichas.",
+      "reply": "Certificado CE + UKCA. Fabricado en madera. Sin pantalla. Conexión Bluetooth. Recomendado para mayores de 4 años debido al tamaño de las fichas.",
       "category": "technical",
       "open": false
     },

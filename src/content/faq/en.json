@@ -14,7 +14,7 @@
     },
     {
       "question": "What's in the kit?",
-      "reply": "Ladybug robot (wood, USB-C, Bluetooth), control board with 11 dual slots, command tokens (cardboard, NFC, color-coded), and a online teacher's guide with lesson plans.",
+      "reply": "Ladybug robot (wood, USB-C, Bluetooth), control board with 11 dual slots, command tokens (cardboard, NFC, color-coded), and an online teacher's guide with lesson plans.",
       "category": "product",
       "open": false
     },
@@ -32,7 +32,7 @@
     },
     {
       "question": "How much does it cost?",
-      "reply": "Schools: from €297 per kit, excl. VAT (volume & rental pricing on request). Parents: €297 + VAT. Distributors: wholesale from €235 (100+ units/year: from €210). Contact us for pricing in your country.",
+      "reply": "Distributors: wholesale from €235 (100+ units/year: €210, 500+: €200). Schools and families: available through our distributors — contact us for a partner in your country.",
       "category": "pricing",
       "open": true
     },
@@ -44,7 +44,7 @@
     },
     {
       "question": "Is there a distributor in my country?",
-      "reply": "We have partners in France, Netherlands, Norway, Luxembourg, and Spain. Contact us to find a distributor near you or to order directly.",
+      "reply": "We're just starting — early pilots and partners in France, Belgium and Luxembourg, with distributor conversations underway across Europe. Contact us to order directly or to bring PrimaSTEM to your country.",
       "category": "pricing",
       "open": false
     },
@@ -56,7 +56,7 @@
     },
     {
       "question": "Is it safe for children?",
-      "reply": "CE certified. Made from wood. No screen. Bluetooth connection. Recommended for ages 4+ due to token size.",
+      "reply": "CE + UKCA certified. Made from wood. No screen. Bluetooth connection. Recommended for ages 4+ due to token size.",
       "category": "technical",
       "open": false
     },

@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM para Padres — Juguete de Programación sin Pantalla",
-		"description": "Robot de madera programable para niños de 4–10 años. Sin pantalla, sin aplicaciones. Enseña programación y matemáticas a través del juego. Certificado CE. Fabricado en Francia. €297 + IVA."
+		"description": "Robot de madera programable para niños de 4–10 años. Sin pantalla, sin aplicaciones. Enseña programación y matemáticas a través del juego. Certificado CE + UKCA. Fabricado en Francia. Disponible a través de nuestros distribuidores."
 	},
 	"hero": {
 		"title": "Habilidades reales, juego real, <strong>sin pantalla.</strong>",
 		"subtitle": "Un robot de madera que su hijo programa con las manos. Edades 4–10.",
-		"price": "€297 + IVA.",
+		"price": "Pida directamente a nosotros o a través de un distribuidor en su país.",
 		"buttonText": "Ver vídeo",
 		"buttonLink": "https://youtube.com/@primastem"
 	},
@@ -29,12 +29,12 @@
 		{
 			"sidebarTitle": "Por qué este",
 			"sidebarText": "",
-			"body": "**Madera.** No plástico.\n\n**Sin pantalla.** Sin aplicaciones.\n\n**Habla.** Pronuncia cada ficha en voz alta — funciona antes de que el niño aprenda a leer.\n\n**Dibuja.** Estrellas, espirales, corazones.\n\n**Fabricado en Francia.** Certificado CE."
+			"body": "**Madera.** No plástico.\n\n**Sin pantalla.** Sin aplicaciones.\n\n**Habla.** Pronuncia cada ficha en voz alta — funciona antes de que el niño aprenda a leer.\n\n**Dibuja.** Estrellas, espirales, corazones.\n\n**Fabricado en Francia.** Certificado CE + UKCA."
 		}
 	],
 	"cta": {
-		"title": "€297 <strong>+ IVA</strong>",
+		"title": "Lleva PrimaSTEM <strong>a casa</strong>",
 		"subtitle": "Kit completo. Pida directamente a nosotros o a través de un distribuidor en su país.",
-		"buttonText": "Solicitar presupuesto"
+		"buttonText": "Ponerse en contacto"
 	}
 }

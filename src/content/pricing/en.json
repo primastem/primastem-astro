@@ -7,8 +7,8 @@
 				"title": "School",
 				"subtitle": "Complete kit ready for the classroom",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "per kit, excl. VAT",
+				"price": "",
+				"priceLabel": "Request a quote",
 				"buttonName": "Learn more",
 				"buttonLink": "/schools"
 			},
@@ -27,14 +27,14 @@
 				"title": "Distributor",
 				"subtitle": "Exclusive terms available on request",
 				"currency": "€",
-				"price": "235",
-				"priceLabel": "per kit, wholesale",
+				"price": "210",
+				"priceLabel": "per kit, 100+/yr",
 				"buttonName": "Learn more",
 				"buttonLink": "/distributors"
 			},
 			"body": {
 				"listItems": [
-					{ "listItem": "100+ units/year: from €210" },
+					{ "listItem": "€235 standard · €200 at 500+/yr" },
 					{ "listItem": "Other arrangements welcome" },
 					{ "listItem": "Marketing support" },
 					{ "listItem": "Training included" }
@@ -47,8 +47,8 @@
 				"title": "Parent",
 				"subtitle": "Everything for learning at home",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "per kit, + VAT",
+				"price": "",
+				"priceLabel": "Order from us or a distributor",
 				"buttonName": "Learn more",
 				"buttonLink": "/parents"
 			},

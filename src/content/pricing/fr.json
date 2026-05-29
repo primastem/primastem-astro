@@ -7,8 +7,8 @@
 				"title": "École",
 				"subtitle": "Kit complet prêt pour la classe",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "HT par kit",
+				"price": "",
+				"priceLabel": "Sur devis",
 				"buttonName": "En savoir plus",
 				"buttonLink": "/schools"
 			},
@@ -27,14 +27,14 @@
 				"title": "Distributeur",
 				"subtitle": "Conditions exclusives sur demande",
 				"currency": "€",
-				"price": "235",
-				"priceLabel": "par kit, prix de gros",
+				"price": "210",
+				"priceLabel": "par kit, 100+/an",
 				"buttonName": "En savoir plus",
 				"buttonLink": "/distributors"
 			},
 			"body": {
 				"listItems": [
-					{ "listItem": "100 unités/an et plus : à partir de 210 €" },
+					{ "listItem": "235 € standard · 200 € dès 500/an" },
 					{ "listItem": "Autres conditions étudiées" },
 					{ "listItem": "Support marketing" },
 					{ "listItem": "Formation incluse" }
@@ -47,8 +47,8 @@
 				"title": "Parent",
 				"subtitle": "Tout pour apprendre à la maison",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "par kit, HT",
+				"price": "",
+				"priceLabel": "Chez nous ou via un distributeur",
 				"buttonName": "En savoir plus",
 				"buttonLink": "/parents"
 			},

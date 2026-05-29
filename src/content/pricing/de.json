@@ -7,8 +7,8 @@
 				"title": "Schule",
 				"subtitle": "Komplettes Set für den Unterricht",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "pro Set, zzgl. MwSt.",
+				"price": "",
+				"priceLabel": "Auf Anfrage",
 				"buttonName": "Mehr erfahren",
 				"buttonLink": "/schools"
 			},
@@ -27,14 +27,14 @@
 				"title": "Händler",
 				"subtitle": "Exklusive Konditionen auf Anfrage",
 				"currency": "€",
-				"price": "235",
-				"priceLabel": "pro Set, Großhandel",
+				"price": "210",
+				"priceLabel": "pro Set, 100+/Jahr",
 				"buttonName": "Mehr erfahren",
 				"buttonLink": "/distributors"
 			},
 			"body": {
 				"listItems": [
-					{ "listItem": "100+ Einheiten/Jahr: ab €210" },
+					{ "listItem": "€235 Standard · €200 ab 500+/Jahr" },
 					{ "listItem": "Andere Vereinbarungen möglich" },
 					{ "listItem": "Marketing-Support" },
 					{ "listItem": "Schulung inklusive" }
@@ -47,8 +47,8 @@
 				"title": "Eltern",
 				"subtitle": "Alles fürs Lernen zu Hause",
 				"currency": "€",
-				"price": "297",
-				"priceLabel": "pro Set, + MwSt.",
+				"price": "",
+				"priceLabel": "Direkt oder über einen Händler",
 				"buttonName": "Mehr erfahren",
 				"buttonLink": "/parents"
 			},

@@ -7,8 +7,8 @@
 		"title": "Un outil pédagogique sans écran <strong>que le marché demande.</strong>",
 		"subtitle1": "Écoles, maternelles, Montessori, périscolaire, parents — un seul produit pour tous.",
 		"subtitle2": "Programmation + mathématiques. De 4 à 10 ans. Bois. Certifié CE + UKCA. 17 langues.",
-		"price": "Prix de gros à partir de 235 € HT.",
-		"volumeLine": "100 unités/an et plus : à partir de 210 €.<br />Autres conditions étudiées.",
+		"price": "À partir de 210 € / kit dès 100 unités/an.",
+		"volumeLine": "235 € standard · 200 € dès 500/an · HT.<br />Autres conditions sur demande.",
 		"buttons": [
 			{ "text": "Demander un devis", "link": "/contact", "style": "primary" },
 			{ "text": "Fiche produit", "link": "/sheet", "style": "secondary" }
@@ -33,7 +33,7 @@
 		{
 			"sidebarTitle": "Conditions",
 			"sidebarText": "",
-			"body": "**Prix de gros : à partir de 235 € HT.** 100 unités/an et plus : à partir de 210 €. Autres conditions étudiées.\n\nSupports marketing dans votre langue. Support technique. Participation conjointe aux salons. Exclusivité territoriale négociable.\n\nPrésent en : France (vente directe), Pays-Bas, Luxembourg (pilote avec le ministère de l'Éducation). Expansion en Espagne.\n\n**Toutes les conditions, tarifs et exclusivités sont discutés au cas par cas. Contactez-nous pour entamer la conversation.**"
+			"body": "**Prix de gros : à partir de 235 € HT.** 100 unités/an et plus : à partir de 210 €. Autres conditions étudiées.\n\nSupports marketing dans votre langue. Support technique. Participation conjointe aux salons. Exclusivité territoriale négociable.\n\n**Toutes les conditions, tarifs et exclusivités sont discutés au cas par cas. Contactez-nous pour entamer la conversation.**"
 		},
 		{
 			"sidebarTitle": "Pourquoi PrimaSTEM",
@@ -48,7 +48,7 @@
 		{
 			"sidebarTitle": "Tarifs",
 			"sidebarText": "",
-			"body": "Prix de vente conseillé : **297 € / kit (+ TVA)**.\n\n| Niveau | Prix de gros (HT) | Marge @ 297 € |\n|---|:---:|:---:|\n| Standard | 235 € | 21 % |\n| 100 unités/an et + | 210 € | 29 % |\n| 500 unités/an et + | 200 € | 33 % |\n\nPrépaiement pour les nouveaux distributeurs. MOQ flexible."
+			"body": "| Niveau | Prix de gros (HT) |\n|---|:---:|\n| Standard | 235 € |\n| 100 unités/an et + | 210 € |\n| 500 unités/an et + | 200 € |\n\nVous fixez votre prix de vente et votre marge — votre marché, votre choix. Prépaiement pour les nouveaux distributeurs. MOQ flexible."
 		}
 	],
 	"cta": {

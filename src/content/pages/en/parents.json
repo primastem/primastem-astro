@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM for Parents — Screen-Free Coding Toy",
-		"description": "Wooden programmable robot for children 4–10. No screen, no apps. Teaches coding and math through play. CE certified. Made in France. €297 + VAT."
+		"description": "Wooden programmable robot for children 4–10. No screen, no apps. Teaches coding and math through play. CE + UKCA certified. Made in France. Available through our distributors."
 	},
 	"hero": {
 		"title": "Real skills, real play, <strong>no screen.</strong>",
 		"subtitle": "A wooden robot your child programs by hand. Ages 4–10.",
-		"price": "€297 + VAT.",
+		"price": "Order from us or through a distributor in your country.",
 		"buttonText": "Watch video",
 		"buttonLink": "https://youtube.com/@primastem"
 	},
@@ -29,12 +29,12 @@
 		{
 			"sidebarTitle": "Why this one",
 			"sidebarText": "",
-			"body": "**Wood.** Not plastic.\n\n**No screen.** No apps.\n\n**It speaks.** Says each token aloud — works before a child learns to read.\n\n**It draws.** Stars, spirals, hearts.\n\n**Made in France.** CE certified."
+			"body": "**Wood.** Not plastic.\n\n**No screen.** No apps.\n\n**It speaks.** Says each token aloud — works before a child learns to read.\n\n**It draws.** Stars, spirals, hearts.\n\n**Made in France.** CE + UKCA certified."
 		}
 	],
 	"cta": {
-		"title": "€297 <strong>+ VAT</strong>",
+		"title": "Bring PrimaSTEM <strong>home</strong>",
 		"subtitle": "Complete kit. Order from us or through a distributor in your country.",
-		"buttonText": "Request a quote"
+		"buttonText": "Get in touch"
 	}
 }

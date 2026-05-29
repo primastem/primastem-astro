@@ -34,11 +34,10 @@ const prefix = `/${Astro.currentLocale ?? 'ru'}`
 		"audience": { "@type": "EducationalAudience", "educationalRole": "student", "suggestedMinAge": "4", "suggestedMaxAge": "10" },
 		"offers": {
 			"@type": "Offer",
-			"price": structuredData.price,
-			"priceCurrency": "EUR",
-			"priceValidUntil": structuredData.priceValidUntil,
 			"availability": "https://schema.org/InStock",
-			"url": "https://primastem.com/contact"
+			"businessFunction": "http://purl.org/goodrelations/v1#Sell",
+			"url": "https://primastem.com/contact",
+			"seller": { "@type": "Organization", "name": "PrimaSTEM" }
 		}
 	})} />
 	<!-- HERO -->

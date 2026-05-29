@@ -67,7 +67,7 @@
 			{ "label": "Matemáticas", "value": "+, −, ×, ÷, √, ^, !" },
 			{ "label": "Ranuras", "value": "6×2 principales + 5×2 función" },
 			{ "label": "Audio", "value": "Retroalimentación de voz en 17 idiomas + muestras de sonido" },
-			{ "label": "Certificación", "value": "CE" },
+			{ "label": "Certificación", "value": "CE + UKCA" },
 			{ "label": "Edad", "value": "4–10" },
 			{ "label": "Fabricado en", "value": "Cannes, Francia" }
 		]
@@ -83,7 +83,7 @@
 	},
 	"order": {
 		"title": "Desde €235 <strong>sin IVA</strong>",
-		"subtitle": "Kit completo, listo para usar.",
+		"subtitle": "Precio mayorista por unidad para distribuidores — €210 desde 100/año, €200 desde 500/año.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
 		"buttonText": "Solicitar presupuesto",
 		"buttonLink": "/contact",

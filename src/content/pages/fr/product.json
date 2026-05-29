@@ -67,7 +67,7 @@
 			{ "label": "Mathématiques", "value": "+, −, ×, ÷, √, ^, !" },
 			{ "label": "Emplacements", "value": "6×2 principaux + 5×2 fonction" },
 			{ "label": "Audio", "value": "Retour vocal en 17 langues + échantillons sonores" },
-			{ "label": "Certification", "value": "CE" },
+			{ "label": "Certification", "value": "CE + UKCA" },
 			{ "label": "Âge", "value": "4–10 ans" },
 			{ "label": "Fabriqué à", "value": "Cannes, France" }
 		]
@@ -83,7 +83,7 @@
 	},
 	"order": {
 		"title": "À partir de 235 € <strong>HT</strong>",
-		"subtitle": "Kit complet, prêt à l'emploi.",
+		"subtitle": "Prix de gros à l'unité pour distributeurs — 210 € dès 100/an, 200 € dès 500/an.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
 		"buttonText": "Demander un devis",
 		"buttonLink": "/contact",

@@ -67,7 +67,7 @@
 			{ "label": "Математика", "value": "+, −, ×, ÷, √, ^, !" },
 			{ "label": "Слоты", "value": "6×2 основных + 5×2 функциональных" },
 			{ "label": "Аудио", "value": "Голосовая обратная связь на 17 языках + звуковые примеры" },
-			{ "label": "Сертификация", "value": "CE" },
+			{ "label": "Сертификация", "value": "CE + UKCA" },
 			{ "label": "Возраст", "value": "4–10" },
 			{ "label": "Производство", "value": "Канны, Франция" }
 		]
@@ -83,7 +83,7 @@
 	},
 	"order": {
 		"title": "От €235 <strong>без НДС</strong>",
-		"subtitle": "Полный комплект, готов к использованию.",
+		"subtitle": "Оптовая цена за штуку для дистрибьюторов — €210 от 100/год, €200 от 500/год.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
 		"buttonText": "Запросить предложение",
 		"buttonLink": "/contact",

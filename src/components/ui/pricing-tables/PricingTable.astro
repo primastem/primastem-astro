@@ -84,9 +84,15 @@ const { type, header, body, footer } = data
 						{ [`text-primary-50`]: type === 'featured' }
 					]}
 				>
-					<span class="pricing__header-currency">{header.currency}</span>
-					<span class="pricing__header-price">{header.price}</span>
-					<span class="pricing__header-perTime">/{header.priceLabel}</span>
+					{header.price ? (
+						<>
+							<span class="pricing__header-currency">{header.currency}</span>
+							<span class="pricing__header-price">{header.price}</span>
+							<span class="pricing__header-perTime">/{header.priceLabel}</span>
+						</>
+					) : (
+						<span class="pricing__header-noprice">{header.priceLabel}</span>
+					)}
 				</h4>
 				<h4
 					class:list={[
@@ -94,9 +100,15 @@ const { type, header, body, footer } = data
 						{ [`text-primary-50`]: type === 'featured' }
 					]}
 				>
-					<span class="pricing__header-currency">{header.currency}</span>
-					<span class="pricing__header-price">{header.priceMontly}</span>
-					<span class="pricing__header-perTime">/{header.priceLabelMontly}</span>
+					{header.priceMontly ? (
+						<>
+							<span class="pricing__header-currency">{header.currency}</span>
+							<span class="pricing__header-price">{header.priceMontly}</span>
+							<span class="pricing__header-perTime">/{header.priceLabelMontly}</span>
+						</>
+					) : (
+						<span class="pricing__header-noprice">{header.priceLabelMontly ?? header.priceLabel}</span>
+					)}
 				</h4>
 			</div>
 
@@ -163,6 +175,9 @@ const { type, header, body, footer } = data
 	}
 	.pricing__header-perTime {
 		@apply text-sm;
+	}
+	.pricing__header-noprice {
+		@apply flex h-16 items-center justify-center text-lg font-semibold leading-snug;
 	}
 	.pricing__header-info {
 		@apply h-16 overflow-hidden;

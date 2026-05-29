@@ -34,7 +34,9 @@ const { title, description, ogImage, noindex, classes } = Astro.props
 
 <!doctype html>
 <html lang={Astro.currentLocale ?? 'en'} class="scroll-animation mode-auto relative">
-	<Header title={title} description={description} ogImage={ogImage} noindex={noindex} />
+	<Header title={title} description={description} ogImage={ogImage} noindex={noindex}>
+		<slot name="structured-data" slot="structured-data" />
+	</Header>
 	<body
 		class:list={[
 			{ ['mode-' + `${configData.mode}`]: configData.mode },
