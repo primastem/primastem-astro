@@ -4,11 +4,11 @@
 		"description": "Das einzige bildschirmfreie Lernmittel, das sowohl Programmieren als auch Mathematik vermittelt. Hölzerner programmierbarer Roboter für Kinder von 4 bis 10 Jahren."
 	},
 	"hero": {
-		"title": "Programmieren und Mathe <strong>ohne Bildschirm.</strong>",
-		"subtitle": "Das einzige bildschirmfreie Werkzeug, das beides lehrt.<br />Für Kinder von 4 bis 10 Jahren.",
-		"price": "Ab €210 / Set bei 100+ Einheiten/Jahr.",
-		"volumeLine": "€235 Standard · €200 ab 500+/Jahr · zzgl. MwSt.<br />Andere Vereinbarungen möglich.",
-		"buttonText": "Preise ansehen",
+		"title": "Programmieren und Mathe <strong>ohne Bildschirm!</strong>",
+		"subtitle": "Lehrt Programmieren, Logik, Arithmetik und Geometrie — mit den Händen.<br />Für Kinder von 4 bis 10 Jahren.",
+		"price": "",
+		"volumeLine": "",
+		"buttonText": "Wählen Sie Ihren Weg",
 		"buttonLink": "#pricing-v3"
 	},
 	"twoLevels": {

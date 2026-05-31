@@ -68,7 +68,7 @@
 
 ### Wholesale pricing
 
-**From €210 / kit at 100+ units/year.** €235 standard · €200 at 500+ · excl. VAT. You set your own retail and margin.
+**You set your own retail price and margin — your market, your call.** Wholesale terms discussed individually.
 
 Marketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.
 

@@ -1,7 +1,7 @@
 {
 	"seo": {
 		"title": "PrimaSTEM | Как работает — Подробности о продукте",
-		"description": "Полный технический обзор образовательного робота PrimaSTEM. Комплектация, команды, рисование, характеристики. От €210/комплект при 100+ единиц/год."
+		"description": "Полный технический обзор образовательного робота PrimaSTEM. Комплектация, команды, рисование, характеристики.."
 	},
 	"structuredData": {
 		"price": "235",
@@ -82,8 +82,8 @@
 		]
 	},
 	"order": {
-		"title": "От €210 <strong>/ комплект при 100+/год</strong>",
-		"subtitle": "€235 стандарт · €200 от 500+/год · опт, без НДС.",
+		"title": "Заказать <strong>PrimaSTEM</strong>",
+		"subtitle": "Одно устройство на всю начальную школу, 4–10 лет.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
 		"buttonText": "Запросить предложение",
 		"buttonLink": "/contact",

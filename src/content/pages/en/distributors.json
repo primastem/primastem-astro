@@ -1,14 +1,14 @@
 {
 	"seo": {
 		"title": "PrimaSTEM for Distributors — Wholesale Educational Robot",
-		"description": "Screen-free coding and math robot for ages 4–10. Wholesale from €210/kit at 100+ units/year. CE + UKCA certified. 17 languages. Volume pricing for 100+/500+ units/year."
+		"description": "Screen-free coding and math robot for ages 4–10. CE + UKCA certified. 17 languages. Wholesale to distributors across Europe."
 	},
 	"hero": {
 		"title": "A screen-free education tool <strong>the market is asking for.</strong>",
 		"subtitle1": "Schools, preschools, Montessori, after-school programs, parents — one product for all.",
 		"subtitle2": "Coding + mathematics. Ages 4–10. Wood. CE + UKCA certified. 17 languages.",
-		"price": "From €210 / kit at 100+ units/year.",
-		"volumeLine": "€235 standard · €200 at 500+/year · excl. VAT.<br />Other arrangements welcome.",
+		"price": "",
+		"volumeLine": "",
 		"buttons": [
 			{ "text": "Request a quote", "link": "/contact", "style": "primary" },
 			{ "text": "Product sheet", "link": "/sheet", "style": "secondary" }
@@ -46,9 +46,9 @@
 			"body": "**Ministry of Education Luxembourg** — school pilot running 2026.\n\n**Code N Play** (Belgium) — distribution partner.\n\n**Terra Numerica** (France) — units deployed in science workshops.\n\nAdditional partners: La Compagnie du Code, A4 Education, AFINEF."
 		},
 		{
-			"sidebarTitle": "Pricing",
+			"sidebarTitle": "Your margin",
 			"sidebarText": "",
-			"body": "| Tier | Wholesale (excl. VAT) |\n|---|:---:|\n| Standard | €235 |\n| 100+ units / yr | €210 |\n| 500+ units / yr | €200 |\n\nYou set your own retail price and margin — your market, your call. Prepayment for new distributors. MOQ flexible."
+			"body": "You set your own retail price and margin — your market, your call. Prepayment for new distributors. MOQ flexible."
 		}
 	],
 	"cta": {

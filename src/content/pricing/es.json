@@ -8,8 +8,8 @@
 				"subtitle": "Kit completo listo para el aula",
 				"currency": "€",
 				"price": "",
-				"priceLabel": "Solicitar presupuesto",
-				"buttonName": "Saber más",
+				"priceLabel": "",
+				"buttonName": "Para el aula",
 				"buttonLink": "/schools"
 			},
 			"body": {
@@ -27,14 +27,14 @@
 				"title": "Distribuidor",
 				"subtitle": "Condiciones exclusivas disponibles a solicitud",
 				"currency": "€",
-				"price": "210",
-				"priceLabel": "por kit, 100+/año",
-				"buttonName": "Saber más",
+				"price": "",
+				"priceLabel": "",
+				"buttonName": "Ser distribuidor",
 				"buttonLink": "/distributors"
 			},
 			"body": {
 				"listItems": [
-					{ "listItem": "€235 estándar · €200 con 500+/año" },
+					{ "listItem": "Usted fija su precio y margen" },
 					{ "listItem": "Otros acuerdos bienvenidos" },
 					{ "listItem": "Apoyo de marketing" },
 					{ "listItem": "Formación incluida" }
@@ -48,8 +48,8 @@
 				"subtitle": "Todo para aprender en casa",
 				"currency": "€",
 				"price": "",
-				"priceLabel": "Directo o vía distribuidor",
-				"buttonName": "Saber más",
+				"priceLabel": "",
+				"buttonName": "Para casa",
 				"buttonLink": "/parents"
 			},
 			"body": {

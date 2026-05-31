@@ -4,11 +4,11 @@
 		"description": "Le seul outil pédagogique sans écran qui enseigne à la fois la programmation et les mathématiques. Robot programmable en bois pour les enfants de 4 à 10 ans."
 	},
 	"hero": {
-		"title": "La programmation et les mathématiques <strong>sans écran.</strong>",
-		"subtitle": "Le seul outil sans écran qui enseigne les deux.<br />De 4 à 10 ans.",
-		"price": "À partir de 210 € / kit dès 100 unités/an.",
-		"volumeLine": "235 € standard · 200 € dès 500/an · HT.<br />Autres conditions sur demande.",
-		"buttonText": "Voir les tarifs",
+		"title": "La programmation et les mathématiques <strong>sans écran!</strong>",
+		"subtitle": "Apprend le code, la logique, l'arithmétique et la géométrie — à la main.<br />De 4 à 10 ans.",
+		"price": "",
+		"volumeLine": "",
+		"buttonText": "Choisissez votre profil",
 		"buttonLink": "#pricing-v3"
 	},
 	"twoLevels": {

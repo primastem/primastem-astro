@@ -1,14 +1,14 @@
 {
 	"seo": {
 		"title": "PrimaSTEM pour les distributeurs — Robot éducatif en gros",
-		"description": "Robot de programmation et de mathématiques sans écran, de 4 à 10 ans. En gros à partir de 210 €/kit dès 100 unités/an. Certifié CE + UKCA. 17 langues. Tarifs volume pour 100/500 unités/an et plus."
+		"description": "Robot de programmation et de mathématiques sans écran, de 4 à 10 ans. Certifié CE + UKCA. 17 langues. Vente en gros aux distributeurs en Europe."
 	},
 	"hero": {
 		"title": "Un outil pédagogique sans écran <strong>que le marché demande.</strong>",
 		"subtitle1": "Écoles, maternelles, Montessori, périscolaire, parents — un seul produit pour tous.",
 		"subtitle2": "Programmation + mathématiques. De 4 à 10 ans. Bois. Certifié CE + UKCA. 17 langues.",
-		"price": "À partir de 210 € / kit dès 100 unités/an.",
-		"volumeLine": "235 € standard · 200 € dès 500/an · HT.<br />Autres conditions sur demande.",
+		"price": "",
+		"volumeLine": "",
 		"buttons": [
 			{ "text": "Demander un devis", "link": "/contact", "style": "primary" },
 			{ "text": "Fiche produit", "link": "/sheet", "style": "secondary" }
@@ -46,9 +46,9 @@
 			"body": "**Ministère de l'Éducation du Luxembourg** — pilote scolaire en cours en 2026.\n\n**Code N Play** (Belgique) — partenaire distributeur.\n\n**Terra Numerica** (France) — unités déployées dans des ateliers scientifiques.\n\nPartenaires supplémentaires : La Compagnie du Code, A4 Education, AFINEF."
 		},
 		{
-			"sidebarTitle": "Tarifs",
+			"sidebarTitle": "Votre marge",
 			"sidebarText": "",
-			"body": "| Niveau | Prix de gros (HT) |\n|---|:---:|\n| Standard | 235 € |\n| 100 unités/an et + | 210 € |\n| 500 unités/an et + | 200 € |\n\nVous fixez votre prix de vente et votre marge — votre marché, votre choix. Prépaiement pour les nouveaux distributeurs. MOQ flexible."
+			"body": "Vous fixez votre prix de vente et votre marge — votre marché, votre choix. Prépaiement pour les nouveaux distributeurs. MOQ flexible."
 		}
 	],
 	"cta": {

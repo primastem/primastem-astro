@@ -4,11 +4,11 @@
 		"description": "The only screen-free education tool that teaches both coding and mathematics. Wooden programmable robot for children aged 4 to 10."
 	},
 	"hero": {
-		"title": "Coding and math <strong>without a screen.</strong>",
-		"subtitle": "The only screen-free tool that teaches both.<br />Ages 4 to 10.",
-		"price": "From €210 / kit at 100+ units/year.",
-		"volumeLine": "€235 standard · €200 at 500+/year · excl. VAT.<br />Other arrangements welcome.",
-		"buttonText": "See pricing",
+		"title": "Coding and math <strong>without a screen!</strong>",
+		"subtitle": "Teaches coding, logic, arithmetic, and geometry — by hand.<br />Ages 4–10.",
+		"price": "",
+		"volumeLine": "",
+		"buttonText": "Choose your path",
 		"buttonLink": "#pricing-v3"
 	},
 	"twoLevels": {

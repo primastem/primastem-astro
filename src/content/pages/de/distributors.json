@@ -1,14 +1,14 @@
 {
 	"seo": {
 		"title": "PrimaSTEM für Händler — Bildungsroboter im Großhandel",
-		"description": "Bildschirmfreier Programmier- und Mathe-Roboter für Kinder von 4–10 Jahren. Großhandel ab €210/Set bei 100+ Einheiten/Jahr. CE + UKCA zertifiziert. 17 Sprachen. Mengenpreise für 100/500+ Einheiten/Jahr."
+		"description": "Bildschirmfreier Programmier- und Mathe-Roboter für Kinder von 4–10 Jahren. CE + UKCA zertifiziert. 17 Sprachen. Großhandel an Händler in ganz Europa."
 	},
 	"hero": {
 		"title": "Ein bildschirmfreies Lernmittel, <strong>nach dem der Markt fragt.</strong>",
 		"subtitle1": "Schulen, Vorschulen, Montessori, Nachmittagsprogramme, Eltern — ein Produkt für alle.",
 		"subtitle2": "Programmieren + Mathematik. Alter 4–10. Holz. CE + UKCA zertifiziert. 17 Sprachen.",
-		"price": "Ab €210 / Set bei 100+ Einheiten/Jahr.",
-		"volumeLine": "€235 Standard · €200 ab 500+/Jahr · zzgl. MwSt.<br />Andere Vereinbarungen möglich.",
+		"price": "",
+		"volumeLine": "",
 		"buttons": [
 			{ "text": "Angebot anfordern", "link": "/contact", "style": "primary" },
 			{ "text": "Produktblatt", "link": "/sheet", "style": "secondary" }
@@ -46,9 +46,9 @@
 			"body": "**Bildungsministerium Luxemburg** — Schulpilotprojekt läuft 2026.\n\n**Code N Play** (Belgien) — Vertriebspartner.\n\n**Terra Numerica** (Frankreich) — Geräte in Wissenschaftswerkstätten im Einsatz.\n\nWeitere Partner: La Compagnie du Code, A4 Education, AFINEF."
 		},
 		{
-			"sidebarTitle": "Preise",
+			"sidebarTitle": "Ihre Marge",
 			"sidebarText": "",
-			"body": "| Stufe | Großhandelspreis (exkl. MwSt.) |\n|---|:---:|\n| Standard | 235 € |\n| 100+ Einheiten/Jahr | 210 € |\n| 500+ Einheiten/Jahr | 200 € |\n\nSie bestimmen Ihren Verkaufspreis und Ihre Marge selbst — Ihr Markt, Ihre Entscheidung. Vorauszahlung für neue Distributoren. MOQ flexibel."
+			"body": "Sie bestimmen Ihren Verkaufspreis und Ihre Marge selbst — Ihr Markt, Ihre Entscheidung. Vorauszahlung für neue Distributoren. MOQ flexibel."
 		}
 	],
 	"cta": {

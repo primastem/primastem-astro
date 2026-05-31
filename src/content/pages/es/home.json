@@ -4,11 +4,11 @@
 		"description": "La única herramienta educativa sin pantalla que enseña tanto programación como matemáticas. Robot de madera programable para niños de 4 a 10 años."
 	},
 	"hero": {
-		"title": "Programación y matemáticas <strong>sin pantalla.</strong>",
-		"subtitle": "La única herramienta sin pantalla que enseña ambas.<br />De 4 a 10 años.",
-		"price": "Desde €210 / kit con 100+ unidades/año.",
-		"volumeLine": "€235 estándar · €200 con 500+/año · sin IVA.<br />Otros acuerdos bienvenidos.",
-		"buttonText": "Ver precios",
+		"title": "Programación y matemáticas <strong>sin pantalla!</strong>",
+		"subtitle": "Enseña programación, lógica, aritmética y geometría — con las manos.<br />De 4 a 10 años.",
+		"price": "",
+		"volumeLine": "",
+		"buttonText": "Elige tu camino",
 		"buttonLink": "#pricing-v3"
 	},
 	"twoLevels": {

@@ -1,7 +1,7 @@
 {
 	"seo": {
 		"title": "PrimaSTEM | How It Works — Product Details",
-		"description": "Complete technical overview of the PrimaSTEM educational robot. Components, commands, drawing, specifications. From €210/kit at 100+ units/year."
+		"description": "Complete technical overview of the PrimaSTEM educational robot. Components, commands, drawing, specifications.."
 	},
 	"structuredData": {
 		"price": "235",
@@ -82,8 +82,8 @@
 		]
 	},
 	"order": {
-		"title": "From €210 <strong>/ kit at 100+ units/year</strong>",
-		"subtitle": "€235 standard · €200 at 500+/year · wholesale, excl. VAT.",
+		"title": "Order <strong>PrimaSTEM</strong>",
+		"subtitle": "One device for the whole primary curriculum, ages 4–10.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
 		"buttonText": "Request a quote",
 		"buttonLink": "/contact",

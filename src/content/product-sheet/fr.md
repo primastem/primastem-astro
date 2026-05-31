@@ -68,7 +68,7 @@
 
 ### Tarifs en gros
 
-**À partir de 210 € / kit dès 100 unités/an.** 235 € standard · 200 € dès 500+ · HT. Vous fixez votre prix de vente et votre marge.
+**Vous fixez votre prix de vente et votre marge — votre marché, votre choix.** Conditions de gros discutées au cas par cas.
 
 Supports marketing dans votre langue. Support technique. Participation conjointe aux salons. Exclusivité territoriale négociable.
 

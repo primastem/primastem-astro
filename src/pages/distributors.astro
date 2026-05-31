@@ -27,8 +27,8 @@ const { seo, hero, sections, cta } = pageData
 				<h1 set:html={hero.title} />
 				<p class="text-lg">{hero.subtitle1}</p>
 				<p class="text-lg">{hero.subtitle2}</p>
-				<p class="text-xl font-bold">{hero.price}</p>
-				<p set:html={hero.volumeLine} />
+				{hero.price && <p class="text-xl font-bold">{hero.price}</p>}
+				{hero.volumeLine && <p set:html={hero.volumeLine} />}
 				<div class="flex gap-4 flex-wrap">
 					{
 						hero.buttons.map((btn) => (

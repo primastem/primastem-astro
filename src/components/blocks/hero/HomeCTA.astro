@@ -25,9 +25,9 @@ const { data } = Astro.props
 	<Row>
 		<Col span="6" align="start">
 			<h1 set:html={data.title} />
-			<p class="text-lg" set:html={data.subtitle} />
-			<p class="text-xl font-bold">{data.price}</p>
-			<p set:html={data.volumeLine} />
+			<p class="text-xl lg:text-2xl text-neutral-600 dark:text-neutral-300" set:html={data.subtitle} />
+			{data.price && <p class="text-xl font-bold">{data.price}</p>}
+			{data.volumeLine && <p set:html={data.volumeLine} />}
 			<Button size="lg" link={data.buttonLink}>{data.buttonText}</Button>
 		</Col>
 		<Col span="6">
