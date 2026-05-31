@@ -7,119 +7,45 @@
 <style>
   @page { size: A4; margin: 16mm 15mm; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    color: #1e293b;
-    line-height: 1.5;
-    margin: 0;
-    background: #fff;
-  }
-
-  /* Header */
-  .header {
-    text-align: center;
-    padding: 0 0 24px;
-    border-bottom: 3px solid #5AA02C;
-  }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: #1e293b; line-height: 1.5; margin: 0; background: #fff; }
+  .header { text-align: center; padding: 0 0 24px; border-bottom: 3px solid #5AA02C; }
   .header img { height: 48px; margin-bottom: 16px; }
   .header h1 { font-size: 28px; font-weight: 700; color: #1e293b; margin-bottom: 4px; }
   .header .subtitle { font-size: 16px; color: #64748b; }
-
-  /* Main content */
   .content { padding: 24px 0; }
-  /* Clean page break: Specifications section starts page 2 */
   .page-break { page-break-before: always; }
   .kit-item, .specs-table, .commands, .two-col { page-break-inside: avoid; }
-
-  /* Two column layout */
   .two-col { display: flex; gap: 30px; margin-bottom: 30px; }
   .two-col .col-left { flex: 1; }
   .two-col .col-right { flex: 1; }
-
-  /* Description */
   .description { margin-bottom: 24px; }
   .description p { font-size: 13px; color: #475569; margin-bottom: 8px; }
   .description .cert { font-size: 12px; color: #64748b; }
-
-  /* Photo */
   .photo { text-align: center; }
-  .photo img {
-    max-width: 100%;
-    max-height: 220px;
-    border-radius: 8px;
-    object-fit: contain;
-  }
-
-  /* Section headers */
-  h2 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #5AA02C;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 12px;
-    padding-bottom: 6px;
-    border-bottom: 1px solid #e2e8f0;
-  }
-
-  /* Kit items */
+  .photo img { max-width: 100%; max-height: 220px; border-radius: 8px; object-fit: contain; }
+  h2 { font-size: 16px; font-weight: 700; color: #5AA02C; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid #e2e8f0; }
   .kit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 30px; }
-  .kit-item {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    border-radius: 6px;
-    padding: 12px 14px;
-  }
+  .kit-item { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px 14px; }
   .kit-item h3 { font-size: 13px; font-weight: 600; color: #1e293b; margin-bottom: 6px; }
   .kit-item ul { list-style: none; font-size: 11px; color: #475569; }
   .kit-item ul li { padding: 1px 0; }
   .kit-item ul li::before { content: "·"; margin-right: 6px; color: #5AA02C; font-weight: bold; }
-
-  /* Specs table */
   .specs-table { width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 12px; }
   .specs-table tr { border-bottom: 1px solid #f1f5f9; }
   .specs-table td { padding: 6px 0; }
   .specs-table td:first-child { font-weight: 600; color: #1e293b; width: 35%; }
   .specs-table td:last-child { color: #475569; }
-
-  /* Commands */
   .commands { margin-bottom: 30px; }
   .commands ul { list-style: none; font-size: 12px; color: #475569; }
   .commands ul li { padding: 3px 0; }
   .commands ul li strong { color: #1e293b; }
-
-  /* Pricing banner */
-  .pricing {
-    background: #fff;
-    color: #1e293b;
-    border: 1px solid #e2e8f0;
-    border-top: 3px solid #5AA02C;
-    border-radius: 8px;
-    padding: 24px 30px;
-    text-align: center;
-    margin-bottom: 30px;
-  }
+  .pricing { background: #fff; color: #1e293b; border: 1px solid #e2e8f0; border-top: 3px solid #5AA02C; border-radius: 8px; padding: 24px 30px; text-align: center; margin-bottom: 30px; }
   .pricing .price { font-size: 32px; font-weight: 700; color: #5AA02C; }
   .pricing .price-note { font-size: 13px; color: #475569; margin-top: 4px; }
   .pricing .conditions { font-size: 11px; color: #64748b; margin-top: 8px; }
-
-  /* Footer */
-  .footer {
-    border-top: 1px solid #e2e8f0;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 11px;
-    color: #64748b;
-  }
+  .footer { border-top: 1px solid #e2e8f0; padding: 20px 0; display: flex; justify-content: space-between; align-items: center; font-size: 11px; color: #64748b; }
   .footer a { color: #5AA02C; text-decoration: none; }
-
-  /* Print */
-  @media print {
-    body { max-width: none; }
-    .pricing { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  }
+  @media print { body { max-width: none; } .pricing { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
 </style>
 </head>
 <body>

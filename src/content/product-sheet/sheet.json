@@ -1,0 +1,66 @@
+{
+  "docTitle": "PrimaSTEM Product Sheet",
+  "seoTitle": "PrimaSTEM Product Sheet — Wholesale Educational Robot",
+  "seoDescription": "Product sheet for distributors. Screen-free coding and math robot. CE + UKCA certified.",
+  "h1": "PrimaSTEM Product Sheet",
+  "subtitle": "Screen-free coding and mathematics · Ages 4–10 · Made from wood",
+  "intro": [
+    "PrimaSTEM is a wooden programmable robot that teaches both coding and mathematics without a screen. Children place NFC command tokens on a tangible control board to build programs they can see and touch.",
+    "Two curriculum levels in one device: logic for ages 4–7 and real mathematics for ages 7–10. The robot draws geometric figures — stars, spirals, polygons — making math visible."
+  ],
+  "cert": "CE + UKCA certified. Made in Cannes, France. Complete kit with online lesson plans in 10 languages.",
+  "kit": [
+    { "title": "Ladybug Robot", "items": ["Diameter 125 mm, height 44 mm", "Wood", "USB-C charging, 2–3 hours battery", "Marker holder for drawing"] },
+    { "title": "Control Board", "items": ["317 × 217 mm, wood", "11 dual slots (6 main + 5 function)", "Bluetooth ~5 m", "Voice feedback speaker"] },
+    { "title": "Command Tokens", "items": ["100 pcs, 33 × 33 mm, cardboard, NFC 13.56 MHz", "NFC 13.56 MHz", "Scratch color coding", "Writable via free phone app"] },
+    { "title": "Teacher's Guide", "items": ["Online at docs.primastem.com", "Lesson plans and activities", "Available in 10 languages", "Printable worksheets"] }
+  ],
+  "specs": [
+    { "label": "Material", "value": "Wood (robot, board), cardboard (tokens)" },
+    { "label": "Robot", "value": "Diameter 125 mm, height 44 mm" },
+    { "label": "Board", "value": "317 × 217 mm" },
+    { "label": "Tokens", "value": "33 × 33 mm, NFC 13.56 MHz" },
+    { "label": "Connectivity", "value": "Bluetooth ~5 m" },
+    { "label": "Battery", "value": "Li-Ion USB-C, 2–3 hours" },
+    { "label": "Default step", "value": "15 cm (adjustable: any value)" },
+    { "label": "Angles", "value": "1°–360°" },
+    { "label": "Audio", "value": "Voice feedback + sound samples" },
+    { "label": "Voice languages", "value": "English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית" },
+    { "label": "Certification", "value": "CE + UKCA" },
+    { "label": "Age range", "value": "4–10" },
+    { "label": "Made in", "value": "Cannes, France" }
+  ],
+  "commands": [
+    { "label": "Movement & Program", "value": "Forward, Backward, Left, Right, Random, Function, Pause" },
+    { "label": "Repeat", "value": "2–999, Random repeat 1–6" },
+    { "label": "Mathematics", "value": "+, −, ×, ÷, √, ^" },
+    { "label": "Numbers", "value": "1–999" },
+    { "label": "System", "value": "Default step size, calibration" }
+  ],
+  "features": [
+    { "label": "Two levels", "value": "Logic (ages 4–7) and Mathematics (ages 7–10)" },
+    { "label": "Drawing", "value": "Robot draws geometric figures with a marker" },
+    { "label": "Open platform", "value": "NFC tokens writable with free app" },
+    { "label": "Compatible", "value": "Works with any grid map (10–25 cm step)" },
+    { "label": "Voice feedback", "value": "Board speaks each command in 17 languages" },
+    { "label": "No screen", "value": "Fully tangible programming" }
+  ],
+  "margin": {
+    "headline": "You set your own retail price and margin",
+    "note": "Your market, your call. Wholesale terms discussed individually.",
+    "conditions": [
+      "Marketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.",
+      "Early pilots and partners: Luxembourg (Ministry of Education pilot), Belgium (Code N Play), France (Terra Numerica). Distributor conversations underway across Europe.",
+      "All terms, pricing and exclusivity conditions are discussed individually. Contact us to start the conversation."
+    ]
+  },
+  "footer": {
+    "company": "PrimaSTEM SAS",
+    "location": "Cannes, France",
+    "contact": "info@primastem.com · +33 6 24 95 09 36 (WhatsApp)",
+    "links": [
+      { "text": "primastem.com", "href": "https://primastem.com" },
+      { "text": "docs.primastem.com", "href": "https://docs.primastem.com" }
+    ]
+  }
+}
