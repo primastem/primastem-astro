@@ -8,7 +8,8 @@
 		"subtitle": "A wooden robot your child programs by hand. Ages 4–10.",
 		"price": "Order from us or through a distributor in your country.",
 		"buttonText": "Watch video",
-		"buttonLink": "https://youtube.com/@primastem"
+		"buttonLink": "https://youtube.com/@primastem",
+		"simulatorText": "Try the web simulator"
 	},
 	"sections": [
 		{

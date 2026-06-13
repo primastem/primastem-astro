@@ -9,7 +9,8 @@
 		"price": "",
 		"volumeLine": "",
 		"buttonText": "Choisissez votre profil",
-		"buttonLink": "#pricing-v3"
+		"buttonLink": "#pricing-v3",
+		"simulatorText": "Essayer le simulateur web"
 	},
 	"twoLevels": {
 		"title": "Deux niveaux — <strong>un seul appareil</strong>",
@@ -38,7 +39,7 @@
 	},
 	"maps": {
 		"title": "Compatible avec les cartes <strong>que vous avez déjà</strong>",
-		"text": "PrimaSTEM s'adapte au contenu des autres robots éducatifs.<br><br>Le pas est réglable — 10, 12, 15, 25 cm. Toute carte quadrillée fonctionne. Aucun nouveau matériel à acheter."
+		"text": "PrimaSTEM s'adapte au contenu des autres robots éducatifs.<br><br>Le pas est réglable — 10, 12, 15, 25 cm. Toute carte quadrillée fonctionne. Aucun nouveau matériel à acheter.<br><br>Les plans de cours aussi — un programme entier conçu pour n'importe quel autre robot éducatif fonctionne tel quel sur PrimaSTEM."
 	},
 	"video": {
 		"title": "Voyez-le <strong>en action</strong>",

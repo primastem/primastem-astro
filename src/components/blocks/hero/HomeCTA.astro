@@ -15,6 +15,7 @@ type Props = {
 		volumeLine: string
 		buttonText: string
 		buttonLink: string
+		simulatorText?: string
 	}
 }
 
@@ -28,7 +29,10 @@ const { data } = Astro.props
 			<p class="text-xl lg:text-2xl text-neutral-600 dark:text-neutral-300" set:html={data.subtitle} />
 			{data.price && <p class="text-xl font-bold">{data.price}</p>}
 			{data.volumeLine && <p set:html={data.volumeLine} />}
-			<Button size="lg" link={data.buttonLink}>{data.buttonText}</Button>
+			<div class="flex gap-4 flex-wrap">
+				<Button size="lg" link={data.buttonLink}>{data.buttonText}</Button>
+				{data.simulatorText && <Button size="lg" style="neutral" link="https://simulator.primastem.com/">{data.simulatorText}</Button>}
+			</div>
 		</Col>
 		<Col span="6">
 			<div class="flex justify-center">

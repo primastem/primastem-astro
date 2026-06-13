@@ -54,6 +54,11 @@ const { seo, structuredData, hero, kit, commands, drawing, maps, openPlatform, v
 						))
 					}
 				</div>
+				{order.simulatorText && (
+					<div class="mt-6">
+						<Button size="lg" style="neutral" link="https://simulator.primastem.com/">{order.simulatorText}</Button>
+					</div>
+				)}
 			</Col>
 			<Col span="7">
 				<div class="aspect-video rounded-xl overflow-hidden" role="region" aria-label="PrimaSTEM product demo video">

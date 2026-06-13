@@ -8,7 +8,8 @@
 		"subtitle": "Un robot en bois que votre enfant programme à la main. De 4 à 10 ans.",
 		"price": "Commandez chez nous ou auprès d'un distributeur de votre pays.",
 		"buttonText": "Voir la vidéo",
-		"buttonLink": "https://youtube.com/@primastem"
+		"buttonLink": "https://youtube.com/@primastem",
+		"simulatorText": "Essayer le simulateur web"
 	},
 	"sections": [
 		{

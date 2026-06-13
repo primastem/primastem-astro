@@ -11,7 +11,8 @@
 		"volumeLine": "",
 		"buttons": [
 			{ "text": "Запросить предложение", "link": "/contact", "style": "primary" },
-			{ "text": "Лист продукта", "link": "/sheet", "style": "secondary" }
+			{ "text": "Лист продукта", "link": "/sheet", "style": "secondary" },
+			{ "text": "Открыть веб-симулятор", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
 	},
 	"sections": [

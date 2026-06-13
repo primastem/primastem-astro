@@ -8,7 +8,8 @@
 		"subtitle": "Un robot de madera que su hijo programa con las manos. Edades 4–10.",
 		"price": "Pida directamente a nosotros o a través de un distribuidor en su país.",
 		"buttonText": "Ver vídeo",
-		"buttonLink": "https://youtube.com/@primastem"
+		"buttonLink": "https://youtube.com/@primastem",
+		"simulatorText": "Probar el simulador web"
 	},
 	"sections": [
 		{

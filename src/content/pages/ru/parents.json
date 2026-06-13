@@ -8,7 +8,8 @@
 		"subtitle": "Деревянный робот, которого ваш ребёнок программирует своими руками. Возраст 4–10 лет.",
 		"price": "Заказать у нас или через дистрибьютора в вашей стране.",
 		"buttonText": "Смотреть видео",
-		"buttonLink": "https://youtube.com/@primastem"
+		"buttonLink": "https://youtube.com/@primastem",
+		"simulatorText": "Открыть веб-симулятор"
 	},
 	"sections": [
 		{

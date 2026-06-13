@@ -11,7 +11,8 @@
 		"volumeLine": "",
 		"buttons": [
 			{ "text": "Solicitar presupuesto", "link": "/contact", "style": "primary" },
-			{ "text": "Ficha del producto", "link": "/sheet", "style": "secondary" }
+			{ "text": "Ficha del producto", "link": "/sheet", "style": "secondary" },
+			{ "text": "Probar el simulador web", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
 	},
 	"sections": [

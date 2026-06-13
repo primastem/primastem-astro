@@ -9,7 +9,8 @@
 		"price": "Цены за объём — по запросу.",
 		"buttons": [
 			{ "text": "Смотреть демо", "link": "https://youtube.com/@primastem", "style": "primary" },
-			{ "text": "Планы уроков", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" }
+			{ "text": "Планы уроков", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" },
+				{ "text": "Открыть веб-симулятор", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
 	},
 	"sections": [

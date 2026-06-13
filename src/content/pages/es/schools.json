@@ -9,7 +9,8 @@
 		"price": "Precios por volumen — a consulta.",
 		"buttons": [
 			{ "text": "Ver demostración", "link": "https://youtube.com/@primastem", "style": "primary" },
-			{ "text": "Ver planes de lección", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" }
+			{ "text": "Ver planes de lección", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" },
+				{ "text": "Probar el simulador web", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
 	},
 	"sections": [

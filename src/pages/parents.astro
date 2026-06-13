@@ -30,7 +30,10 @@ const { seo, hero, sections, cta } = pageData
 				<h1 set:html={hero.title} />
 				<p class="text-lg">{hero.subtitle}</p>
 				<p class="text-xl font-bold">{hero.price}</p>
-				<Button size="lg" link={hero.buttonLink}>{hero.buttonText}</Button>
+				<div class="flex gap-4 flex-wrap">
+					<Button size="lg" link={hero.buttonLink}>{hero.buttonText}</Button>
+					{hero.simulatorText && <Button size="lg" style="neutral" link="https://simulator.primastem.com/">{hero.simulatorText}</Button>}
+				</div>
 			</Col>
 			<Col span="6">
 				<Image

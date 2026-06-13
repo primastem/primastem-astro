@@ -9,7 +9,8 @@
 		"price": "",
 		"volumeLine": "",
 		"buttonText": "Elige tu camino",
-		"buttonLink": "#pricing-v3"
+		"buttonLink": "#pricing-v3",
+		"simulatorText": "Probar el simulador web"
 	},
 	"twoLevels": {
 		"title": "Dos niveles — <strong>un dispositivo</strong>",
@@ -38,7 +39,7 @@
 	},
 	"maps": {
 		"title": "Funciona con los mapas <strong>que ya tiene</strong>",
-		"text": "PrimaSTEM se adapta al contenido de otros robots educativos.<br><br>El tamaño del paso es ajustable — 10, 12, 15, 25 cm. Cualquier mapa cuadriculado funciona. No se necesitan materiales nuevos."
+		"text": "PrimaSTEM se adapta al contenido de otros robots educativos.<br><br>El tamaño del paso es ajustable — 10, 12, 15, 25 cm. Cualquier mapa cuadriculado funciona. No se necesitan materiales nuevos.<br><br>Los planes de lección también — un currículo completo creado para cualquier otro robot educativo funciona tal cual en PrimaSTEM."
 	},
 	"video": {
 		"title": "Véalo <strong>en acción</strong>",

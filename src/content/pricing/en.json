@@ -1,6 +1,7 @@
 {
 	"sectionTitle": "Choose <strong>your path</strong>",
 	"sectionSubtitle": "Complete kit: robot, control board, command tokens, lesson plans and teacher's guide.",
+	"simulatorNote": "No device yet? Try it in your browser on our <a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">web simulator PrimaSTEM</a>",
 	"items": [
 		{
 			"header": {

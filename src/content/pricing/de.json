@@ -1,6 +1,7 @@
 {
 	"sectionTitle": "Wählen Sie <strong>Ihren Weg</strong>",
 	"sectionSubtitle": "Komplettset: Roboter, Steuerboard, Befehlstokens, Unterrichtspläne und Lehrerhandbuch.",
+	"simulatorNote": "Noch kein Gerät? Testen Sie es im Browser mit unserem <a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Web-Simulator PrimaSTEM</a>",
 	"items": [
 		{
 			"header": {

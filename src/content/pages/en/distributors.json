@@ -11,7 +11,8 @@
 		"volumeLine": "",
 		"buttons": [
 			{ "text": "Request a quote", "link": "/contact", "style": "primary" },
-			{ "text": "Product sheet", "link": "/sheet", "style": "secondary" }
+			{ "text": "Product sheet", "link": "/sheet", "style": "secondary" },
+			{ "text": "Try the web simulator", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
 	},
 	"sections": [

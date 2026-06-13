@@ -87,6 +87,7 @@
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
 		"buttonText": "Запросить предложение",
 		"buttonLink": "/contact",
+		"simulatorText": "Открыть веб-симулятор",
 		"segmentLinks": [
 			{ "text": "Для школ", "link": "/schools" },
 			{ "text": "Для дистрибьюторов", "link": "/distributors" },

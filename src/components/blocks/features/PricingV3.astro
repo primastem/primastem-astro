@@ -28,6 +28,7 @@ const pricingData = pricingDataRaw.items.map((item) => ({
 		<Col span="12" align="center" classes="mb-12 max-w-4xl mx-auto">
 			<h2 set:html={pricingDataRaw.sectionTitle} />
 			<p class="pb-0 text-lg">{pricingDataRaw.sectionSubtitle}</p>
+			{pricingDataRaw.simulatorNote && <p class="pb-0 mt-2 text-sm text-neutral-500 dark:text-neutral-400" set:html={pricingDataRaw.simulatorNote} />}
 		</Col>
 	</Row>
 	<Row>

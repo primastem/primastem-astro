@@ -8,7 +8,8 @@
 		"subtitle": "Ein Holzroboter, den Ihr Kind mit den Händen programmiert. Alter 4–10.",
 		"price": "Direkt bei uns oder über einen Händler in Ihrem Land bestellen.",
 		"buttonText": "Video ansehen",
-		"buttonLink": "https://youtube.com/@primastem"
+		"buttonLink": "https://youtube.com/@primastem",
+		"simulatorText": "Web-Simulator testen"
 	},
 	"sections": [
 		{

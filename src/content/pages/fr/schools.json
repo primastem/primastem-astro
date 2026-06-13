@@ -9,7 +9,8 @@
 		"price": "Tarifs sur devis.",
 		"buttons": [
 			{ "text": "Voir la démo", "link": "https://youtube.com/@primastem", "style": "primary" },
-			{ "text": "Voir les plans de cours", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" }
+			{ "text": "Voir les plans de cours", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" },
+				{ "text": "Essayer le simulateur web", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
 	},
 	"sections": [

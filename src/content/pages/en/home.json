@@ -9,7 +9,8 @@
 		"price": "",
 		"volumeLine": "",
 		"buttonText": "Choose your path",
-		"buttonLink": "#pricing-v3"
+		"buttonLink": "#pricing-v3",
+		"simulatorText": "Try the web simulator"
 	},
 	"twoLevels": {
 		"title": "Two levels — <strong>one device</strong>",
@@ -38,7 +39,7 @@
 	},
 	"maps": {
 		"title": "Works with maps <strong>you already have</strong>",
-		"text": "PrimaSTEM adapts to the content of other educational robots.<br><br>Step size is adjustable — 10, 12, 15, 25 cm. Any grid map works. No new materials needed."
+		"text": "PrimaSTEM adapts to the content of other educational robots.<br><br>Step size is adjustable — 10, 12, 15, 25 cm. Any grid map works. No new materials needed.<br><br>Lesson plans too — a full curriculum built for any other educational robot runs on PrimaSTEM as-is."
 	},
 	"video": {
 		"title": "See it <strong>in action</strong>",

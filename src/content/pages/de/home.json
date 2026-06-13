@@ -9,7 +9,8 @@
 		"price": "",
 		"volumeLine": "",
 		"buttonText": "Wählen Sie Ihren Weg",
-		"buttonLink": "#pricing-v3"
+		"buttonLink": "#pricing-v3",
+		"simulatorText": "Web-Simulator testen"
 	},
 	"twoLevels": {
 		"title": "Zwei Stufen — <strong>ein Gerät</strong>",
@@ -38,7 +39,7 @@
 	},
 	"maps": {
 		"title": "Funktioniert mit Karten, <strong>die Sie bereits haben</strong>",
-		"text": "PrimaSTEM passt sich den Inhalten anderer Lernroboter an.<br><br>Die Schrittgröße ist einstellbar — 10, 12, 15, 25 cm. Jede Rasterkarte funktioniert. Kein neues Material nötig."
+		"text": "PrimaSTEM passt sich den Inhalten anderer Lernroboter an.<br><br>Die Schrittgröße ist einstellbar — 10, 12, 15, 25 cm. Jede Rasterkarte funktioniert. Kein neues Material nötig.<br><br>Auch Unterrichtspläne: ein komplettes Curriculum für einen beliebigen anderen Lernroboter läuft unverändert auf PrimaSTEM."
 	},
 	"video": {
 		"title": "Sehen Sie es <strong>in Aktion</strong>",

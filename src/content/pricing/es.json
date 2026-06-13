@@ -1,6 +1,7 @@
 {
 	"sectionTitle": "Elija <strong>su opción</strong>",
 	"sectionSubtitle": "Kit completo: robot, tablero de control, fichas de comandos, planes de lección y guía del profesor.",
+	"simulatorNote": "¿Aún sin dispositivo? Pruébalo en tu navegador con nuestro <a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">simulador web PrimaSTEM</a>",
 	"items": [
 		{
 			"header": {
