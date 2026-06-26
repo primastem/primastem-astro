@@ -44,6 +44,8 @@ const { seo, hero, formTitle, contactItems } = pageData
 				))
 			}
 		</ul>
+{/* Contact form disabled — Netlify Forms (data-netlify) is Netlify-only and the form is unused (everyone emails/WhatsApps). Re-enable on Cloudflare via Web3Forms or a Pages Function. */}
+		{/*
 		<div slot="form">
 			<div class="max-w-xl rounded-xl border border-neutral-200 bg-white p-8 dark:border-neutral-700 dark:bg-neutral-800">
 				<h2 class="text-xl font-bold mb-6">{formTitle}</h2>
@@ -76,5 +78,6 @@ const { seo, hero, formTitle, contactItems } = pageData
 				</form>
 			</div>
 		</div>
+		*/}
 	</FormHero>
 </Layout>
