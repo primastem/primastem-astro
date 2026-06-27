@@ -4,8 +4,8 @@ This file is read by Claude Code at the start of every session. It documents pro
 
 ## Project at a glance
 
-- Astro 6 static site, deployed on Netlify (auto-deploy on push to `master`)
-- CMS: Sveltia at `/admin/` (GitHub OAuth via Netlify)
+- Astro 6 static site, deployed on **Cloudflare** (migrated from Netlify 2026-06-27; auto-deploy on push to `master` via Cloudflare Workers Builds). Served as Workers Static Assets — config in `wrangler.jsonc` (`assets.directory=./dist`, no Worker main). Workers subdomain = `chanov`.
+- CMS: Sveltia at `/admin/` (GitHub OAuth via self-hosted `sveltia-cms-auth` Worker at `sveltia-cms-auth.chanov.workers.dev`; `base_url` in `public/admin/config.yml`)
 - Build: `npm run build`
 - All editable content lives in `src/content/pages/{lang}/` — active locales: **en, fr, ru, de, es**
 
