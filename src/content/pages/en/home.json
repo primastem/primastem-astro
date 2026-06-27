@@ -38,7 +38,7 @@
 		"example": "Example:  (Repeat 5) [(Forward) (50), (Right) (144)] = a star."
 	},
 	"maps": {
-		"title": "Works with maps <strong>you already have</strong>",
+		"title": "Works with the maps and lesson plans <strong>you already have</strong>",
 		"text": "PrimaSTEM adapts to the content of other educational robots.<br><br>Step size is adjustable — 10, 12, 15, 25 cm. Any grid map works. No new materials needed.<br><br>Lesson plans too — a full curriculum built for any other educational robot runs on PrimaSTEM as-is."
 	},
 	"video": {

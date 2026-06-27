@@ -38,7 +38,7 @@
 		"example": "Ejemplo:  (Repetir 5) [(Avanzar) (50), (Girar derecha) (144)] = una estrella."
 	},
 	"maps": {
-		"title": "Funciona con los mapas <strong>que ya tiene</strong>",
+		"title": "Funciona con los mapas y planes de lección <strong>que ya tiene</strong>",
 		"text": "PrimaSTEM se adapta al contenido de otros robots educativos.<br><br>El tamaño del paso es ajustable — 10, 12, 15, 25 cm. Cualquier mapa cuadriculado funciona. No se necesitan materiales nuevos.<br><br>Los planes de lección también — un currículo completo creado para cualquier otro robot educativo funciona tal cual en PrimaSTEM."
 	},
 	"video": {

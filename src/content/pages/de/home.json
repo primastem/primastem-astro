@@ -38,7 +38,7 @@
 		"example": "Beispiel: (Wiederholen 5) [(Vorwärts) (50), (Rechts) (144)] = ein Stern."
 	},
 	"maps": {
-		"title": "Funktioniert mit Karten, <strong>die Sie bereits haben</strong>",
+		"title": "Funktioniert mit Karten und Unterrichtsplänen, <strong>die Sie bereits haben</strong>",
 		"text": "PrimaSTEM passt sich den Inhalten anderer Lernroboter an.<br><br>Die Schrittgröße ist einstellbar — 10, 12, 15, 25 cm. Jede Rasterkarte funktioniert. Kein neues Material nötig.<br><br>Auch Unterrichtspläne: ein komplettes Curriculum für einen beliebigen anderen Lernroboter läuft unverändert auf PrimaSTEM."
 	},
 	"video": {
