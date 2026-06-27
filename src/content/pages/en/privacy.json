@@ -21,7 +21,7 @@
 		{
 			"sidebarTitle": "Cookies and Updates",
 			"sidebarText": "Information about cookie usage and updates to this policy.",
-			"body": "#### Cookies\n\nThis site uses Google Analytics to analyze traffic. You can decline cookies through the banner displayed on your first visit or via your browser settings.\n\n#### Hosting\n\nThis site is hosted by Netlify, Inc., 44 Montgomery Street, Suite 300, San Francisco, California 94104, USA.\n\n#### Updates\n\nWe reserve the right to modify this policy at any time. The date of last update is shown at the top of this page."
+			"body": "#### Cookies\n\nThis site uses Google Analytics to analyze traffic. You can decline cookies through the banner displayed on your first visit or via your browser settings.\n\n#### Hosting\n\nThis site is hosted by Cloudflare, Inc., 101 Townsend Street, San Francisco, California 94107, USA.\n\n#### Updates\n\nWe reserve the right to modify this policy at any time. The date of last update is shown at the top of this page."
 		}
 	]
 }

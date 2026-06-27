@@ -21,7 +21,7 @@
 		{
 			"sidebarTitle": "Cookies y actualizaciones",
 			"sidebarText": "Información sobre el uso de cookies y las actualizaciones de esta política.",
-			"body": "#### Cookies\n\nEste sitio utiliza Google Analytics para analizar el tráfico. Puede rechazar las cookies a través del banner que aparece en su primera visita o mediante la configuración de su navegador.\n\n#### Alojamiento\n\nEste sitio está alojado por Netlify, Inc., 44 Montgomery Street, Suite 300, San Francisco, California 94104, USA.\n\n#### Actualizaciones\n\nNos reservamos el derecho de modificar esta política en cualquier momento. La fecha de la última actualización aparece en la parte superior de esta página."
+			"body": "#### Cookies\n\nEste sitio utiliza Google Analytics para analizar el tráfico. Puede rechazar las cookies a través del banner que aparece en su primera visita o mediante la configuración de su navegador.\n\n#### Alojamiento\n\nEste sitio está alojado por Cloudflare, Inc., 101 Townsend Street, San Francisco, California 94107, USA.\n\n#### Actualizaciones\n\nNos reservamos el derecho de modificar esta política en cualquier momento. La fecha de la última actualización aparece en la parte superior de esta página."
 		}
 	]
 }

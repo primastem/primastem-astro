@@ -16,7 +16,7 @@
 		{
 			"sidebarTitle": "Hosting",
 			"sidebarText": "Information about the site's host.",
-			"body": "#### Host\n\nNetlify, Inc.  \n512 2nd Street, Suite 200, San Francisco, CA 94107, USA  \n<a href=\"https://www.netlify.com\" target=\"_blank\" rel=\"noopener\">https://www.netlify.com</a>"
+			"body": "#### Host\n\nCloudflare, Inc.  \n101 Townsend Street, San Francisco, CA 94107, USA  \n<a href=\"https://www.cloudflare.com\" target=\"_blank\" rel=\"noopener\">https://www.cloudflare.com</a>"
 		},
 		{
 			"sidebarTitle": "Intellectual Property",

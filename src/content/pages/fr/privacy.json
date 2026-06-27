@@ -21,7 +21,7 @@
 		{
 			"sidebarTitle": "Cookies et modifications",
 			"sidebarText": "Informations sur l'utilisation des cookies et les modifications de cette politique.",
-			"body": "#### Cookies\n\nCe site utilise Google Analytics pour analyser la fréquentation. Vous pouvez refuser les cookies via le bandeau affiché lors de votre première visite ou dans les paramètres de votre navigateur.\n\n#### Hébergement\n\nCe site est hébergé par Netlify, Inc., 44 Montgomery Street, Suite 300, San Francisco, California 94104, USA.\n\n#### Modifications\n\nNous nous réservons le droit de modifier cette politique à tout moment. La date de dernière mise à jour est indiquée en haut de cette page."
+			"body": "#### Cookies\n\nCe site utilise Google Analytics pour analyser la fréquentation. Vous pouvez refuser les cookies via le bandeau affiché lors de votre première visite ou dans les paramètres de votre navigateur.\n\n#### Hébergement\n\nCe site est hébergé par Cloudflare, Inc., 101 Townsend Street, San Francisco, California 94107, USA.\n\n#### Modifications\n\nNous nous réservons le droit de modifier cette politique à tout moment. La date de dernière mise à jour est indiquée en haut de cette page."
 		}
 	]
 }
