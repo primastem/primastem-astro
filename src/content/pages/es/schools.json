@@ -17,7 +17,7 @@
 		{
 			"sidebarTitle": "Qué hacen los niños",
 			"sidebarText": "",
-			"body": "Colocan fichas de comandos en el tablero — ese es su programa, visible al completo. Pulsan «Inicio». El robot ejecuta. ¿Resultado incorrecto? Encuentran el error, cambian una ficha y vuelven a ejecutar.\n\nSecuencias, funciones, bucles, depuración. Sin pantalla. Solo con las manos.\n\nUn juguete que enseña. Una herramienta divertida con la que jugar."
+			"body": "Colocan fichas de comandos en el tablero — ese es su programa, visible al completo. Pulsan «Inicio». El robot ejecuta. ¿Resultado incorrecto? Encuentran el error, cambian una ficha y vuelven a ejecutar.\n\nSecuencias, funciones, bucles, depuración. Sin pantalla. Solo con las manos.\n\nComo todo el programa está a la vista, los niños encuentran el paso equivocado por sí mismos — y con el marcador puesto, el fallo aparece enseguida en el papel. Aprenden a corregir los errores en vez de temerlos."
 		},
 		{
 			"sidebarTitle": "Dos niveles",
