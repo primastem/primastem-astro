@@ -6,7 +6,7 @@ import FormHero from '../components/blocks/hero/ContactHero.astro'
 // Content (CMS-editable)
 import pageData from '../content/pages/en/contact.json'
 
-const { seo, hero, formTitle, contactItems } = pageData
+const { seo, hero, contactItems } = pageData
 ---
 
 <Layout title={seo.title} description={seo.description}>
@@ -44,40 +44,19 @@ const { seo, hero, formTitle, contactItems } = pageData
 				))
 			}
 		</ul>
-{/* Contact form disabled — Netlify Forms (data-netlify) is Netlify-only and the form is unused (everyone emails/WhatsApps). Re-enable on Cloudflare via Web3Forms or a Pages Function. */}
-		{/*
 		<div slot="form">
-			<div class="max-w-xl rounded-xl border border-neutral-200 bg-white p-8 dark:border-neutral-700 dark:bg-neutral-800">
-				<h2 class="text-xl font-bold mb-6">{formTitle}</h2>
-				<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-					<input type="hidden" name="form-name" value="contact" />
-					<p class="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
-					<div class="grid grid-cols-2 gap-4 mb-4">
-						<div class="relative">
-							<input type="text" name="name" id="name" required placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-5 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white" />
-							<label for="name" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Name <span class="text-primary-500">*</span></label>
-						</div>
-						<div class="relative">
-							<input type="text" name="organization" id="organization" placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-5 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white" />
-							<label for="organization" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Organization</label>
-						</div>
-					</div>
-					<div class="relative mb-4">
-						<input type="email" name="email" id="email" required placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-5 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white" />
-						<label for="email" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Email <span class="text-primary-500">*</span></label>
-					</div>
-					<div class="relative mb-4">
-						<input type="text" name="country" id="country" required placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-5 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white" />
-						<label for="country" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Country <span class="text-primary-500">*</span></label>
-					</div>
-					<div class="relative mb-6">
-						<textarea name="message" id="message" rows="4" required placeholder=" " class="peer w-full rounded-lg border border-neutral-300 px-4 pt-6 pb-2 text-sm outline-none focus:border-primary-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white resize-none"></textarea>
-						<label for="message" class="absolute left-4 top-2 text-xs text-neutral-400 transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-sm peer-focus:top-2 peer-focus:text-xs peer-focus:text-primary-500">Your Message <span class="text-primary-500">*</span></label>
-					</div>
-					<button type="submit" class="w-full rounded-lg bg-primary-500 px-6 py-3 text-white font-medium hover:bg-primary-600 transition-colors">Send message</button>
-				</form>
+			<div class="overflow-hidden rounded-xl border border-neutral-200 dark:border-neutral-700">
+				<iframe
+					title="PrimaSTEM — Cannes, France"
+					src="https://maps.google.com/maps?q=Cannes,France&amp;z=12&amp;output=embed"
+					width="100%"
+					height="450"
+					style="border:0; display:block;"
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+					allowfullscreen
+				></iframe>
 			</div>
 		</div>
-		*/}
 	</FormHero>
 </Layout>
