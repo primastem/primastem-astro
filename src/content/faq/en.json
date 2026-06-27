@@ -2,13 +2,13 @@
   "items": [
     {
       "question": "What age is PrimaSTEM for?",
-      "reply": "From age 4. The board speaks each token — knowing numbers isn't required. Ages 4–7 work with logic and simple programs. Ages 7–10 add mathematics, precise angles, and drawing.",
+      "reply": "From age 4. The board speaks each token - knowing numbers isn't required. Ages 4–7 work with logic and simple programs. Ages 7–10 add mathematics, precise angles, and drawing.",
       "category": "product",
       "open": true
     },
     {
       "question": "How does it work?",
-      "reply": "Children place command tokens on a wooden board — that's their program. Press Start — the robot executes. Wrong result? Find the error, swap a token, run again. No screen, no apps.",
+      "reply": "Children place command tokens on a wooden board - that's their program. Press Start - the robot executes. Wrong result? Find the error, swap a token, run again. No screen, no apps.",
       "category": "product",
       "open": false
     },
@@ -26,13 +26,13 @@
     },
     {
       "question": "Does it work with maps from other robots?",
-      "reply": "Yes. The default step size is adjustable — 10, 12, 15, 25 cm or any value. PrimaSTEM works with any grid map you already have.",
+      "reply": "Yes. The default step size is adjustable - 10, 12, 15, 25 cm or any value. PrimaSTEM works with any grid map you already have.",
       "category": "product",
       "open": false
     },
     {
       "question": "How much does it cost?",
-      "reply": "We sell wholesale to distributors and don't publish prices online — contact us and we'll connect you with a distributor or send wholesale terms directly. Schools and families: available through our distributors.",
+      "reply": "We sell wholesale to distributors and don't publish prices online - contact us and we'll connect you with a distributor or send wholesale terms directly. Schools and families: available through our distributors.",
       "category": "pricing",
       "open": true
     },
@@ -44,7 +44,7 @@
     },
     {
       "question": "Is there a distributor in my country?",
-      "reply": "We're just starting — early pilots and partners in France, Belgium and Luxembourg, with distributor conversations underway across Europe. Contact us to order directly or to bring PrimaSTEM to your country.",
+      "reply": "We're just starting - early pilots and partners in France, Belgium and Luxembourg, with distributor conversations underway across Europe. Contact us to order directly or to bring PrimaSTEM to your country.",
       "category": "pricing",
       "open": false
     },
@@ -62,7 +62,7 @@
     },
     {
       "question": "Can teachers create their own tokens?",
-      "reply": "Yes. Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app — create your own numbers, loops, or arithmetic operations in under a minute.",
+      "reply": "Yes. Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app - create your own numbers, loops, or arithmetic operations in under a minute.",
       "category": "technical",
       "open": false
     },

@@ -1,11 +1,11 @@
 {
 	"seo": {
-		"title": "PrimaSTEM — Programmieren und Mathe ohne Bildschirm für Kinder von 4–10 Jahren",
+		"title": "PrimaSTEM - Programmieren und Mathe ohne Bildschirm für Kinder von 4–10 Jahren",
 		"description": "Das einzige bildschirmfreie Lernmittel, das sowohl Programmieren als auch Mathematik vermittelt. Hölzerner programmierbarer Roboter für Kinder von 4 bis 10 Jahren."
 	},
 	"hero": {
 		"title": "Programmieren und Mathe <strong>ohne Bildschirm!</strong>",
-		"subtitle": "Lehrt Programmieren, Logik, Arithmetik und Geometrie — mit den Händen.<br />Für Kinder von 4 bis 10 Jahren.",
+		"subtitle": "Lehrt Programmieren, Logik, Arithmetik und Geometrie - mit den Händen.<br />Für Kinder von 4 bis 10 Jahren.",
 		"price": "",
 		"volumeLine": "",
 		"buttonText": "Wählen Sie Ihren Weg",
@@ -13,7 +13,7 @@
 		"simulatorText": "Web-Simulator testen"
 	},
 	"twoLevels": {
-		"title": "Zwei Stufen — <strong>ein Gerät</strong>",
+		"title": "Zwei Stufen - <strong>ein Gerät</strong>",
 		"subtitle": "Vom Labyrinth mit vier bis zur Spirale mit zehn. Ein Kauf, die ganze Grundschulzeit.",
 		"level1": {
 			"tag": "Logik, Zahlen",
@@ -28,7 +28,7 @@
 	},
 	"drawing": {
 		"title": "Der Roboter zeichnet, was <strong>das Kind programmiert</strong>",
-		"subtitle": "<strong>Diese Spirale? Kein anderer bildschirmfreier Roboter kann sie zeichnen</strong> — und ein Kind hat sie von Hand programmiert. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Den Prozess auf YouTube ansehen</a>.",
+		"subtitle": "<strong>Diese Spirale? Kein anderer bildschirmfreier Roboter kann sie zeichnen</strong> - und ein Kind hat sie von Hand programmiert. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Den Prozess auf YouTube ansehen</a>.",
 		"drawings": [
 			{ "name": "Fünfeck" },
 			{ "name": "Stern" },
@@ -39,7 +39,7 @@
 	},
 	"maps": {
 		"title": "Funktioniert mit Karten und Unterrichtsplänen, <strong>die Sie bereits haben</strong>",
-		"text": "PrimaSTEM passt sich den Inhalten anderer Lernroboter an.<br><br>Die Schrittgröße ist einstellbar — 10, 12, 15, 25 cm. Jede Rasterkarte funktioniert. Kein neues Material nötig.<br><br>Und für die Jüngsten liegt schon ein fertiger Lehrplan in der Schachtel; Unterrichtspläne für einen anderen Roboter laufen ebenfalls auf PrimaSTEM."
+		"text": "PrimaSTEM passt sich den Inhalten anderer Lernroboter an.<br><br>Die Schrittgröße ist einstellbar - 10, 12, 15, 25 cm. Jede Rasterkarte funktioniert. Kein neues Material nötig.<br><br>Und für die Jüngsten liegt schon ein fertiger Lehrplan in der Schachtel; Unterrichtspläne für einen anderen Roboter laufen ebenfalls auf PrimaSTEM."
 	},
 	"video": {
 		"title": "Sehen Sie es <strong>in Aktion</strong>",

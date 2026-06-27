@@ -1,6 +1,6 @@
 {
 	"seo": {
-		"title": "PrimaSTEM pour les parents — Jouet de programmation sans écran",
+		"title": "PrimaSTEM pour les parents - Jouet de programmation sans écran",
 		"description": "Robot programmable en bois pour enfants de 4 à 10 ans. Sans écran, sans application. Apprend la programmation et les maths par le jeu. Certifié CE + UKCA. Fabriqué en France. Disponible via nos distributeurs."
 	},
 	"hero": {
@@ -15,12 +15,12 @@
 		{
 			"sidebarTitle": "C'est quoi",
 			"sidebarText": "",
-			"body": "Des jetons sur une console en bois — « avancer », « tourner à droite », « répéter 3 fois ». Voilà le programme. L'enfant le voit, le touche, le réorganise. Il appuie sur un bouton — le robot exécute.\n\nQuelque chose s'est mal passé ? On trouve l'erreur, on la corrige, on relance. Le programme est là, sous ses yeux : l'enfant apprend à s'en sortir seul, calmement, sans craindre de se tromper."
+			"body": "Des jetons sur une console en bois - « avancer », « tourner à droite », « répéter 3 fois ». Voilà le programme. L'enfant le voit, le touche, le réorganise. Il appuie sur un bouton - le robot exécute.\n\nQuelque chose s'est mal passé ? On trouve l'erreur, on la corrige, on relance. Le programme est là, sous ses yeux : l'enfant apprend à s'en sortir seul, calmement, sans craindre de se tromper."
 		},
 		{
 			"sidebarTitle": "Grandit avec votre enfant",
 			"sidebarText": "",
-			"body": "**À 4–5 ans :** commandes simples et nombres. Labyrinthes sur cartes colorées.\n\n**À 6–7 ans :** fonctions et boucles. « Au lieu de l'écrire cinq fois — dis au robot : répète. »\n\n**À 8–10 ans :** mathématiques. Angles précis, distances, arithmétique. Insérez un feutre — le robot dessine étoiles, spirales et motifs géométriques."
+			"body": "**À 4–5 ans :** commandes simples et nombres. Labyrinthes sur cartes colorées.\n\n**À 6–7 ans :** fonctions et boucles. « Au lieu de l'écrire cinq fois - dis au robot : répète. »\n\n**À 8–10 ans :** mathématiques. Angles précis, distances, arithmétique. Insérez un feutre - le robot dessine étoiles, spirales et motifs géométriques."
 		},
 		{
 			"sidebarTitle": "Pas besoin d'être enseignant",
@@ -35,7 +35,7 @@
 		{
 			"sidebarTitle": "Pourquoi celui-ci",
 			"sidebarText": "",
-			"body": "**En bois.** Pas en plastique.\n\n**Sans écran.** Sans application.\n\n**Il parle.** Il énonce chaque jeton à voix haute — fonctionne avant que l'enfant sache lire.\n\n**Il dessine.** Étoiles, spirales, cœurs.\n\n**Fabriqué en France.** Certifié CE + UKCA."
+			"body": "**En bois.** Pas en plastique.\n\n**Sans écran.** Sans application.\n\n**Il parle.** Il énonce chaque jeton à voix haute - fonctionne avant que l'enfant sache lire.\n\n**Il dessine.** Étoiles, spirales, cœurs.\n\n**Fabriqué en France.** Certifié CE + UKCA."
 		}
 	],
 	"cta": {

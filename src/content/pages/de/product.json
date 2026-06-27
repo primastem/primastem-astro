@@ -1,6 +1,6 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | So funktioniert es — Produktdetails",
+		"title": "PrimaSTEM | So funktioniert es - Produktdetails",
 		"description": "Vollständige technische Übersicht des PrimaSTEM-Lernroboters. Komponenten, Befehle, Zeichnen, Spezifikationen.."
 	},
 	"structuredData": {
@@ -32,17 +32,17 @@
 	},
 	"drawing": {
 		"title": "Zeichnen",
-		"text": "Einen Stift einsetzen. Jede Bewegung hinterlässt eine Linie.<br><br>Vorwärts 50, Rechts 144, Wiederholen 5 = ein Stern. Eine arithmetische Progression hinzufügen — der Stern wird zur Spirale.<br><br>Diese Formen werden von Kindern programmiert und vom Roboter gezeichnet. <strong>Diese Spirale? Kein anderer bildschirmfreier Roboter kann sie zeichnen.</strong>"
+		"text": "Einen Stift einsetzen. Jede Bewegung hinterlässt eine Linie.<br><br>Vorwärts 50, Rechts 144, Wiederholen 5 = ein Stern. Eine arithmetische Progression hinzufügen - der Stern wird zur Spirale.<br><br>Diese Formen werden von Kindern programmiert und vom Roboter gezeichnet. <strong>Diese Spirale? Kein anderer bildschirmfreier Roboter kann sie zeichnen.</strong>"
 	},
 	"maps": {
 		"title": "Funktioniert mit jeder <strong>Karte</strong>",
-		"text": "Die Schrittgröße ist einstellbar. 10, 12, 15, 25 cm — jedes Raster. Verwenden Sie Karten von jedem Roboter, den Sie bereits im Unterricht haben. Kein neues Material nötig."
+		"text": "Die Schrittgröße ist einstellbar. 10, 12, 15, 25 cm - jedes Raster. Verwenden Sie Karten von jedem Roboter, den Sie bereits im Unterricht haben. Kein neues Material nötig."
 	},
 	"openPlatform": {
 		"title": "Offene <strong>Plattform</strong>",
 		"paragraphs": [
 			"Jedes Token ist ein Standard-NFC-Tag (13,56 MHz). Schreiben Sie beliebige Codes mit einer kostenlosen Handy-App. Erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen.",
-			"NFC-Tags auf dem Spielfeld — der Roboter spielt Audio ab, wenn er darüberfährt. Sprachkarten, Musikfelder, Geschichtenquests."
+			"NFC-Tags auf dem Spielfeld - der Roboter spielt Audio ab, wenn er darüberfährt. Sprachkarten, Musikfelder, Geschichtenquests."
 		]
 	},
 	"voiceFeedback": {

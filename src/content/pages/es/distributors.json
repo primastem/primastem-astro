@@ -1,11 +1,11 @@
 {
 	"seo": {
-		"title": "PrimaSTEM para Distribuidores — Robot Educativo al por Mayor",
+		"title": "PrimaSTEM para Distribuidores - Robot Educativo al por Mayor",
 		"description": "Robot de programación y matemáticas sin pantalla para edades 4–10. Certificado CE + UKCA. 17 idiomas. Venta al por mayor a distribuidores en Europa."
 	},
 	"hero": {
 		"title": "Una herramienta educativa sin pantalla <strong>que el mercado está pidiendo.</strong>",
-		"subtitle1": "Colegios, guarderías, Montessori, actividades extraescolares, padres — un producto para todos.",
+		"subtitle1": "Colegios, guarderías, Montessori, actividades extraescolares, padres - un producto para todos.",
 		"subtitle2": "Programación + matemáticas. Edades 4–10. Madera. Certificado CE + UKCA. 17 idiomas.",
 		"price": "",
 		"volumeLine": "",
@@ -19,12 +19,12 @@
 		{
 			"sidebarTitle": "El mercado",
 			"sidebarText": "",
-			"body": "<a href=\"https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">PISA 2022</a>: las puntuaciones en matemáticas están cayendo en toda Europa. Los gobiernos están restringiendo las pantallas en los colegios. Los colegios necesitan herramientas STEM sin pantalla — pero las disponibles solo enseñan direcciones básicas.\n\nPrimaSTEM combina programación tangible con matemáticas reales. Ángulos arbitrarios, operaciones aritméticas, dibujo geométrico. Un producto para edades 4–10. Un colegio lo compra una vez y lo usa durante años."
+			"body": "<a href=\"https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">PISA 2022</a>: las puntuaciones en matemáticas están cayendo en toda Europa. Los gobiernos están restringiendo las pantallas en los colegios. Los colegios necesitan herramientas STEM sin pantalla - pero las disponibles solo enseñan direcciones básicas.\n\nPrimaSTEM combina programación tangible con matemáticas reales. Ángulos arbitrarios, operaciones aritméticas, dibujo geométrico. Un producto para edades 4–10. Un colegio lo compra una vez y lo usa durante años."
 		},
 		{
 			"sidebarTitle": "Qué se vende",
 			"sidebarText": "",
-			"body": "**Dos grupos de edad — un dispositivo.** Edades 4–7: lógica, laberintos, programas simples y números. Edades 7–10: distancias precisas, cualquier ángulo, aritmética, geometría — dibujo. Un producto para toda la primaria.\n\n**Funciona con mapas existentes.** Se adapta al contenido de otros robots educativos. El paso predeterminado es ajustable — 10, 12, 15 o 25 cm. El colegio no necesita cambiar nada.\n\n**El robot dibuja.** Espirales, estrellas, polígonos, fractales — programados por los niños, dibujados por el robot en papel o pizarra. Este es el momento de la demostración que vende.\n\n**Los docentes crean sus propias fichas.** Cualquier número, bucle u operación aritmética — con una aplicación gratuita para teléfono en menos de un minuto. Mapas de sonido interactivos — el robot reproduce audio al pasar sobre una etiqueta NFC en el campo.\n\n**Versión en Braille** en fase piloto — un segmento de mercado inexplorado.\n\nPrimaSTEM cubre ambas edades y sustituye a varios robots: una sola compra para toda la primaria, unos seis años."
+			"body": "**Dos grupos de edad - un dispositivo.** Edades 4–7: lógica, laberintos, programas simples y números. Edades 7–10: distancias precisas, cualquier ángulo, aritmética, geometría - dibujo. Un producto para toda la primaria.\n\n**Funciona con mapas existentes.** Se adapta al contenido de otros robots educativos. El paso predeterminado es ajustable - 10, 12, 15 o 25 cm. El colegio no necesita cambiar nada.\n\n**El robot dibuja.** Espirales, estrellas, polígonos, fractales - programados por los niños, dibujados por el robot en papel o pizarra. Este es el momento de la demostración que vende.\n\n**Los docentes crean sus propias fichas.** Cualquier número, bucle u operación aritmética - con una aplicación gratuita para teléfono en menos de un minuto. Mapas de sonido interactivos - el robot reproduce audio al pasar sobre una etiqueta NFC en el campo.\n\n**Versión en Braille** en fase piloto - un segmento de mercado inexplorado.\n\nPrimaSTEM cubre ambas edades y sustituye a varios robots: una sola compra para toda la primaria, unos seis años."
 		},
 		{
 			"sidebarTitle": "Plan de estudios incluido",
@@ -39,7 +39,7 @@
 		{
 			"sidebarTitle": "Listo para su catálogo",
 			"sidebarText": "",
-			"body": "Certificado CE + UKCA. Carga USB-C, aproximadamente 2 horas de autonomía, según el uso. Bluetooth. Planes de lección y guía docente en línea en <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 idiomas. Tutoriales en YouTube."
+			"body": "Certificado CE + UKCA. Carga USB-C, aproximadamente 2 horas de autonomía, según el uso. Bluetooth. Planes de lección y guía docente en línea en <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 idiomas. Tutoriales en YouTube.\n\nDibuja con cualquier rotulador común, sin recambios propietarios."
 		},
 		{
 			"sidebarTitle": "Condiciones",
@@ -49,22 +49,22 @@
 		{
 			"sidebarTitle": "Por qué PrimaSTEM",
 			"sidebarText": "",
-			"body": "PrimaSTEM es un producto nuevo y exclusivo — no un sustituto de Cubetto o Matatalab. Es la única herramienta sin pantalla que permite a los niños **hacer matemáticas reales (aritmética + geometría) con las manos**, además de programación.\n\n#### Comparación general\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Facilidad de uso | alta | baja | **alta** |\n| Precisión | baja | media | **alta** |\n| Funcionalidad | baja | media | **alta** |\n| Materiales ecológicos | media | baja | **alta** |\n| Alcance docente plurianual | baja | media | **alta** |\n\n#### Capacidades concretas\n\n| Capacidad | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Pasos de movimiento | Solo cuadrícula fija | 100 mm fijos | **De 1 mm a 900 mm** |\n| Ángulos de giro | Solo 90° | Valores discretos (p. ej. 45°, 90°) | **Cualquier ángulo libremente** |\n| Contenido matemático | Ninguno | Ninguno | **Aritmética con fichas físicas** |\n| Geometría / dibujo | Ninguno | Formas limitadas | **Geometría precisa + dibujo con rotulador** |\n| Rango de edad | 4–6 | 7–9 | **4–10 (un dispositivo)** |\n| Materiales | Madera + ~50 % plástico | Todo plástico | **Contrachapado + cartón** |\n| Diseñado + fabricado en | Reino Unido / China | China | **Francia** |"
+			"body": "PrimaSTEM es un producto nuevo y exclusivo - no un sustituto de Cubetto o Matatalab. Es la única herramienta sin pantalla que permite a los niños **hacer matemáticas reales (aritmética + geometría) con las manos**, además de programación.\n\n#### Comparación general\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Facilidad de uso | alta | baja | **alta** |\n| Precisión | baja | media | **alta** |\n| Funcionalidad | baja | media | **alta** |\n| Materiales ecológicos | media | baja | **alta** |\n| Alcance docente plurianual | baja | media | **alta** |\n\n#### Capacidades concretas\n\n| Capacidad | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Pasos de movimiento | Solo cuadrícula fija | 100 mm fijos | **De 1 mm a 900 mm** |\n| Ángulos de giro | Solo 90° | Valores discretos (p. ej. 45°, 90°) | **Cualquier ángulo libremente** |\n| Contenido matemático | Ninguno | Ninguno | **Aritmética con fichas físicas** |\n| Geometría / dibujo | Ninguno | Formas limitadas | **Geometría precisa + dibujo con rotulador** |\n| Rango de edad | 4–6 | 7–9 | **4–10 (un dispositivo)** |\n| Materiales | Madera + ~50 % plástico | Todo plástico | **Contrachapado + cartón** |\n| Diseñado + fabricado en | Reino Unido / China | China | **Francia** |"
 		},
 		{
 			"sidebarTitle": "Referencias",
 			"sidebarText": "",
-			"body": "**Ministerio de Educación de Luxemburgo** — piloto escolar en marcha en 2026.\n\n**Code N Play** (Bélgica) — socio distribuidor.\n\n**Terra Numerica**, un centro de divulgación científica en Sophia Antipolis (un proyecto de CNRS, Inria y la Université Côte d'Azur), ya utiliza PrimaSTEM en sus talleres.\n\nSocios adicionales: La Compagnie du Code, A4 Education, AFINEF."
+			"body": "**Ministerio de Educación de Luxemburgo** - piloto escolar en marcha en 2026.\n\n**Code N Play** (Bélgica) - socio distribuidor.\n\n**Terra Numerica**, un centro de divulgación científica en Sophia Antipolis (un proyecto de CNRS, Inria y la Université Côte d'Azur), ya utiliza PrimaSTEM en sus talleres.\n\nSocios adicionales: La Compagnie du Code, A4 Education, AFINEF."
 		},
 		{
 			"sidebarTitle": "Su margen",
 			"sidebarText": "",
-			"body": "Usted fija su propio precio de venta y margen — su mercado, su decisión. Pago anticipado para nuevos distribuidores. MOQ flexible."
+			"body": "Usted fija su propio precio de venta y margen - su mercado, su decisión. Pago anticipado para nuevos distribuidores. MOQ flexible."
 		}
 	],
 	"cta": {
 		"title": "Solicitar un <strong>presupuesto</strong>",
-		"subtitle": "",
+		"subtitle": "Pruebe el robot antes de pedirlo: funciona directamente en el navegador.",
 		"buttonText": "Ponerse en contacto"
 	}
 }

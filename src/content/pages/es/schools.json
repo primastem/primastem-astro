@@ -1,12 +1,12 @@
 {
 	"seo": {
-		"title": "PrimaSTEM para Colegios — Robot de Programación y Matemáticas sin Pantalla",
+		"title": "PrimaSTEM para Colegios - Robot de Programación y Matemáticas sin Pantalla",
 		"description": "Robot de madera programable para uso en el aula. Dos niveles curriculares (4–7 lógica, 7–10 matemáticas). Planes de lección incluidos. Precios por volumen a consulta."
 	},
 	"hero": {
 		"title": "Programación y matemáticas, edades 4–10. <strong>Un dispositivo.</strong>",
 		"subtitle": "Sin pantalla, sin aplicaciones. Funciona con los mapas de cualquier robot que ya tenga.",
-		"price": "Precios por volumen — a consulta.",
+		"price": "Precios por volumen - a consulta.",
 		"buttons": [
 			{ "text": "Ver demostración", "link": "https://youtube.com/@primastem", "style": "primary" },
 			{ "text": "Ver planes de lección", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" },
@@ -17,12 +17,12 @@
 		{
 			"sidebarTitle": "Qué hacen los niños",
 			"sidebarText": "",
-			"body": "Colocan fichas de comandos en el tablero — ese es su programa, visible al completo. Pulsan «Inicio». El robot ejecuta. ¿Resultado incorrecto? Encuentran el error, cambian una ficha y vuelven a ejecutar.\n\nSecuencias, funciones, bucles, depuración. Sin pantalla. Solo con las manos.\n\nComo todo el programa está a la vista, los niños encuentran el paso equivocado por sí mismos — y con el marcador puesto, el fallo aparece enseguida en el papel. Aprenden a corregir los errores en vez de temerlos."
+			"body": "Colocan fichas de comandos en el tablero - ese es su programa, visible al completo. Pulsan «Inicio». El robot ejecuta. ¿Resultado incorrecto? Encuentran el error, cambian una ficha y vuelven a ejecutar.\n\nSecuencias, funciones, bucles, depuración. Sin pantalla. Solo con las manos.\n\nComo todo el programa está a la vista, los niños encuentran el paso equivocado por sí mismos - y con el marcador puesto, el fallo aparece enseguida en el papel. Aprenden a corregir los errores en vez de temerlos."
 		},
 		{
 			"sidebarTitle": "Dos niveles",
 			"sidebarText": "",
-			"body": "**Edades 4–7: Lógica.** Pasos lógicos, giros de 90°. Avanzar, retroceder, izquierda, derecha, función, repetir. Planificación, secuencias, depuración, conteo.\n\nPrimaSTEM se adapta a los métodos de cualquier otro robot educativo. El tamaño del paso puede ser cualquier valor — por ejemplo 10, 12, 15 o 20 cm. Funciona con cualquier mapa cuadriculado que ya tenga.\n\n**Edades 7–10: Matemáticas.** Distancias precisas en mm y cualquier ángulo en grados: 1°–360°. Aritmética: +, −, ×, ÷, √, ^. Números negativos. Progresiones.\n\nInserte un marcador — el robot dibuja polígonos, estrellas, espirales y fractales en papel o pizarra."
+			"body": "**Edades 4–7: Lógica.** Pasos lógicos, giros de 90°. Avanzar, retroceder, izquierda, derecha, función, repetir. Planificación, secuencias, depuración, conteo.\n\nPrimaSTEM se adapta a los métodos de cualquier otro robot educativo. El tamaño del paso puede ser cualquier valor - por ejemplo 10, 12, 15 o 20 cm. Funciona con cualquier mapa cuadriculado que ya tenga.\n\n**Edades 7–10: Matemáticas.** Distancias precisas en mm y cualquier ángulo en grados: 1°–360°. Aritmética: +, −, ×, ÷, √, ^. Números negativos. Progresiones.\n\nInserte un marcador - el robot dibuja polígonos, estrellas, espirales y fractales en papel o pizarra."
 		},
 		{
 			"sidebarTitle": "El robot dibuja",
@@ -37,7 +37,7 @@
 		{
 			"sidebarTitle": "Lo que los docentes no esperan",
 			"sidebarText": "",
-			"body": "**Plataforma abierta.** Cada ficha es una etiqueta NFC estándar. Cree sus propios números, bucles u operaciones aritméticas con una aplicación gratuita para teléfono.\n\n**Mapas de sonido.** Coloque etiquetas NFC en el campo de juego — el robot reproduce audio al pasar sobre ellas.\n\n**Retroalimentación de voz.** El tablero pronuncia cada ficha en voz alta al colocarla, en 17 idiomas: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Ayuda a los niños que aún no saben leer y a los niños con discapacidad visual.\n\n**Versión en Braille** en fase piloto. Accesible para niños con discapacidad visual y de atención."
+			"body": "**Plataforma abierta.** Cada ficha es una etiqueta NFC estándar. Cree sus propios números, bucles u operaciones aritméticas con una aplicación gratuita para teléfono.\n\n**Mapas de sonido.** Coloque etiquetas NFC en el campo de juego - el robot reproduce audio al pasar sobre ellas.\n\n**Retroalimentación de voz.** El tablero pronuncia cada ficha en voz alta al colocarla, en 17 idiomas: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Ayuda a los niños que aún no saben leer y a los niños con discapacidad visual.\n\n**Versión en Braille** en fase piloto. Accesible para niños con discapacidad visual y de atención."
 		}
 	],
 	"cta": {

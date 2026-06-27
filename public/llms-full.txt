@@ -1,4 +1,4 @@
-# PrimaSTEM — Full Site Content
+# PrimaSTEM - Full Site Content
 
 > Screen-free coding and mathematics for children ages 4–10. Wooden programmable robot with tangible NFC command tokens. Made in Cannes, France.
 
@@ -10,15 +10,15 @@ Coding and math without a screen.
 
 The only screen-free tool that teaches both. Ages 4 to 10. Made from wood.
 
-Wholesale to distributors — contact us for terms.
+Wholesale to distributors - contact us for terms.
 
-## Two levels — one device
+## Two levels - one device
 
-One purchase — lasts through primary school.
+One purchase - lasts through primary school.
 
-Logic, Numbers — Ages 4–7: Logical step 15 cm (adjustable), 90° turns. Mazes, sequences, debugging.
+Logic, Numbers - Ages 4–7: Logical step 15 cm (adjustable), 90° turns. Mazes, sequences, debugging.
 
-Mathematics, Coding — Ages 7–10: Precise distances and angles of any value. Arithmetic, geometry, marker drawing.
+Mathematics, Coding - Ages 7–10: Precise distances and angles of any value. Arithmetic, geometry, marker drawing.
 
 ## The robot draws what the child programs
 
@@ -28,7 +28,7 @@ Example: (Repeat 5) [(Forward) (50), (Right) (144)] = a star.
 
 ## Works with maps you already have
 
-PrimaSTEM adapts to the content of other educational robots. Step size is adjustable — 10, 12, 15, 25 cm. Any grid map works. No new materials needed.
+PrimaSTEM adapts to the content of other educational robots. Step size is adjustable - 10, 12, 15, 25 cm. Any grid map works. No new materials needed.
 
 ## See it in action
 
@@ -40,7 +40,7 @@ Complete kit: robot, control board, command tokens, lesson plans and teacher's g
 
 School: available through our distributors. Robot + control board + tokens. Lesson plans & teacher's guide online.
 
-Distributor: wholesale only — you set your own retail and margin. Marketing support. Training included.
+Distributor: wholesale only - you set your own retail and margin. Marketing support. Training included.
 
 Parent: available through our distributors. Complete kit, ready to use. No subscriptions, no apps. No hidden costs. Lasts through primary school.
 
@@ -75,15 +75,15 @@ System: Default step size, calibration.
 
 ## Drawing
 
-Insert a marker. Every movement leaves a line. Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression — the star turns into a spiral. These shapes are programmed by children, drawn by the robot.
+Insert a marker. Every movement leaves a line. Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression - the star turns into a spiral. These shapes are programmed by children, drawn by the robot.
 
 ## Works with any map
 
-Step size is adjustable. 10, 12, 15, 25 cm — any grid. Use maps from any robot already in your classroom. No new materials needed.
+Step size is adjustable. 10, 12, 15, 25 cm - any grid. Use maps from any robot already in your classroom. No new materials needed.
 
 ## Open platform
 
-Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app. Create your own numbers, loops or arithmetic operations. NFC tags on the playing field — the robot plays audio when it drives over them. Language cards, musical fields, story quests.
+Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app. Create your own numbers, loops or arithmetic operations. NFC tags on the playing field - the robot plays audio when it drives over them. Language cards, musical fields, story quests.
 
 ## Voice feedback
 
@@ -99,15 +99,15 @@ Complete kit, ready to use. Available through distributors.
 
 # Distributors (/distributors)
 
-A screen-free education tool the market is asking for. Schools, preschools, Montessori, after-school programs, parents — one product for all. Coding + mathematics. Ages 4–10. Wood. CE + UKCA certified. 17 languages. Wholesale to distributors.
+A screen-free education tool the market is asking for. Schools, preschools, Montessori, after-school programs, parents - one product for all. Coding + mathematics. Ages 4–10. Wood. CE + UKCA certified. 17 languages. Wholesale to distributors.
 
 ## The market
 
-PISA 2022: math scores are declining across Europe. Governments are restricting screens in schools. Schools need screen-free STEM tools — but the ones available only teach basic directions. PrimaSTEM combines tangible programming with real mathematics. Arbitrary angles, arithmetic operations, geometric drawing. One product for ages 4–10. A school buys once and uses it for years.
+PISA 2022: math scores are declining across Europe. Governments are restricting screens in schools. Schools need screen-free STEM tools - but the ones available only teach basic directions. PrimaSTEM combines tangible programming with real mathematics. Arbitrary angles, arithmetic operations, geometric drawing. One product for ages 4–10. A school buys once and uses it for years.
 
 ## What sells
 
-Two age groups — one device. Works with existing maps. The robot draws. Teachers create their own tokens. Braille version in pilot testing.
+Two age groups - one device. Works with existing maps. The robot draws. Teachers create their own tokens. Braille version in pilot testing.
 
 ## Terms
 
@@ -121,16 +121,16 @@ Coding and mathematics, ages 4–10. One device. No screen, no apps. Works with 
 
 ## What children do
 
-They place command tokens on the board — that's their program, visible in full. Press "Start." The robot executes. Wrong result? Find the error, swap a token, run again. Sequences, functions, loops, debugging. No screen. Hands only.
+They place command tokens on the board - that's their program, visible in full. Press "Start." The robot executes. Wrong result? Find the error, swap a token, run again. Sequences, functions, loops, debugging. No screen. Hands only.
 
 ## Two levels
 
 Ages 4–7: Logic. Logical steps, 90° turns. Forward, backward, left, right, function, repeat. Planning, sequences, debugging, counting.
-Ages 7–10: Mathematics. Precise distances in mm and any angle in degrees: 1°–360°. Arithmetic: +, −, ×, ÷, √, ^. Negative numbers. Progressions. Insert a marker — the robot draws polygons, stars, spirals, fractals.
+Ages 7–10: Mathematics. Precise distances in mm and any angle in degrees: 1°–360°. Arithmetic: +, −, ×, ÷, √, ^. Negative numbers. Progressions. Insert a marker - the robot draws polygons, stars, spirals, fractals.
 
 ## Lessons included
 
-Objectives, materials, step-by-step instructions, printables. Full documentation at docs.primastem.com — 10 languages.
+Objectives, materials, step-by-step instructions, printables. Full documentation at docs.primastem.com - 10 languages.
 
 ## What teachers don't expect
 
@@ -146,7 +146,7 @@ Real skills, real play, no screen. A wooden robot your child programs by hand. A
 
 ## What is it
 
-Tokens on a wooden board — "forward," "turn right," "repeat 3 times." That's the program. The child sees it, touches it, rearranges it. Presses a button — the robot executes.
+Tokens on a wooden board - "forward," "turn right," "repeat 3 times." That's the program. The child sees it, touches it, rearranges it. Presses a button - the robot executes.
 
 ## Grows with your child
 
@@ -172,7 +172,7 @@ PrimaSTEM is inspired by Seymour Papert's constructionism and Montessori princip
 
 ## How it started
 
-We watched children spending more time in front of screens. We watched math scores fall. And we watched a child's eyes light up when they touched a wooden board and a robot, pressed a button — and the robot did exactly what they told it to.
+We watched children spending more time in front of screens. We watched math scores fall. And we watched a child's eyes light up when they touched a wooden board and a robot, pressed a button - and the robot did exactly what they told it to.
 
 ## What we believe
 
@@ -202,7 +202,7 @@ Q: What age is PrimaSTEM for?
 A: From age 4. Ages 4–7 work with logic and simple programs. Ages 7–10 add mathematics, precise angles, and drawing.
 
 Q: How does it work?
-A: Children place command tokens on a wooden board — that's their program. Press Start — the robot executes. No screen, no apps.
+A: Children place command tokens on a wooden board - that's their program. Press Start - the robot executes. No screen, no apps.
 
 Q: What's in the kit?
 A: Ladybug robot (wood, USB-C, Bluetooth), control board with 11 dual slots, command tokens (cardboard, NFC, color-coded), and a teacher's guide with lesson plans.
@@ -211,16 +211,16 @@ Q: Does the robot draw?
 A: Yes. Insert a marker and every movement leaves a line. Children program stars, spirals, polygons, fractals.
 
 Q: Does it work with maps from other robots?
-A: Yes. The default step size is adjustable — 10, 12, 15, 25 cm or any value.
+A: Yes. The default step size is adjustable - 10, 12, 15, 25 cm or any value.
 
 Q: How much does it cost?
-A: We sell wholesale to distributors and don't publish prices online — contact us and we'll connect you with a distributor or send wholesale terms directly. Schools and families: available through our distributors.
+A: We sell wholesale to distributors and don't publish prices online - contact us and we'll connect you with a distributor or send wholesale terms directly. Schools and families: available through our distributors.
 
 Q: Can I rent instead of buying?
 A: Rental is available for schools.
 
 Q: Is there a distributor in my country?
-A: We're just starting — early pilots and partners in France, Belgium and Luxembourg, with distributor conversations underway across Europe.
+A: We're just starting - early pilots and partners in France, Belgium and Luxembourg, with distributor conversations underway across Europe.
 
 Q: How long does the battery last?
 A: USB-C charging, approximately 2 hours per charge, depending on usage.

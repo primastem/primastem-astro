@@ -2,7 +2,7 @@
 ---
 
 # PrimaSTEM Product Sheet (for distributors)
-## Draft for review — will be converted to PDF
+## Draft for review - will be converted to PDF
 
 ---
 
@@ -17,8 +17,8 @@
 
 ### Key selling points (5 bullets)
 
-- **Two age groups — one device.** Logic for ages 4–7, mathematics for ages 7–10. One purchase covers all of primary school.
-- **The robot draws.** Stars, spirals, polygons, fractals — the demo moment that sells.
+- **Two age groups - one device.** Logic for ages 4–7, mathematics for ages 7–10. One purchase covers all of primary school.
+- **The robot draws.** Stars, spirals, polygons, fractals - the demo moment that sells.
 - **Works with existing maps.** Adjustable step size: 10, 12, 15, 25 cm. Compatible with any grid map already in schools.
 - **Open NFC platform.** Teachers create custom tokens with a free phone app. Sound maps, language cards, story quests.
 - **Voice feedback & accessibility.** The board speaks each command in 17 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Braille version in pilot testing.
@@ -68,17 +68,17 @@
 
 ### Wholesale pricing
 
-**You set your own retail price and margin — your market, your call.** Wholesale terms discussed individually.
+**You set your own retail price and margin - your market, your call.** Wholesale terms discussed individually.
 
 Marketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.
 
-Minimum order quantities, shipping terms, and lead times — discussed individually.
+Minimum order quantities, shipping terms, and lead times - discussed individually.
 
 ---
 
 ### Documentation & support
 
-- Full documentation: docs.primastem.com — 10 languages
+- Full documentation: docs.primastem.com - 10 languages
 - Video tutorials: youtube.com/@primastem
 - Technical support included
 

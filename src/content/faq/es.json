@@ -2,13 +2,13 @@
   "items": [
     {
       "question": "¿Para qué edad es PrimaSTEM?",
-      "reply": "Desde los 4 años. El tablero pronuncia cada ficha — no es necesario saber leer los números. De 4 a 7 años trabajan con lógica y programas simples. De 7 a 10 años añaden matemáticas, ángulos precisos y dibujo.",
+      "reply": "Desde los 4 años. El tablero pronuncia cada ficha - no es necesario saber leer los números. De 4 a 7 años trabajan con lógica y programas simples. De 7 a 10 años añaden matemáticas, ángulos precisos y dibujo.",
       "category": "product",
       "open": true
     },
     {
       "question": "¿Cómo funciona?",
-      "reply": "Los niños colocan fichas de comandos en un tablero de madera — ese es su programa. Pulsan Inicio — el robot ejecuta. ¿Resultado incorrecto? Encuentran el error, cambian una ficha y vuelven a ejecutar. Sin pantalla, sin aplicaciones.",
+      "reply": "Los niños colocan fichas de comandos en un tablero de madera - ese es su programa. Pulsan Inicio - el robot ejecuta. ¿Resultado incorrecto? Encuentran el error, cambian una ficha y vuelven a ejecutar. Sin pantalla, sin aplicaciones.",
       "category": "product",
       "open": false
     },
@@ -26,13 +26,13 @@
     },
     {
       "question": "¿Funciona con los mapas de otros robots?",
-      "reply": "Sí. El tamaño del paso predeterminado es ajustable — 10, 12, 15, 25 cm o cualquier valor. PrimaSTEM funciona con cualquier mapa cuadriculado que ya tenga.",
+      "reply": "Sí. El tamaño del paso predeterminado es ajustable - 10, 12, 15, 25 cm o cualquier valor. PrimaSTEM funciona con cualquier mapa cuadriculado que ya tenga.",
       "category": "product",
       "open": false
     },
     {
       "question": "¿Cuánto cuesta?",
-      "reply": "Vendemos al por mayor a distribuidores y no publicamos precios en línea — contáctenos y le pondremos en contacto con un distribuidor o le enviaremos las condiciones directamente. Colegios y familias: disponible a través de nuestros distribuidores.",
+      "reply": "Vendemos al por mayor a distribuidores y no publicamos precios en línea - contáctenos y le pondremos en contacto con un distribuidor o le enviaremos las condiciones directamente. Colegios y familias: disponible a través de nuestros distribuidores.",
       "category": "pricing",
       "open": true
     },
@@ -44,7 +44,7 @@
     },
     {
       "question": "¿Hay un distribuidor en mi país?",
-      "reply": "Estamos empezando — primeros pilotos y socios en Francia, Bélgica y Luxemburgo, con conversaciones con distribuidores en toda Europa. Contáctenos para hacer un pedido directo o para llevar PrimaSTEM a su país.",
+      "reply": "Estamos empezando - primeros pilotos y socios en Francia, Bélgica y Luxemburgo, con conversaciones con distribuidores en toda Europa. Contáctenos para hacer un pedido directo o para llevar PrimaSTEM a su país.",
       "category": "pricing",
       "open": false
     },
@@ -62,7 +62,7 @@
     },
     {
       "question": "¿Pueden los docentes crear sus propias fichas?",
-      "reply": "Sí. Cada ficha es una etiqueta NFC estándar (13,56 MHz). Escriba cualquier código con una aplicación gratuita para teléfono — cree sus propios números, bucles u operaciones aritméticas en menos de un minuto.",
+      "reply": "Sí. Cada ficha es una etiqueta NFC estándar (13,56 MHz). Escriba cualquier código con una aplicación gratuita para teléfono - cree sus propios números, bucles u operaciones aritméticas en menos de un minuto.",
       "category": "technical",
       "open": false
     },

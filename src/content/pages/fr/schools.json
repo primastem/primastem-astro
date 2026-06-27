@@ -1,6 +1,6 @@
 {
 	"seo": {
-		"title": "PrimaSTEM pour les écoles — Robot de programmation et de maths sans écran",
+		"title": "PrimaSTEM pour les écoles - Robot de programmation et de maths sans écran",
 		"description": "Robot programmable en bois pour la classe. Deux niveaux pédagogiques (4–7 logique, 7–10 maths). Plans de cours inclus. Tarifs sur devis."
 	},
 	"hero": {
@@ -17,12 +17,12 @@
 		{
 			"sidebarTitle": "Ce que font les enfants",
 			"sidebarText": "",
-			"body": "Ils placent les jetons de commande sur la console — c'est leur programme, visible en entier. Ils appuient sur « Démarrer ». Le robot exécute. Mauvais résultat ? On trouve l'erreur, on change un jeton, on relance.\n\nSéquences, fonctions, boucles, débogage. Sans écran. Avec les mains.\n\nComme tout le programme est sous les yeux, les enfants repèrent eux-mêmes l'étape fautive — et avec le feutre, l'erreur se voit aussitôt sur la feuille. Ils apprennent à corriger leurs erreurs plutôt qu'à en avoir peur."
+			"body": "Ils placent les jetons de commande sur la console - c'est leur programme, visible en entier. Ils appuient sur « Démarrer ». Le robot exécute. Mauvais résultat ? On trouve l'erreur, on change un jeton, on relance.\n\nSéquences, fonctions, boucles, débogage. Sans écran. Avec les mains.\n\nComme tout le programme est sous les yeux, les enfants repèrent eux-mêmes l'étape fautive - et avec le feutre, l'erreur se voit aussitôt sur la feuille. Ils apprennent à corriger leurs erreurs plutôt qu'à en avoir peur."
 		},
 		{
 			"sidebarTitle": "Deux niveaux",
 			"sidebarText": "",
-			"body": "**4–7 ans : Logique.** Pas logiques, virages à 90°. Avancer, reculer, gauche, droite, fonction, répéter. Planification, séquences, débogage, comptage.\n\nPrimaSTEM s'adapte aux méthodes de tout autre robot éducatif. Le pas peut prendre n'importe quelle valeur — par exemple 10, 12, 15 ou 20 cm. Compatible avec n'importe quelle carte quadrillée que vous possédez déjà.\n\n**7–10 ans : Mathématiques.** Distances précises en mm et angles de toute valeur en degrés : 1°–360°. Arithmétique : +, −, ×, ÷, √, ^. Nombres négatifs. Progressions.\n\nInsérez un feutre — le robot dessine polygones, étoiles, spirales et fractales sur papier ou tableau blanc."
+			"body": "**4–7 ans : Logique.** Pas logiques, virages à 90°. Avancer, reculer, gauche, droite, fonction, répéter. Planification, séquences, débogage, comptage.\n\nPrimaSTEM s'adapte aux méthodes de tout autre robot éducatif. Le pas peut prendre n'importe quelle valeur - par exemple 10, 12, 15 ou 20 cm. Compatible avec n'importe quelle carte quadrillée que vous possédez déjà.\n\n**7–10 ans : Mathématiques.** Distances précises en mm et angles de toute valeur en degrés : 1°–360°. Arithmétique : +, −, ×, ÷, √, ^. Nombres négatifs. Progressions.\n\nInsérez un feutre - le robot dessine polygones, étoiles, spirales et fractales sur papier ou tableau blanc."
 		},
 		{
 			"sidebarTitle": "Le robot dessine",
@@ -37,7 +37,7 @@
 		{
 			"sidebarTitle": "Ce que les enseignants n'attendent pas",
 			"sidebarText": "",
-			"body": "**Plateforme ouverte.** Chaque jeton est une étiquette NFC standard. Créez vos propres nombres, boucles ou opérations arithmétiques via une application mobile gratuite.\n\n**Cartes sonores.** Placez des étiquettes NFC sur le terrain de jeu — le robot émet un son lorsqu'il passe dessus.\n\n**Retour vocal.** La console énonce chaque jeton à voix haute au moment où il est posé, en 17 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Aide les enfants qui ne savent pas encore lire et ceux ayant une déficience visuelle.\n\n**Version braille** en phase pilote. Accessible aux enfants atteints de troubles visuels et de l'attention."
+			"body": "**Plateforme ouverte.** Chaque jeton est une étiquette NFC standard. Créez vos propres nombres, boucles ou opérations arithmétiques via une application mobile gratuite.\n\n**Cartes sonores.** Placez des étiquettes NFC sur le terrain de jeu - le robot émet un son lorsqu'il passe dessus.\n\n**Retour vocal.** La console énonce chaque jeton à voix haute au moment où il est posé, en 17 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Aide les enfants qui ne savent pas encore lire et ceux ayant une déficience visuelle.\n\n**Version braille** en phase pilote. Accessible aux enfants atteints de troubles visuels et de l'attention."
 		}
 	],
 	"cta": {

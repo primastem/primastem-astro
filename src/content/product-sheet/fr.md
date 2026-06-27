@@ -2,7 +2,7 @@
 ---
 
 # Fiche produit PrimaSTEM (pour distributeurs)
-## Brouillon pour relecture — sera converti en PDF
+## Brouillon pour relecture - sera converti en PDF
 
 ---
 
@@ -17,8 +17,8 @@
 
 ### Arguments clés (5 points)
 
-- **Deux tranches d'âge — un seul appareil.** Logique pour les 4–7 ans, mathématiques pour les 7–10 ans. Un seul achat couvre toute l'école primaire.
-- **Le robot dessine.** Étoiles, spirales, polygones, fractales — c'est l'argument démo qui fait mouche.
+- **Deux tranches d'âge - un seul appareil.** Logique pour les 4–7 ans, mathématiques pour les 7–10 ans. Un seul achat couvre toute l'école primaire.
+- **Le robot dessine.** Étoiles, spirales, polygones, fractales - c'est l'argument démo qui fait mouche.
 - **Compatible avec les cartes existantes.** Pas réglable : 10, 12, 15, 25 cm. Compatible avec n'importe quelle carte quadrillée déjà en classe.
 - **Plateforme NFC ouverte.** Les enseignants créent des jetons sur mesure via une application mobile gratuite. Cartes sonores, cartes linguistiques, parcours narratifs.
 - **Retour vocal et accessibilité.** Le tableau énonce chaque commande en 17 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Version braille en phase pilote.
@@ -68,17 +68,17 @@
 
 ### Tarifs en gros
 
-**Vous fixez votre prix de vente et votre marge — votre marché, votre choix.** Conditions de gros discutées au cas par cas.
+**Vous fixez votre prix de vente et votre marge - votre marché, votre choix.** Conditions de gros discutées au cas par cas.
 
 Supports marketing dans votre langue. Support technique. Participation conjointe aux salons. Exclusivité territoriale négociable.
 
-Quantités minimales de commande, conditions de livraison et délais — discutés au cas par cas.
+Quantités minimales de commande, conditions de livraison et délais - discutés au cas par cas.
 
 ---
 
 ### Documentation et support
 
-- Documentation complète : docs.primastem.com — 10 langues
+- Documentation complète : docs.primastem.com - 10 langues
 - Tutoriels vidéo : youtube.com/@primastem
 - Support technique inclus
 

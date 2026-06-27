@@ -2,7 +2,7 @@
 
 > Screen-free coding and mathematics for children ages 4–10. Wooden programmable robot with tangible NFC command tokens.
 
-PrimaSTEM is a wooden educational robot made in Cannes, France. Children place NFC command tokens on a control board to build programs — no screen, no app required. Two curriculum levels in one device: logic for ages 4–7 and mathematics for ages 7–10. The robot draws geometric figures (stars, spirals, polygons) making math visible. CE & UKCA certified.
+PrimaSTEM is a wooden educational robot made in Cannes, France. Children place NFC command tokens on a control board to build programs - no screen, no app required. Two curriculum levels in one device: logic for ages 4–7 and mathematics for ages 7–10. The robot draws geometric figures (stars, spirals, polygons) making math visible. CE & UKCA certified.
 
 ## Pages
 
@@ -40,8 +40,8 @@ Available in 5 languages: English (default), French (/fr/), German (/de/), Spani
 
 ## Pricing
 
-- Distributors: wholesale only — you set your own retail and margin. Contact us for terms.
-- Schools & families: available through our distributors — contact us
+- Distributors: wholesale only - you set your own retail and margin. Contact us for terms.
+- Schools & families: available through our distributors - contact us
 
 ## Key Facts
 
@@ -50,9 +50,9 @@ Available in 5 languages: English (default), French (/fr/), German (/de/), Spani
 - Certification: CE & UKCA
 - Made in: Cannes, France
 - No screen, no app, no subscription
-- Open NFC platform — tokens writable with free phone app
+- Open NFC platform - tokens writable with free phone app
 - Compatible with any grid map (step size adjustable: 10, 12, 15, 25 cm)
-- Voice feedback in 17 languages — board speaks each command
+- Voice feedback in 17 languages - board speaks each command
 - Documentation in 10 languages
 
 ## Optional

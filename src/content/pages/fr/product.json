@@ -1,6 +1,6 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | Comment ça marche — Détails du produit",
+		"title": "PrimaSTEM | Comment ça marche - Détails du produit",
 		"description": "Présentation technique complète du robot éducatif PrimaSTEM. Composants, commandes, dessin, spécifications.."
 	},
 	"structuredData": {
@@ -32,17 +32,17 @@
 	},
 	"drawing": {
 		"title": "Dessin",
-		"text": "Insérez un feutre. Chaque mouvement laisse un trait.<br><br>Avancer 50, Droite 144, Répéter 5 = une étoile. Ajoutez une progression arithmétique — l'étoile devient une spirale.<br><br>Ces formes sont programmées par les enfants et tracées par le robot. <strong>Cette spirale ? Aucun autre robot sans écran ne sait la tracer.</strong>"
+		"text": "Insérez un feutre. Chaque mouvement laisse un trait.<br><br>Avancer 50, Droite 144, Répéter 5 = une étoile. Ajoutez une progression arithmétique - l'étoile devient une spirale.<br><br>Ces formes sont programmées par les enfants et tracées par le robot. <strong>Cette spirale ? Aucun autre robot sans écran ne sait la tracer.</strong>"
 	},
 	"maps": {
 		"title": "Compatible avec n'importe quelle <strong>carte</strong>",
-		"text": "Le pas est réglable. 10, 12, 15, 25 cm — n'importe quel quadrillage. Utilisez les cartes des robots déjà présents dans votre classe. Aucun nouveau matériel à acheter."
+		"text": "Le pas est réglable. 10, 12, 15, 25 cm - n'importe quel quadrillage. Utilisez les cartes des robots déjà présents dans votre classe. Aucun nouveau matériel à acheter."
 	},
 	"openPlatform": {
 		"title": "Plateforme <strong>ouverte</strong>",
 		"paragraphs": [
 			"Chaque jeton est une étiquette NFC standard (13,56 MHz). Programmez n'importe quel code via une appli mobile gratuite. Créez vos propres nombres, boucles ou opérations arithmétiques.",
-			"Posez des étiquettes NFC sur le terrain de jeu — le robot émet un son lorsqu'il passe dessus. Cartes de langues, champs musicaux, quêtes narratives."
+			"Posez des étiquettes NFC sur le terrain de jeu - le robot émet un son lorsqu'il passe dessus. Cartes de langues, champs musicaux, quêtes narratives."
 		]
 	},
 	"voiceFeedback": {

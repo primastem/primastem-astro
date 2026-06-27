@@ -1,11 +1,11 @@
 {
 	"seo": {
-		"title": "PrimaSTEM — Screen-Free Coding and Math for Ages 4–10",
+		"title": "PrimaSTEM - Screen-Free Coding and Math for Ages 4–10",
 		"description": "The only screen-free education tool that teaches both coding and mathematics. Wooden programmable robot for children aged 4 to 10."
 	},
 	"hero": {
 		"title": "Coding and math <strong>without a screen!</strong>",
-		"subtitle": "Teaches coding, logic, arithmetic, and geometry — by hand.<br />Ages 4–10.",
+		"subtitle": "Teaches coding, logic, arithmetic, and geometry - by hand.<br />Ages 4–10.",
 		"price": "",
 		"volumeLine": "",
 		"buttonText": "Choose your path",
@@ -13,7 +13,7 @@
 		"simulatorText": "Try the web simulator"
 	},
 	"twoLevels": {
-		"title": "Two levels — <strong>one device</strong>",
+		"title": "Two levels - <strong>one device</strong>",
 		"subtitle": "From a maze at four to a spiral at ten. One purchase, the whole of primary school.",
 		"level1": {
 			"tag": "Logic, Numbers",
@@ -28,7 +28,7 @@
 	},
 	"drawing": {
 		"title": "The robot draws what <strong>the child programs</strong>",
-		"subtitle": "<strong>That spiral? No other screen-free robot can draw it</strong> — and a child programmed it by hand. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Watch the process on YouTube</a>.",
+		"subtitle": "<strong>That spiral? No other screen-free robot can draw it</strong> - and a child programmed it by hand. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Watch the process on YouTube</a>.",
 		"drawings": [
 			{ "name": "Pentagon" },
 			{ "name": "Star" },
@@ -39,7 +39,7 @@
 	},
 	"maps": {
 		"title": "Works with the maps and lesson plans <strong>you already have</strong>",
-		"text": "PrimaSTEM adapts to the content of other educational robots.<br><br>Step size is adjustable — 10, 12, 15, 25 cm. Any grid map works. No new materials needed.<br><br>There's a ready-made curriculum in the box for the little ones, and lesson plans built for another robot work on PrimaSTEM too."
+		"text": "PrimaSTEM adapts to the content of other educational robots.<br><br>Step size is adjustable - 10, 12, 15, 25 cm. Any grid map works. No new materials needed.<br><br>There's a ready-made curriculum in the box for the little ones, and lesson plans built for another robot work on PrimaSTEM too."
 	},
 	"video": {
 		"title": "See it <strong>in action</strong>",

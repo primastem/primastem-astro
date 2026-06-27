@@ -1,6 +1,6 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | Über uns — Bildschirmfreie Bildung aus Cannes, Frankreich",
+		"title": "PrimaSTEM | Über uns - Bildschirmfreie Bildung aus Cannes, Frankreich",
 		"description": "Wir entwickeln Bildungstechnologie ohne Bildschirme, inspiriert von Seymour Paperts Konstruktionismus und Montessori-Prinzipien. Hergestellt in Cannes, Frankreich."
 	},
 	"hero": {
@@ -16,17 +16,17 @@
 		{
 			"sidebarTitle": "Wie es begann",
 			"sidebarText": "",
-			"body": "Wir beobachteten, wie Kinder immer mehr Zeit vor Bildschirmen verbrachten. Wir beobachteten, wie Mathematiknoten sanken. Und wir sahen das Aufleuchten in den Augen eines Kindes, als es ein Holzbrett und einen Roboter berührte, einen Knopf drückte — und der Roboter genau das tat, was es ihm gesagt hatte.\n\nPapert sagte: Das Kind soll den Computer programmieren, nicht umgekehrt. Wir haben ein Gerät gebaut, bei dem das wörtlich funktioniert — Holztokens, ein greifbares Steuerboard, ein Marienkäfer, der zeichnet.\n\nKein Bildschirm. Hände, Augen, Denken."
+			"body": "Wir beobachteten, wie Kinder immer mehr Zeit vor Bildschirmen verbrachten. Wir beobachteten, wie Mathematiknoten sanken. Und wir sahen das Aufleuchten in den Augen eines Kindes, als es ein Holzbrett und einen Roboter berührte, einen Knopf drückte - und der Roboter genau das tat, was es ihm gesagt hatte.\n\nPapert sagte: Das Kind soll den Computer programmieren, nicht umgekehrt. Wir haben ein Gerät gebaut, bei dem das wörtlich funktioniert - Holztokens, ein greifbares Steuerboard, ein Marienkäfer, der zeichnet.\n\nKein Bildschirm. Hände, Augen, Denken."
 		},
 		{
 			"sidebarTitle": "Was wir glauben",
 			"sidebarText": "",
-			"body": "**Kinder lernen durch Tun.** Nicht durch Zuschauen — durch Tun.\n\n**Mathematik ist schön.** Wenn der Roboter eine fünfeckige Spirale zeichnet, sieht das Kind Mathematik als ein Bild, das es selbst geschaffen hat.\n\n**Technologie sollte offen sein.** Jedes Token ist ein Standard-NFC-Tag. Keine Abonnements, keine geschlossenen Systeme.\n\n**Einfachheit erfordert Arbeit.** Ein Vierjähriger startet in fünf Minuten. Ein Zehnjähriger programmiert arithmetische Progressionen. Dasselbe Gerät."
+			"body": "**Kinder lernen durch Tun.** Nicht durch Zuschauen - durch Tun.\n\n**Mathematik ist schön.** Wenn der Roboter eine fünfeckige Spirale zeichnet, sieht das Kind Mathematik als ein Bild, das es selbst geschaffen hat.\n\n**Technologie sollte offen sein.** Jedes Token ist ein Standard-NFC-Tag. Keine Abonnements, keine geschlossenen Systeme.\n\n**Einfachheit erfordert Arbeit.** Ein Vierjähriger startet in fünf Minuten. Ein Zehnjähriger programmiert arithmetische Progressionen. Dasselbe Gerät."
 		},
 		{
 			"sidebarTitle": "Wo wir sind",
 			"sidebarText": "",
-			"body": "**Partner:** Terra Numerica / INRIA / CNRS, Educazur, AFINEF.\n\n**Erste Erfolge:** Luxemburg (Pilot mit dem Bildungsministerium), Belgien (Code N Play), Frankreich — Händlergespräche europaweit.\n\n**Messen:** EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nürnberg)."
+			"body": "**Partner:** Terra Numerica / INRIA / CNRS, Educazur, AFINEF.\n\n**Erste Erfolge:** Luxemburg (Pilot mit dem Bildungsministerium), Belgien (Code N Play), Frankreich - Händlergespräche europaweit.\n\n**Messen:** EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nürnberg)."
 		}
 	]
 }

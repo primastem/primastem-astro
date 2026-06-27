@@ -1,6 +1,6 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | Cómo Funciona — Detalles del Producto",
+		"title": "PrimaSTEM | Cómo Funciona - Detalles del Producto",
 		"description": "Descripción técnica completa del robot educativo PrimaSTEM. Componentes, comandos, dibujo, especificaciones.."
 	},
 	"structuredData": {
@@ -32,17 +32,17 @@
 	},
 	"drawing": {
 		"title": "Dibujo",
-		"text": "Inserte un marcador. Cada movimiento deja una línea.<br><br>Avanzar 50, Girar derecha 144, Repetir 5 = una estrella. Añada una progresión aritmética — la estrella se convierte en espiral.<br><br>Estas formas son programadas por los niños y dibujadas por el robot. <strong>¿Esta espiral? Ningún otro robot sin pantalla sabe trazarla.</strong>"
+		"text": "Inserte un marcador. Cada movimiento deja una línea.<br><br>Avanzar 50, Girar derecha 144, Repetir 5 = una estrella. Añada una progresión aritmética - la estrella se convierte en espiral.<br><br>Estas formas son programadas por los niños y dibujadas por el robot. <strong>¿Esta espiral? Ningún otro robot sin pantalla sabe trazarla.</strong>"
 	},
 	"maps": {
 		"title": "Funciona con cualquier <strong>mapa</strong>",
-		"text": "El tamaño del paso es ajustable. 10, 12, 15, 25 cm — cualquier cuadrícula. Use los mapas de cualquier robot que ya tenga en su aula. No se necesitan materiales nuevos."
+		"text": "El tamaño del paso es ajustable. 10, 12, 15, 25 cm - cualquier cuadrícula. Use los mapas de cualquier robot que ya tenga en su aula. No se necesitan materiales nuevos."
 	},
 	"openPlatform": {
 		"title": "Plataforma <strong>abierta</strong>",
 		"paragraphs": [
 			"Cada ficha es una etiqueta NFC estándar (13,56 MHz). Escriba cualquier código con una aplicación gratuita para teléfono. Cree sus propios números, bucles u operaciones aritméticas.",
-			"Etiquetas NFC en el campo de juego — el robot reproduce audio al pasar sobre ellas. Tarjetas de idiomas, campos musicales, misiones narrativas."
+			"Etiquetas NFC en el campo de juego - el robot reproduce audio al pasar sobre ellas. Tarjetas de idiomas, campos musicales, misiones narrativas."
 		]
 	},
 	"voiceFeedback": {

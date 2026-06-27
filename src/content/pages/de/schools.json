@@ -1,12 +1,12 @@
 {
 	"seo": {
-		"title": "PrimaSTEM für Schulen — Bildschirmfreier Programmier- und Mathe-Roboter",
+		"title": "PrimaSTEM für Schulen - Bildschirmfreier Programmier- und Mathe-Roboter",
 		"description": "Programmierbarer Holzroboter für den Unterricht. Zwei Lehrplanstufen (4–7 Logik, 7–10 Mathe). Unterrichtspläne inklusive. Mengenpreise auf Anfrage."
 	},
 	"hero": {
 		"title": "Programmieren und Mathematik, Alter 4–10. <strong>Ein Gerät.</strong>",
 		"subtitle": "Kein Bildschirm, keine Apps. Funktioniert mit Karten von allen Robotern, die Sie bereits haben.",
-		"price": "Mengenpreise — auf Anfrage.",
+		"price": "Mengenpreise - auf Anfrage.",
 		"buttons": [
 			{ "text": "Demo ansehen", "link": "https://youtube.com/@primastem", "style": "primary" },
 			{ "text": "Unterrichtspläne ansehen", "link": "https://docs.primastem.com/en/book-1/book-1", "style": "secondary" },
@@ -17,12 +17,12 @@
 		{
 			"sidebarTitle": "Was Kinder tun",
 			"sidebarText": "",
-			"body": "Sie platzieren Befehlstokens auf dem Board — das ist ihr Programm, vollständig sichtbar. »Start« drücken. Der Roboter führt aus. Falsches Ergebnis? Fehler finden, Token tauschen, erneut starten.\n\nSequenzen, Funktionen, Schleifen, Debuggen. Kein Bildschirm. Nur die Hände.\n\nWeil das ganze Programm sichtbar ist, finden Kinder den fehlerhaften Schritt selbst — und mit eingesetztem Stift zeigt sich der Fehler sofort auf dem Papier. Sie lernen, Fehler zu beheben, statt sie zu fürchten."
+			"body": "Sie platzieren Befehlstokens auf dem Board - das ist ihr Programm, vollständig sichtbar. »Start« drücken. Der Roboter führt aus. Falsches Ergebnis? Fehler finden, Token tauschen, erneut starten.\n\nSequenzen, Funktionen, Schleifen, Debuggen. Kein Bildschirm. Nur die Hände.\n\nWeil das ganze Programm sichtbar ist, finden Kinder den fehlerhaften Schritt selbst - und mit eingesetztem Stift zeigt sich der Fehler sofort auf dem Papier. Sie lernen, Fehler zu beheben, statt sie zu fürchten."
 		},
 		{
 			"sidebarTitle": "Zwei Stufen",
 			"sidebarText": "",
-			"body": "**Alter 4–7: Logik.** Logische Schritte, 90°-Drehungen. Vorwärts, rückwärts, links, rechts, Funktion, Wiederholen. Planung, Sequenzen, Debuggen, Zählen.\n\nPrimaSTEM passt sich den Methoden anderer Lernroboter an. Die Schrittgröße kann beliebig sein — zum Beispiel 10, 12, 15 oder 20 cm. Funktioniert mit jeder Rasterkarte, die Sie bereits haben.\n\n**Alter 7–10: Mathematik.** Genaue Abstände in mm und beliebige Winkel in Grad: 1°–360°. Arithmetik: +, −, ×, ÷, √, ^. Negative Zahlen. Progressionen.\n\nEinen Stift einsetzen — der Roboter zeichnet Polygone, Sterne, Spiralen, Fraktale auf Papier oder einem Whiteboard."
+			"body": "**Alter 4–7: Logik.** Logische Schritte, 90°-Drehungen. Vorwärts, rückwärts, links, rechts, Funktion, Wiederholen. Planung, Sequenzen, Debuggen, Zählen.\n\nPrimaSTEM passt sich den Methoden anderer Lernroboter an. Die Schrittgröße kann beliebig sein - zum Beispiel 10, 12, 15 oder 20 cm. Funktioniert mit jeder Rasterkarte, die Sie bereits haben.\n\n**Alter 7–10: Mathematik.** Genaue Abstände in mm und beliebige Winkel in Grad: 1°–360°. Arithmetik: +, −, ×, ÷, √, ^. Negative Zahlen. Progressionen.\n\nEinen Stift einsetzen - der Roboter zeichnet Polygone, Sterne, Spiralen, Fraktale auf Papier oder einem Whiteboard."
 		},
 		{
 			"sidebarTitle": "Der Roboter zeichnet",
@@ -37,7 +37,7 @@
 		{
 			"sidebarTitle": "Was Lehrkräfte nicht erwarten",
 			"sidebarText": "",
-			"body": "**Offene Plattform.** Jedes Token ist ein Standard-NFC-Tag. Erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen über eine kostenlose Handy-App.\n\n**Klangkarten.** NFC-Tags auf dem Spielfeld platzieren — der Roboter spielt Audio ab, wenn er darüberfährt.\n\n**Sprachrückmeldung.** Das Board spricht jeden Token laut aus, wenn er platziert wird — in 17 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Hilft Kindern, die noch nicht lesen können, und Kindern mit Sehbehinderungen.\n\n**Braille-Version** in der Pilottestung. Zugänglich für Kinder mit Seh- und Aufmerksamkeitsbeeinträchtigungen."
+			"body": "**Offene Plattform.** Jedes Token ist ein Standard-NFC-Tag. Erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen über eine kostenlose Handy-App.\n\n**Klangkarten.** NFC-Tags auf dem Spielfeld platzieren - der Roboter spielt Audio ab, wenn er darüberfährt.\n\n**Sprachrückmeldung.** Das Board spricht jeden Token laut aus, wenn er platziert wird - in 17 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Hilft Kindern, die noch nicht lesen können, und Kindern mit Sehbehinderungen.\n\n**Braille-Version** in der Pilottestung. Zugänglich für Kinder mit Seh- und Aufmerksamkeitsbeeinträchtigungen."
 		}
 	],
 	"cta": {

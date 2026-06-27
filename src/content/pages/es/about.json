@@ -1,6 +1,6 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | Sobre Nosotros — Educación sin Pantalla desde Cannes, Francia",
+		"title": "PrimaSTEM | Sobre Nosotros - Educación sin Pantalla desde Cannes, Francia",
 		"description": "Desarrollamos tecnología educativa sin pantallas, inspirada en el construccionismo de Seymour Papert y los principios Montessori. Fabricado en Cannes, Francia."
 	},
 	"hero": {
@@ -16,17 +16,17 @@
 		{
 			"sidebarTitle": "Cómo empezó",
 			"sidebarText": "",
-			"body": "Observamos cómo los niños pasaban cada vez más tiempo frente a las pantallas. Observamos cómo caían las puntuaciones en matemáticas. Y observamos cómo los ojos de un niño se iluminaban cuando tocaba un tablero de madera y un robot, pulsaba un botón — y el robot hacía exactamente lo que le había dicho.\n\nPapert decía: el niño debe programar al ordenador, no al revés. Construimos un dispositivo donde esto funciona literalmente — fichas de madera, un tablero de control tangible, una mariquita que dibuja.\n\nSin pantalla. Manos, ojos, pensamiento."
+			"body": "Observamos cómo los niños pasaban cada vez más tiempo frente a las pantallas. Observamos cómo caían las puntuaciones en matemáticas. Y observamos cómo los ojos de un niño se iluminaban cuando tocaba un tablero de madera y un robot, pulsaba un botón - y el robot hacía exactamente lo que le había dicho.\n\nPapert decía: el niño debe programar al ordenador, no al revés. Construimos un dispositivo donde esto funciona literalmente - fichas de madera, un tablero de control tangible, una mariquita que dibuja.\n\nSin pantalla. Manos, ojos, pensamiento."
 		},
 		{
 			"sidebarTitle": "En lo que creemos",
 			"sidebarText": "",
-			"body": "**Los niños aprenden haciendo.** No observando — haciendo.\n\n**Las matemáticas son hermosas.** Cuando el robot dibuja una espiral pentagonal, el niño ve las matemáticas como una imagen que él mismo creó.\n\n**La tecnología debe ser abierta.** Cada ficha es una etiqueta NFC estándar. Sin suscripciones, sin jardines vallados.\n\n**La simplicidad requiere trabajo.** Un niño de cuatro años empieza en cinco minutos. Un niño de diez programa progresiones aritméticas. El mismo dispositivo."
+			"body": "**Los niños aprenden haciendo.** No observando - haciendo.\n\n**Las matemáticas son hermosas.** Cuando el robot dibuja una espiral pentagonal, el niño ve las matemáticas como una imagen que él mismo creó.\n\n**La tecnología debe ser abierta.** Cada ficha es una etiqueta NFC estándar. Sin suscripciones, sin jardines vallados.\n\n**La simplicidad requiere trabajo.** Un niño de cuatro años empieza en cinco minutos. Un niño de diez programa progresiones aritméticas. El mismo dispositivo."
 		},
 		{
 			"sidebarTitle": "Dónde estamos",
 			"sidebarText": "",
-			"body": "**Socios:** Terra Numerica / INRIA / CNRS, Educazur, AFINEF.\n\n**Primeros avances:** Luxemburgo (piloto con el Ministerio de Educación), Bélgica (Code N Play), Francia — conversaciones con distribuidores en toda Europa.\n\n**Ferias:** EDUCATECH (París), SIMO Educación (Madrid), SpielwarenMesse (Núremberg)."
+			"body": "**Socios:** Terra Numerica / INRIA / CNRS, Educazur, AFINEF.\n\n**Primeros avances:** Luxemburgo (piloto con el Ministerio de Educación), Bélgica (Code N Play), Francia - conversaciones con distribuidores en toda Europa.\n\n**Ferias:** EDUCATECH (París), SIMO Educación (Madrid), SpielwarenMesse (Núremberg)."
 		}
 	]
 }

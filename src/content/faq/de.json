@@ -2,13 +2,13 @@
   "items": [
     {
       "question": "Für welches Alter ist PrimaSTEM geeignet?",
-      "reply": "Ab 4 Jahren. Das Board spricht jeden Token aus — Zahlenkenntnisse sind nicht erforderlich. Kinder von 4–7 Jahren arbeiten mit Logik und einfachen Programmen. Kinder von 7–10 Jahren fügen Mathematik, genaue Winkel und Zeichnen hinzu.",
+      "reply": "Ab 4 Jahren. Das Board spricht jeden Token aus - Zahlenkenntnisse sind nicht erforderlich. Kinder von 4–7 Jahren arbeiten mit Logik und einfachen Programmen. Kinder von 7–10 Jahren fügen Mathematik, genaue Winkel und Zeichnen hinzu.",
       "category": "product",
       "open": true
     },
     {
       "question": "Wie funktioniert es?",
-      "reply": "Kinder platzieren Befehlstokens auf einem Holzbrett — das ist ihr Programm. Start drücken — der Roboter führt aus. Falsches Ergebnis? Fehler finden, Token tauschen, erneut starten. Kein Bildschirm, keine Apps.",
+      "reply": "Kinder platzieren Befehlstokens auf einem Holzbrett - das ist ihr Programm. Start drücken - der Roboter führt aus. Falsches Ergebnis? Fehler finden, Token tauschen, erneut starten. Kein Bildschirm, keine Apps.",
       "category": "product",
       "open": false
     },
@@ -26,13 +26,13 @@
     },
     {
       "question": "Funktioniert er mit Karten von anderen Robotern?",
-      "reply": "Ja. Die Standard-Schrittgröße ist einstellbar — 10, 12, 15, 25 cm oder ein beliebiger Wert. PrimaSTEM funktioniert mit jeder Rasterkarte, die Sie bereits haben.",
+      "reply": "Ja. Die Standard-Schrittgröße ist einstellbar - 10, 12, 15, 25 cm oder ein beliebiger Wert. PrimaSTEM funktioniert mit jeder Rasterkarte, die Sie bereits haben.",
       "category": "product",
       "open": false
     },
     {
       "question": "Was kostet es?",
-      "reply": "Wir verkaufen im Großhandel an Händler und veröffentlichen keine Preise online — kontaktieren Sie uns, und wir vermitteln einen Händler oder senden Ihnen die Konditionen direkt. Schulen und Familien: über unsere Händler erhältlich.",
+      "reply": "Wir verkaufen im Großhandel an Händler und veröffentlichen keine Preise online - kontaktieren Sie uns, und wir vermitteln einen Händler oder senden Ihnen die Konditionen direkt. Schulen und Familien: über unsere Händler erhältlich.",
       "category": "pricing",
       "open": true
     },
@@ -44,7 +44,7 @@
     },
     {
       "question": "Gibt es einen Händler in meinem Land?",
-      "reply": "Wir stehen am Anfang — erste Pilotprojekte und Partner in Frankreich, Belgien und Luxemburg, Händlergespräche europaweit. Kontaktieren Sie uns, um direkt zu bestellen oder PrimaSTEM in Ihr Land zu bringen.",
+      "reply": "Wir stehen am Anfang - erste Pilotprojekte und Partner in Frankreich, Belgien und Luxemburg, Händlergespräche europaweit. Kontaktieren Sie uns, um direkt zu bestellen oder PrimaSTEM in Ihr Land zu bringen.",
       "category": "pricing",
       "open": false
     },
@@ -62,7 +62,7 @@
     },
     {
       "question": "Können Lehrkräfte eigene Tokens erstellen?",
-      "reply": "Ja. Jedes Token ist ein Standard-NFC-Tag (13,56 MHz). Schreiben Sie beliebige Codes mit einer kostenlosen Handy-App — erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen in unter einer Minute.",
+      "reply": "Ja. Jedes Token ist ein Standard-NFC-Tag (13,56 MHz). Schreiben Sie beliebige Codes mit einer kostenlosen Handy-App - erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen in unter einer Minute.",
       "category": "technical",
       "open": false
     },

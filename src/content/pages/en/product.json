@@ -1,6 +1,6 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | How It Works — Product Details",
+		"title": "PrimaSTEM | How It Works - Product Details",
 		"description": "Complete technical overview of the PrimaSTEM educational robot. Components, commands, drawing, specifications.."
 	},
 	"structuredData": {
@@ -32,17 +32,17 @@
 	},
 	"drawing": {
 		"title": "Drawing",
-		"text": "Insert a marker. Every movement leaves a line.<br><br>Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression — the star turns into a spiral.<br><br>These shapes are programmed by children, drawn by the robot. <strong>That spiral? No other screen-free robot can draw it.</strong>"
+		"text": "Insert a marker. Every movement leaves a line.<br><br>Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression - the star turns into a spiral.<br><br>These shapes are programmed by children, drawn by the robot. <strong>That spiral? No other screen-free robot can draw it.</strong>"
 	},
 	"maps": {
 		"title": "Works with any <strong>map</strong>",
-		"text": "Step size is adjustable. 10, 12, 15, 25 cm — any grid. Use maps from any robot already in your classroom. No new materials needed."
+		"text": "Step size is adjustable. 10, 12, 15, 25 cm - any grid. Use maps from any robot already in your classroom. No new materials needed."
 	},
 	"openPlatform": {
 		"title": "Open <strong>platform</strong>",
 		"paragraphs": [
 			"Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app. Create your own numbers, loops or arithmetic operations.",
-			"NFC tags on the playing field — the robot plays audio when it drives over them. Language cards, musical fields, story quests."
+			"NFC tags on the playing field - the robot plays audio when it drives over them. Language cards, musical fields, story quests."
 		]
 	},
 	"voiceFeedback": {

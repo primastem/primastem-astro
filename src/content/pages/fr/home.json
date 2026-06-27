@@ -1,11 +1,11 @@
 {
 	"seo": {
-		"title": "PrimaSTEM — Programmation et mathématiques sans écran, dès 4 ans",
+		"title": "PrimaSTEM - Programmation et mathématiques sans écran, dès 4 ans",
 		"description": "Le seul outil pédagogique sans écran qui enseigne à la fois la programmation et les mathématiques. Robot programmable en bois pour les enfants de 4 à 10 ans."
 	},
 	"hero": {
 		"title": "La programmation et les mathématiques <strong>sans écran!</strong>",
-		"subtitle": "Apprend le code, la logique, l'arithmétique et la géométrie — à la main.<br />De 4 à 10 ans.",
+		"subtitle": "Apprend le code, la logique, l'arithmétique et la géométrie - à la main.<br />De 4 à 10 ans.",
 		"price": "",
 		"volumeLine": "",
 		"buttonText": "Choisissez votre profil",
@@ -13,7 +13,7 @@
 		"simulatorText": "Essayer le simulateur web"
 	},
 	"twoLevels": {
-		"title": "Deux niveaux — <strong>un seul appareil</strong>",
+		"title": "Deux niveaux - <strong>un seul appareil</strong>",
 		"subtitle": "Du labyrinthe à quatre ans à la spirale à dix. Un seul achat, toute l'école primaire.",
 		"level1": {
 			"tag": "Logique, Nombres",
@@ -28,7 +28,7 @@
 	},
 	"drawing": {
 		"title": "Le robot dessine ce que <strong>l'enfant programme</strong>",
-		"subtitle": "<strong>Cette spirale ? Aucun autre robot sans écran ne sait la tracer</strong> — et c'est un enfant qui l'a programmée à la main. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Voir le procédé sur YouTube</a>.",
+		"subtitle": "<strong>Cette spirale ? Aucun autre robot sans écran ne sait la tracer</strong> - et c'est un enfant qui l'a programmée à la main. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Voir le procédé sur YouTube</a>.",
 		"drawings": [
 			{ "name": "Pentagone" },
 			{ "name": "Étoile" },
@@ -39,7 +39,7 @@
 	},
 	"maps": {
 		"title": "Compatible avec les cartes et plans de cours <strong>que vous avez déjà</strong>",
-		"text": "PrimaSTEM s'adapte au contenu des autres robots éducatifs.<br><br>Le pas est réglable — 10, 12, 15, 25 cm. Toute carte quadrillée fonctionne. Aucun nouveau matériel à acheter.<br><br>Et pour les plus jeunes, un programme pédagogique prêt à l'emploi est déjà dans la boîte ; les plans de cours conçus pour un autre robot fonctionnent aussi sur PrimaSTEM."
+		"text": "PrimaSTEM s'adapte au contenu des autres robots éducatifs.<br><br>Le pas est réglable - 10, 12, 15, 25 cm. Toute carte quadrillée fonctionne. Aucun nouveau matériel à acheter.<br><br>Et pour les plus jeunes, un programme pédagogique prêt à l'emploi est déjà dans la boîte ; les plans de cours conçus pour un autre robot fonctionnent aussi sur PrimaSTEM."
 	},
 	"video": {
 		"title": "Voyez-le <strong>en action</strong>",

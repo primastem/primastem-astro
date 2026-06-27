@@ -1,6 +1,6 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | À propos — Éducation sans écran depuis Cannes, France",
+		"title": "PrimaSTEM | À propos - Éducation sans écran depuis Cannes, France",
 		"description": "Nous concevons des technologies éducatives sans écran, inspirées du constructionnisme de Seymour Papert et des principes Montessori. Conçu à Cannes, France."
 	},
 	"hero": {
@@ -16,17 +16,17 @@
 		{
 			"sidebarTitle": "Comment cela a commencé",
 			"sidebarText": "",
-			"body": "Nous avons vu les enfants passer de plus en plus de temps devant les écrans. Nous avons vu les résultats en mathématiques chuter. Et nous avons vu le regard d'un enfant s'illuminer en touchant une console en bois et un robot, en appuyant sur un bouton — et le robot faisait exactement ce qu'il lui demandait.\n\nPapert disait : c'est l'enfant qui doit programmer l'ordinateur, pas l'inverse. Nous avons construit un appareil où cela fonctionne au sens propre — des jetons en bois, une console tangible, une coccinelle qui dessine.\n\nSans écran. Les mains, les yeux, la pensée."
+			"body": "Nous avons vu les enfants passer de plus en plus de temps devant les écrans. Nous avons vu les résultats en mathématiques chuter. Et nous avons vu le regard d'un enfant s'illuminer en touchant une console en bois et un robot, en appuyant sur un bouton - et le robot faisait exactement ce qu'il lui demandait.\n\nPapert disait : c'est l'enfant qui doit programmer l'ordinateur, pas l'inverse. Nous avons construit un appareil où cela fonctionne au sens propre - des jetons en bois, une console tangible, une coccinelle qui dessine.\n\nSans écran. Les mains, les yeux, la pensée."
 		},
 		{
 			"sidebarTitle": "Ce en quoi nous croyons",
 			"sidebarText": "",
-			"body": "**Les enfants apprennent en faisant.** Pas en regardant — en faisant.\n\n**Les mathématiques sont belles.** Quand le robot dessine une spirale pentagonale, l'enfant voit les maths comme une image qu'il a créée lui-même.\n\n**La technologie doit être ouverte.** Chaque jeton est une étiquette NFC standard. Pas d'abonnements, pas d'écosystème fermé.\n\n**La simplicité demande du travail.** Un enfant de quatre ans démarre en cinq minutes. Un enfant de dix ans programme des progressions arithmétiques. Le même appareil."
+			"body": "**Les enfants apprennent en faisant.** Pas en regardant - en faisant.\n\n**Les mathématiques sont belles.** Quand le robot dessine une spirale pentagonale, l'enfant voit les maths comme une image qu'il a créée lui-même.\n\n**La technologie doit être ouverte.** Chaque jeton est une étiquette NFC standard. Pas d'abonnements, pas d'écosystème fermé.\n\n**La simplicité demande du travail.** Un enfant de quatre ans démarre en cinq minutes. Un enfant de dix ans programme des progressions arithmétiques. Le même appareil."
 		},
 		{
 			"sidebarTitle": "Où nous sommes",
 			"sidebarText": "",
-			"body": "**Partenaires :** Terra Numerica / INRIA / CNRS, Educazur, AFINEF.\n\n**Premiers résultats :** Luxembourg (pilote avec le ministère de l'Éducation), Belgique (Code N Play), France — discussions avec des distributeurs dans toute l'Europe.\n\n**Salons :** EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nuremberg)."
+			"body": "**Partenaires :** Terra Numerica / INRIA / CNRS, Educazur, AFINEF.\n\n**Premiers résultats :** Luxembourg (pilote avec le ministère de l'Éducation), Belgique (Code N Play), France - discussions avec des distributeurs dans toute l'Europe.\n\n**Salons :** EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nuremberg)."
 		}
 	]
 }
