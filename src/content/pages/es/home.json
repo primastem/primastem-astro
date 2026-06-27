@@ -28,7 +28,7 @@
 	},
 	"drawing": {
 		"title": "El robot dibuja lo que <strong>el niño programa</strong>",
-		"subtitle": "El robot los dibujó siguiendo el programa de un niño. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Vea el proceso en YouTube</a>.",
+		"subtitle": "<strong>¿Esta espiral? Ningún otro robot sin pantalla sabe trazarla</strong> — y la programó un niño con sus propias manos. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Vea el proceso en YouTube</a>.",
 		"drawings": [
 			{ "name": "Pentágono" },
 			{ "name": "Estrella" },

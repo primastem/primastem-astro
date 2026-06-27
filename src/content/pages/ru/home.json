@@ -28,7 +28,7 @@
 	},
 	"drawing": {
 		"title": "Робот рисует то, что <strong>запрограммировал ребёнок</strong>",
-		"subtitle": "Эти рисунки сделаны роботом по программе ребёнка. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Смотрите процесс на YouTube</a>.",
+		"subtitle": "<strong>Эта спираль? Её не нарисует ни один другой робот без экрана</strong> — а запрограммировал её ребёнок, своими руками. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Смотрите процесс на YouTube</a>.",
 		"drawings": [
 			{ "name": "Пятиугольник" },
 			{ "name": "Звезда" },

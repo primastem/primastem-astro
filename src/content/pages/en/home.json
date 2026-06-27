@@ -28,7 +28,7 @@
 	},
 	"drawing": {
 		"title": "The robot draws what <strong>the child programs</strong>",
-		"subtitle": "The robot drew them following a child's program. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Watch the process on YouTube</a>.",
+		"subtitle": "<strong>That spiral? No other screen-free robot can draw it</strong> — and a child programmed it by hand. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Watch the process on YouTube</a>.",
 		"drawings": [
 			{ "name": "Pentagon" },
 			{ "name": "Star" },

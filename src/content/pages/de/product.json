@@ -32,7 +32,7 @@
 	},
 	"drawing": {
 		"title": "Zeichnen",
-		"text": "Einen Stift einsetzen. Jede Bewegung hinterlässt eine Linie.<br><br>Vorwärts 50, Rechts 144, Wiederholen 5 = ein Stern. Eine arithmetische Progression hinzufügen — der Stern wird zur Spirale.<br><br>Diese Formen werden von Kindern programmiert und vom Roboter gezeichnet."
+		"text": "Einen Stift einsetzen. Jede Bewegung hinterlässt eine Linie.<br><br>Vorwärts 50, Rechts 144, Wiederholen 5 = ein Stern. Eine arithmetische Progression hinzufügen — der Stern wird zur Spirale.<br><br>Diese Formen werden von Kindern programmiert und vom Roboter gezeichnet. <strong>Diese Spirale? Kein anderer bildschirmfreier Roboter kann sie zeichnen.</strong>"
 	},
 	"maps": {
 		"title": "Funktioniert mit jeder <strong>Karte</strong>",

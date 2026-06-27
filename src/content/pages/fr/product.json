@@ -32,7 +32,7 @@
 	},
 	"drawing": {
 		"title": "Dessin",
-		"text": "Insérez un feutre. Chaque mouvement laisse un trait.<br><br>Avancer 50, Droite 144, Répéter 5 = une étoile. Ajoutez une progression arithmétique — l'étoile devient une spirale.<br><br>Ces formes sont programmées par les enfants et tracées par le robot."
+		"text": "Insérez un feutre. Chaque mouvement laisse un trait.<br><br>Avancer 50, Droite 144, Répéter 5 = une étoile. Ajoutez une progression arithmétique — l'étoile devient une spirale.<br><br>Ces formes sont programmées par les enfants et tracées par le robot. <strong>Cette spirale ? Aucun autre robot sans écran ne sait la tracer.</strong>"
 	},
 	"maps": {
 		"title": "Compatible avec n'importe quelle <strong>carte</strong>",

@@ -32,7 +32,7 @@
 	},
 	"drawing": {
 		"title": "Dibujo",
-		"text": "Inserte un marcador. Cada movimiento deja una línea.<br><br>Avanzar 50, Girar derecha 144, Repetir 5 = una estrella. Añada una progresión aritmética — la estrella se convierte en espiral.<br><br>Estas formas son programadas por los niños y dibujadas por el robot."
+		"text": "Inserte un marcador. Cada movimiento deja una línea.<br><br>Avanzar 50, Girar derecha 144, Repetir 5 = una estrella. Añada una progresión aritmética — la estrella se convierte en espiral.<br><br>Estas formas son programadas por los niños y dibujadas por el robot. <strong>¿Esta espiral? Ningún otro robot sin pantalla sabe trazarla.</strong>"
 	},
 	"maps": {
 		"title": "Funciona con cualquier <strong>mapa</strong>",

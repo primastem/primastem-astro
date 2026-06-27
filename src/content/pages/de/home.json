@@ -28,7 +28,7 @@
 	},
 	"drawing": {
 		"title": "Der Roboter zeichnet, was <strong>das Kind programmiert</strong>",
-		"subtitle": "Der Roboter hat diese nach dem Programm eines Kindes gezeichnet. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Den Prozess auf YouTube ansehen</a>.",
+		"subtitle": "<strong>Diese Spirale? Kein anderer bildschirmfreier Roboter kann sie zeichnen</strong> — und ein Kind hat sie von Hand programmiert. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Den Prozess auf YouTube ansehen</a>.",
 		"drawings": [
 			{ "name": "Fünfeck" },
 			{ "name": "Stern" },

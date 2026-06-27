@@ -32,7 +32,7 @@
 	},
 	"drawing": {
 		"title": "Drawing",
-		"text": "Insert a marker. Every movement leaves a line.<br><br>Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression — the star turns into a spiral.<br><br>These shapes are programmed by children, drawn by the robot."
+		"text": "Insert a marker. Every movement leaves a line.<br><br>Forward 50, Right 144, Repeat 5 = a star. Add an arithmetic progression — the star turns into a spiral.<br><br>These shapes are programmed by children, drawn by the robot. <strong>That spiral? No other screen-free robot can draw it.</strong>"
 	},
 	"maps": {
 		"title": "Works with any <strong>map</strong>",

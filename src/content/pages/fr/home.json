@@ -28,7 +28,7 @@
 	},
 	"drawing": {
 		"title": "Le robot dessine ce que <strong>l'enfant programme</strong>",
-		"subtitle": "Le robot les a tracés en suivant le programme d'un enfant. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Voir le procédé sur YouTube</a>.",
+		"subtitle": "<strong>Cette spirale ? Aucun autre robot sans écran ne sait la tracer</strong> — et c'est un enfant qui l'a programmée à la main. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Voir le procédé sur YouTube</a>.",
 		"drawings": [
 			{ "name": "Pentagone" },
 			{ "name": "Étoile" },
