@@ -50,7 +50,7 @@
     },
     {
       "question": "Quelle est l'autonomie de la batterie ?",
-      "reply": "Recharge USB-C, autonomie de 2 à 3 heures par charge.",
+      "reply": "Recharge USB-C, autonomie d'environ 2 heures par charge, selon l'utilisation.",
       "category": "technical",
       "open": true
     },

@@ -20,7 +20,7 @@
 	"kit": {
 		"title": "Qué hay en el <strong>kit</strong>",
 		"cards": [
-			{ "title": "Robot mariquita", "icon": "robot", "items": ["125 mm de diámetro", "Madera", "Carga USB-C", "Batería 2–3 horas"] },
+			{ "title": "Robot mariquita", "icon": "robot", "items": ["125 mm de diámetro", "Madera", "Carga USB-C", "Batería aproximadamente 2 horas, según el uso"] },
 			{ "title": "Tablero de control", "icon": "bolt", "items": ["317 × 217 mm", "Madera", "11 ranuras dobles", "Bluetooth ~5 m"] },
 			{ "title": "Fichas de comandos", "icon": "squares-plus", "items": ["33 × 33 mm, cartón", "NFC 13,56 MHz", "Código de colores Scratch", "Programables con aplicación móvil"] },
 			{ "title": "Guía docente en línea", "icon": "book", "items": ["Planes de lección en línea", "Actividades e imprimibles", "docs.primastem.com", "10 idiomas"] }
@@ -61,7 +61,7 @@
 			{ "label": "Tablero de control", "value": "317 × 217 mm" },
 			{ "label": "Fichas", "value": "100 unidades, 33 × 33 mm, cartón, NFC 13,56 MHz" },
 			{ "label": "Conectividad", "value": "Bluetooth ~5 m" },
-			{ "label": "Batería", "value": "Li-Ion USB-C, 2–3 horas" },
+			{ "label": "Batería", "value": "Li-Ion USB-C, aproximadamente 2 horas, según el uso" },
 			{ "label": "Paso predeterminado", "value": "15 cm (cualquier valor, ajustable)" },
 			{ "label": "Ángulos", "value": "1°–360°" },
 			{ "label": "Matemáticas", "value": "+, −, ×, ÷, √, ^, !" },

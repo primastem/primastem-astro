@@ -20,7 +20,7 @@
 	"kit": {
 		"title": "Le contenu du <strong>kit</strong>",
 		"cards": [
-			{ "title": "Robot coccinelle", "icon": "robot", "items": ["125 mm de diamètre", "Bois", "Recharge USB-C", "2 à 3 h d'autonomie"] },
+			{ "title": "Robot coccinelle", "icon": "robot", "items": ["125 mm de diamètre", "Bois", "Recharge USB-C", "environ 2 h d'autonomie, selon l'utilisation"] },
 			{ "title": "Tableau de contrôle", "icon": "bolt", "items": ["317 × 217 mm", "Bois", "11 emplacements doubles", "Bluetooth ~5 m"] },
 			{ "title": "Jetons de commande", "icon": "squares-plus", "items": ["33 × 33 mm, carton", "NFC 13,56 MHz", "Codage couleur Scratch", "Programmables via une appli mobile"] },
 			{ "title": "Guide de l'enseignant en ligne", "icon": "book", "items": ["Plans de cours en ligne", "Activités et fiches imprimables", "docs.primastem.com", "10 langues"] }
@@ -61,7 +61,7 @@
 			{ "label": "Tableau de contrôle", "value": "317 × 217 mm" },
 			{ "label": "Jetons", "value": "100 pcs, 33 × 33 mm, carton, NFC 13,56 MHz" },
 			{ "label": "Connectivité", "value": "Bluetooth ~5 m" },
-			{ "label": "Batterie", "value": "Li-Ion USB-C, 2 à 3 h" },
+			{ "label": "Batterie", "value": "Li-Ion USB-C, environ 2 h, selon l'utilisation" },
 			{ "label": "Pas par défaut", "value": "15 cm (valeur libre, réglable)" },
 			{ "label": "Angles", "value": "1°–360°" },
 			{ "label": "Mathématiques", "value": "+, −, ×, ÷, √, ^, !" },

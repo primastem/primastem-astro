@@ -20,7 +20,7 @@
 	"kit": {
 		"title": "Was im <strong>Set enthalten ist</strong>",
 		"cards": [
-			{ "title": "Marienkäfer-Roboter", "icon": "robot", "items": ["125 mm Durchmesser", "Holz", "USB-C-Aufladung", "2–3 Stunden Akkulaufzeit"] },
+			{ "title": "Marienkäfer-Roboter", "icon": "robot", "items": ["125 mm Durchmesser", "Holz", "USB-C-Aufladung", "ca. 2 Stunden Akkulaufzeit, je nach Nutzung"] },
 			{ "title": "Steuerboard", "icon": "bolt", "items": ["317 × 217 mm", "Holz", "11 Doppelsteckplätze", "Bluetooth ~5 m"] },
 			{ "title": "Befehlstokens", "icon": "squares-plus", "items": ["33 × 33 mm, Karton", "NFC 13,56 MHz", "Farbcodierung per Kratzen", "Beschreibbar per Handy-App"] },
 			{ "title": "Online-Lehrerhandbuch", "icon": "book", "items": ["Unterrichtspläne online", "Aktivitäten & Druckvorlagen", "docs.primastem.com", "10 Sprachen"] }
@@ -61,7 +61,7 @@
 			{ "label": "Steuerboard", "value": "317 × 217 mm" },
 			{ "label": "Tokens", "value": "100 Stk., 33 × 33 mm, Karton, NFC 13,56 MHz" },
 			{ "label": "Konnektivität", "value": "Bluetooth ~5 m" },
-			{ "label": "Akku", "value": "Li-Ion USB-C, 2–3 Stunden" },
+			{ "label": "Akku", "value": "Li-Ion USB-C, ca. 2 Stunden, je nach Nutzung" },
 			{ "label": "Standardschritt", "value": "15 cm (beliebiger Wert, einstellbar)" },
 			{ "label": "Winkel", "value": "1°–360°" },
 			{ "label": "Mathematik", "value": "+, −, ×, ÷, √, ^, !" },

@@ -29,7 +29,7 @@
 
 | Élément | Détails |
 |------|---------|
-| Robot coccinelle | 125 mm de diamètre, bois, USB-C, Bluetooth, 2 à 3 h d'autonomie |
+| Robot coccinelle | 125 mm de diamètre, bois, USB-C, Bluetooth, environ 2 h d'autonomie, selon l'utilisation |
 | Tableau de contrôle | 317 × 217 mm, bois, 11 emplacements doubles |
 | Jetons de commande | 33 × 33 mm, carton, NFC 13,56 MHz, code couleur Scratch |
 | Guide de l'enseignant (en ligne) | Plans de cours, fiches imprimables, activités sur docs.primastem.com |
@@ -55,7 +55,7 @@
 | Tableau de contrôle | 317 × 217 mm |
 | Jetons | 33 × 33 mm, carton, NFC 13,56 MHz |
 | Connectivité | Bluetooth ~5 m |
-| Batterie | Li-Ion, USB-C, 2 à 3 heures |
+| Batterie | Li-Ion, USB-C, environ 2 heures, selon l'utilisation |
 | Pas par défaut | 15 cm (toute valeur, réglable) |
 | Angles | 1°–360° |
 | Emplacements | 6×2 principaux + 5×2 fonction |

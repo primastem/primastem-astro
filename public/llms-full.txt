@@ -60,7 +60,7 @@ Already working in 5 countries. Partners: Ministry of Education Luxembourg, La C
 
 ## What's in the kit
 
-Ladybug robot: 125 mm diameter, wood, USB-C charging, 2–3 hours battery.
+Ladybug robot: 125 mm diameter, wood, USB-C charging, approximately 2 hours battery, depending on usage.
 Control board: 317 × 217 mm, wood, 11 dual slots, Bluetooth ~5 m.
 Command tokens: 33 × 33 mm, cardboard, NFC 13.56 MHz, Scratch color coding, writable via phone app.
 Teacher's guide: Lesson plans online, activities & printables, docs.primastem.com, 10 languages.
@@ -91,7 +91,7 @@ The board speaks each token as it's placed in 17 languages: English, Français, 
 
 ## Specifications
 
-Material: Wood. Robot: 125 mm diameter, 44 mm H. Control board: 317 × 217 mm. Tokens: 33 × 33 mm, cardboard, NFC 13.56 MHz. Connectivity: Bluetooth ~5 m. Battery: Li-Ion USB-C, 2–3 hours. Default step: 15 cm (any value, adjustable). Angles: 1°–360°. Mathematics: +, −, ×, ÷, √, ^, !. Slots: 6×2 main + 5×2 function. Audio: Voice feedback in 17 languages + sound samples. Certification: CE + UKCA. Age: 4–10. Made in: Cannes, France.
+Material: Wood. Robot: 125 mm diameter, 44 mm H. Control board: 317 × 217 mm. Tokens: 33 × 33 mm, cardboard, NFC 13.56 MHz. Connectivity: Bluetooth ~5 m. Battery: Li-Ion USB-C, approximately 2 hours, depending on usage. Default step: 15 cm (any value, adjustable). Angles: 1°–360°. Mathematics: +, −, ×, ÷, √, ^, !. Slots: 6×2 main + 5×2 function. Audio: Voice feedback in 17 languages + sound samples. Certification: CE + UKCA. Age: 4–10. Made in: Cannes, France.
 
 Complete kit, ready to use. Available through distributors.
 
@@ -223,7 +223,7 @@ Q: Is there a distributor in my country?
 A: We're just starting — early pilots and partners in France, Belgium and Luxembourg, with distributor conversations underway across Europe.
 
 Q: How long does the battery last?
-A: USB-C charging, 2–3 hours on a single charge.
+A: USB-C charging, approximately 2 hours per charge, depending on usage.
 
 Q: Is it safe for children?
 A: CE certified. Made from wood. No screen. Recommended for ages 4+.

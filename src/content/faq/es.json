@@ -50,7 +50,7 @@
     },
     {
       "question": "¿Cuánto dura la batería?",
-      "reply": "Carga USB-C, funciona 2–3 horas con una sola carga.",
+      "reply": "Carga USB-C, funciona aproximadamente 2 horas con una sola carga, según el uso.",
       "category": "technical",
       "open": true
     },

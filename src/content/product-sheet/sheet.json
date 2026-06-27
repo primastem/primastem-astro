@@ -10,7 +10,7 @@
   ],
   "cert": "CE + UKCA certified. Made in Cannes, France. Complete kit with online lesson plans in 10 languages.",
   "kit": [
-    { "title": "Ladybug Robot", "items": ["Diameter 125 mm, height 44 mm", "Wood", "USB-C charging, 2–3 hours battery", "Marker holder for drawing"] },
+    { "title": "Ladybug Robot", "items": ["Diameter 125 mm, height 44 mm", "Wood", "USB-C charging, approximately 2 hours battery, depending on usage", "Marker holder for drawing"] },
     { "title": "Control Board", "items": ["317 × 217 mm, wood", "11 dual slots (6 main + 5 function)", "Bluetooth ~5 m", "Voice feedback speaker"] },
     { "title": "Command Tokens", "items": ["100 pcs, 33 × 33 mm, cardboard, NFC 13.56 MHz", "NFC 13.56 MHz", "Scratch color coding", "Writable via free phone app"] },
     { "title": "Teacher's Guide", "items": ["Online at docs.primastem.com", "Lesson plans and activities", "Available in 10 languages", "Printable worksheets"] }
@@ -21,7 +21,7 @@
     { "label": "Board", "value": "317 × 217 mm" },
     { "label": "Tokens", "value": "33 × 33 mm, NFC 13.56 MHz" },
     { "label": "Connectivity", "value": "Bluetooth ~5 m" },
-    { "label": "Battery", "value": "Li-Ion USB-C, 2–3 hours" },
+    { "label": "Battery", "value": "Li-Ion USB-C, approximately 2 hours, depending on usage" },
     { "label": "Default step", "value": "15 cm (adjustable: any value)" },
     { "label": "Angles", "value": "1°–360°" },
     { "label": "Audio", "value": "Voice feedback + sound samples" },

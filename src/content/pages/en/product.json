@@ -20,7 +20,7 @@
 	"kit": {
 		"title": "What's in the <strong>kit</strong>",
 		"cards": [
-			{ "title": "Ladybug robot", "icon": "robot", "items": ["125 mm diameter", "Wood", "USB-C charging", "2–3 hours battery"] },
+			{ "title": "Ladybug robot", "icon": "robot", "items": ["125 mm diameter", "Wood", "USB-C charging", "approximately 2 hours battery, depending on usage"] },
 			{ "title": "Control board", "icon": "bolt", "items": ["317 × 217 mm", "Wood", "11 dual slots", "Bluetooth ~5 m"] },
 			{ "title": "Command tokens", "icon": "squares-plus", "items": ["33 × 33 mm, cardboard", "NFC 13.56 MHz", "Scratch color coding", "Writable via phone app"] },
 			{ "title": "Online Teacher's guide", "icon": "book", "items": ["Lesson plans online", "Activities & printables", "docs.primastem.com", "10 languages"] }
@@ -61,7 +61,7 @@
 			{ "label": "Control board", "value": "317 × 217 mm" },
 			{ "label": "Tokens", "value": "100 pcs, 33 × 33 mm, cardboard, NFC 13.56 MHz" },
 			{ "label": "Connectivity", "value": "Bluetooth ~5 m" },
-			{ "label": "Battery", "value": "Li-Ion USB-C, 2–3 hours" },
+			{ "label": "Battery", "value": "Li-Ion USB-C, approximately 2 hours, depending on usage" },
 			{ "label": "Default step", "value": "15 cm (any value, adjustable)" },
 			{ "label": "Angles", "value": "1°–360°" },
 			{ "label": "Mathematics", "value": "+, −, ×, ÷, √, ^, !" },

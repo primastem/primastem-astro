@@ -50,7 +50,7 @@
     },
     {
       "question": "How long does the battery last?",
-      "reply": "USB-C charging, runs for 2–3 hours on a single charge.",
+      "reply": "USB-C charging, runs for approximately 2 hours per charge, depending on usage.",
       "category": "technical",
       "open": true
     },
