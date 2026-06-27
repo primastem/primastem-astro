@@ -2,6 +2,7 @@ backend:
   name: github
   repo: primastem/primastem-astro
   branch: master
+  base_url: https://sveltia-cms-auth.chanov.workers.dev
 
 media_folder: src/assets
 public_folder: /assets
