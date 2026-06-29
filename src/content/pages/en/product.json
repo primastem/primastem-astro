@@ -42,7 +42,8 @@
 		"title": "Open <strong>platform</strong>",
 		"paragraphs": [
 			"Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app. Create your own numbers, loops or arithmetic operations.",
-			"NFC tags on the playing field - the robot plays audio when it drives over them. Language cards, musical fields, story quests."
+			"NFC tags on the playing field - the robot plays audio when it drives over them. Language cards, musical fields, story quests.",
+			"And now there's <a href='https://scratch.primastem.com/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>Scratch for the robot</a>, so older kids keep coding with blocks well past age ten."
 		]
 	},
 	"voiceFeedback": {

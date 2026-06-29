@@ -148,7 +148,7 @@ const { seo, structuredData, hero, kit, commands, drawing, maps, openPlatform, v
 				<h2 set:html={openPlatform.title} />
 				{
 					openPlatform.paragraphs.map((p, i) => (
-						<p class={i === openPlatform.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'}>{p}</p>
+						<p class={i === openPlatform.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'} set:html={p} />
 					))
 				}
 			</Col>

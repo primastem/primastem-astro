@@ -42,7 +42,8 @@
 		"title": "Offene <strong>Plattform</strong>",
 		"paragraphs": [
 			"Jedes Token ist ein Standard-NFC-Tag (13,56 MHz). Schreiben Sie beliebige Codes mit einer kostenlosen Handy-App. Erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen.",
-			"NFC-Tags auf dem Spielfeld - der Roboter spielt Audio ab, wenn er darüberfährt. Sprachkarten, Musikfelder, Geschichtenquests."
+			"NFC-Tags auf dem Spielfeld - der Roboter spielt Audio ab, wenn er darüberfährt. Sprachkarten, Musikfelder, Geschichtenquests.",
+			"Und jetzt gibt es <a href='https://scratch.primastem.com/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>Scratch für den Roboter</a>, sodass ältere Kinder mit Blöcken weiterprogrammieren, weit über zehn Jahre hinaus."
 		]
 	},
 	"voiceFeedback": {
