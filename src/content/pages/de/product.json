@@ -73,12 +73,16 @@
 		]
 	},
 	"documentation": {
-		"title": "Dokumentation",
+		"title": "Dokumentation und Tools",
 		"cards": [
 			{ "title": "Online-Dokumentation", "subtitle": "10 Sprachen. Unterrichtspläne, Anleitungen und technische Referenz.", "icon": "document-text", "link": "https://docs.primastem.com" },
 			{ "title": "Video-Tutorials", "subtitle": "Schritt-für-Schritt-Videos auf unserem YouTube-Kanal.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
 			{ "title": "Produktblatt", "subtitle": "Spezifikationen, Preise und Set-Übersicht für Händler.", "icon": "clipboard-document-list", "link": "/sheet" },
-			{ "title": "FAQ", "subtitle": "Häufige Fragen zu PrimaSTEM, Bestellungen und technischen Details.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" }
+			{ "title": "FAQ", "subtitle": "Häufige Fragen zu PrimaSTEM, Bestellungen und technischen Details.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" },
+			{ "title": "Web-Simulator", "subtitle": "Testen Sie den Roboter direkt im Browser, ganz ohne Gerät.", "icon": "computer-desktop", "link": "https://simulator.primastem.com/" },
+			{ "title": "Web-Steuerung", "subtitle": "Steuern Sie den Roboter live aus dem Browser.", "icon": "cursor-arrow-ripple", "link": "https://control.primastem.com/" },
+			{ "title": "Scratch für den Roboter", "subtitle": "Programmieren Sie den Roboter mit Scratch-Blöcken.", "icon": "rectangle-stack", "link": "https://scratch.primastem.com/" },
+			{ "title": "Firmware-Update", "subtitle": "Halten Sie die Firmware des Roboters aktuell.", "icon": "arrow-path-rounded-square", "link": "https://update.primastem.com/" }
 		]
 	},
 	"order": {

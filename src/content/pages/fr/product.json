@@ -73,12 +73,16 @@
 		]
 	},
 	"documentation": {
-		"title": "Documentation",
+		"title": "Documentation et outils",
 		"cards": [
 			{ "title": "Documentation en ligne", "subtitle": "10 langues. Plans de cours, guides et référence technique.", "icon": "document-text", "link": "https://docs.primastem.com" },
 			{ "title": "Tutoriels vidéo", "subtitle": "Vidéos pas à pas sur notre chaîne YouTube.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
 			{ "title": "Fiche produit", "subtitle": "Spécifications, tarifs et présentation du kit pour les distributeurs.", "icon": "clipboard-document-list", "link": "/sheet" },
-			{ "title": "FAQ", "subtitle": "Questions fréquentes sur PrimaSTEM, les commandes et les détails techniques.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" }
+			{ "title": "FAQ", "subtitle": "Questions fréquentes sur PrimaSTEM, les commandes et les détails techniques.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" },
+			{ "title": "Simulateur web", "subtitle": "Essayez le robot directement dans votre navigateur, sans appareil.", "icon": "computer-desktop", "link": "https://simulator.primastem.com/" },
+			{ "title": "Commande web", "subtitle": "Pilotez le robot en direct depuis votre navigateur.", "icon": "cursor-arrow-ripple", "link": "https://control.primastem.com/" },
+			{ "title": "Scratch pour le robot", "subtitle": "Programmez le robot avec les blocs Scratch.", "icon": "rectangle-stack", "link": "https://scratch.primastem.com/" },
+			{ "title": "Mise à jour du firmware", "subtitle": "Gardez le firmware du robot à jour.", "icon": "arrow-path-rounded-square", "link": "https://update.primastem.com/" }
 		]
 	},
 	"order": {

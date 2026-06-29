@@ -73,12 +73,16 @@
 		]
 	},
 	"documentation": {
-		"title": "Документация",
+		"title": "Документация и инструменты",
 		"cards": [
 			{ "title": "Онлайн-документация", "subtitle": "10 языков. Планы уроков, руководства и техническая документация.", "icon": "document-text", "link": "https://docs.primastem.com" },
 			{ "title": "Видеоуроки", "subtitle": "Пошаговые видео на нашем YouTube-канале.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
 			{ "title": "Лист продукта", "subtitle": "Характеристики, цены и обзор комплекта для дистрибьюторов.", "icon": "clipboard-document-list", "link": "/sheet" },
-			{ "title": "FAQ", "subtitle": "Частые вопросы о PrimaSTEM, заказе и технических деталях.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" }
+			{ "title": "FAQ", "subtitle": "Частые вопросы о PrimaSTEM, заказе и технических деталях.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" },
+			{ "title": "Веб-симулятор", "subtitle": "Попробуйте робота прямо в браузере, без устройства.", "icon": "computer-desktop", "link": "https://simulator.primastem.com/" },
+			{ "title": "Веб-управление", "subtitle": "Управляйте роботом вживую из браузера.", "icon": "cursor-arrow-ripple", "link": "https://control.primastem.com/" },
+			{ "title": "Scratch для робота", "subtitle": "Программируйте робота блоками Scratch.", "icon": "rectangle-stack", "link": "https://scratch.primastem.com/" },
+			{ "title": "Обновление прошивки", "subtitle": "Держите прошивку робота в актуальном состоянии.", "icon": "arrow-path-rounded-square", "link": "https://update.primastem.com/" }
 		]
 	},
 	"order": {

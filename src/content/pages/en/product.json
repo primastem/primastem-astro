@@ -73,12 +73,16 @@
 		]
 	},
 	"documentation": {
-		"title": "Documentation",
+		"title": "Documentation and tools",
 		"cards": [
 			{ "title": "Online docs", "subtitle": "10 languages. Lesson plans, guides, and technical reference.", "icon": "document-text", "link": "https://docs.primastem.com" },
 			{ "title": "Video tutorials", "subtitle": "Step-by-step videos on our YouTube channel.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
 			{ "title": "Product sheet", "subtitle": "Specifications, pricing, and kit overview for distributors.", "icon": "clipboard-document-list", "link": "/sheet" },
-			{ "title": "FAQ", "subtitle": "Common questions about PrimaSTEM, ordering, and technical details.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" }
+			{ "title": "FAQ", "subtitle": "Common questions about PrimaSTEM, ordering, and technical details.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" },
+			{ "title": "Web simulator", "subtitle": "Try the robot right in your browser, no device needed.", "icon": "computer-desktop", "link": "https://simulator.primastem.com/" },
+			{ "title": "Web control", "subtitle": "Drive the robot live from your browser.", "icon": "cursor-arrow-ripple", "link": "https://control.primastem.com/" },
+			{ "title": "Scratch for the robot", "subtitle": "Program the robot with Scratch blocks.", "icon": "rectangle-stack", "link": "https://scratch.primastem.com/" },
+			{ "title": "Update firmware", "subtitle": "Keep the robot's firmware up to date.", "icon": "arrow-path-rounded-square", "link": "https://update.primastem.com/" }
 		]
 	},
 	"order": {
