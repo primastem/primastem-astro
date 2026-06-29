@@ -39,7 +39,7 @@
 		{
 			"sidebarTitle": "Готово для вашего каталога",
 			"sidebarText": "",
-			"body": "Сертификат CE + UKCA. Зарядка USB-C, приблизительно 2 часа работы от аккумулятора в зависимости от условий использования. Bluetooth. Планы уроков и руководство для учителя онлайн на <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> на 10 языках. Видеоуроки на YouTube.\n\nРисует обычным маркером - никаких фирменных расходников."
+			"body": "Сертификат CE + UKCA. Зарядка USB-C, приблизительно 2 часа работы от аккумулятора в зависимости от условий использования. Bluetooth. Планы уроков и руководство для учителя онлайн на <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> на 10 языках. Видеоуроки на YouTube.\n\nРисует обычным маркером - никаких фирменных расходников.\n\nГотовые маркетинговые материалы на многих языках, свободно для ваших каталогов и сайта: <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>скачать комплект</a> или <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>открыть репозиторий</a>."
 		},
 		{
 			"sidebarTitle": "Условия",

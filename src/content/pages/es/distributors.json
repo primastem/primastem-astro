@@ -39,7 +39,7 @@
 		{
 			"sidebarTitle": "Listo para su catálogo",
 			"sidebarText": "",
-			"body": "Certificado CE + UKCA. Carga USB-C, aproximadamente 2 horas de autonomía, según el uso. Bluetooth. Planes de lección y guía docente en línea en <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 idiomas. Tutoriales en YouTube.\n\nDibuja con cualquier rotulador común, sin recambios propietarios."
+			"body": "Certificado CE + UKCA. Carga USB-C, aproximadamente 2 horas de autonomía, según el uso. Bluetooth. Planes de lección y guía docente en línea en <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 idiomas. Tutoriales en YouTube.\n\nDibuja con cualquier rotulador común, sin recambios propietarios.\n\nMateriales de marketing listos para usar en varios idiomas, libres para sus catálogos y su sitio web: <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>descargar el kit</a> o <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>explorar el repositorio</a>."
 		},
 		{
 			"sidebarTitle": "Condiciones",

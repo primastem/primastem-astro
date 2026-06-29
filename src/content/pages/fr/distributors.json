@@ -39,7 +39,7 @@
 		{
 			"sidebarTitle": "Prêt pour votre catalogue",
 			"sidebarText": "",
-			"body": "Certifié CE + UKCA. Recharge USB-C, environ 2 heures d'autonomie, selon l'utilisation. Bluetooth. Plans de cours et guide de l'enseignant en ligne sur <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 langues. Tutoriels YouTube.\n\nDessine avec n'importe quel feutre ordinaire, sans recharge propriétaire."
+			"body": "Certifié CE + UKCA. Recharge USB-C, environ 2 heures d'autonomie, selon l'utilisation. Bluetooth. Plans de cours et guide de l'enseignant en ligne sur <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 langues. Tutoriels YouTube.\n\nDessine avec n'importe quel feutre ordinaire, sans recharge propriétaire.\n\nDes supports marketing prêts à l'emploi en plusieurs langues, libres pour vos catalogues et votre site : <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>télécharger le kit</a> ou <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>parcourir le dépôt</a>."
 		},
 		{
 			"sidebarTitle": "Conditions",
