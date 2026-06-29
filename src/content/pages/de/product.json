@@ -35,8 +35,8 @@
 		"text": "Einen Stift einsetzen. Jede Bewegung hinterlässt eine Linie.<br><br>Vorwärts 50, Rechts 144, Wiederholen 5 = ein Stern. Eine arithmetische Progression hinzufügen - der Stern wird zur Spirale.<br><br>Diese Formen werden von Kindern programmiert und vom Roboter gezeichnet. <strong>Diese Spirale? Kein anderer bildschirmfreier Roboter kann sie zeichnen.</strong>"
 	},
 	"maps": {
-		"title": "Funktioniert mit jeder <strong>Karte</strong>",
-		"text": "Die Schrittgröße ist einstellbar. 10, 12, 15, 25 cm - jedes Raster. Verwenden Sie Karten von jedem Roboter, den Sie bereits im Unterricht haben. Kein neues Material nötig."
+		"title": "Funktioniert mit Karten und Unterrichtsplänen, <strong>die Sie bereits haben</strong>",
+		"text": "PrimaSTEM passt sich den Inhalten anderer Lernroboter an.<br><br>Die Schrittgröße ist einstellbar - 10, 12, 15, 25 cm. Jede Rasterkarte funktioniert. Kein neues Material nötig.<br><br>Und für die Jüngsten liegt schon ein fertiger Lehrplan in der Schachtel; Unterrichtspläne für einen anderen Roboter laufen ebenfalls auf PrimaSTEM."
 	},
 	"openPlatform": {
 		"title": "Offene <strong>Plattform</strong>",

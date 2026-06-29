@@ -35,8 +35,8 @@
 		"text": "Inserte un marcador. Cada movimiento deja una línea.<br><br>Avanzar 50, Girar derecha 144, Repetir 5 = una estrella. Añada una progresión aritmética - la estrella se convierte en espiral.<br><br>Estas formas son programadas por los niños y dibujadas por el robot. <strong>¿Esta espiral? Ningún otro robot sin pantalla sabe trazarla.</strong>"
 	},
 	"maps": {
-		"title": "Funciona con cualquier <strong>mapa</strong>",
-		"text": "El tamaño del paso es ajustable. 10, 12, 15, 25 cm - cualquier cuadrícula. Use los mapas de cualquier robot que ya tenga en su aula. No se necesitan materiales nuevos."
+		"title": "Funciona con los mapas y planes de lección <strong>que ya tiene</strong>",
+		"text": "PrimaSTEM se adapta al contenido de otros robots educativos.<br><br>El tamaño del paso es ajustable - 10, 12, 15, 25 cm. Cualquier mapa cuadriculado funciona. No se necesitan materiales nuevos.<br><br>Y para los más pequeños ya viene un plan de estudios listo para usar en la caja; los planes de lección creados para otro robot también funcionan en PrimaSTEM."
 	},
 	"openPlatform": {
 		"title": "Plataforma <strong>abierta</strong>",

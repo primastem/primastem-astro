@@ -35,8 +35,8 @@
 		"text": "Insérez un feutre. Chaque mouvement laisse un trait.<br><br>Avancer 50, Droite 144, Répéter 5 = une étoile. Ajoutez une progression arithmétique - l'étoile devient une spirale.<br><br>Ces formes sont programmées par les enfants et tracées par le robot. <strong>Cette spirale ? Aucun autre robot sans écran ne sait la tracer.</strong>"
 	},
 	"maps": {
-		"title": "Compatible avec n'importe quelle <strong>carte</strong>",
-		"text": "Le pas est réglable. 10, 12, 15, 25 cm - n'importe quel quadrillage. Utilisez les cartes des robots déjà présents dans votre classe. Aucun nouveau matériel à acheter."
+		"title": "Compatible avec les cartes et plans de cours <strong>que vous avez déjà</strong>",
+		"text": "PrimaSTEM s'adapte au contenu des autres robots éducatifs.<br><br>Le pas est réglable - 10, 12, 15, 25 cm. Toute carte quadrillée fonctionne. Aucun nouveau matériel à acheter.<br><br>Et pour les plus jeunes, un programme pédagogique prêt à l'emploi est déjà dans la boîte ; les plans de cours conçus pour un autre robot fonctionnent aussi sur PrimaSTEM."
 	},
 	"openPlatform": {
 		"title": "Plateforme <strong>ouverte</strong>",
