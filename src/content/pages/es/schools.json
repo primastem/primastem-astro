@@ -22,7 +22,7 @@
 		{
 			"sidebarTitle": "Dos niveles",
 			"sidebarText": "",
-			"body": "**Edades 4–7: Lógica.** Pasos lógicos, giros de 90°. Avanzar, retroceder, izquierda, derecha, función, repetir. Planificación, secuencias, depuración, conteo.\n\nPrimaSTEM se adapta a los métodos de cualquier otro robot educativo. El tamaño del paso puede ser cualquier valor - por ejemplo 10, 12, 15 o 20 cm. Funciona con cualquier mapa cuadriculado que ya tenga.\n\n**Edades 7–10: Matemáticas.** Distancias precisas en mm y cualquier ángulo en grados: 1°–360°. Aritmética: +, −, ×, ÷, √, ^. Números negativos. Progresiones.\n\nInserte un marcador - el robot dibuja polígonos, estrellas, espirales y fractales en papel o pizarra."
+			"body": "**Edades 4–7: Lógica.** Pasos lógicos, giros de 90°. Avanzar, retroceder, izquierda, derecha, función, repetir. Planificación, secuencias, depuración, conteo.\n\nPrimaSTEM se adapta a los métodos de cualquier otro robot educativo. El tamaño del paso puede ser cualquier valor - por ejemplo 10, 12, 15 o 20 cm. Funciona con cualquier mapa cuadriculado que ya tenga.\n\n**Edades 7–10: Matemáticas.** Distancias precisas en mm y cualquier ángulo en grados: 1°–360°. Aritmética: +, −, ×, ÷, √, ^. Números negativos. Progresiones.\n\nInserte un marcador - el robot dibuja polígonos, estrellas, espirales y fractales en papel o pizarra.\n\nY después de primaria, el mismo robot sigue: con <a href='https://scratch.primastem.com/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>Scratch</a>, los alumnos mayores lo programan con bloques, más allá de los diez años."
 		},
 		{
 			"sidebarTitle": "El robot dibuja",
