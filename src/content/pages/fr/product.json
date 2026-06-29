@@ -42,8 +42,7 @@
 		"title": "Plateforme <strong>ouverte</strong>",
 		"paragraphs": [
 			"Chaque jeton est une étiquette NFC standard (13,56 MHz). Programmez n'importe quel code via une appli mobile gratuite. Créez vos propres nombres, boucles ou opérations arithmétiques.",
-			"Posez des étiquettes NFC sur le terrain de jeu - le robot émet un son lorsqu'il passe dessus. Cartes de langues, champs musicaux, quêtes narratives.",
-			"Et il y a maintenant <a href='https://scratch.primastem.com/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>Scratch pour le robot</a>, pour que les plus grands continuent à coder avec des blocs bien au-delà de dix ans."
+			"Posez des étiquettes NFC sur le terrain de jeu - le robot émet un son lorsqu'il passe dessus. Cartes de langues, champs musicaux, quêtes narratives."
 		]
 	},
 	"voiceFeedback": {

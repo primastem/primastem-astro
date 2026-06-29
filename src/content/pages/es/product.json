@@ -42,8 +42,7 @@
 		"title": "Plataforma <strong>abierta</strong>",
 		"paragraphs": [
 			"Cada ficha es una etiqueta NFC estándar (13,56 MHz). Escriba cualquier código con una aplicación gratuita para teléfono. Cree sus propios números, bucles u operaciones aritméticas.",
-			"Etiquetas NFC en el campo de juego - el robot reproduce audio al pasar sobre ellas. Tarjetas de idiomas, campos musicales, misiones narrativas.",
-			"Y ahora hay <a href='https://scratch.primastem.com/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>Scratch para el robot</a>, para que los mayores sigan programando con bloques mucho más allá de los diez años."
+			"Etiquetas NFC en el campo de juego - el robot reproduce audio al pasar sobre ellas. Tarjetas de idiomas, campos musicales, misiones narrativas."
 		]
 	},
 	"voiceFeedback": {
