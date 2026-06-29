@@ -89,6 +89,7 @@
 		"title": "Pedir <strong>PrimaSTEM</strong>",
 		"subtitle": "Un dispositivo para toda la primaria, 4–10 años.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
+			"sheetLine": "<a href='/sheet' class='text-primary-400 hover:underline'>Abrir</a> o <a href='/primastem-product-sheet.pdf' class='text-primary-400 hover:underline' download>descargar</a> la ficha del producto.",
 		"buttonText": "Solicitar presupuesto",
 		"buttonLink": "/contact",
 		"simulatorText": "Probar el simulador web",

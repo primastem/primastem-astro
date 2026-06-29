@@ -89,6 +89,7 @@
 		"title": "Order <strong>PrimaSTEM</strong>",
 		"subtitle": "One device for the whole primary curriculum, ages 4–10.",
 		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
+			"sheetLine": "<a href='/sheet' class='text-primary-400 hover:underline'>Open</a> or <a href='/primastem-product-sheet.pdf' class='text-primary-400 hover:underline' download>download</a> the product sheet.",
 		"buttonText": "Request a quote",
 		"buttonLink": "/contact",
 		"simulatorText": "Try the web simulator",
