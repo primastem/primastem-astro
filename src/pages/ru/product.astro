@@ -222,6 +222,7 @@ const prefix = `/${Astro.currentLocale ?? 'ru'}`
 				<h2 class="text-white dark:text-white" set:html={order.title} />
 				<p class="text-lg text-neutral-300">{order.subtitle}</p>
 				<p class="text-neutral-400" set:html={order.contactLine} />
+				{order.sheetLine && <p class="text-neutral-400 mt-2" set:html={order.sheetLine} />}
 				<div class="mt-6">
 					<Button size="lg" link={prefix + order.buttonLink}>{order.buttonText}</Button>
 				</div>
