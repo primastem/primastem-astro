@@ -2,6 +2,10 @@
 
 This file is read by Claude Code at the start of every session. It documents project-specific workflows so future sessions don't have to ask.
 
+## ⚠️ Product facts live in our docs — check them BEFORE asking
+
+For anything about the product you're unsure of (tool/app URLs, specs, features, counts), **go to `https://docs.primastem.com` first** (linked from the site footer and the product page). Companion tool apps: `simulator.primastem.com`, `control.primastem.com`, `scratch.primastem.com`, `update.primastem.com` (firmware). Only ask the user if the docs don't have it. Do NOT ask the user for facts that are one fetch away.
+
 ## Project at a glance
 
 - Astro 6 static site, deployed on **Cloudflare** (migrated from Netlify 2026-06-27; auto-deploy on push to `master` via Cloudflare Workers Builds). Served as Workers Static Assets — config in `wrangler.jsonc` (`assets.directory=./dist`, no Worker main). Workers subdomain = `chanov`.
