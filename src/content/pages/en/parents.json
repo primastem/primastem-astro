@@ -1,12 +1,12 @@
 {
 	"seo": {
-		"title": "PrimaSTEM for Parents - Screen-Free Coding Toy",
-		"description": "Wooden programmable robot for children 4–10. No screen, no apps. Teaches coding and math through play. CE + UKCA certified. Made in France. Available through our distributors."
+		"title": "PrimaSTEM for Parents | Screen-Free Coding and Math Toy, Ages 4 to 10",
+		"description": "A wooden robot your child programs by hand, no screen, no apps. Teaches real coding and math through play, and grows with them from 4 to 10. Made in France, CE and UKCA certified. Available through our distributors."
 	},
 	"hero": {
-		"title": "Real skills, real play, <strong>no screen.</strong>",
-		"subtitle": "A wooden robot your child programs by hand. Ages 4–10.",
-		"price": "Order from us or through a distributor in your country.",
+		"title": "Real coding and math, <strong>by hand, no screen</strong>",
+		"subtitle": "A wooden robot, no app, that grows with your child from 4 to 10.",
+		"price": "Sold through distributors. Tell us where you are and we will point you to one.",
 		"buttonText": "Watch video",
 		"buttonLink": "https://youtube.com/@primastem",
 		"simulatorText": "Try the web simulator"
@@ -40,7 +40,7 @@
 	],
 	"cta": {
 		"title": "Bring PrimaSTEM <strong>home</strong>",
-		"subtitle": "Complete kit. Order from us or through a distributor in your country.",
+		"subtitle": "Complete kit. Sold through distributors. Tell us where you are and we will point you to one.",
 		"buttonText": "Get in touch"
 	}
 }

@@ -1,12 +1,12 @@
 {
 	"seo": {
-		"title": "PrimaSTEM pour les parents - Jouet de programmation sans écran",
-		"description": "Robot programmable en bois pour enfants de 4 à 10 ans. Sans écran, sans application. Apprend la programmation et les maths par le jeu. Certifié CE + UKCA. Fabriqué en France. Disponible via nos distributeurs."
+		"title": "PrimaSTEM pour les parents | Jouet de code et de maths sans écran, 4 à 10 ans",
+		"description": "Un robot en bois que votre enfant programme à la main, sans écran ni application. Apprend le vrai code et les maths par le jeu, et grandit avec lui de 4 à 10 ans. Fabriqué en France, certifié CE et UKCA. Disponible via nos distributeurs."
 	},
 	"hero": {
-		"title": "De vraies compétences, du vrai jeu, <strong>sans écran.</strong>",
-		"subtitle": "Un robot en bois que votre enfant programme à la main. De 4 à 10 ans.",
-		"price": "Commandez chez nous ou auprès d'un distributeur de votre pays.",
+		"title": "Du vrai code et des maths, <strong>à la main, sans écran</strong>",
+		"subtitle": "Un robot en bois, sans application, qui grandit avec votre enfant de 4 à 10 ans.",
+		"price": "Vendu par des distributeurs. Dites-nous où vous êtes et nous vous en indiquerons un.",
 		"buttonText": "Voir la vidéo",
 		"buttonLink": "https://youtube.com/@primastem",
 		"simulatorText": "Essayer le simulateur web"
@@ -40,7 +40,7 @@
 	],
 	"cta": {
 		"title": "PrimaSTEM <strong>à la maison</strong>",
-		"subtitle": "Kit complet. Commandez chez nous ou auprès d'un distributeur de votre pays.",
+		"subtitle": "Kit complet. Vendu par des distributeurs. Dites-nous où vous êtes et nous vous en indiquerons un.",
 		"buttonText": "Nous contacter"
 	}
 }
