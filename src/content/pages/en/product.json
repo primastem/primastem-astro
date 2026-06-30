@@ -46,9 +46,10 @@
 		]
 	},
 	"voiceFeedback": {
-		"title": "Voice <strong>feedback</strong>",
+		"title": "Voice, words and <strong>music</strong>",
 		"paragraphs": [
 			"The board speaks each token as it's placed. Helps children who can't read yet and children with visual impairments.",
+			"Roll it onto a word card and it reads the word aloud, around ninety in all, from house to forest to cinema. It names the letters of the alphabet, plays musical notes, and reads arithmetic out loud. The same robot that teaches coding and counting brings in speech and music along the way.",
 			"Available in 17 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית.",
 			"Braille version in pilot testing."
 		]

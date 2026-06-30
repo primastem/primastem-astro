@@ -46,9 +46,10 @@
 		]
 	},
 	"voiceFeedback": {
-		"title": "Sprach-<strong>rückmeldung</strong>",
+		"title": "Stimme, Wörter und <strong>Musik</strong>",
 		"paragraphs": [
 			"Das Board spricht jeden Token aus, wenn er platziert wird. Hilft Kindern, die noch nicht lesen können, und Kindern mit Sehbehinderungen.",
+			"Es fährt auf eine Wortkarte und liest das Wort vor, etwa neunzig insgesamt: Haus, Wald, Kino. Es benennt die Buchstaben des Alphabets, spielt Noten und liest Rechenaufgaben vor. Derselbe Roboter, der Programmieren und Rechnen lehrt, bringt unterwegs auch Sprache und Musik mit.",
 			"Verfügbar in 17 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית.",
 			"Braille-Version in der Pilottestung."
 		]

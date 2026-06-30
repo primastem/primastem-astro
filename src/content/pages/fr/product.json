@@ -46,9 +46,10 @@
 		]
 	},
 	"voiceFeedback": {
-		"title": "Retour <strong>vocal</strong>",
+		"title": "Voix, mots et <strong>musique</strong>",
 		"paragraphs": [
 			"Le tableau énonce chaque jeton au moment où on le pose. Une aide précieuse pour les enfants qui ne savent pas encore lire et pour ceux ayant une déficience visuelle.",
+			"Il roule sur une carte portant un mot et le lit à voix haute, près de quatre-vingt-dix en tout : maison, forêt, cinéma. Il nomme les lettres de l'alphabet, joue des notes et lit l'arithmétique à voix haute. Le même robot qui enseigne le code et le calcul fait aussi entrer la parole et la musique en chemin.",
 			"Disponible en 17 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית.",
 			"Version braille en phase pilote."
 		]

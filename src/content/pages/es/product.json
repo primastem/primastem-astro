@@ -46,9 +46,10 @@
 		]
 	},
 	"voiceFeedback": {
-		"title": "Retroalimentación <strong>de voz</strong>",
+		"title": "Voz, palabras y <strong>música</strong>",
 		"paragraphs": [
 			"El tablero pronuncia cada ficha al colocarla. Ayuda a los niños que aún no saben leer y a los niños con discapacidad visual.",
+			"Rueda sobre una tarjeta con una palabra y la lee en voz alta, unas noventa en total: casa, bosque, cine. Nombra las letras del alfabeto, toca notas musicales y lee la aritmética en voz alta. El mismo robot que enseña a programar y a contar trae también el habla y la música por el camino.",
 			"Disponible en 17 idiomas: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית.",
 			"Versión en Braille en fase piloto."
 		]
