@@ -48,6 +48,10 @@ There is a `/sheet` page and a printable PDF. **Both are HARDCODED, NOT in `src/
 
 Quick audit after any pricing/spec change: `grep -n "€235\|€210\|€297\|14 language\|CE &\|Norway\|Present in" src/pages/sheet.astro public/primastem-product-sheet.html`
 
+## ⚠️ LLM feeds — keep `public/llms.txt` + `public/llms-full.txt` in sync
+
+These two files (for AI/LLM indexing) MIRROR the site content and are hand-maintained, NOT generated. **After any large content change (positioning, hero/section rewrites, pricing/margin model, specs), update both to match the live site, and commit + push them with the change.** They silently go stale otherwise. `llms-full.txt` mirrors every page's copy; `llms.txt` is the short summary (pricing/key-facts). Same em-dash ban applies (use hyphens). Quick audit: `grep -n "set your own retail\|market is asking\|Real skills" public/llms*.txt` should return nothing after a positioning change.
+
 ## Hot workflows
 
 ### Updating the printable product sheet HTML
