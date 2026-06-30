@@ -10,7 +10,7 @@
 		"price": "",
 		"volumeLine": "",
 		"buttons": [
-			{ "text": "Запросить предложение", "link": "/contact", "style": "primary" },
+			{ "text": "Начать с небольшого заказа", "link": "/contact", "style": "primary" },
 			{ "text": "Лист продукта", "link": "/sheet", "style": "secondary" },
 			{ "text": "Открыть веб-симулятор", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
@@ -63,8 +63,8 @@
 		}
 	],
 	"cta": {
-		"title": "Запросить <strong>предложение</strong>",
+		"title": "Начните с <strong>небольшого заказа</strong>",
 		"subtitle": "Попробуйте робота до заказа - он работает прямо в браузере.",
-		"buttonText": "Связаться с нами"
+		"buttonText": "Сделать небольшой заказ"
 	}
 }

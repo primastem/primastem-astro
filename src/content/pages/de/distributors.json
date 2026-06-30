@@ -10,7 +10,7 @@
 		"price": "",
 		"volumeLine": "",
 		"buttons": [
-			{ "text": "Angebot anfordern", "link": "/contact", "style": "primary" },
+			{ "text": "Mit einer kleinen Bestellung starten", "link": "/contact", "style": "primary" },
 			{ "text": "Produktblatt", "link": "/sheet", "style": "secondary" },
 			{ "text": "Web-Simulator testen", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
@@ -63,8 +63,8 @@
 		}
 	],
 	"cta": {
-		"title": "Angebot <strong>anfordern</strong>",
+		"title": "Starten Sie mit einer <strong>kleinen Bestellung</strong>",
 		"subtitle": "Testen Sie den Roboter vor der Bestellung - er läuft direkt im Browser.",
-		"buttonText": "Kontakt aufnehmen"
+		"buttonText": "Kleine Bestellung aufgeben"
 	}
 }

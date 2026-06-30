@@ -10,7 +10,7 @@
 		"price": "",
 		"volumeLine": "",
 		"buttons": [
-			{ "text": "Solicitar presupuesto", "link": "/contact", "style": "primary" },
+			{ "text": "Empezar con un pedido pequeño", "link": "/contact", "style": "primary" },
 			{ "text": "Ficha del producto", "link": "/sheet", "style": "secondary" },
 			{ "text": "Probar el simulador web", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
@@ -63,8 +63,8 @@
 		}
 	],
 	"cta": {
-		"title": "Solicitar un <strong>presupuesto</strong>",
+		"title": "Empiece con un <strong>pedido pequeño</strong>",
 		"subtitle": "Pruebe el robot antes de pedirlo: funciona directamente en el navegador.",
-		"buttonText": "Ponerse en contacto"
+		"buttonText": "Hacer un pedido pequeño"
 	}
 }

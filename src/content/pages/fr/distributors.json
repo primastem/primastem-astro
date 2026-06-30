@@ -10,7 +10,7 @@
 		"price": "",
 		"volumeLine": "",
 		"buttons": [
-			{ "text": "Demander un devis", "link": "/contact", "style": "primary" },
+			{ "text": "Commencer par une petite commande", "link": "/contact", "style": "primary" },
 			{ "text": "Fiche produit", "link": "/sheet", "style": "secondary" },
 			{ "text": "Essayer le simulateur web", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
@@ -63,8 +63,8 @@
 		}
 	],
 	"cta": {
-		"title": "Demander un <strong>devis</strong>",
+		"title": "Commencez par une <strong>petite commande</strong>",
 		"subtitle": "Essayez le robot avant de commander : il fonctionne directement dans le navigateur.",
-		"buttonText": "Nous contacter"
+		"buttonText": "Passer une petite commande"
 	}
 }

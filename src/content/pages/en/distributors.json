@@ -10,7 +10,7 @@
 		"price": "",
 		"volumeLine": "",
 		"buttons": [
-			{ "text": "Request a quote", "link": "/contact", "style": "primary" },
+			{ "text": "Start with a small order", "link": "/contact", "style": "primary" },
 			{ "text": "Product sheet", "link": "/sheet", "style": "secondary" },
 			{ "text": "Try the web simulator", "link": "https://simulator.primastem.com/", "style": "neutral" }
 		]
@@ -63,8 +63,8 @@
 		}
 	],
 	"cta": {
-		"title": "Request a <strong>quote</strong>",
+		"title": "Start with a <strong>small order</strong>",
 		"subtitle": "Try the robot before you order - it runs right in the browser.",
-		"buttonText": "Get in touch"
+		"buttonText": "Start a small order"
 	}
 }
