@@ -1,7 +1,7 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | How It Works - Product Details",
-		"description": "Complete technical overview of the PrimaSTEM educational robot. Components, commands, drawing, specifications.."
+		"title": "PrimaSTEM | The screen-free coding robot where coding becomes real math",
+		"description": "Children program PrimaSTEM by hand, no screen. The same coding goes into any distance, any angle and real arithmetic, so programming turns into real math. One wooden robot, ages 4 to 10. CE and UKCA certified, made in France."
 	},
 	"structuredData": {
 		"price": "235",
@@ -9,6 +9,8 @@
 	},
 	"hero": {
 		"title": "How PrimaSTEM <strong>works</strong>",
+		"headline": "The screen-free coding robot where the coding becomes <strong>real maths</strong>",
+		"lead": "PrimaSTEM is a screen-free coding robot children program by hand. The difference is how far the same coding goes: not just moving the robot and turning it a few set ways, but any distance, any angle, and real arithmetic, so the programming runs straight into real maths. One robot carries that from age 4 to 10.",
 		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
 		"videoCaption": "Video recorded with a prototype. Final product may differ.",
 		"steps": [

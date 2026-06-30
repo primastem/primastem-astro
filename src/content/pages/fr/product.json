@@ -1,7 +1,7 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | Comment ça marche - Détails du produit",
-		"description": "Présentation technique complète du robot éducatif PrimaSTEM. Composants, commandes, dessin, spécifications.."
+		"title": "PrimaSTEM | Le robot de codage sans écran où le codage devient des maths",
+		"description": "Les enfants programment PrimaSTEM à la main, sans écran. Le même codage va vers n'importe quelle distance, n'importe quel angle et de la vraie arithmétique, si bien que la programmation devient de vraies maths. Un robot en bois, de 4 à 10 ans. Certifié CE et UKCA, fabriqué en France."
 	},
 	"structuredData": {
 		"price": "235",
@@ -9,6 +9,8 @@
 	},
 	"hero": {
 		"title": "Comment <strong>fonctionne</strong> PrimaSTEM",
+		"headline": "Le robot de codage sans écran où le codage devient de <strong>vraies mathématiques</strong>",
+		"lead": "PrimaSTEM est un robot de programmation sans écran que les enfants codent à la main. La différence, c'est jusqu'où va ce même codage : pas seulement déplacer le robot et le faire tourner de quelques façons prédéfinies, mais n'importe quelle distance, n'importe quel angle et de la vraie arithmétique, si bien que la programmation débouche directement sur de vraies mathématiques. Un seul robot porte cela de 4 à 10 ans.",
 		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
 		"videoCaption": "Vidéo enregistrée avec un prototype. Le produit final peut différer.",
 		"steps": [

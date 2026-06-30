@@ -1,7 +1,7 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | So funktioniert es - Produktdetails",
-		"description": "Vollständige technische Übersicht des PrimaSTEM-Lernroboters. Komponenten, Befehle, Zeichnen, Spezifikationen.."
+		"title": "PrimaSTEM | Der bildschirmfreie Programmierroboter, bei dem Programmieren zu Mathe wird",
+		"description": "Kinder programmieren PrimaSTEM von Hand, ohne Bildschirm. Dasselbe Programmieren geht in jede Distanz, jeden Winkel und echte Arithmetik, sodass aus Code echte Mathematik wird. Ein Holzroboter, 4 bis 10 Jahre. CE und UKCA zertifiziert, hergestellt in Frankreich."
 	},
 	"structuredData": {
 		"price": "235",
@@ -9,6 +9,8 @@
 	},
 	"hero": {
 		"title": "So funktioniert <strong>PrimaSTEM</strong>",
+		"headline": "Der bildschirmfreie Programmierroboter, bei dem das Programmieren zu <strong>echter Mathematik</strong> wird",
+		"lead": "PrimaSTEM ist ein bildschirmfreier Programmierroboter, den Kinder von Hand programmieren. Der Unterschied liegt darin, wie weit dasselbe Programmieren reicht: nicht nur den Roboter bewegen und ihn auf ein paar feste Arten drehen, sondern jede Distanz, jeder Winkel und echte Arithmetik, sodass das Programmieren direkt in echte Mathematik übergeht. Ein einziger Roboter trägt das von 4 bis 10 Jahren.",
 		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
 		"videoCaption": "Video mit einem Prototyp aufgenommen. Das Endprodukt kann abweichen.",
 		"steps": [

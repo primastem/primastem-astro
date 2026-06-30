@@ -1,7 +1,7 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | Cómo Funciona - Detalles del Producto",
-		"description": "Descripción técnica completa del robot educativo PrimaSTEM. Componentes, comandos, dibujo, especificaciones.."
+		"title": "PrimaSTEM | El robot de programación sin pantalla donde la programación se vuelve matemáticas",
+		"description": "Los niños programan PrimaSTEM a mano, sin pantalla. La misma programación llega a cualquier distancia, cualquier ángulo y aritmética de verdad, así la programación se convierte en matemáticas de verdad. Un robot de madera, de 4 a 10 años. Certificado CE y UKCA, hecho en Francia."
 	},
 	"structuredData": {
 		"price": "235",
@@ -9,6 +9,8 @@
 	},
 	"hero": {
 		"title": "Cómo funciona <strong>PrimaSTEM</strong>",
+		"headline": "El robot de programación sin pantalla donde la programación se convierte en <strong>matemáticas de verdad</strong>",
+		"lead": "PrimaSTEM es un robot de programación sin pantalla que los niños programan a mano. La diferencia está en hasta dónde llega esa misma programación: no solo mover el robot y girarlo de unas pocas formas fijas, sino cualquier distancia, cualquier ángulo y aritmética de verdad, de modo que la programación desemboca directamente en matemáticas de verdad. Un solo robot lo lleva de los 4 a los 10 años.",
 		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
 		"videoCaption": "Video grabado con un prototipo. El producto final puede diferir.",
 		"steps": [

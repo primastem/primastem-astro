@@ -39,11 +39,21 @@ const { seo, structuredData, hero, kit, commands, drawing, maps, openPlatform, v
 			"seller": { "@type": "Organization", "name": "PrimaSTEM" }
 		}
 	})} />
+	<!-- POSITIONING -->
+	<Section id="product-positioning" padding="both">
+		<Row>
+			<Col span="12" align="center">
+				<h1 set:html={hero.headline} />
+				{hero.lead && <p class="text-lg max-w-3xl mx-auto" set:html={hero.lead} />}
+			</Col>
+		</Row>
+	</Section>
+
 	<!-- HERO -->
 	<Section id="product-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
 			<Col span="5" align="start">
-				<h1 set:html={hero.title} />
+				<h2 set:html={hero.title} />
 				<div class="space-y-4">
 					{
 						hero.steps.map((step) => (
