@@ -69,7 +69,7 @@
 	],
 	"cta": {
 		"title": "Start with a <strong>small order</strong>",
-		"subtitle": "Try the robot before you order - it runs right in the browser.",
+		"subtitle": "Try the robot before you order - <a href='https://simulator.primastem.com/' class='text-primary-400 hover:underline' target='_blank' rel='noopener noreferrer'>it runs right in the browser</a>.",
 		"buttonText": "Start a small order"
 	}
 }

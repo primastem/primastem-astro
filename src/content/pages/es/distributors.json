@@ -69,7 +69,7 @@
 	],
 	"cta": {
 		"title": "Empiece con un <strong>pedido pequeño</strong>",
-		"subtitle": "Pruebe el robot antes de pedirlo: funciona directamente en el navegador.",
+		"subtitle": "Pruebe el robot antes de pedirlo: <a href='https://simulator.primastem.com/' class='text-primary-400 hover:underline' target='_blank' rel='noopener noreferrer'>funciona directamente en el navegador</a>.",
 		"buttonText": "Hacer un pedido pequeño"
 	}
 }
