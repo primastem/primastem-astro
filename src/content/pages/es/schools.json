@@ -1,11 +1,11 @@
 {
 	"seo": {
-		"title": "PrimaSTEM para Colegios - Robot de Programación y Matemáticas sin Pantalla",
-		"description": "Robot de madera programable para uso en el aula. Dos niveles curriculares (4–7 lógica, 7–10 matemáticas). Planes de lección incluidos. Precios por volumen a consulta."
+		"title": "PrimaSTEM para colegios | Programación sin pantalla que se vuelve matemáticas",
+		"description": "Un robot de programación sin pantalla para primaria, de 4 a 10 años. Los niños lo programan a mano y la programación desemboca en aritmética, ángulos y geometría de verdad. Un dispositivo para toda la primaria, planes de lección incluidos, certificado CE y UKCA."
 	},
 	"hero": {
 		"title": "Programación y matemáticas, edades 4–10. <strong>Un dispositivo.</strong>",
-		"subtitle": "Sin pantalla, sin aplicaciones. Funciona con los mapas de cualquier robot que ya tenga.",
+		"subtitle": "Un robot sin pantalla que los niños programan a mano, donde la programación llega hasta las matemáticas de verdad. Una sola compra cubre toda la primaria.",
 		"price": "Precios por volumen - a consulta.",
 		"buttons": [
 			{ "text": "Ver demostración", "link": "https://youtube.com/@primastem", "style": "primary" },

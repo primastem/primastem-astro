@@ -1,11 +1,11 @@
 {
 	"seo": {
-		"title": "PrimaSTEM für Schulen - Bildschirmfreier Programmier- und Mathe-Roboter",
-		"description": "Programmierbarer Holzroboter für den Unterricht. Zwei Lehrplanstufen (4–7 Logik, 7–10 Mathe). Unterrichtspläne inklusive. Mengenpreise auf Anfrage."
+		"title": "PrimaSTEM für Schulen | Bildschirmfreies Programmieren, das zu echter Mathe wird",
+		"description": "Ein bildschirmfreier Programmierroboter für die Grundschule, 4 bis 10 Jahre. Kinder programmieren ihn von Hand und das Programmieren mündet in echte Arithmetik, Winkel und Geometrie. Ein Gerät für die ganze Grundschulzeit, Unterrichtspläne inklusive, CE und UKCA zertifiziert."
 	},
 	"hero": {
 		"title": "Programmieren und Mathematik, Alter 4–10. <strong>Ein Gerät.</strong>",
-		"subtitle": "Kein Bildschirm, keine Apps. Funktioniert mit Karten von allen Robotern, die Sie bereits haben.",
+		"subtitle": "Ein bildschirmfreier Roboter, den Kinder von Hand programmieren, bei dem das Programmieren bis zu echter Mathematik reicht. Ein Kauf deckt die ganze Grundschulzeit ab.",
 		"price": "Mengenpreise - auf Anfrage.",
 		"buttons": [
 			{ "text": "Demo ansehen", "link": "https://youtube.com/@primastem", "style": "primary" },

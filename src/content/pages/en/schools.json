@@ -1,11 +1,11 @@
 {
 	"seo": {
-		"title": "PrimaSTEM for Schools - Screen-Free Coding and Math Robot",
-		"description": "Programmable wooden robot for classroom use. Two curriculum levels (4–7 logic, 7–10 math). Lesson plans included. Volume pricing on request."
+		"title": "PrimaSTEM for Schools | Screen-Free Coding That Becomes Real Math",
+		"description": "A screen-free coding robot for primary classrooms, ages 4 to 10. Children program it by hand and the coding runs into real arithmetic, angles and geometry. One device for the whole of primary, lesson plans included, CE and UKCA certified."
 	},
 	"hero": {
 		"title": "Coding and mathematics, ages 4–10. <strong>One device.</strong>",
-		"subtitle": "No screen, no apps. Works with maps from any robot you already have.",
+		"subtitle": "A screen-free robot children program by hand, where the coding goes all the way into real maths. One purchase covers the whole of primary.",
 		"price": "Volume pricing - request a quote.",
 		"buttons": [
 			{ "text": "Watch demo", "link": "https://youtube.com/@primastem", "style": "primary" },

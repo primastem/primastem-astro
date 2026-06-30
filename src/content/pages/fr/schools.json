@@ -1,11 +1,11 @@
 {
 	"seo": {
-		"title": "PrimaSTEM pour les écoles - Robot de programmation et de maths sans écran",
-		"description": "Robot programmable en bois pour la classe. Deux niveaux pédagogiques (4–7 logique, 7–10 maths). Plans de cours inclus. Tarifs sur devis."
+		"title": "PrimaSTEM pour les écoles | Le codage sans écran qui devient des maths",
+		"description": "Un robot de codage sans écran pour le primaire, de 4 à 10 ans. Les enfants le programment à la main et le codage débouche sur de l'arithmétique, des angles et de la géométrie réels. Un appareil pour toute l'école primaire, plans de cours inclus, certifié CE et UKCA."
 	},
 	"hero": {
 		"title": "Programmation et mathématiques, de 4 à 10 ans. <strong>Un seul appareil.</strong>",
-		"subtitle": "Sans écran, sans application. Compatible avec les cartes des robots que vous avez déjà.",
+		"subtitle": "Un robot sans écran que les enfants programment à la main, où le codage va jusqu'aux vraies mathématiques. Un seul achat couvre toute l'école primaire.",
 		"price": "Tarifs sur devis.",
 		"buttons": [
 			{ "text": "Voir la démo", "link": "https://youtube.com/@primastem", "style": "primary" },
