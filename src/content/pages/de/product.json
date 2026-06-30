@@ -32,7 +32,7 @@
 	},
 	"drawing": {
 		"title": "Zeichnen",
-		"text": "Einen Stift einsetzen. Jede Bewegung hinterlässt eine Linie.<br><br>Vorwärts 50, Rechts 144, Wiederholen 5 = ein Stern. Eine arithmetische Progression hinzufügen - der Stern wird zur Spirale.<br><br>Diese Formen werden von Kindern programmiert und vom Roboter gezeichnet. <strong>Diese Spirale? Kein anderer bildschirmfreier Roboter kann sie zeichnen.</strong>"
+		"text": "Stecken Sie einen Stift ein, und jede Bewegung hinterlässt eine Linie. Vorwärts 50, Rechts 144, Wiederholen 5 ergibt einen Stern; fügen Sie eine arithmetische Progression hinzu, und der Stern wird zur Spirale.<br><br>Der Roboter berechnet Winkel und Abstände selbst im Lauf und zeichnet echte Geometrie auf Papier. Ein einfacher rollender Roboter ohne Bildschirm erreicht diese Präzision nicht, und das Kind sieht das Ergebnis seines Programms direkt auf dem Blatt."
 	},
 	"maps": {
 		"title": "Funktioniert mit Karten und Unterrichtsplänen, <strong>die Sie bereits haben</strong>",

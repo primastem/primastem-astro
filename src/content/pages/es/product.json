@@ -32,7 +32,7 @@
 	},
 	"drawing": {
 		"title": "Dibujo",
-		"text": "Inserte un marcador. Cada movimiento deja una línea.<br><br>Avanzar 50, Girar derecha 144, Repetir 5 = una estrella. Añada una progresión aritmética - la estrella se convierte en espiral.<br><br>Estas formas son programadas por los niños y dibujadas por el robot. <strong>¿Esta espiral? Ningún otro robot sin pantalla sabe trazarla.</strong>"
+		"text": "Inserte un marcador y cada movimiento deja una línea. Avanzar 50, Girar derecha 144, Repetir 5 hace una estrella; añada una progresión aritmética y la estrella se convierte en espiral.<br><br>El robot calcula los ángulos y las distancias sobre la marcha, dibujando geometría real en el papel. Un simple robot rodante sin pantalla no alcanza esa precisión, y el niño ve el resultado de su programa ahí mismo en la hoja."
 	},
 	"maps": {
 		"title": "Funciona con los mapas y planes de lección <strong>que ya tiene</strong>",
