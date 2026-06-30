@@ -44,7 +44,12 @@
 		{
 			"sidebarTitle": "Listo para su catálogo",
 			"sidebarText": "",
-			"body": "Certificado CE + UKCA. Carga USB-C, aproximadamente 2 horas de autonomía, según el uso. Bluetooth. Planes de lección y guía docente en línea en <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 idiomas. Tutoriales en YouTube.\n\nDibuja con cualquier rotulador común, sin recambios propietarios.\n\nMateriales de marketing listos para usar en varios idiomas, libres para sus catálogos y su sitio web: <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>descargar el kit</a> o <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>explorar el repositorio</a>."
+			"body": "Certificado CE + UKCA. Carga USB-C, aproximadamente 2 horas de autonomía, según el uso. Bluetooth. Planes de lección y guía docente en línea en <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 idiomas. Tutoriales en YouTube.\n\nDibuja con cualquier rotulador común, sin recambios propietarios."
+		},
+		{
+			"sidebarTitle": "Materiales de venta",
+			"sidebarText": "",
+			"body": "Todo lo que necesita para presentar PrimaSTEM a un colegio y cerrar, en un solo lugar.\n\n- **<a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Haga una demo en vivo en el navegador</a>**: sin hardware, ejecútela para un colegio en el momento.\n- **<a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\">Muestre una clase real usándolo</a>**: un vídeo corto para quienes quieren verlo en un aula.\n- **<a href=\"https://github.com/primastem/primastem-marketing/\" target=\"_blank\" rel=\"noopener noreferrer\">Lleve nuestro kit de marketing a su catálogo</a>**: logos, fotos y catálogos en varios idiomas, de uso libre.\n- **<a href=\"https://docs.primastem.com\" target=\"_blank\" rel=\"noopener noreferrer\">Dirija a los docentes a los planes de lección</a>**: guía completa del docente y actividades en línea en 10 idiomas.\n- **<a href=\"/sheet\">Tenga la ficha técnica a mano</a>**: la ficha de producto mayorista para su referencia.\n- **<a href=\"/faq\">Responda rápido las preguntas habituales</a>**: el FAQ para las que siempre preguntan."
 		},
 		{
 			"sidebarTitle": "Condiciones",

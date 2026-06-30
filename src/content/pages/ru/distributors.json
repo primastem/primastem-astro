@@ -44,7 +44,12 @@
 		{
 			"sidebarTitle": "Готово для вашего каталога",
 			"sidebarText": "",
-			"body": "Сертификат CE + UKCA. Зарядка USB-C, приблизительно 2 часа работы от аккумулятора в зависимости от условий использования. Bluetooth. Планы уроков и руководство для учителя онлайн на <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> на 10 языках. Видеоуроки на YouTube.\n\nРисует обычным маркером - никаких фирменных расходников.\n\nГотовые маркетинговые материалы на многих языках, свободно для ваших каталогов и сайта: <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>скачать комплект</a> или <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>открыть репозиторий</a>."
+			"body": "Сертификат CE + UKCA. Зарядка USB-C, приблизительно 2 часа работы от аккумулятора в зависимости от условий использования. Bluetooth. Планы уроков и руководство для учителя онлайн на <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> на 10 языках. Видеоуроки на YouTube.\n\nРисует обычным маркером - никаких фирменных расходников."
+		},
+		{
+			"sidebarTitle": "Материалы для продаж",
+			"sidebarText": "",
+			"body": "Всё, чтобы показать PrimaSTEM школе и закрыть сделку, в одном месте.\n\n- **<a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Покажите вживую в браузере</a>**: без железа, запустите для школы прямо на встрече.\n- **<a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\">Покажите реальный класс за работой</a>**: короткое видео для тех, кто хочет увидеть в деле.\n- **<a href=\"https://github.com/primastem/primastem-marketing/\" target=\"_blank\" rel=\"noopener noreferrer\">Возьмите наш маркетинг-кит в свой каталог</a>**: логотипы, фото и каталоги на многих языках, свободно.\n- **<a href=\"https://docs.primastem.com\" target=\"_blank\" rel=\"noopener noreferrer\">Дайте учителям планы уроков</a>**: полное руководство и активности онлайн на 10 языках.\n- **<a href=\"/sheet\">Держите спецлист под рукой</a>**: оптовый лист для вашей справки.\n- **<a href=\"/faq\">Быстро отвечайте на частые вопросы</a>**: FAQ на то, что спрашивают всегда."
 		},
 		{
 			"sidebarTitle": "Условия",

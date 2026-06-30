@@ -44,7 +44,12 @@
 		{
 			"sidebarTitle": "Prêt pour votre catalogue",
 			"sidebarText": "",
-			"body": "Certifié CE + UKCA. Recharge USB-C, environ 2 heures d'autonomie, selon l'utilisation. Bluetooth. Plans de cours et guide de l'enseignant en ligne sur <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 langues. Tutoriels YouTube.\n\nDessine avec n'importe quel feutre ordinaire, sans recharge propriétaire.\n\nDes supports marketing prêts à l'emploi en plusieurs langues, libres pour vos catalogues et votre site : <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>télécharger le kit</a> ou <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>parcourir le dépôt</a>."
+			"body": "Certifié CE + UKCA. Recharge USB-C, environ 2 heures d'autonomie, selon l'utilisation. Bluetooth. Plans de cours et guide de l'enseignant en ligne sur <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 langues. Tutoriels YouTube.\n\nDessine avec n'importe quel feutre ordinaire, sans recharge propriétaire."
+		},
+		{
+			"sidebarTitle": "Supports de vente",
+			"sidebarText": "",
+			"body": "Tout ce qu'il faut pour présenter PrimaSTEM à une école et conclure, au même endroit.\n\n- **<a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Faites une démo en direct dans le navigateur</a>**: sans matériel, lancez-la pour une école sur place.\n- **<a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\">Montrez une vraie classe à l'œuvre</a>**: une courte vidéo pour ceux qui veulent le voir en situation.\n- **<a href=\"https://github.com/primastem/primastem-marketing/\" target=\"_blank\" rel=\"noopener noreferrer\">Mettez notre kit marketing dans votre catalogue</a>**: logos, photos et catalogues en plusieurs langues, libres d'usage.\n- **<a href=\"https://docs.primastem.com\" target=\"_blank\" rel=\"noopener noreferrer\">Orientez les enseignants vers les plans de cours</a>**: guide complet et activités en ligne en 10 langues.\n- **<a href=\"/sheet\">Gardez la fiche technique sous la main</a>**: la fiche produit de gros pour votre référence.\n- **<a href=\"/faq\">Répondez vite aux questions habituelles</a>**: la FAQ pour celles que les acheteurs posent toujours."
 		},
 		{
 			"sidebarTitle": "Conditions",

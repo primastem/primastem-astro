@@ -44,7 +44,12 @@
 		{
 			"sidebarTitle": "Bereit für Ihren Katalog",
 			"sidebarText": "",
-			"body": "CE + UKCA zertifiziert. USB-C-Aufladung, ca. 2 Stunden Akkulaufzeit, je nach Nutzung. Bluetooth. Unterrichtspläne und Lehrerhandbuch online unter <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 Sprachen. YouTube-Tutorials.\n\nZeichnet mit jedem gewöhnlichen Stift, keine speziellen Nachfüllpacks.\n\nFertige Marketingmaterialien in mehreren Sprachen, frei für Ihre Kataloge und Website: <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>das Kit herunterladen</a> oder <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>das Repository durchsuchen</a>."
+			"body": "CE + UKCA zertifiziert. USB-C-Aufladung, ca. 2 Stunden Akkulaufzeit, je nach Nutzung. Bluetooth. Unterrichtspläne und Lehrerhandbuch online unter <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 Sprachen. YouTube-Tutorials.\n\nZeichnet mit jedem gewöhnlichen Stift, keine speziellen Nachfüllpacks."
+		},
+		{
+			"sidebarTitle": "Verkaufsunterlagen",
+			"sidebarText": "",
+			"body": "Alles, um PrimaSTEM einer Schule zu zeigen und abzuschließen, an einem Ort.\n\n- **<a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Live im Browser vorführen</a>**: ohne Hardware, direkt vor Ort für eine Schule starten.\n- **<a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\">Eine echte Klasse in Aktion zeigen</a>**: ein kurzes Video für Käufer, die es im Raum sehen wollen.\n- **<a href=\"https://github.com/primastem/primastem-marketing/\" target=\"_blank\" rel=\"noopener noreferrer\">Unser Marketing-Kit in Ihren Katalog übernehmen</a>**: Logos, Fotos und Kataloge in vielen Sprachen, frei nutzbar.\n- **<a href=\"https://docs.primastem.com\" target=\"_blank\" rel=\"noopener noreferrer\">Lehrkräfte zu den Unterrichtsplänen führen</a>**: vollständiges Lehrerhandbuch und Aktivitäten online in 10 Sprachen.\n- **<a href=\"/sheet\">Das Datenblatt griffbereit halten</a>**: das Großhandels-Produktblatt für Ihre Referenz.\n- **<a href=\"/faq\">Die üblichen Fragen schnell beantworten</a>**: die FAQ für das, was Käufer immer fragen."
 		},
 		{
 			"sidebarTitle": "Konditionen",
