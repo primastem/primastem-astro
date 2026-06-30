@@ -37,6 +37,11 @@
 			"body": "Le programme reste posé sur la console, sous les yeux de l'enfant. Quand le robot part au mauvais endroit, l'élève repère l'étape fautive, change un jeton et relance. Avec le feutre, l'erreur se voit aussitôt sur la feuille : facile à repérer, facile à corriger.\n\nAinsi l'enfant apprend à chercher la cause par lui-même et à réessayer, sans craindre de se tromper."
 		},
 		{
+			"sidebarTitle": "Pourquoi PrimaSTEM",
+			"sidebarText": "",
+			"body": "PrimaSTEM est un produit exclusif - non un remplacement de Cubetto ou Matatalab. C'est le seul outil sans écran qui permet aux enfants de faire **de vraies mathématiques (arithmétique + géométrie) avec les mains**, en plus de la programmation.\n\n#### Comparaison générale\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Facilité d'utilisation | haute | basse | **haute** |\n| Précision | basse | moyenne | **haute** |\n| Fonctionnalité | basse | moyenne | **haute** |\n| Matériaux écologiques | moyenne | basse | **haute** |\n| Couverture multi-annuelle | basse | moyenne | **haute** |\n\n#### Capacités concrètes\n\n| Capacité | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Pas de déplacement | Grille fixe | 100 mm fixe | **De 1 mm à 900 mm** |\n| Angles de rotation | 90° seulement | Valeurs discrètes (ex. 45°, 90°) | **Tout angle librement défini** |\n| Contenu mathématique | Aucun | Aucun | **Arithmétique via jetons physiques** |\n| Géométrie / dessin | Aucun | Formes limitées | **Géométrie précise + dessin au feutre** |\n| Tranche d'âge | 4–6 | 7–9 | **4–10 (un seul appareil)** |\n| Matériaux | Contreplaqué + ~50 % plastique | Tout plastique | **Contreplaqué + carton** |\n| Conçu + fabriqué en | Royaume-Uni / Chine | Chine | **France** |"
+		},
+		{
 			"sidebarTitle": "Prêt pour votre catalogue",
 			"sidebarText": "",
 			"body": "Certifié CE + UKCA. Recharge USB-C, environ 2 heures d'autonomie, selon l'utilisation. Bluetooth. Plans de cours et guide de l'enseignant en ligne sur <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> en 10 langues. Tutoriels YouTube.\n\nDessine avec n'importe quel feutre ordinaire, sans recharge propriétaire.\n\nDes supports marketing prêts à l'emploi en plusieurs langues, libres pour vos catalogues et votre site : <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>télécharger le kit</a> ou <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>parcourir le dépôt</a>."
@@ -45,11 +50,6 @@
 			"sidebarTitle": "Conditions",
 			"sidebarText": "",
 			"body": "Supports marketing dans votre langue. Support technique. Participation conjointe aux salons. Exclusivité territoriale négociable.\n\n**Toutes les conditions, tarifs et exclusivités sont discutés au cas par cas. Contactez-nous pour entamer la conversation.**"
-		},
-		{
-			"sidebarTitle": "Pourquoi PrimaSTEM",
-			"sidebarText": "",
-			"body": "PrimaSTEM est un produit exclusif - non un remplacement de Cubetto ou Matatalab. C'est le seul outil sans écran qui permet aux enfants de faire **de vraies mathématiques (arithmétique + géométrie) avec les mains**, en plus de la programmation.\n\n#### Comparaison générale\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Facilité d'utilisation | haute | basse | **haute** |\n| Précision | basse | moyenne | **haute** |\n| Fonctionnalité | basse | moyenne | **haute** |\n| Matériaux écologiques | moyenne | basse | **haute** |\n| Couverture multi-annuelle | basse | moyenne | **haute** |\n\n#### Capacités concrètes\n\n| Capacité | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Pas de déplacement | Grille fixe | 100 mm fixe | **De 1 mm à 900 mm** |\n| Angles de rotation | 90° seulement | Valeurs discrètes (ex. 45°, 90°) | **Tout angle librement défini** |\n| Contenu mathématique | Aucun | Aucun | **Arithmétique via jetons physiques** |\n| Géométrie / dessin | Aucun | Formes limitées | **Géométrie précise + dessin au feutre** |\n| Tranche d'âge | 4–6 | 7–9 | **4–10 (un seul appareil)** |\n| Matériaux | Contreplaqué + ~50 % plastique | Tout plastique | **Contreplaqué + carton** |\n| Conçu + fabriqué en | Royaume-Uni / Chine | Chine | **France** |"
 		},
 		{
 			"sidebarTitle": "Références",

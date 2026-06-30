@@ -37,6 +37,11 @@
 			"body": "Das Programm liegt direkt auf dem Brett, vor den Augen des Kindes. Fährt der Roboter falsch, findet das Kind den fehlerhaften Schritt, tauscht einen Token und startet neu. Mit eingesetztem Stift zeigt sich der Fehler sofort auf dem Papier: leicht zu sehen, leicht zu beheben.\n\nSo lernt das Kind, die Ursache selbst zu finden und es erneut zu versuchen, ohne Angst vor Fehlern."
 		},
 		{
+			"sidebarTitle": "Warum PrimaSTEM",
+			"sidebarText": "",
+			"body": "PrimaSTEM ist ein exklusives neues Produkt - kein Ersatz für Cubetto oder Matatalab. Es ist das einzige bildschirmfreie Werkzeug, mit dem Kinder **echte Mathematik (Arithmetik + Geometrie) mit den Händen** üben können, neben dem Programmieren.\n\n#### Gesamtvergleich\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Benutzerfreundlichkeit | hoch | niedrig | **hoch** |\n| Präzision | niedrig | mittel | **hoch** |\n| Funktionalität | niedrig | mittel | **hoch** |\n| Ökomaterialien | mittel | niedrig | **hoch** |\n| Mehrjährige Lehrspanne | niedrig | mittel | **hoch** |\n\n#### Konkrete Fähigkeiten\n\n| Fähigkeit | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Bewegungsschritte | Nur festes Raster | 100 mm fest | **1 mm bis 900 mm frei** |\n| Drehwinkel | Nur 90° | Diskrete Werte (z. B. 45°, 90°) | **Jeder Winkel frei einstellbar** |\n| Mathematikinhalt | Keiner | Keiner | **Arithmetik über physische Tokens** |\n| Geometrie / Zeichnen | Keiner | Begrenzte Formen | **Präzise Geometrie + Stiftzeichnen** |\n| Altersbereich | 4–6 | 7–9 | **4–10 (ein Gerät)** |\n| Materialien | Sperrholz + ~50 % Plastik | Alles Plastik | **Sperrholz + Karton** |\n| Entwickelt + hergestellt in | UK / China | China | **Frankreich** |"
+		},
+		{
 			"sidebarTitle": "Bereit für Ihren Katalog",
 			"sidebarText": "",
 			"body": "CE + UKCA zertifiziert. USB-C-Aufladung, ca. 2 Stunden Akkulaufzeit, je nach Nutzung. Bluetooth. Unterrichtspläne und Lehrerhandbuch online unter <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 Sprachen. YouTube-Tutorials.\n\nZeichnet mit jedem gewöhnlichen Stift, keine speziellen Nachfüllpacks.\n\nFertige Marketingmaterialien in mehreren Sprachen, frei für Ihre Kataloge und Website: <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>das Kit herunterladen</a> oder <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>das Repository durchsuchen</a>."
@@ -45,11 +50,6 @@
 			"sidebarTitle": "Konditionen",
 			"sidebarText": "",
 			"body": "Marketingmaterialien in Ihrer Sprache. Technischer Support. Gemeinsame Messebeteiligung. Gebietsexklusivität verhandelbar.\n\n**Alle Konditionen, Preise und Exklusivitätsbedingungen werden individuell besprochen. Kontaktieren Sie uns, um das Gespräch zu beginnen.**"
-		},
-		{
-			"sidebarTitle": "Warum PrimaSTEM",
-			"sidebarText": "",
-			"body": "PrimaSTEM ist ein exklusives neues Produkt - kein Ersatz für Cubetto oder Matatalab. Es ist das einzige bildschirmfreie Werkzeug, mit dem Kinder **echte Mathematik (Arithmetik + Geometrie) mit den Händen** üben können, neben dem Programmieren.\n\n#### Gesamtvergleich\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Benutzerfreundlichkeit | hoch | niedrig | **hoch** |\n| Präzision | niedrig | mittel | **hoch** |\n| Funktionalität | niedrig | mittel | **hoch** |\n| Ökomaterialien | mittel | niedrig | **hoch** |\n| Mehrjährige Lehrspanne | niedrig | mittel | **hoch** |\n\n#### Konkrete Fähigkeiten\n\n| Fähigkeit | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Bewegungsschritte | Nur festes Raster | 100 mm fest | **1 mm bis 900 mm frei** |\n| Drehwinkel | Nur 90° | Diskrete Werte (z. B. 45°, 90°) | **Jeder Winkel frei einstellbar** |\n| Mathematikinhalt | Keiner | Keiner | **Arithmetik über physische Tokens** |\n| Geometrie / Zeichnen | Keiner | Begrenzte Formen | **Präzise Geometrie + Stiftzeichnen** |\n| Altersbereich | 4–6 | 7–9 | **4–10 (ein Gerät)** |\n| Materialien | Sperrholz + ~50 % Plastik | Alles Plastik | **Sperrholz + Karton** |\n| Entwickelt + hergestellt in | UK / China | China | **Frankreich** |"
 		},
 		{
 			"sidebarTitle": "Nachweise",

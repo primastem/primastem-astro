@@ -37,6 +37,11 @@
 			"body": "The program sits right there on the board, in front of the child. When the robot goes the wrong way, the child finds the step that's off, swaps a token, and runs it again. With a marker in, the mistake shows up on paper straight away: easy to see, easy to fix.\n\nSo a child learns to track down the cause and try again, without the fear of getting it wrong."
 		},
 		{
+			"sidebarTitle": "Why PrimaSTEM",
+			"sidebarText": "",
+			"body": "PrimaSTEM is an exclusive new product - not a Cubetto or Matatalab replacement. It is the only screen-free tool that lets children do **real math (arithmetic + geometry) with their hands**, alongside coding.\n\n#### Overall comparison\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Ease of use | high | low | **high** |\n| Precision | low | medium | **high** |\n| Functionality | low | medium | **high** |\n| Eco materials | medium | low | **high** |\n| Multi-year teaching span | low | medium | **high** |\n\n#### Concrete capabilities\n\n| Capability | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Movement steps | Fixed grid only | Fixed 100 mm | **Any distance 1 mm – 900 mm** |\n| Turn angles | 90° only | Discrete values (e.g. 45°, 90°) | **Any angle, freely set** |\n| Math content | None | None | **Real arithmetic via physical tokens** |\n| Geometry / drawing | None | Limited shapes | **Precise geometry + marker drawing** |\n| Age range covered | 4–6 | 7–9 | **4–10 (one device)** |\n| Materials | Plywood + ~50% plastic | All plastic | **Plywood + cardboard** |\n| Designed + made in | UK / China | China | **France** |"
+		},
+		{
 			"sidebarTitle": "Ready for your catalogue",
 			"sidebarText": "",
 			"body": "CE + UKCA certified. USB-C charging, approximately 2 hours of battery life, depending on usage. Bluetooth. Lesson plans and teacher's guide online at <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> in 10 languages. YouTube tutorials.\n\nDraws with any ordinary marker - no proprietary refills.\n\nReady-made marketing materials in many languages, free for your catalogs and website: <a href='https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip' class='text-primary-500 hover:underline'>download the kit</a> or <a href='https://github.com/primastem/primastem-marketing/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>browse the repository</a>."
@@ -45,11 +50,6 @@
 			"sidebarTitle": "Terms",
 			"sidebarText": "",
 			"body": "Marketing materials in your language. Technical support. Joint participation at trade shows. Territory exclusivity negotiable.\n\n**All terms, pricing and exclusivity conditions are discussed individually. Contact us to start the conversation.**"
-		},
-		{
-			"sidebarTitle": "Why PrimaSTEM",
-			"sidebarText": "",
-			"body": "PrimaSTEM is an exclusive new product - not a Cubetto or Matatalab replacement. It is the only screen-free tool that lets children do **real math (arithmetic + geometry) with their hands**, alongside coding.\n\n#### Overall comparison\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Ease of use | high | low | **high** |\n| Precision | low | medium | **high** |\n| Functionality | low | medium | **high** |\n| Eco materials | medium | low | **high** |\n| Multi-year teaching span | low | medium | **high** |\n\n#### Concrete capabilities\n\n| Capability | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Movement steps | Fixed grid only | Fixed 100 mm | **Any distance 1 mm – 900 mm** |\n| Turn angles | 90° only | Discrete values (e.g. 45°, 90°) | **Any angle, freely set** |\n| Math content | None | None | **Real arithmetic via physical tokens** |\n| Geometry / drawing | None | Limited shapes | **Precise geometry + marker drawing** |\n| Age range covered | 4–6 | 7–9 | **4–10 (one device)** |\n| Materials | Plywood + ~50% plastic | All plastic | **Plywood + cardboard** |\n| Designed + made in | UK / China | China | **France** |"
 		},
 		{
 			"sidebarTitle": "Proof",
