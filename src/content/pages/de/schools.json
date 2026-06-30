@@ -37,7 +37,7 @@
 		{
 			"sidebarTitle": "Was Lehrkräfte nicht erwarten",
 			"sidebarText": "",
-			"body": "**Offene Plattform.** Jedes Token ist ein Standard-NFC-Tag. Erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen über eine kostenlose Handy-App.\n\n**Klangkarten.** NFC-Tags auf dem Spielfeld platzieren - der Roboter spielt Audio ab, wenn er darüberfährt.\n\n**Sprachrückmeldung.** Das Board spricht jeden Token laut aus, wenn er platziert wird - in 17 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Hilft Kindern, die noch nicht lesen können, und Kindern mit Sehbehinderungen.\n\n**Braille-Version** in der Pilottestung. Zugänglich für Kinder mit Seh- und Aufmerksamkeitsbeeinträchtigungen."
+			"body": "**Offene Plattform.** Jedes Token ist ein Standard-NFC-Tag. Erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen über eine kostenlose Handy-App.\n\n**Klangkarten.** NFC-Tags auf dem Spielfeld platzieren - der Roboter spielt Audio ab, wenn er darüberfährt.\n\n**Sprachrückmeldung.** Das Board spricht jeden Token laut aus, wenn er platziert wird - in 17 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Hilft Kindern, die noch nicht lesen können, und Kindern mit Sehbehinderungen. Es liest auch Wörter vor, benennt Buchstaben und spielt Noten.\n\n**Braille-Version** in der Pilottestung. Zugänglich für Kinder mit Seh- und Aufmerksamkeitsbeeinträchtigungen."
 		}
 	],
 	"cta": {
