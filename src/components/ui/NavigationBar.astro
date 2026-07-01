@@ -14,7 +14,6 @@
 // Components
 // - UI
 import { Icon } from 'astro-icon/components'
-import Button from './Button.astro'
 import Switcher from './ModeSwitcher.astro'
 import LanguageSwitcher from './LanguageSwitcher.astro'
 
@@ -114,6 +113,22 @@ const savedNavActions = navActions.map((action) => ({
 						)
 					})
 				}
+				{
+					savedNavActions.map((action) => (
+						<li role="none" class="header__menu-item">
+							<a
+								href={action.link}
+								target="_blank"
+								rel="noopener"
+								role="menuitem"
+								class="header__menu-link header__menu-link--external"
+							>
+								{t('nav.docs')}
+								<Icon name="arrow-up-right" class="header__menu-external-icon" />
+							</a>
+						</li>
+					))
+				}
 			</ul>
 
 			<!-- Language Switcher -->
@@ -121,17 +136,6 @@ const savedNavActions = navActions.map((action) => ({
 
 			<!-- Theme Switcher -->
 			<Switcher />
-
-			<!-- Navigation action buttons -->
-			<div class="header__actions">
-				{
-					savedNavActions.map((action) => (
-						<Button classes="flex-auto" size={action.size} style={action.style} link={action.link}>
-							{t('nav.docs')}
-						</Button>
-					))
-				}
-			</div>
 		</nav>
 	</div>
 </header>
@@ -200,7 +204,10 @@ const savedNavActions = navActions.map((action) => ({
 	.header__toggle-inner span:nth-child(3) {
 		@apply w-1/2 origin-top-left translate-y-2 [.header\_\_toggle--open_&]:w-0;
 	}
-	.header__actions {
-		@apply fixed bottom-0 left-0 hidden w-full items-center justify-between gap-4 border-t border-neutral-100 bg-white px-6 py-4 lg:relative lg:ml-auto lg:flex lg:w-auto lg:border-none lg:bg-transparent lg:px-0 lg:py-0 dark:border-neutral-800 dark:bg-neutral-950 lg:dark:bg-transparent [.header\_\_menu--open~&]:flex;
+	.header__menu-link--external {
+		@apply inline-flex items-center gap-1;
+	}
+	.header__menu-external-icon {
+		@apply h-4 w-4 opacity-70;
 	}
 </style>
