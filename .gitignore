@@ -25,6 +25,9 @@ pnpm-debug.log*
 .baseline/
 .omc/
 
+# content working folder (drafts, structure planning) - local only
+content-lab/
+
 # agent / local tooling
 .claude/
 *.bak
