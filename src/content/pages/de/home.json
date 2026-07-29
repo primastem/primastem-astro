@@ -1,15 +1,15 @@
 {
 	"seo": {
-		"title": "PrimaSTEM - Programmieren und Mathe ohne Bildschirm für Kinder von 4–10 Jahren",
-		"description": "Das einzige bildschirmfreie Lernmittel, das sowohl Programmieren als auch Mathematik vermittelt. Hölzerner programmierbarer Roboter für Kinder von 4 bis 10 Jahren."
+		"title": "PrimaSTEM - Programmieren und Mathe ohne Bildschirm, 4–10+ Jahre",
+		"description": "Das einzige bildschirmfreie Lernmittel, das sowohl Programmieren als auch Mathematik vermittelt. Hölzerner programmierbarer Roboter für Kinder von 4 bis 10+ Jahren."
 	},
 	"hero": {
 		"title": "Programmieren und Mathe <strong>ohne Bildschirm!</strong>",
-		"subtitle": "Lehrt Programmieren, Logik, Arithmetik und Geometrie - mit den Händen.<br />Für Kinder von 4 bis 10 Jahren.",
+		"subtitle": "Das Kind steckt aus Tokens ein Programm auf dem Steuerboard zusammen, und der Roboter führt es aus: bei den Jüngeren Labyrinthe, bei den Älteren geometrische Figuren auf Papier.<br />Von 4 bis 10+ Jahren",
 		"price": "",
 		"volumeLine": "",
-		"buttonText": "Wählen Sie Ihren Weg",
-		"buttonLink": "#pricing-v3",
+		"buttonText": "Wo kaufen",
+		"buttonLink": "/de/where-to-buy",
 		"simulatorText": "Web-Simulator testen"
 	},
 	"twoLevels": {
@@ -18,38 +18,24 @@
 		"level1": {
 			"tag": "Logik, Zahlen",
 			"age": "Alter 4–7",
-			"items": ["Logischer Schritt 15 cm (einstellbar), 90°-Drehungen", "Labyrinthe, Sequenzen, Debuggen"]
+			"items": ["Labyrinthe, Sequenzen, Debuggen", "Logischer Schritt 15 cm (einstellbar), 90°-Drehungen"]
 		},
 		"level2": {
 			"tag": "Mathematik, Programmieren",
-			"age": "Alter 7–10",
-			"items": ["Genaue Abstände und beliebige Winkel", "Arithmetik, Geometrie, Zeichnen mit Stift"]
+			"age": "Alter 7–10+",
+			"items": ["Arithmetik, Geometrie, Zeichnen mit Stift", "Präzise Abstände und Winkel jeder Größe"]
 		}
-	},
-	"drawing": {
-		"title": "Der Roboter zeichnet, was <strong>das Kind programmiert</strong>",
-		"subtitle": "<strong>Diese Spirale? Kein anderer bildschirmfreier Roboter kann sie zeichnen</strong> - und ein Kind hat sie von Hand programmiert. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Den Prozess auf YouTube ansehen</a>.",
-		"drawings": [
-			{ "name": "Fünfeck" },
-			{ "name": "Stern" },
-			{ "name": "Spirale" },
-			{ "name": "Herz" }
-		],
-		"example": "Beispiel: (Wiederholen 5) [(Vorwärts) (50), (Rechts) (144)] = ein Stern."
-	},
-	"maps": {
-		"title": "Funktioniert mit Karten und Unterrichtsplänen, <strong>die Sie bereits haben</strong>",
-		"text": "PrimaSTEM passt sich den Inhalten anderer Lernroboter an.<br><br>Die Schrittgröße ist einstellbar - 10, 12, 15, 25 cm. Jede Rasterkarte funktioniert. Kein neues Material nötig.<br><br>Und für die Jüngsten liegt schon ein fertiger Lehrplan in der Schachtel; Unterrichtspläne für einen anderen Roboter laufen ebenfalls auf PrimaSTEM."
-	},
-	"video": {
-		"title": "Sehen Sie es <strong>in Aktion</strong>",
-		"subtitle": "Sehen Sie, wie Kinder mit PrimaSTEM Programmieren und Mathematik lernen.",
-		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
-		"videoCaption": "Video mit einem Prototyp aufgenommen. Das Endprodukt kann abweichen."
 	},
 	"trust": {
 		"title": "Von unseren <strong class=\"highlight\">Partnern</strong> vertraut",
-		"countriesLine": "Erste Pilotprojekte und Partner in Europa."
+		"countriesLine": ""
+	},
+	"nextSteps": {
+		"buttons": [
+			{ "text": "Zum Produkt", "link": "/de/product", "style": "secondary" },
+			{ "text": "Wo kaufen", "link": "/de/where-to-buy", "style": "primary" },
+			{ "text": "Web-Simulator testen", "link": "https://simulator.primastem.com/", "style": "secondary" }
+		]
 	},
 	"newsletter": {
 		"title": "Bleiben Sie mit Neuigkeiten und Angeboten <strong>auf dem Laufenden</strong>",

@@ -1,105 +1,290 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | Der bildschirmfreie Programmierroboter, bei dem Programmieren zu Mathe wird",
-		"description": "Kinder programmieren PrimaSTEM von Hand, ohne Bildschirm. Dasselbe Programmieren geht in jede Distanz, jeden Winkel und echte Arithmetik, sodass aus Code echte Mathematik wird. Ein Holzroboter, 4 bis 10 Jahre. CE und UKCA zertifiziert, hergestellt in Frankreich."
-	},
-	"structuredData": {
-		"price": "235",
-		"priceValidUntil": "2026-12-31"
+		"title": "PrimaSTEM | Der bildschirmfreie Programmierroboter, bei dem der Code zu echter Mathematik wird",
+		"description": "Kinder programmieren PrimaSTEM von Hand, ohne Bildschirm. Dasselbe Programmieren geht in jede Distanz, jeden Winkel und echte Arithmetik, sodass der Code zu echter Mathematik wird. Ein Holzroboter, 4-10+ Jahre. CE und UKCA, hergestellt in Frankreich."
 	},
 	"hero": {
 		"title": "So funktioniert <strong>PrimaSTEM</strong>",
-		"headline": "Der bildschirmfreie Programmierroboter, bei dem das Programmieren zu <strong>echter Mathematik</strong> wird",
-		"lead": "PrimaSTEM ist ein bildschirmfreier Programmierroboter, den Kinder von Hand programmieren. Der Unterschied liegt darin, wie weit dasselbe Programmieren reicht: nicht nur den Roboter bewegen und ihn auf ein paar feste Arten drehen, sondern jede Distanz, jeder Winkel und echte Arithmetik, sodass das Programmieren direkt in echte Mathematik übergeht. Ein einziger Roboter trägt das von 4 bis 10 Jahren.",
+		"headline": "Der bildschirmfreie Programmierroboter, bei dem der Code zu <strong>echter Mathematik</strong> wird",
+		"lead": "Kinder stecken das Programm mit Tokens auf dem Steuerboard zusammen, und der Roboter führt es aus. Der Unterschied liegt darin, wie weit dieses Programm reicht: kein fester Schritt und ein paar feste Drehungen, sondern jede Distanz, jeder Winkel und echte Arithmetik, sodass das Programmieren hier bis zu echter Mathematik reicht. Ein einziger Roboter begleitet das Kind ab vier Jahren, und zehn ist keine Grenze.",
 		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
 		"videoCaption": "Video mit einem Prototyp aufgenommen. Das Endprodukt kann abweichen.",
 		"steps": [
-			{ "number": "1", "text": "Tokens von links nach rechts platzieren. Grüne LED = akzeptiert. Das Board spricht den Befehl aus." },
-			{ "number": "2", "text": "\"Start\" drücken. Der Roboter führt aus. LEDs zeigen, welcher Befehl gerade läuft." },
-			{ "number": "3", "text": "Ergebnis prüfen. Falsch? Fehler suchen, Token tauschen, erneut starten." }
+			{
+				"number": "1",
+				"text": "Tokens von links nach rechts auslegen. Grüne LED, der Befehl ist angenommen. Das Board spricht den Befehl laut aus."
+			},
+			{
+				"number": "2",
+				"text": "\"Start\" drücken. Der Roboter führt das Programm aus. LEDs zeigen, welcher Befehl gerade läuft."
+			},
+			{
+				"number": "3",
+				"text": "Der Roboter führt das Programm aus, und Sie sehen das Ergebnis sofort."
+			}
+		],
+		"lock": [
+			"Das Programm liegt komplett offen: Das Kind sieht es, fasst es an, ordnet es um.",
+			"Einen falschen Schritt findet es selbst, und mit eingestecktem Stift zeigt sich der Fehler sofort auf dem Papier. So lernen Kinder, Fehler zu korrigieren, statt sich vor ihnen zu fürchten."
+		],
+		"simulatorLine": "Testen Sie es jetzt: <a href='https://simulator.primastem.com/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>PrimaSTEM-Web-Simulator</a> läuft direkt im Browser."
+	},
+	"twoLevels": {
+		"title": "Zwei Stufen - <strong>ein Gerät</strong>",
+		"levels": [
+			{
+				"heading": "4–7 Jahre: Logik",
+				"paragraphs": [
+					"Einfache Befehle und Zahlen, 90°-Drehungen. Vorwärts, rückwärts, links, rechts, Funktion, Wiederholen.",
+					"Labyrinthe auf farbigen Karten. Planung, Sequenzen, Debuggen, Zählen.",
+					"Hier kommen auch Funktionen und Schleifen ins Spiel: „Statt es fünfmal hinzuschreiben, sag dem Roboter: wiederhole.“"
+				]
+			},
+			{
+				"heading": "7–10+ Jahre: Mathematik",
+				"paragraphs": [
+					"Präzise Abstände in mm und jeder Winkel in Grad: 1°–360°. Arithmetik: +, −, ×, ÷, √, ^. Negative Zahlen. Folgen.",
+					"Stecken Sie einen Stift ein, und der Roboter zeichnet, was das Kind programmiert hat."
+				]
+			}
+		],
+		"scratchLine": "Und mit zehn ist noch nicht Schluss: Mit <a href='https://scratch.primastem.com/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>Scratch</a> programmieren die Älteren denselben Roboter weiter, mit Blöcken."
+	},
+	"drawing": {
+		"title": "Der Roboter zeichnet, was <strong>das Kind programmiert hat</strong>",
+		"intro": "Stecken Sie einen Stift ein, und jede Bewegung hinterlässt eine Linie. Vorwärts 50, Rechts 144, Wiederholen 5 ergibt einen Stern. Fügen Sie eine arithmetische Folge hinzu, und der Stern wird zur Spirale: Winkel und Abstände legt das Kind fest, und der Roboter führt das Programm genau aus.",
+		"drawings": [
+			{
+				"name": "Fünfeck"
+			},
+			{
+				"name": "Stern"
+			},
+			{
+				"name": "Spirale"
+			},
+			{
+				"name": "Herz"
+			}
+		],
+		"afterGallery": [
+			"Diese Zeichnungen hat der Roboter mit einem Stift nach einem Programm aus Tokens gezeichnet. Sehen Sie sich die Spirale genauer an: Kein anderer bildschirmfreier Roboter kann sie zeichnen.",
+			"<a href='https://youtube.com/@primastem' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>Den Prozess auf YouTube ansehen</a>."
+		]
+	},
+	"lessons": {
+		"title": "Lektionen inklusive",
+		"paragraphs": [
+			"Man muss nicht programmieren können. Zu jedem Set gehören bereits fertige Lektionen für die Jüngsten, im Geiste von LOGO und Montessori: kurze Aufgaben, ein kleiner Schritt nach dem anderen, alles wird unterwegs erklärt.",
+			"Darin stecken Lernziele, Materialien und ein Schritt-für-Schritt-Plan, dazu Druckvorlagen. Sie öffnen es und halten die Stunde noch am selben Tag, ohne abendliche Vorbereitung.",
+			"Alles liegt online, in mehreren Sprachen, und Sie können es schon vor der Bestellung ansehen. Die vollständige Dokumentation finden Sie unter <a href='https://docs.primastem.com' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>docs.primastem.com</a>.",
+			"Alles ist im Basis-Set enthalten: keine kostenpflichtigen Zusatzpakete, kein zweites Budget für Erweiterungen."
+		],
+		"buttonText": "Unterrichtspläne",
+		"buttonLink": "https://docs.primastem.com/en/book-1/book-1"
+	},
+	"health": {
+		"title": "Eine Aktivität, die keine Bildschirmzeit hinzufügt",
+		"paragraphs": [
+			"Kein Tablet, keine App: Das Kind arbeitet mit den Händen, und das Board spricht jeden Token laut aus. Eine Stunde mit PrimaSTEM kommt nicht zur Bildschirmzeit hinzu.",
+			"Schulen bewegen sich schon in diese Richtung: In Frankreich sind Handys seit 2018 per Gesetz an Schulen verboten, in den Niederlanden gilt das Verbot seit 2024 und schließt die Grundschule ein."
+		]
+	},
+	"maps": {
+		"title": "Funktioniert mit Karten und Unterrichtsplänen, <strong>die Sie bereits haben</strong>",
+		"text": "PrimaSTEM passt sich dem Inhalt anderer Lernroboter an. Die Schrittgröße lässt sich auf jeden Wert einstellen, nicht nur 10 cm, 12,5 cm oder 15 cm. Jede Rasterkarte, die Sie schon im Klassenzimmer haben, funktioniert.<br><br>Arbeiten Sie schon mit einem anderen Roboter? Alles, was er kann, macht PrimaSTEM auf dieselbe Weise: vorwärts, rückwärts, Drehungen, Wiederholen, Funktion. Bei uns ist das die Einsteigerstufe, sodass Ihre Pläne und Karten so passen, wie sie sind, ohne Umlernen und ohne neues Material."
+	},
+	"voiceFeedback": {
+		"title": "Stimme, Wörter und <strong>Musik</strong>",
+		"paragraphs": [
+			"Das Board spricht jeden Token beim Einsetzen aus, Befehle wie Klänge. Das hilft Kindern, die noch nicht lesen können, und Kindern mit Seh- und Aufmerksamkeitsstörungen.",
+			"Beim Start des Programms sendet das Board die Klänge an den Roboter, und der Roboter spielt sie ab: Befehle, Wörter, Buchstaben des Alphabets, Noten. Zwischen den Bewegungsbefehlen kann er anhalten und den Token abspielen, über dem er steht, jeden von denen, die das Board ausspricht. Verfügbar sind mehr als neunzig Wörter: Haus, Wald, Kino.",
+			"Derselbe Roboter, der Programmieren und Rechnen lehrt, bringt unterwegs auch Sprache und Musik mit.",
+			"Verfügbar in 17 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Ihre Sprache ist nicht dabei? Wir ergänzen sie auf Anfrage.",
+			"Braille-Version in der Pilottestung."
+		]
+	},
+	"openPlatform": {
+		"title": "Offene <strong>Plattform</strong>",
+		"paragraphs": [
+			"Jedes Token ist ein Standard-NFC-Tag mit 13,56 MHz. Jedes Tag desselben Standards funktioniert, sie kosten wenige Cent und sind auf jedem Marktplatz erhältlich. Nehmen Sie den Textcode aus unserer Dokumentation und schreiben Sie ihn mit der kostenlosen App NFC Tools: alles zusammen dauert 10 Sekunden. So entstehen eigene Zahlen, Schleifen und Rechenoperationen.",
+			"Dieselben Tags werden auf dem Spielfeld verteilt, und die Karte beginnt zu sprechen: Sprachkarten, Musikfelder, Geschichtenquests."
 		]
 	},
 	"kit": {
 		"title": "Was im <strong>Set enthalten ist</strong>",
 		"cards": [
-			{ "title": "Marienkäfer-Roboter", "icon": "robot", "items": ["125 mm Durchmesser", "Holz", "USB-C-Aufladung", "ca. 2 Stunden Akkulaufzeit, je nach Nutzung"] },
-			{ "title": "Steuerboard", "icon": "bolt", "items": ["317 × 217 mm", "Holz", "11 Doppelsteckplätze", "Bluetooth ~5 m"] },
-			{ "title": "Befehlstokens", "icon": "squares-plus", "items": ["33 × 33 mm, Karton", "NFC 13,56 MHz", "Farbcodierung per Kratzen", "Beschreibbar per Handy-App"] },
-			{ "title": "Online-Lehrerhandbuch", "icon": "book", "items": ["Unterrichtspläne online", "Aktivitäten & Druckvorlagen", "docs.primastem.com", "10 Sprachen"] }
-		]
-	},
-	"commands": {
-		"title": "Befehle",
-		"text": "<ul class='space-y-3 list-none'>\n\t\t\t<li><strong>Bewegung & Programm:</strong> Vorwärts, Rückwärts, Links, Rechts, Zufällig, Funktion, Pause.</li>\n\t\t\t<li><strong>Wiederholen:</strong> 2–999, Zufällige Wiederholung 1–6.</li>\n\t\t\t<li><strong>Mathematik:</strong> +, −, ×, ÷, √, ^</li>\n\t\t\t<li><strong>Zahlen:</strong> 1–999</li>\n\t\t\t<li><strong>System:</strong> Standardschrittgröße, Kalibrierung.</li>\n\t\t</ul>"
-	},
-	"drawing": {
-		"title": "Zeichnen",
-		"text": "Stecken Sie einen Stift ein, und jede Bewegung hinterlässt eine Linie. Vorwärts 50, Rechts 144, Wiederholen 5 ergibt einen Stern; fügen Sie eine arithmetische Progression hinzu, und der Stern wird zur Spirale.<br><br>Der Roboter berechnet Winkel und Abstände selbst im Lauf und zeichnet echte Geometrie auf Papier. Ein einfacher rollender Roboter ohne Bildschirm erreicht diese Präzision nicht, und das Kind sieht das Ergebnis seines Programms direkt auf dem Blatt."
-	},
-	"maps": {
-		"title": "Funktioniert mit Karten und Unterrichtsplänen, <strong>die Sie bereits haben</strong>",
-		"text": "PrimaSTEM passt sich den Inhalten anderer Lernroboter an.<br><br>Die Schrittgröße ist einstellbar - 10, 12, 15, 25 cm. Jede Rasterkarte funktioniert. Kein neues Material nötig.<br><br>Und für die Jüngsten liegt schon ein fertiger Lehrplan in der Schachtel; Unterrichtspläne für einen anderen Roboter laufen ebenfalls auf PrimaSTEM."
-	},
-	"openPlatform": {
-		"title": "Offene <strong>Plattform</strong>",
-		"paragraphs": [
-			"Jedes Token ist ein Standard-NFC-Tag (13,56 MHz). Schreiben Sie beliebige Codes mit einer kostenlosen Handy-App. Erstellen Sie eigene Zahlen, Schleifen oder Rechenoperationen.",
-			"NFC-Tags auf dem Spielfeld - der Roboter spielt Audio ab, wenn er darüberfährt. Sprachkarten, Musikfelder, Geschichtenquests."
-		]
-	},
-	"voiceFeedback": {
-		"title": "Stimme, Wörter und <strong>Musik</strong>",
-		"paragraphs": [
-			"Das Board spricht jeden Token aus, wenn er platziert wird. Hilft Kindern, die noch nicht lesen können, und Kindern mit Sehbehinderungen.",
-			"Es fährt auf eine Wortkarte und liest das Wort vor, etwa neunzig insgesamt: Haus, Wald, Kino. Es benennt die Buchstaben des Alphabets, spielt Noten und liest Rechenaufgaben vor. Derselbe Roboter, der Programmieren und Rechnen lehrt, bringt unterwegs auch Sprache und Musik mit.",
-			"Verfügbar in 17 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית.",
-			"Braille-Version in der Pilottestung."
+			{
+				"title": "Marienkäfer-Roboter",
+				"icon": "robot",
+				"items": [
+					"125 mm Durchmesser",
+					"Holz",
+					"USB-C-Aufladung",
+					"ca. 2 Stunden Akkulaufzeit, je nach Nutzung"
+				]
+			},
+			{
+				"title": "Steuerboard",
+				"icon": "bolt",
+				"items": [
+					"317 × 217 mm",
+					"Holz",
+					"11 Doppelsteckplätze",
+					"Bluetooth ~5 m"
+				]
+			},
+			{
+				"title": "Befehlstokens",
+				"icon": "squares-plus",
+				"items": [
+					"33 × 33 mm, Karton",
+					"NFC 13,56 MHz",
+					"Farbcodierung wie bei Scratch",
+					"Beschreibbar per App"
+				]
+			},
+			{
+				"title": "Online-Lehrerhandbuch",
+				"icon": "book",
+				"items": [
+					"Unterrichtspläne online",
+					"Aktivitäten & Druckvorlagen",
+					"docs.primastem.com",
+					"10 Sprachen"
+				]
+			}
 		]
 	},
 	"specs": {
 		"title": "Spezifikationen",
 		"rows": [
-			{ "label": "Material", "value": "Holz" },
-			{ "label": "Roboter", "value": "125 mm Durchmesser, 44 mm H" },
-			{ "label": "Steuerboard", "value": "317 × 217 mm" },
-			{ "label": "Tokens", "value": "100 Stk., 33 × 33 mm, Karton, NFC 13,56 MHz" },
-			{ "label": "Konnektivität", "value": "Bluetooth ~5 m" },
-			{ "label": "Akku", "value": "Li-Ion USB-C, ca. 2 Stunden, je nach Nutzung" },
-			{ "label": "Standardschritt", "value": "15 cm (beliebiger Wert, einstellbar)" },
-			{ "label": "Winkel", "value": "1°–360°" },
-			{ "label": "Mathematik", "value": "+, −, ×, ÷, √, ^, !" },
-			{ "label": "Steckplätze", "value": "6×2 Haupt + 5×2 Funktion" },
-			{ "label": "Audio", "value": "Sprachrückmeldung in 17 Sprachen + Klangbeispiele" },
-			{ "label": "Zertifizierung", "value": "CE + UKCA" },
-			{ "label": "Alter", "value": "4–10" },
-			{ "label": "Hergestellt in", "value": "Cannes, Frankreich" }
+			{
+				"label": "Material",
+				"value": "Holz"
+			},
+			{
+				"label": "Roboter",
+				"value": "125 mm Durchmesser, 44 mm H"
+			},
+			{
+				"label": "Steuerboard",
+				"value": "317 × 217 mm"
+			},
+			{
+				"label": "Tokens",
+				"value": "100 Stk., 33 × 33 mm, Karton, NFC 13,56 MHz"
+			},
+			{
+				"label": "Konnektivität",
+				"value": "Bluetooth ~5 m"
+			},
+			{
+				"label": "Akku",
+				"value": "Li-Ion USB-C, ca. 2 Stunden, je nach Nutzung"
+			},
+			{
+				"label": "Standardschritt",
+				"value": "15 cm (beliebiger Wert, einstellbar; Kalibrierung)"
+			},
+			{
+				"label": "Winkel",
+				"value": "1°–360°"
+			},
+			{
+				"label": "Bewegungsbefehle",
+				"value": "Vorwärts, Rückwärts, Links, Rechts, Zufällig, Funktion, Pause"
+			},
+			{
+				"label": "Wiederholungen und Zahlen",
+				"value": "Wiederholen 2–999, zufälliges Wiederholen 1–6, Zahlen 1–999"
+			},
+			{
+				"label": "Mathematik",
+				"value": "+, −, ×, ÷, √, ^"
+			},
+			{
+				"label": "Steckplätze",
+				"value": "6×2 Haupt + 5×2 Funktion"
+			},
+			{
+				"label": "Audio",
+				"value": "Sprachrückmeldung in 17 Sprachen + Klangbeispiele"
+			},
+			{
+				"label": "Zertifizierung",
+				"value": "CE + UKCA"
+			},
+			{
+				"label": "Alter",
+				"value": "4–10+"
+			},
+			{
+				"label": "Hergestellt in",
+				"value": "Cannes, Frankreich"
+			}
 		]
 	},
 	"documentation": {
 		"title": "Dokumentation und Tools",
 		"cards": [
-			{ "title": "Online-Dokumentation", "subtitle": "10 Sprachen. Unterrichtspläne, Anleitungen und technische Referenz.", "icon": "document-text", "link": "https://docs.primastem.com" },
-			{ "title": "Video-Tutorials", "subtitle": "Schritt-für-Schritt-Videos auf unserem YouTube-Kanal.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
-			{ "title": "Produktblatt", "subtitle": "Spezifikationen, Preise und Set-Übersicht für Händler.", "icon": "clipboard-document-list", "link": "/sheet" },
-			{ "title": "FAQ", "subtitle": "Häufige Fragen zu PrimaSTEM, Bestellungen und technischen Details.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" },
-			{ "title": "Web-Simulator", "subtitle": "Testen Sie den Roboter direkt im Browser, ganz ohne Gerät.", "icon": "computer-desktop", "link": "https://simulator.primastem.com/" },
-			{ "title": "Web-Steuerung", "subtitle": "Steuern Sie den Roboter live aus dem Browser.", "icon": "cursor-arrow-ripple", "link": "https://control.primastem.com/" },
-			{ "title": "Scratch für den Roboter", "subtitle": "Programmieren Sie den Roboter mit Scratch-Blöcken.", "icon": "rectangle-stack", "link": "https://scratch.primastem.com/" },
-			{ "title": "Firmware-Update", "subtitle": "Halten Sie die Firmware des Roboters aktuell.", "icon": "arrow-path-rounded-square", "link": "https://update.primastem.com/" }
+			{
+				"title": "Online-Dokumentation",
+				"subtitle": "10 Sprachen. Unterrichtspläne, Anleitungen und technische Dokumentation.",
+				"icon": "document-text",
+				"link": "https://docs.primastem.com"
+			},
+			{
+				"title": "Video-Tutorials",
+				"subtitle": "Schritt-für-Schritt-Videos auf unserem YouTube-Kanal.",
+				"icon": "youtube-icon",
+				"link": "https://youtube.com/@primastem"
+			},
+			{
+				"title": "Produktblatt",
+				"subtitle": "Spezifikationen und Set-Übersicht für Händler.",
+				"icon": "clipboard-document-list",
+				"link": "/sheet"
+			},
+			{
+				"title": "FAQ",
+				"subtitle": "Häufige Fragen zu PrimaSTEM, Bestellungen und technischen Details.",
+				"icon": "chat-bubble-left-ellipsis",
+				"link": "/faq"
+			},
+			{
+				"title": "Web-Simulator",
+				"subtitle": "Testen Sie den Roboter direkt im Browser, ganz ohne Gerät.",
+				"icon": "computer-desktop",
+				"link": "https://simulator.primastem.com/"
+			},
+			{
+				"title": "Web-Steuerung",
+				"subtitle": "Steuern Sie den Roboter live aus dem Browser.",
+				"icon": "cursor-arrow-ripple",
+				"link": "https://control.primastem.com/"
+			},
+			{
+				"title": "Scratch für den Roboter",
+				"subtitle": "Programmieren Sie den Roboter mit Scratch-Blöcken.",
+				"icon": "rectangle-stack",
+				"link": "https://scratch.primastem.com/"
+			},
+			{
+				"title": "Firmware-Update",
+				"subtitle": "Halten Sie die Firmware des Roboters aktuell.",
+				"icon": "arrow-path-rounded-square",
+				"link": "https://update.primastem.com/"
+			}
 		]
 	},
 	"order": {
-		"title": "PrimaSTEM <strong>bestellen</strong>",
-		"subtitle": "Ein Gerät für die gesamte Grundschule, 4–10 Jahre.",
-		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
-			"sheetLine": "Das Produktblatt <a href='/sheet' class='text-primary-400 hover:underline'>öffnen</a> oder <a href='/primastem-product-sheet.pdf' class='text-primary-400 hover:underline' download>herunterladen</a>.",
-		"buttonText": "Angebot anfordern",
-		"buttonLink": "/contact",
-		"simulatorText": "Web-Simulator testen",
-		"segmentLinks": [
-			{ "text": "Für Schulen", "link": "/schools" },
-			{ "text": "Für Händler", "link": "/distributors" },
-			{ "text": "Für Eltern", "link": "/parents" }
-		]
+		"title": "Ein Gerät für die gesamte Grundschule, <strong>4–10+ Jahre</strong>",
+		"subtitle": "",
+		"contactLine": "",
+		"sheetLine": "Das Produktblatt <a href='/sheet' class='text-primary-400 hover:underline'>öffnen</a> oder <a href='/primastem-product-sheet.pdf' class='text-primary-400 hover:underline' download>herunterladen</a>.",
+		"whereToBuyText": "Wo kaufen",
+		"whereToBuyLink": "/where-to-buy",
+		"simulatorText": "Web-Simulator testen"
 	}
 }

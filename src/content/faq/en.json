@@ -1,76 +1,76 @@
 {
-  "items": [
-    {
-      "question": "What age is PrimaSTEM for?",
-      "reply": "From age 4. The board speaks each token - knowing numbers isn't required. Ages 4–7 work with logic and simple programs. Ages 7–10 add mathematics, precise angles, and drawing.",
-      "category": "product",
-      "open": true
-    },
-    {
-      "question": "How does it work?",
-      "reply": "Children place command tokens on a wooden board - that's their program. Press Start - the robot executes. Wrong result? Find the error, swap a token, run again. No screen, no apps.",
-      "category": "product",
-      "open": false
-    },
-    {
-      "question": "What's in the kit?",
-      "reply": "Ladybug robot (wood, USB-C, Bluetooth), control board with 11 dual slots, command tokens (cardboard, NFC, color-coded), and an online teacher's guide with lesson plans.",
-      "category": "product",
-      "open": false
-    },
-    {
-      "question": "Does the robot draw?",
-      "reply": "Yes. Insert a marker and every movement leaves a line. Children program stars, spirals, polygons, fractals. Forward 50, Right 144, Repeat 5 = a star.",
-      "category": "product",
-      "open": false
-    },
-    {
-      "question": "Does it work with maps from other robots?",
-      "reply": "Yes. The default step size is adjustable - 10, 12, 15, 25 cm or any value. PrimaSTEM works with any grid map you already have.",
-      "category": "product",
-      "open": false
-    },
-    {
-      "question": "How much does it cost?",
-      "reply": "We sell wholesale to distributors and don't publish prices online - contact us and we'll connect you with a distributor or send wholesale terms directly. Schools and families: available through our distributors.",
-      "category": "pricing",
-      "open": true
-    },
-    {
-      "question": "Can I rent instead of buying?",
-      "reply": "Rental is available for schools. Contact us for details and pricing.",
-      "category": "pricing",
-      "open": false
-    },
-    {
-      "question": "Is there a distributor in my country?",
-      "reply": "We're just starting - early pilots and partners in France, Belgium and Luxembourg, with distributor conversations underway across Europe. Contact us to order directly or to bring PrimaSTEM to your country.",
-      "category": "pricing",
-      "open": false
-    },
-    {
-      "question": "How long does the battery last?",
-      "reply": "USB-C charging, runs for approximately 2 hours per charge, depending on usage.",
-      "category": "technical",
-      "open": true
-    },
-    {
-      "question": "Is it safe for children?",
-      "reply": "CE + UKCA certified. Made from wood. No screen. Bluetooth connection. Recommended for ages 4+ due to token size.",
-      "category": "technical",
-      "open": false
-    },
-    {
-      "question": "Can teachers create their own tokens?",
-      "reply": "Yes. Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app - create your own numbers, loops, or arithmetic operations in under a minute.",
-      "category": "technical",
-      "open": false
-    },
-    {
-      "question": "Can my child use it without a teacher?",
-      "reply": "Yes. Lessons are available on the documentation site in 10 languages, suitable for parents. Video tutorials on YouTube.",
-      "category": "technical",
-      "open": false
-    }
-  ]
+	"items": [
+		{
+			"question": "What age is PrimaSTEM for?",
+			"reply": "From age 4. The board speaks each token - knowing numbers isn't required. Ages 4–7 work with logic and simple programs. Ages 7–10 add mathematics, precise angles, and drawing.",
+			"category": "product",
+			"open": true
+		},
+		{
+			"question": "How does it work?",
+			"reply": "Children place command tokens on a wooden board - that's their program. Press Start - the robot executes. Wrong result? Find the error, swap a token, run again. No screen, no apps.",
+			"category": "product",
+			"open": false
+		},
+		{
+			"question": "What's in the kit?",
+			"reply": "Ladybug robot (wood, USB-C, Bluetooth), control board with 11 dual slots, command tokens (cardboard, NFC, color-coded), and an online teacher's guide with lesson plans.",
+			"category": "product",
+			"open": false
+		},
+		{
+			"question": "Does the robot draw?",
+			"reply": "Yes. Insert a marker and every movement leaves a line. Children program stars, spirals, polygons, fractals. Forward 50, Right 144, Repeat 5 = a star.",
+			"category": "product",
+			"open": false
+		},
+		{
+			"question": "Does it work with maps from other robots?",
+			"reply": "Yes. The step size adjusts to any value, for example 10, 12.5 or 15 cm. PrimaSTEM works with any grid map you already have.",
+			"category": "product",
+			"open": false
+		},
+		{
+			"question": "How much does it cost?",
+			"reply": "We sell wholesale to distributors and don't publish prices online - contact us and we'll connect you with a distributor or send wholesale terms directly. Schools and families: available through our distributors.",
+			"category": "pricing",
+			"open": true
+		},
+		{
+			"question": "Can I rent instead of buying?",
+			"reply": "Rental is available for schools. Contact us for details and pricing.",
+			"category": "pricing",
+			"open": false
+		},
+		{
+			"question": "Is there a distributor in my country?",
+			"reply": "See the Where to buy page: currently France and the Netherlands. If your country is not on the list, write to us.",
+			"category": "pricing",
+			"open": false
+		},
+		{
+			"question": "How long does the battery last?",
+			"reply": "USB-C charging, runs for approximately 2 hours per charge, depending on usage.",
+			"category": "technical",
+			"open": true
+		},
+		{
+			"question": "Is it safe for children?",
+			"reply": "CE + UKCA certified. Made from wood. No screen. Bluetooth connection. Recommended for ages 4+ due to token size.",
+			"category": "technical",
+			"open": false
+		},
+		{
+			"question": "Can teachers create their own tokens?",
+			"reply": "Yes. Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app - create your own numbers, loops, or arithmetic operations in under a minute.",
+			"category": "technical",
+			"open": false
+		},
+		{
+			"question": "Can my child use it without a teacher?",
+			"reply": "Yes. Lessons are available on the documentation site in 10 languages, suitable for parents. Video tutorials on YouTube.",
+			"category": "technical",
+			"open": false
+		}
+	]
 }

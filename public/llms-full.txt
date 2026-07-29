@@ -1,125 +1,137 @@
 # PrimaSTEM - Full Site Content
 
-> Screen-free coding and mathematics for children ages 4 to 10. Wooden programmable robot with tangible NFC command tokens. Made in Cannes, France.
+> Screen-free coding and mathematics for children ages 4 to 10+. Wooden programmable robot with tangible NFC command tokens. Made in Cannes, France.
 
-PrimaSTEM is a screen-free coding robot. Children program it by hand, and the same coding goes further than other screen-free robots: not just moving the robot and a few set turns, but any distance, any angle, and real arithmetic, so the programming runs straight into real maths. One robot covers the whole of ages 4 to 10.
+PrimaSTEM is a screen-free coding robot. Children build the program by hand, from tokens on the board, and the robot runs it. The same coding goes further than other screen-free robots: not just moving the robot and a few set turns, but any distance, any angle, and real arithmetic, so the programming runs straight into real maths. One robot covers ages 4 to 10+, and Scratch keeps the same robot going past age ten.
 
 ---
 
 # Home (/)
 
-Coding and math without a screen. Teaches coding, logic, arithmetic, and geometry by hand. Ages 4 to 10.
-
-The only screen-free tool that teaches both coding and mathematics. Made from wood. Sold wholesale to distributors.
+Coding and math without a screen. The child builds a program from tokens on the control board, and the robot runs it: mazes for the younger ones, geometric shapes on paper for the older ones. Ages 4 to 10+.
 
 ## Two levels, one device
 
 From a maze at four to a spiral at ten. One purchase, the whole of primary school.
 
-Logic, Numbers, Ages 4 to 7: logical step 15 cm (adjustable), 90 degree turns. Mazes, sequences, debugging.
+Logic, Numbers, Ages 4–7: mazes, sequences, debugging. Logical step 15 cm (adjustable), 90 degree turns.
 
-Mathematics, Coding, Ages 7 to 10: precise distances and angles of any value. Arithmetic, geometry, marker drawing.
-
-## The robot draws what the child programs
-
-That spiral? No other screen-free robot can draw it, and a child programmed it by hand. Pentagon, Star, Spiral, Heart.
-
-Example: (Repeat 5) [(Forward) (50), (Right) (144)] = a star.
-
-## Works with the maps and lesson plans you already have
-
-PrimaSTEM adapts to the content of other educational robots. Step size is adjustable: 10, 12, 15, 25 cm. Any grid map works. A ready-made curriculum for the youngest comes in the box, and lesson plans built for another robot work on PrimaSTEM too.
-
-## See it in action
-
-Watch how children learn coding and math with PrimaSTEM. Video recorded with a prototype. Final product may differ.
-
-## Choose your path
-
-Complete kit: robot, control board, command tokens, lesson plans and teacher's guide.
-
-School: available through our distributors. Robot, control board, tokens. Lesson plans and teacher's guide online.
-
-Distributor: sold wholesale. Start with a small first order, no big commitment; volume unlocks a better wholesale price and territory exclusivity. You set your own retail for your market.
-
-Parent: available through our distributors. Complete kit, ready to use. No subscriptions, no apps, no hidden costs. Lasts through primary school.
+Mathematics, Coding, Ages 7–10+: arithmetic, geometry, marker drawing. Precise distances and angles of any value.
 
 ## Trusted by our partners
 
-Early pilots and partners across Europe. Partners: Ministry of Education Luxembourg, La Compagnie du Code, Terra Numerica, A4 Education, AFINEF.
+Early pilots and partners across Europe.
 
-We make what children really need. Tangible, beautiful, real. Made in Cannes, France.
+## Choose your path
+
+Buttons: Product, Where to buy, Try the web simulator (simulator.primastem.com).
+
+## Stay up to date on news and offers
+
+Newsletter signup, no more than once a month.
+
+"We make what children really need. Tangible, beautiful, real." - PrimaSTEM, made in Cannes, France.
 
 ---
 
 # Product (/product)
 
-The screen-free coding robot where the coding becomes real maths. Children program it by hand, and the same coding goes into any distance, any angle and real arithmetic, so programming turns into real math. One wooden robot, ages 4 to 10.
+The screen-free coding robot where the coding becomes real maths. Children build the program by hand, from tokens on the board, and the robot runs it. The difference is how far that program goes: not a fixed step and a couple of set turns, but any distance, any angle, and real arithmetic, so the coding here runs into real mathematics. One robot carries a child from age four, and ten is not the limit.
 
 ## How PrimaSTEM works
 
-1. Place tokens left to right. Green LED = accepted. The board speaks the command.
-2. Press "Start." The robot executes. LEDs show which command is running.
-3. Check the result. Wrong? Find the error, swap a token, run again.
+1. Place tokens left to right. Green LED - command accepted. The board speaks the command aloud.
+2. Press "Start." The robot runs the program. LEDs show which command is running.
+3. The robot runs the program, and you see the result right away.
+
+The whole program is laid out in the open: the child sees it, touches it, rearranges it. A wrong step, and the child finds it on their own. If a marker is inserted, the mistake shows up right away on the paper. This is how children learn to fix mistakes, not fear them.
+
+Try it now: the PrimaSTEM web simulator (simulator.primastem.com) works right in your browser.
+
+## Two levels, one device
+
+Ages 4–7: Logic. Simple commands and numbers, 90 degree turns. Forward, backward, left, right, function, repeat. Mazes on color-coded maps. Planning, sequences, debugging, counting. Functions and loops show up here too: "Instead of writing it five times, tell the robot: repeat."
+
+Ages 7–10+: Mathematics. Precise distances in mm and any angle in degrees: 1-360. Arithmetic: +, -, ×, ÷, √, ^. Negative numbers. Progressions. Insert a marker, and the robot draws what the child programmed.
+
+And it doesn't stop at ten: with Scratch (scratch.primastem.com), older kids keep programming the same robot with blocks.
+
+## The robot draws what the child programmed
+
+Insert a marker, and every move leaves a line. Forward 50, Right 144, Repeat 5 makes a star. Add an arithmetic progression, and the star becomes a spiral: the child sets the angles and distances, and the robot runs the program exactly. Drawings shown: Pentagon, Star, Spiral, Heart. No other screen-free robot can draw the spiral. Watch the process on YouTube (youtube.com/@primastem).
+
+## Lessons included
+
+You don't need to know how to code. Every kit comes with ready-made lessons for the youngest kids, in the spirit of LOGO and Montessori: short tasks, one small step at a time, everything explained along the way. Inside: goals, materials, a step-by-step plan, plus pages to print. Open it and teach the lesson the same day, no evening prep needed. It's all online, in several languages, and viewable before you order. Full documentation at docs.primastem.com. Everything is in the base kit: no paid packs, no second budget for extras.
+
+## A lesson that adds no screen time
+
+No tablet or app: the child works by hand, and the board names each token out loud. An hour with PrimaSTEM adds nothing to screen time. Schools are moving the same way: France banned phones in schools by law in 2018, and the Netherlands has banned them since 2024, including primary school.
+
+## Works with the maps and lesson plans you already have
+
+PrimaSTEM adapts to the content of other educational robots. Step size adjusts to any value, not just 10 cm, 12.5 cm, or 15 cm. Any grid map already in your classroom will work. Already using another robot? Everything it does, PrimaSTEM does the same way: forward, backward, turns, repeat, function. That's the younger level here, so your existing plans and maps work as they are, no retraining and no new materials needed.
+
+## Voice, words and music
+
+The board speaks each token as it's placed, both commands and sounds. Helps children who can't read yet, and children with visual or attention difficulties. When the program runs, the board sends the sounds to the robot, and the robot plays them: commands, words, letters of the alphabet, notes. Between movement commands, it can stop and play the token it's standing on, any of the ones the board can speak. More than 90 words are available: house, forest, cinema. The same robot that teaches coding and counting introduces speech and music along the way. Available in 17 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Don't see your language? We'll add it on request. A Braille version is in pilot testing.
+
+## Open platform
+
+Every token is a standard 13.56 MHz NFC tag. Any tag of the same standard works, they cost pennies and are sold on any marketplace. Take the text code from our documentation and write it with the free NFC Tools app: the whole thing takes 10 seconds. That's how you get your own numbers, loops, and arithmetic operations. The same tags placed around a game board make the map come alive: language cards, musical fields, quest stories.
 
 ## What's in the kit
 
 Ladybug robot: 125 mm diameter, wood, USB-C charging, approximately 2 hours battery, depending on usage.
 Control board: 317 x 217 mm, wood, 11 dual slots, Bluetooth ~5 m.
 Command tokens: 33 x 33 mm, cardboard, NFC 13.56 MHz, Scratch color coding, writable via phone app.
-Teacher's guide: lesson plans online, activities and printables, docs.primastem.com, 10 languages.
-
-## Commands
-
-Movement and Program: Forward, Backward, Left, Right, Random, Function, Pause.
-Repeat: 2 to 999, Random repeat 1 to 6.
-Mathematics: +, -, x, /, root, power
-Numbers: 1 to 999
-System: default step size, calibration.
-
-## Drawing
-
-Slip in a marker and every move leaves a line. Forward 50, Right 144, Repeat 5 makes a star; add an arithmetic progression and the star becomes a spiral. The robot works out the angles and distances as it goes, drawing real geometry on paper. A plain rolling robot with no screen cannot match that precision, and the child sees the result of their program right there on the page.
-
-## Works with any map
-
-Step size is adjustable: 10, 12, 15, 25 cm, any grid. Use maps from any robot already in your classroom. There's a ready-made curriculum in the box for the little ones, and lesson plans built for another robot work on PrimaSTEM too.
-
-## Open platform
-
-Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app. Create your own numbers, loops or arithmetic operations. NFC tags on the playing field: the robot plays audio when it drives over them. Language cards, musical fields, story quests.
-
-There is also Scratch for the robot at scratch.primastem.com, so older kids keep coding with blocks well past age ten.
-
-## Voice, words and music
-
-The board speaks each token as it's placed. It also reads words aloud (around ninety of them), names the letters of the alphabet, plays musical notes, and reads arithmetic out loud. Available in 17 languages: English, Francais, Russkij, Ukrainska, Deutsch, Espanol, Italiano, Portugues (Brasil), Nederlands, Norsk, Polski, Svenska, Turkce, Dansk, Catala, Japanese, Hebrew. Helps children who can't read yet and children with visual impairments. Braille version in pilot testing.
+Online teacher's guide: lesson plans online, activities and printables, docs.primastem.com, 10 languages.
 
 ## Specifications
 
-Material: Wood. Robot: 125 mm diameter, 44 mm H. Control board: 317 x 217 mm. Tokens: 33 x 33 mm, cardboard, NFC 13.56 MHz. Connectivity: Bluetooth ~5 m. Battery: Li-Ion USB-C, approximately 2 hours, depending on usage. Default step: 15 cm (any value, adjustable). Angles: 1 to 360 degrees. Mathematics: +, -, x, /, root, power, factorial. Slots: 6x2 main + 5x2 function. Audio: voice feedback in 17 languages + sound samples. Certification: CE + UKCA. Age: 4 to 10. Made in: Cannes, France.
+Material: Wood. Robot: 125 mm diameter, 44 mm H. Control board: 317 x 217 mm. Tokens: 100 pcs, 33 x 33 mm, cardboard, NFC 13.56 MHz. Connectivity: Bluetooth ~5 m. Battery: Li-Ion USB-C, approximately 2 hours, depending on usage. Default step: 15 cm (any value, adjustable; calibration). Angles: 1 to 360 degrees. Movement commands: Forward, Backward, Left, Right, Random, Function, Pause. Repeats and numbers: repeat 2-999, random repeat 1-6, numbers 1-999. Mathematics: +, -, ×, ÷, √, ^. Slots: 6x2 main + 5x2 function. Audio: voice feedback in 17 languages + sound samples. Certification: CE + UKCA. Age: 4–10+. Made in: Cannes, France.
 
-Tools: web simulator (simulator.primastem.com), web control (control.primastem.com), Scratch (scratch.primastem.com), firmware update (update.primastem.com).
+## Documentation and tools
 
-Complete kit, ready to use. Available through distributors.
+Online docs (docs.primastem.com, 10 languages), video tutorials (YouTube), product sheet (/sheet), FAQ (/faq), web simulator (simulator.primastem.com), web control (control.primastem.com), Scratch for the robot (scratch.primastem.com), update firmware (update.primastem.com).
+
+## One device for the whole of primary school, ages 4-10+
+
+Open the product sheet online, or download the PDF. Where to buy: /where-to-buy. Try the web simulator: simulator.primastem.com.
+
+---
+
+# Where to Buy (/where-to-buy)
+
+PrimaSTEM distributors by country. The robot is sold through partners, not direct.
+
+France:
+- A4 Éducation (a4.fr) - manufacturer and supplier of educational equipment and robotics for schools and individuals.
+- Easytis (easytis.com) - supplier of educational robots and STEM equipment for schools, kindergartens, and individuals.
+- Vittascience (vittascience.com) - educational platform and store: coding, robotics, AI, for schools and individuals.
+
+Netherlands:
+- de Rolf groep (derolfgroep.nl) - full-range supplier for kindergartens, primary schools, and individuals.
+
+No distributor in your country yet? Become a distributor (/distributors).
 
 ---
 
 # Distributors (/distributors)
 
-The screen-free robot that teaches real math, not just arrows. One SKU sells into every primary buyer: schools, preschools, Montessori, after-school, parents. Coding + mathematics. Ages 4 to 10. Wood. CE + UKCA certified. 17 languages. Sold wholesale to distributors.
+The screen-free robot that teaches real math, not just arrows. One SKU sells into every primary buyer: schools, preschools, Montessori, after-school, parents. Coding + mathematics. Ages 4–10+. Wood. CE + UKCA certified. 17 languages. Sold wholesale to distributors.
 
 ## The market
 
-Screen-free STEM is moving from preference to policy. Governments are pulling screens out of classrooms, and PISA 2022 shows math scores sliding across Europe. The demand is already on your customers' desks. Plenty of robots can turn and move forward; almost none teach math. PrimaSTEM does: any angle, arithmetic, geometry, freehand drawing, from age 4 to 10 on a single product.
+Screen-free STEM is moving from preference to policy. Governments are pulling screens out of classrooms, and PISA 2022 shows math scores sliding across Europe. Plenty of wooden robots can turn and move forward; almost none teach math. PrimaSTEM does: any angle, arithmetic, geometry, freehand drawing, from age 4 to 10+ on a single product.
 
 ## What sells
 
-Two age groups, one device. Works with existing maps. The robot draws (hand a buyer the marker, run one spiral, the room goes quiet). Teachers create their own tokens. Braille version in pilot. PrimaSTEM covers both ages and replaces several robots: one purchase for the whole of primary school, around six years. Drawing, geometry, voice and the teaching method are all in the base kit, with no paid add-on packs and no second budget for extras. It also reads words aloud, names letters and plays notes in more than seventeen languages.
+Two age groups, one device: ages 4-7 logic, ages 7-10+ mathematics, and with Scratch the same robot keeps going past age ten. Works with existing maps: step size adjusts to any value. The robot draws (hand a buyer the marker, run one spiral, the room goes quiet). Teachers create their own tokens through a free phone app. Braille version in pilot testing. Voice, words and music in 17 languages. Everything is in the base kit, no paid add-on packs, no second budget for extras.
 
 ## Curriculum included
 
-A ready-made curriculum comes with every PrimaSTEM for the youngest kids, in the LOGO and Montessori tradition, viewable before you order. Lesson plans and activities built for any other educational robot run on PrimaSTEM as they are.
+A ready-made curriculum comes with every PrimaSTEM for the youngest kids, in the LOGO and Montessori tradition, viewable before you order. Lesson plans and activities built for other educational robots run on PrimaSTEM as they are.
 
 ## Mistakes become the lesson
 
@@ -127,7 +139,7 @@ The program sits on the board, in front of the child. When the robot goes the wr
 
 ## Why PrimaSTEM
 
-PrimaSTEM is a coding robot children program by hand, screen-free from the first command. The difference is how far the same coding goes: not just moving the robot and turning it a few set ways, but any distance, any angle, and real arithmetic, so the programming runs straight into real maths. One robot carries that from age 4 to 10. (Comparison table on the page versus Cubetto and Matatalab.)
+PrimaSTEM is a coding robot children program by hand, screen-free from the first command. The difference is how far the same coding goes: not just moving the robot and turning it a few set ways, but any distance, any angle, and real arithmetic, so the programming runs straight into real maths. One robot carries that from age 4 to 10+. (Comparison table on the page versus Cubetto and Matatalab Coding Set Pro.)
 
 ## Sales materials
 
@@ -135,59 +147,7 @@ Everything to put PrimaSTEM in front of a school and close it: demo it live in a
 
 ## Your margin
 
-Start small, grow into better terms. The first order is low-minimum and prepaid, so no cash sits in dead stock while you test your market. You price for that market, we don't second-guess it. As volume climbs into the hundreds, the wholesale price improves and territory exclusivity becomes available. Marketing materials in your language. Technical support. Joint participation at trade shows. Early pilots and partners: Luxembourg (Ministry of Education pilot), Belgium (Code N Play), France (Terra Numerica). All terms and pricing are discussed individually.
-
----
-
-# Schools (/schools)
-
-Coding and mathematics, ages 4 to 10. One device. A screen-free robot children program by hand, where the coding goes all the way into real maths. One purchase covers the whole of primary. Available through our distributors.
-
-## What children do
-
-They place command tokens on the board, that's their program, visible in full. Press "Start." The robot executes. Wrong result? Find the error, swap a token, run again. Sequences, functions, loops, debugging. No screen. Hands only. Because the whole program is in plain sight, children find the wrong step themselves, and with a marker in, the slip shows on paper at once. They learn to fix mistakes instead of fearing them.
-
-## Two levels
-
-Ages 4 to 7: Logic. Logical steps, 90 degree turns. Forward, backward, left, right, function, repeat. Planning, sequences, debugging, counting.
-Ages 7 to 10: Mathematics. Precise distances in mm and any angle in degrees: 1 to 360. Arithmetic: +, -, x, /, root, power. Negative numbers. Progressions. Insert a marker, the robot draws polygons, stars, spirals, fractals. A plain rolling robot with no screen cannot match that precision. And after primary, the same robot keeps going: with Scratch (scratch.primastem.com), older students program it with blocks, past age ten.
-
-## Lessons included
-
-Every kit comes with lessons ready to teach, built for the youngest kids in the spirit of LOGO and Montessori. Open it and teach the same day, no late-night prep. Already use another robot? The lesson plans and maps you have work on PrimaSTEM as they are. Everything is online, in several languages, viewable before you order. Everything is in the base kit: no paid add-on packs, no second budget for extras. Full documentation at docs.primastem.com.
-
-## What teachers don't expect
-
-Open platform. Sound maps. Voice feedback in 17 languages (also reads words aloud, names letters, plays notes). Braille version in pilot testing.
-
-Available through our distributors. Volume pricing on request. Rental available.
-
----
-
-# Parents (/parents)
-
-Real coding and math, by hand, no screen. A wooden robot, no app, that grows with your child from 4 to 10. Sold through distributors: tell us where you are and we will point you to one.
-
-## What is it
-
-Tokens on a wooden board: "forward," "turn right," "repeat 3 times." That's the program. The child sees it, touches it, rearranges it. Presses a button, the robot executes. Something went wrong? Find the mistake, fix it, run again. The program is right there in front of them, so a child learns to sort it out alone, calmly, without the fear of getting it wrong.
-
-## Grows with your child
-
-At 4 to 5: simple commands and numbers. Mazes on colorful maps.
-At 6 to 7: functions and loops.
-At 8 to 10: mathematics. Precise angles, distances, arithmetic. The robot draws stars, spirals, geometric patterns.
-And it doesn't stop at ten: with Scratch (scratch.primastem.com), older kids keep programming the robot with blocks.
-
-## You don't have to be a teacher
-
-You don't need to know how to code. The box includes a simple guided course for little ones: short activities, one small step at a time, everything explained as you go. There are free printable activities online too.
-
-## Why this one
-
-Wood, not plastic. No screen, no apps. It speaks: reads words aloud, names letters, even plays notes, in your language. It draws stars, spirals, hearts, with a precision a plain rolling robot can't match. One purchase, everything in the box, no paid add-ons. Made in France, CE + UKCA certified.
-
-Available through our distributors. Complete kit.
+Start small, grow into better terms. The first order is low-minimum and prepaid, so no cash sits in dead stock while you test your market. You price for that market, we don't second-guess it. As volume climbs into the hundreds, the wholesale price improves and territory exclusivity becomes available. Marketing materials in your language. Technical support. Joint participation at trade shows. All terms and pricing are discussed individually.
 
 ---
 
@@ -197,71 +157,86 @@ French startup from Cannes building screen-free educational technology.
 
 ## We make tools that help children think
 
-PrimaSTEM is inspired by Seymour Papert's constructionism and Montessori principles.
+PrimaSTEM is a French startup from Cannes. We build screen-free educational technology inspired by Seymour Papert's constructionism and Montessori principles.
 
 ## How it started
 
-We watched children spending more time in front of screens. We watched math scores fall. And we watched a child's eyes light up when they touched a wooden board and a robot, pressed a button, and the robot did exactly what they told it to.
+We watched children spending more and more time in front of screens. We watched math scores fall. And we watched a child's eyes light up when they touched a wooden board and a robot, pressed a button, and the robot did exactly what they told it to.
+
+Papert said: the child should program the computer, not the other way around. We built a device where this works literally: cardboard tokens, a tangible control board, a ladybug that draws.
+
+No screen. Hands, eyes, thinking.
 
 ## What we believe
 
-Children learn by doing. Mathematics is beautiful. Technology should be open. Simplicity takes work.
+Children learn by doing. Not by watching, by doing.
+
+Mathematics is beautiful. When the robot draws a pentagonal spiral, the child sees math as a picture they created themselves.
+
+Technology should be open. Every token is a standard NFC tag. No subscriptions, no walled gardens.
+
+Simplicity takes work. A four-year-old starts in five minutes. A ten-year-old programs arithmetic progressions. Same device.
 
 ## Where we are
 
-Partners: Terra Numerica / INRIA / CNRS, Educazur, AFINEF. Early traction: Luxembourg (Ministry of Education pilot), Belgium (Code N Play), France. Trade shows: EDUCATECH (Paris), SIMO Educacion (Madrid), SpielwarenMesse (Nuremberg).
+Partners: Terra Numerica / INRIA / CNRS, Educazur, AFINEF.
+
+Early traction: Luxembourg (Ministry of Education pilot), Belgium (Code N Play), France - distributor talks underway across Europe.
+
+Trade shows: EDUCATECH (Paris), SIMO Educación (Madrid), SpielwarenMesse (Nuremberg).
 
 ---
 
 # Contact (/contact)
 
-Email: info@primastem.com
-WhatsApp: +33 6 24 95 09 36
-Location: Cannes, France
-YouTube: youtube.com/@primastem
-Instagram: @primastem.robot
+Question, partnership or order - we reply within a few working days. Working languages: English, Français, Русский.
 
-We respond within 24 hours. Working languages: English, Francais, Russkij.
+- Google Meet appointment: https://calendar.app.google/EGTXmQS3eoFPeyfr7
+- Email: info@primastem.com
+- WhatsApp: +33 6 24 95 09 36
+- Location: Cannes, France
+- YouTube: youtube.com/@primastem
+- Instagram: @primastem.robot
 
 ---
 
 # FAQ (/faq)
 
 Q: What age is PrimaSTEM for?
-A: From age 4. Ages 4 to 7 work with logic and simple programs. Ages 7 to 10 add mathematics, precise angles, and drawing.
+A: From age 4. The board speaks each token, knowing numbers isn't required. Ages 4-7 work with logic and simple programs. Ages 7-10+ add mathematics, precise angles, and drawing.
 
 Q: How does it work?
-A: Children place command tokens on a wooden board, that's their program. Press Start, the robot executes. No screen, no apps.
+A: Children place command tokens on a wooden board, that's their program. Press Start, the robot executes. Wrong result? Find the error, swap a token, run again. No screen, no apps.
 
 Q: What's in the kit?
-A: Ladybug robot (wood, USB-C, Bluetooth), control board with 11 dual slots, command tokens (cardboard, NFC, color-coded), and a teacher's guide with lesson plans.
+A: Ladybug robot (wood, USB-C, Bluetooth), control board with 11 dual slots, command tokens (cardboard, NFC, color-coded), and an online teacher's guide with lesson plans.
 
 Q: Does the robot draw?
-A: Yes. Insert a marker and every movement leaves a line. Children program stars, spirals, polygons, fractals.
+A: Yes. Insert a marker and every movement leaves a line. Children program stars, spirals, polygons, fractals. Forward 50, Right 144, Repeat 5 makes a star.
 
 Q: Does it work with maps from other robots?
-A: Yes. The default step size is adjustable: 10, 12, 15, 25 cm or any value.
+A: Yes. The default step size is adjustable to any value, for example 10 cm, 12.5 cm, 15 cm. PrimaSTEM works with any grid map you already have.
 
 Q: How much does it cost?
 A: We sell wholesale to distributors and don't publish prices online. Contact us and we'll connect you with a distributor or send wholesale terms directly. Schools and families: available through our distributors.
 
 Q: Can I rent instead of buying?
-A: Rental is available for schools.
+A: Rental is available for schools. Contact us for details and pricing.
 
 Q: Is there a distributor in my country?
-A: We're just starting: early pilots and partners in France, Belgium and Luxembourg, with distributor conversations underway across Europe.
+A: See the Where to buy page: currently France and the Netherlands. If your country is not on the list, write to us.
 
 Q: How long does the battery last?
-A: USB-C charging, approximately 2 hours per charge, depending on usage.
+A: USB-C charging, runs for approximately 2 hours per charge, depending on usage.
 
 Q: Is it safe for children?
-A: CE and UKCA certified. Made from wood. No screen. Recommended for ages 4+.
+A: CE + UKCA certified. Made from wood. No screen. Bluetooth connection. Recommended for ages 4+ due to token size.
 
 Q: Can teachers create their own tokens?
-A: Yes. Every token is a standard NFC tag. Write any code using a free phone app.
+A: Yes. Every token is a standard NFC tag (13.56 MHz). Write any code using a free phone app, create your own numbers, loops, or arithmetic operations in under a minute.
 
 Q: Can my child use it without a teacher?
-A: Yes. Lessons available on docs.primastem.com in 10 languages. Video tutorials on YouTube.
+A: Yes. Lessons are available on the documentation site in 10 languages, suitable for parents. Video tutorials on YouTube.
 
 ---
 

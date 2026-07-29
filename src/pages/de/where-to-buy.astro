@@ -1,0 +1,60 @@
+---
+// Components
+// - Layout
+import Layout from '../../layouts/Layout.astro'
+// - UI
+import Hero from '../../components/blocks/hero/PageHeader.astro'
+import Section from '../../components/ui/Section.astro'
+import Row from '../../components/ui/Row.astro'
+import Col from '../../components/ui/Col.astro'
+import Card from '../../components/ui/cards/partials/Card.astro'
+import CardBody from '../../components/ui/cards/partials/CardBody.astro'
+import Button from '../../components/ui/Button.astro'
+
+// Data
+import pageData from '../../content/pages/de/where-to-buy.json'
+const { seo, header, countries, distributorCta } = pageData
+const prefix = `/${Astro.currentLocale ?? 'de'}`
+---
+
+<Layout title={seo.title} description={seo.description}>
+	<Hero title={header.title} />
+
+	{
+		countries.map((country) => (
+			<Section padding="top">
+				<Row>
+					<Col span="12" align="center" classes="mb-12">
+						<h2>{country.name}</h2>
+					</Col>
+				</Row>
+				<Row>
+					{country.distributors.map((d) => (
+						<Col span="4" classes={country.distributors.length === 1 ? 'lg:col-start-5' : ''}>
+							<Card
+								link={d.url}
+								classes="!bg-neutral-50 !shadow-none dark:!bg-neutral-900 h-full border border-neutral-100 dark:border-neutral-800 transition-colors hover:border-primary-500 dark:hover:border-primary-500"
+							>
+								<CardBody>
+									<h3 class="text-xl">{d.name}</h3>
+									<span class="text-primary-700 dark:text-primary-500 font-medium">{d.urlLabel}</span>
+									<p class="mt-3">{d.description}</p>
+								</CardBody>
+							</Card>
+						</Col>
+					))}
+				</Row>
+			</Section>
+		))
+	}
+
+	<Section padding="both">
+		<Row>
+			<Col span="12" align="center">
+				<Button style="primary" size="lg" link={`${prefix}${distributorCta.buttonLink}`}>
+					{distributorCta.buttonText}
+				</Button>
+			</Col>
+		</Row>
+	</Section>
+</Layout>

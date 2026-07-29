@@ -1,58 +1,44 @@
 {
 	"seo": {
-		"title": "PrimaSTEM - Programación y Matemáticas sin Pantalla para Edades 4–10",
-		"description": "La única herramienta educativa sin pantalla que enseña tanto programación como matemáticas. Robot de madera programable para niños de 4 a 10 años."
+		"title": "PrimaSTEM - Programación y matemáticas sin pantalla, 4–10+ años",
+		"description": "La única herramienta sin pantalla que enseña programación y matemáticas al mismo tiempo. Robot de madera programable para niños de 4 a 10+ años."
 	},
 	"hero": {
 		"title": "Programación y matemáticas <strong>sin pantalla!</strong>",
-		"subtitle": "Enseña programación, lógica, aritmética y geometría - con las manos.<br />De 4 a 10 años.",
+		"subtitle": "El niño arma un programa con fichas en el tablero de control, y el robot lo ejecuta: laberintos para los más pequeños, figuras geométricas en papel para los mayores.<br />De 4 a 10+ años",
 		"price": "",
 		"volumeLine": "",
-		"buttonText": "Elige tu camino",
-		"buttonLink": "#pricing-v3",
-		"simulatorText": "Probar el simulador web"
+		"buttonText": "Dónde comprar",
+		"buttonLink": "/es/where-to-buy",
+		"simulatorText": "Abrir el simulador web"
 	},
 	"twoLevels": {
 		"title": "Dos niveles - <strong>un dispositivo</strong>",
-		"subtitle": "Del laberinto a los cuatro a la espiral a los diez. Una compra, toda la primaria.",
+		"subtitle": "Del laberinto a los cuatro años a la espiral a los diez. Una sola compra para toda la primaria.",
 		"level1": {
 			"tag": "Lógica, Números",
 			"age": "Edades 4–7",
-			"items": ["Paso lógico de 15 cm (ajustable), giros de 90°", "Laberintos, secuencias, depuración"]
+			"items": ["Laberintos, secuencias, depuración", "Paso lógico de 15 cm (ajustable), giros de 90°"]
 		},
 		"level2": {
 			"tag": "Matemáticas, Programación",
-			"age": "Edades 7–10",
-			"items": ["Distancias y ángulos precisos de cualquier valor", "Aritmética, geometría, dibujo con marcador"]
+			"age": "Edades 7–10+",
+			"items": ["Aritmética, geometría, dibujo con marcador", "Distancias y ángulos precisos de cualquier valor"]
 		}
 	},
-	"drawing": {
-		"title": "El robot dibuja lo que <strong>el niño programa</strong>",
-		"subtitle": "<strong>¿Esta espiral? Ningún otro robot sin pantalla sabe trazarla</strong> - y la programó un niño con sus propias manos. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Vea el proceso en YouTube</a>.",
-		"drawings": [
-			{ "name": "Pentágono" },
-			{ "name": "Estrella" },
-			{ "name": "Espiral" },
-			{ "name": "Corazón" }
-		],
-		"example": "Ejemplo:  (Repetir 5) [(Avanzar) (50), (Girar derecha) (144)] = una estrella."
-	},
-	"maps": {
-		"title": "Funciona con los mapas y planes de lección <strong>que ya tiene</strong>",
-		"text": "PrimaSTEM se adapta al contenido de otros robots educativos.<br><br>El tamaño del paso es ajustable - 10, 12, 15, 25 cm. Cualquier mapa cuadriculado funciona. No se necesitan materiales nuevos.<br><br>Y para los más pequeños ya viene un plan de estudios listo para usar en la caja; los planes de lección creados para otro robot también funcionan en PrimaSTEM."
-	},
-	"video": {
-		"title": "Véalo <strong>en acción</strong>",
-		"subtitle": "Observe cómo los niños aprenden programación y matemáticas con PrimaSTEM.",
-		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
-		"videoCaption": "Video grabado con un prototipo. El producto final puede diferir."
-	},
 	"trust": {
-		"title": "Elegido por nuestros <strong class=\"highlight\">socios</strong>",
-		"countriesLine": "Primeros pilotos y socios en Europa."
+		"title": "Confían en nosotros <strong class=\"highlight\">nuestros socios</strong>",
+		"countriesLine": ""
+	},
+	"nextSteps": {
+		"buttons": [
+			{ "text": "Sobre el producto", "link": "/es/product", "style": "secondary" },
+			{ "text": "Dónde comprar", "link": "/es/where-to-buy", "style": "primary" },
+			{ "text": "Probar el simulador", "link": "https://simulator.primastem.com/", "style": "secondary" }
+		]
 	},
 	"newsletter": {
-		"title": "Manténgase <strong>informado</strong> con noticias y ofertas",
+		"title": "Manténgase al tanto de las <strong>noticias y ofertas</strong>",
 		"subtitle": "No más de una vez al mes.",
 		"formId": "jdJlRe"
 	},

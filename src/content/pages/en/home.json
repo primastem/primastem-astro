@@ -1,15 +1,15 @@
 {
 	"seo": {
-		"title": "PrimaSTEM - Screen-Free Coding and Math for Ages 4–10",
-		"description": "The only screen-free education tool that teaches both coding and mathematics. Wooden programmable robot for children aged 4 to 10."
+		"title": "PrimaSTEM - Coding and Math Without a Screen, Ages 4–10+",
+		"description": "The only screen-free tool that teaches both coding and mathematics at the same time. Wooden programmable robot for children ages 4 to 10+."
 	},
 	"hero": {
 		"title": "Coding and math <strong>without a screen!</strong>",
-		"subtitle": "Teaches coding, logic, arithmetic, and geometry - by hand.<br />Ages 4–10.",
+		"subtitle": "The child builds a program from tokens on the control board, and the robot runs it: mazes for the younger ones, geometric shapes on paper for the older ones.<br />Ages 4 to 10+",
 		"price": "",
 		"volumeLine": "",
-		"buttonText": "Choose your path",
-		"buttonLink": "#pricing-v3",
+		"buttonText": "Where to buy",
+		"buttonLink": "/where-to-buy",
 		"simulatorText": "Try the web simulator"
 	},
 	"twoLevels": {
@@ -18,41 +18,27 @@
 		"level1": {
 			"tag": "Logic, Numbers",
 			"age": "Ages 4–7",
-			"items": ["Logical step 15 cm (adjustable), 90° turns", "Mazes, sequences, debugging"]
+			"items": ["Mazes, sequences, debugging", "Logical step 15 cm (adjustable), 90° turns"]
 		},
 		"level2": {
 			"tag": "Mathematics, Coding",
-			"age": "Ages 7–10",
-			"items": ["Precise distances and angles of any value", "Arithmetic, geometry, marker drawing"]
+			"age": "Ages 7–10+",
+			"items": ["Arithmetic, geometry, marker drawing", "Precise distances and angles of any value"]
 		}
-	},
-	"drawing": {
-		"title": "The robot draws what <strong>the child programs</strong>",
-		"subtitle": "<strong>That spiral? No other screen-free robot can draw it</strong> - and a child programmed it by hand. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Watch the process on YouTube</a>.",
-		"drawings": [
-			{ "name": "Pentagon" },
-			{ "name": "Star" },
-			{ "name": "Spiral" },
-			{ "name": "Heart" }
-		],
-		"example": "Example:  (Repeat 5) [(Forward) (50), (Right) (144)] = a star."
-	},
-	"maps": {
-		"title": "Works with the maps and lesson plans <strong>you already have</strong>",
-		"text": "PrimaSTEM adapts to the content of other educational robots.<br><br>Step size is adjustable - 10, 12, 15, 25 cm. Any grid map works. No new materials needed.<br><br>There's a ready-made curriculum in the box for the little ones, and lesson plans built for another robot work on PrimaSTEM too."
-	},
-	"video": {
-		"title": "See it <strong>in action</strong>",
-		"subtitle": "Watch how children learn coding and math with PrimaSTEM.",
-		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
-		"videoCaption": "Video recorded with a prototype. Final product may differ."
 	},
 	"trust": {
 		"title": "Trusted by our <strong class=\"highlight\">partners</strong>",
-		"countriesLine": "Early pilots and partners across Europe."
+		"countriesLine": ""
+	},
+	"nextSteps": {
+		"buttons": [
+			{ "text": "Product", "link": "/product", "style": "secondary" },
+			{ "text": "Where to buy", "link": "/where-to-buy", "style": "primary" },
+			{ "text": "Try the web simulator", "link": "https://simulator.primastem.com/", "style": "secondary" }
+		]
 	},
 	"newsletter": {
-		"title": "Stay <strong>updated</strong> with news and offers",
+		"title": "Stay up to date on <strong>news and offers</strong>",
 		"subtitle": "No more than once a month.",
 		"formId": "jdJlRe"
 	},

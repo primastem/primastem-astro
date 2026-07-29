@@ -23,22 +23,27 @@ function localizePath(link: string): string {
 	return `/${lang}${link}`
 }
 
-const footerColumns = [
+type FooterLink = { label: string; href: string; external?: boolean }
+type FooterColumn = { category: string; links: FooterLink[] }
+
+const footerColumns: FooterColumn[] = [
 	{
 		category: t('footer.col.product'),
 		links: [
 			{ label: t('footer.link.product'), href: localizePath('/product') },
+			{ label: t('nav.wheretobuy'), href: localizePath('/where-to-buy') },
 			{ label: t('footer.link.sheet'), href: '/sheet' },
 			{ label: t('footer.link.faq'), href: localizePath('/faq') },
-			{ label: t('footer.link.simulator'), href: 'https://simulator.primastem.com/', external: true },
-			{ label: t('footer.link.firmware'), href: 'https://update.primastem.com/', external: true },
 		]
 	},
 	{
-		category: t('footer.col.legal'),
+		category: t('footer.col.tools'),
 		links: [
-			{ label: t('footer.link.legal'), href: localizePath('/legal') },
-			{ label: t('footer.link.privacy'), href: localizePath('/privacy') },
+			{ label: t('footer.link.docs'), href: 'https://docs.primastem.com', external: true },
+			{ label: t('footer.link.simulator'), href: 'https://simulator.primastem.com/', external: true },
+			{ label: t('footer.link.control'), href: 'https://control.primastem.com/', external: true },
+			{ label: t('footer.link.scratch'), href: 'https://scratch.primastem.com/', external: true },
+			{ label: t('footer.link.firmware'), href: 'https://update.primastem.com/', external: true },
 		]
 	},
 	{
@@ -46,6 +51,14 @@ const footerColumns = [
 		links: [
 			{ label: t('footer.link.about'), href: localizePath('/about') },
 			{ label: t('footer.link.contact'), href: localizePath('/contact') },
+			{ label: t('nav.distributors'), href: localizePath('/distributors') },
+		]
+	},
+	{
+		category: t('footer.col.legal'),
+		links: [
+			{ label: t('footer.link.legal'), href: localizePath('/legal') },
+			{ label: t('footer.link.privacy'), href: localizePath('/privacy') },
 		]
 	},
 ]
@@ -129,7 +142,7 @@ const footerColumns = [
 	}
 
 	.footer__col {
-		@apply col-span-2 first:col-span-4 md:col-span-4 md:first:col-span-8 lg:col-span-2 lg:first:col-span-6 lg:first:max-w-96;
+		@apply col-span-2 first:col-span-4 md:col-span-4 md:first:col-span-8 lg:col-span-2 lg:first:col-span-4 lg:first:max-w-96;
 	}
 	.footer__sub {
 		@apply border-t border-neutral-200 bg-neutral-100 py-4 text-sm text-neutral-600 dark:border-neutral-900 dark:bg-neutral-800/50 dark:text-neutral-400;

@@ -28,6 +28,11 @@ pnpm-debug.log*
 # content working folder (drafts, structure planning) - local only
 content-lab/
 
+# impeccable design-tool context (positioning, internal lessons) - local only
+PRODUCT.md
+DESIGN.md
+.impeccable/
+
 # agent / local tooling
 .claude/
 *.bak

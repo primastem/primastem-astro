@@ -1,0 +1,49 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | Où acheter",
+		"description": "Distributeurs PrimaSTEM par pays : France et Pays-Bas. Le robot est vendu par nos partenaires."
+	},
+	"header": {
+		"title": "Où <strong>acheter</strong>"
+	},
+	"countries": [
+		{
+			"name": "France",
+			"distributors": [
+				{
+					"name": "A4 Éducation",
+					"url": "https://www.a4.fr",
+					"urlLabel": "a4.fr",
+					"description": "Fabricant et fournisseur de matériel pédagogique et de robotique pour les écoles et les particuliers."
+				},
+				{
+					"name": "Easytis",
+					"url": "https://www.easytis.com",
+					"urlLabel": "easytis.com",
+					"description": "Fournisseur de robots éducatifs et de matériel STEM pour les écoles, les écoles maternelles et les particuliers."
+				},
+				{
+					"name": "Vittascience",
+					"url": "https://www.vittascience.com",
+					"urlLabel": "vittascience.com",
+					"description": "Plateforme éducative et boutique : programmation, robotique, IA. Pour les écoles et les particuliers."
+				}
+			]
+		},
+		{
+			"name": "Pays-Bas",
+			"distributors": [
+				{
+					"name": "de Rolf groep",
+					"url": "https://www.derolfgroep.nl",
+					"urlLabel": "derolfgroep.nl",
+					"description": "Fournisseur généraliste pour les écoles maternelles, les écoles primaires et les particuliers."
+				}
+			]
+		}
+	],
+	"distributorCta": {
+		"buttonText": "Devenir distributeur",
+		"buttonLink": "/distributors"
+	}
+}

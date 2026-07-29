@@ -7,19 +7,28 @@ import Col from '../../components/ui/Col.astro'
 import { Image } from 'astro:assets'
 import Button from '../../components/ui/Button.astro'
 import BasicCard from '../../components/ui/cards/BasicCard.astro'
+import Card from '../../components/ui/cards/partials/Card.astro'
+import CardBody from '../../components/ui/cards/partials/CardBody.astro'
 import TextImage from '../../components/blocks/basic/TextImage.astro'
 
 // Assets
 import heroImage from '../../assets/hero-primastem.jpg'
-import tokensImage from '../../assets/tokens-by-color.jpg'
-import spiralImage from '../../assets/robot-drawing.jpg'
 import mapsImage from '../../assets/maps-on-grid.jpg'
+import lessonSceneImage from '../../assets/board-on-map.jpg'
+import boardImage from '../../assets/board-3d.jpg'
+import robotOnMapImage from '../../assets/robot-on-map.jpg'
+import pentagonImg from '../../assets/drawings/drawing-pentagon.png'
+import starImg from '../../assets/drawings/drawing-star.png'
+import spiralImg from '../../assets/drawings/drawing-spiral-shape.png'
+import heartImg from '../../assets/drawings/drawing-heart.png'
 
 // Content (CMS-editable)
 import pageData from '../../content/pages/de/product.json'
 
-const { seo, structuredData, hero, kit, commands, drawing, maps, openPlatform, voiceFeedback, specs, documentation, order } = pageData
+const { seo, hero, twoLevels, drawing, lessons, health, maps, voiceFeedback, openPlatform, kit, specs, documentation, order } = pageData
 const prefix = `/${Astro.currentLocale ?? 'de'}`
+
+const drawingImages = [pentagonImg, starImg, spiralImg, heartImg]
 ---
 
 <Layout title={seo.title} description={seo.description}>
@@ -40,7 +49,10 @@ const prefix = `/${Astro.currentLocale ?? 'de'}`
 			"seller": { "@type": "Organization", "name": "PrimaSTEM" }
 		}
 	})} />
-	<!-- POSITIONING -->
+
+	<!-- ЭТАЖ 1: РАССКАЗ -->
+
+	<!-- 1a. POSITIONING (wedge) -->
 	<Section id="product-positioning" padding="both">
 		<Row>
 			<Col span="12" align="center">
@@ -50,7 +62,7 @@ const prefix = `/${Astro.currentLocale ?? 'de'}`
 		</Row>
 	</Section>
 
-	<!-- HERO -->
+	<!-- 1b. HOW IT WORKS: video + steps + lock + simulator -->
 	<Section id="product-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
 			<Col span="5" align="start">
@@ -65,29 +77,196 @@ const prefix = `/${Astro.currentLocale ?? 'de'}`
 						))
 					}
 				</div>
-				{order.simulatorText && (
-					<div class="mt-6">
-						<Button size="lg" style="neutral" link="https://simulator.primastem.com/">{order.simulatorText}</Button>
-					</div>
-				)}
 			</Col>
 			<Col span="7">
 				<div class="aspect-video rounded-xl overflow-hidden" role="region" aria-label="PrimaSTEM product demo video">
 					<iframe
 						src={hero.videoUrl}
-						title="PrimaSTEM 30-second demo"
+						title="PrimaSTEM demo"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen
 						loading="lazy"
 						class="w-full h-full"
 					></iframe>
 				</div>
-				<p class="text-sm text-neutral-400 dark:text-neutral-500 text-center mt-4 italic">{hero.videoCaption}</p>
+				<p class="text-sm text-neutral-500 dark:text-neutral-400 text-center mt-4 italic">{hero.videoCaption}</p>
+			</Col>
+		</Row>
+		<Row>
+			<Col span="12">
+				<Card classes="mt-8 !bg-neutral-100 !shadow-none dark:!bg-neutral-800 dark:!text-neutral-400 border border-neutral-200 dark:border-neutral-700 text-center">
+					<CardBody>
+						{hero.lock.map((line, i) => (
+							<p class={i === hero.lock.length - 1 ? 'pb-0' : 'pb-2'}>{line}</p>
+						))}
+					</CardBody>
+				</Card>
+				<p class="mt-6 pb-0 text-center" set:html={hero.simulatorLine} />
 			</Col>
 		</Row>
 	</Section>
 
-	<!-- WHAT'S IN THE KIT -->
+	<!-- 2. TWO LEVELS (рамка) -->
+	<Section id="two-levels" padding="both">
+		<Row>
+			<Col span="12" align="center" classes="mb-8">
+				<h2 set:html={twoLevels.title} />
+			</Col>
+		</Row>
+		<Row>
+			{
+				twoLevels.levels.map((level) => (
+					<Col span="6">
+						<Card classes="!bg-neutral-50 !shadow-none dark:!bg-neutral-900 dark:!text-neutral-400 h-full border border-neutral-100 dark:border-neutral-800">
+							<CardBody>
+								<h3 class="text-xl">{level.heading}</h3>
+								{level.paragraphs.map((p) => (
+									<p set:html={p} />
+								))}
+							</CardBody>
+						</Card>
+					</Col>
+				))
+			}
+		</Row>
+		<Row>
+			<Col span="12" align="center" classes="mt-4">
+				<p class="pb-0" set:html={twoLevels.scratchLine} />
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- 3. DRAWING FINALE -->
+	<Section id="drawing" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="12" align="center" classes="mb-6">
+				<h2 set:html={drawing.title} />
+				<p class="text-lg max-w-3xl mx-auto">{drawing.intro}</p>
+			</Col>
+		</Row>
+		<Row>
+			{
+				drawing.drawings.map((item, i) => (
+					<Col span="3">
+						<figure class="text-center">
+							<Image
+								src={drawingImages[i]}
+								alt={`Рисунок робота: ${item.name}`}
+								class="rounded-xl w-full aspect-square object-contain bg-white"
+								format="webp"
+							/>
+							<figcaption class="mt-2 text-sm text-neutral-500 dark:text-neutral-400">{item.name}</figcaption>
+						</figure>
+					</Col>
+				))
+			}
+		</Row>
+		<Row>
+			<Col span="12" align="center" classes="mt-6">
+				{
+					drawing.afterGallery.map((p, i) => (
+						<p class={i === drawing.afterGallery.length - 1 ? 'text-lg pb-0 max-w-3xl mx-auto' : 'text-lg max-w-3xl mx-auto'} set:html={p} />
+					))
+				}
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- ЭТАЖ 2: СПРАВОЧНИК -->
+
+	<!-- 4. LESSONS -->
+	<Section id="lessons" padding="both">
+		<Row>
+			<Col span="9" align="start">
+				<h2>{lessons.title}</h2>
+				{
+					lessons.paragraphs.map((p, i) => (
+						<p class={i === lessons.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'} set:html={p} />
+					))
+				}
+				<div class="mt-6">
+					<Button size="lg" style="secondary" link={lessons.buttonLink}>{lessons.buttonText}</Button>
+				</div>
+			</Col>
+			<Col span="3" align="center" classes="flex items-center justify-center">
+				<Image
+					src={lessonSceneImage}
+					alt="Занятие с PrimaSTEM: игровое поле, пульт с программой и фишки"
+					class="rounded-xl max-h-[24rem] w-auto mx-auto object-contain lg:max-h-none lg:w-full lg:object-cover lg:aspect-[3/4]"
+					format="webp"
+				/>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- 4b. HEALTH: screen-free fact, no promises -->
+	<Section id="health" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="12" align="center">
+				<h2>{health.title}</h2>
+				{
+					health.paragraphs.map((p, i) => (
+						<p class={i === health.paragraphs.length - 1 ? 'text-lg pb-0 max-w-3xl mx-auto' : 'text-lg max-w-3xl mx-auto'}>{p}</p>
+					))
+				}
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- 5. MAPS -->
+	<TextImage
+		title={maps.title}
+		text={maps.text}
+		image={mapsImage}
+		mobileImage={mapsImage}
+		imagePosition="left"
+	/>
+
+	<!-- 6. VOICE FEEDBACK -->
+	<Section id="voice-feedback" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="9" align="start">
+				<h2 set:html={voiceFeedback.title} />
+				{
+					voiceFeedback.paragraphs.map((p, i) => (
+						<p class={i === voiceFeedback.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'}>{p}</p>
+					))
+				}
+			</Col>
+			<Col span="3" align="center" classes="flex items-center justify-center">
+				<Image
+					src={boardImage}
+					alt="Пульт управления PrimaSTEM с фишками в ячейках"
+					class="rounded-xl max-h-[24rem] w-auto mx-auto object-contain lg:max-h-none lg:w-full lg:object-cover lg:aspect-[3/4]"
+					format="webp"
+				/>
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- 7. OPEN PLATFORM -->
+	<Section id="open-platform" padding="both">
+		<Row>
+			<Col span="3" align="center" classes="flex items-center justify-center order-2 lg:order-1">
+				<Image
+					src={robotOnMapImage}
+					alt="Робот PrimaSTEM на игровом поле среди фишек"
+					class="rounded-xl max-h-[24rem] w-auto mx-auto object-contain lg:max-h-none lg:w-full lg:object-cover lg:aspect-[3/4]"
+					format="webp"
+				/>
+			</Col>
+			<Col span="9" align="start" classes="order-1 lg:order-2">
+				<h2 set:html={openPlatform.title} />
+				{
+					openPlatform.paragraphs.map((p, i) => (
+						<p class={i === openPlatform.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'} set:html={p} />
+					))
+				}
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- 8. WHAT'S IN THE KIT -->
 	<Section id="whats-included" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
 			<Col span="12" align="center" classes="mb-12">
@@ -109,7 +288,7 @@ const prefix = `/${Astro.currentLocale ?? 'de'}`
 			<Col span="6" classes="flex items-center justify-center">
 				<Image
 					src={heroImage}
-					alt="PrimaSTEM complete kit: wooden control board with colorful command tokens, ladybug robot, and drawings"
+					alt="Комплект PrimaSTEM: деревянный пульт с цветными фишками команд, робот-божья коровка и рисунки"
 					class="rounded-xl max-h-[28rem] w-auto object-contain"
 					format="webp"
 				/>
@@ -117,78 +296,8 @@ const prefix = `/${Astro.currentLocale ?? 'de'}`
 		</Row>
 	</Section>
 
-	<!-- COMMANDS -->
-	<TextImage
-		title={commands.title}
-		text={commands.text}
-		image={tokensImage}
-		mobileImage={tokensImage}
-		imagePosition="right"
-	/>
-
-	<!-- DRAWING -->
-	<TextImage
-		title={drawing.title}
-		text={drawing.text}
-		image={spiralImage}
-		mobileImage={spiralImage}
-		imagePosition="right"
-		classes="bg-neutral-50 dark:bg-neutral-900"
-	/>
-
-	<!-- MAPS -->
-	<TextImage
-		title={maps.title}
-		text={maps.text}
-		image={mapsImage}
-		mobileImage={mapsImage}
-		imagePosition="left"
-	/>
-
-	<!-- OPEN PLATFORM -->
-	<Section id="open-platform" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
-		<Row>
-			<Col span="3" align="center" classes="flex items-center justify-center">
-				<div class="text-primary-500">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-32 h-32">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 0 1 7.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 0 1 1.06 0Z" />
-					</svg>
-				</div>
-			</Col>
-			<Col span="9" align="start">
-				<h2 set:html={openPlatform.title} />
-				{
-					openPlatform.paragraphs.map((p, i) => (
-						<p class={i === openPlatform.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'} set:html={p} />
-					))
-				}
-			</Col>
-		</Row>
-	</Section>
-
-	<!-- VOICE FEEDBACK -->
-	<Section id="voice-feedback" padding="both">
-		<Row>
-			<Col span="9" align="start">
-				<h2 set:html={voiceFeedback.title} />
-				{
-					voiceFeedback.paragraphs.map((p, i) => (
-						<p class={i === voiceFeedback.paragraphs.length - 1 ? 'text-lg pb-0' : 'text-lg'}>{p}</p>
-					))
-				}
-			</Col>
-			<Col span="3" align="center" classes="flex items-center justify-center">
-				<div class="text-primary-500">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-32 h-32">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
-					</svg>
-				</div>
-			</Col>
-		</Row>
-	</Section>
-
-	<!-- SPECS -->
-	<Section id="specs" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+	<!-- 9. SPECS (вобрали в себя распущенный блок «Команды») -->
+	<Section id="specs" padding="both">
 		<Row>
 			<Col span="12" align="center">
 				<h2>{specs.title}</h2>
@@ -197,7 +306,7 @@ const prefix = `/${Astro.currentLocale ?? 'de'}`
 						<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
 							{
 								specs.rows.map((row) => (
-									<tr><td class="py-3 font-medium">{row.label}</td><td class="py-3">{row.value}</td></tr>
+									<tr><td class="py-3 pr-6 font-medium">{row.label}</td><td class="py-3">{row.value}</td></tr>
 								))
 							}
 						</tbody>
@@ -207,8 +316,8 @@ const prefix = `/${Astro.currentLocale ?? 'de'}`
 		</Row>
 	</Section>
 
-	<!-- DOCUMENTATION -->
-	<Section id="docs-v1" padding="both">
+	<!-- 10. DOCUMENTATION -->
+	<Section id="docs-v1" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
 		<Row>
 			<Col span="12" align="center" classes="mb-12">
 				<h2>{documentation.title}</h2>
@@ -225,23 +334,17 @@ const prefix = `/${Astro.currentLocale ?? 'de'}`
 		</Row>
 	</Section>
 
-	<!-- ORDER -->
+	<!-- 12. ORDER -->
 	<Section id="order-v1" padding="both" classes="bg-neutral-900 text-white dark:bg-neutral-800">
 		<Row>
 			<Col span="12" align="center">
 				<h2 class="text-white dark:text-white" set:html={order.title} />
-				<p class="text-lg text-neutral-300">{order.subtitle}</p>
-				<p class="text-neutral-400" set:html={order.contactLine} />
+				{order.subtitle && <p class="text-lg text-neutral-300">{order.subtitle}</p>}
+				{order.contactLine && <p class="text-neutral-400" set:html={order.contactLine} />}
 				{order.sheetLine && <p class="text-neutral-400 mt-2" set:html={order.sheetLine} />}
-				<div class="mt-6">
-					<Button size="lg" link={prefix + order.buttonLink}>{order.buttonText}</Button>
-				</div>
-				<div class="mt-6 flex justify-center gap-6">
-					{
-						order.segmentLinks.map((link) => (
-							<a href={prefix + link.link} class="text-primary-400 hover:underline">{link.text}</a>
-						))
-					}
+				<div class="mt-6 flex justify-center gap-4 flex-wrap">
+					<Button size="lg" link={prefix + order.whereToBuyLink}>{order.whereToBuyText}</Button>
+					<Button size="lg" style="neutral" link="https://simulator.primastem.com/">{order.simulatorText}</Button>
 				</div>
 			</Col>
 		</Row>

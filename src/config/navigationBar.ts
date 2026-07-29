@@ -39,9 +39,7 @@ export const navigationBarData: NavData = {
 	},
 	navItems: [
 		{ name: 'Product', link: '/product' },
-		{ name: 'Distributors', link: '/distributors' },
-		{ name: 'Schools', link: '/schools' },
-		{ name: 'Parents', link: '/parents' },
+		{ name: 'WhereToBuy', link: '/where-to-buy' },
 		{ name: 'Contact', link: '/contact' }
 	],
 	navActions: [{ name: 'Docs', link: 'https://docs.primastem.com', style: 'primary', size: 'lg' }]

@@ -1,15 +1,15 @@
 {
 	"seo": {
-		"title": "PrimaSTEM - Programmation et mathématiques sans écran, dès 4 ans",
-		"description": "Le seul outil pédagogique sans écran qui enseigne à la fois la programmation et les mathématiques. Robot programmable en bois pour les enfants de 4 à 10 ans."
+		"title": "PrimaSTEM - Programmation et mathématiques sans écran, 4-10+ ans",
+		"description": "Le seul outil sans écran qui enseigne à la fois la programmation et les mathématiques. Robot programmable en bois pour les enfants de 4 à 10+ ans."
 	},
 	"hero": {
 		"title": "La programmation et les mathématiques <strong>sans écran!</strong>",
-		"subtitle": "Apprend le code, la logique, l'arithmétique et la géométrie - à la main.<br />De 4 à 10 ans.",
+		"subtitle": "L'enfant compose un programme avec des jetons sur le tableau de contrôle, et le robot l'exécute : labyrinthes pour les plus jeunes, figures géométriques sur papier pour les plus grands.<br />De 4 à 10+ ans",
 		"price": "",
 		"volumeLine": "",
-		"buttonText": "Choisissez votre profil",
-		"buttonLink": "#pricing-v3",
+		"buttonText": "Où acheter",
+		"buttonLink": "/fr/where-to-buy",
 		"simulatorText": "Essayer le simulateur web"
 	},
 	"twoLevels": {
@@ -17,39 +17,25 @@
 		"subtitle": "Du labyrinthe à quatre ans à la spirale à dix. Un seul achat, toute l'école primaire.",
 		"level1": {
 			"tag": "Logique, Nombres",
-			"age": "4 à 7 ans",
-			"items": ["Pas logique de 15 cm (réglable), virages à 90°", "Labyrinthes, séquences, débogage"]
+			"age": "Âge 4-7",
+			"items": ["Labyrinthes, séquences, débogage", "Pas logique de 15 cm (réglable), virages à 90°"]
 		},
 		"level2": {
 			"tag": "Mathématiques, Programmation",
-			"age": "7 à 10 ans",
-			"items": ["Distances et angles précis, valeurs libres", "Arithmétique, géométrie, dessin au feutre"]
+			"age": "Âge 7-10+",
+			"items": ["Arithmétique, géométrie, dessin au feutre", "Distances et angles précis, valeurs libres"]
 		}
-	},
-	"drawing": {
-		"title": "Le robot dessine ce que <strong>l'enfant programme</strong>",
-		"subtitle": "<strong>Cette spirale ? Aucun autre robot sans écran ne sait la tracer</strong> - et c'est un enfant qui l'a programmée à la main. <a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">Voir le procédé sur YouTube</a>.",
-		"drawings": [
-			{ "name": "Pentagone" },
-			{ "name": "Étoile" },
-			{ "name": "Spirale" },
-			{ "name": "Cœur" }
-		],
-		"example": "Exemple :  (Répéter 5) [(Avancer) (50), (Droite) (144)] = une étoile."
-	},
-	"maps": {
-		"title": "Compatible avec les cartes et plans de cours <strong>que vous avez déjà</strong>",
-		"text": "PrimaSTEM s'adapte au contenu des autres robots éducatifs.<br><br>Le pas est réglable - 10, 12, 15, 25 cm. Toute carte quadrillée fonctionne. Aucun nouveau matériel à acheter.<br><br>Et pour les plus jeunes, un programme pédagogique prêt à l'emploi est déjà dans la boîte ; les plans de cours conçus pour un autre robot fonctionnent aussi sur PrimaSTEM."
-	},
-	"video": {
-		"title": "Voyez-le <strong>en action</strong>",
-		"subtitle": "Découvrez comment les enfants apprennent la programmation et les mathématiques avec PrimaSTEM.",
-		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
-		"videoCaption": "Vidéo enregistrée avec un prototype. Le produit final peut différer."
 	},
 	"trust": {
 		"title": "La confiance de nos <strong class=\"highlight\">partenaires</strong>",
-		"countriesLine": "Premiers pilotes et partenaires en Europe."
+		"countriesLine": ""
+	},
+	"nextSteps": {
+		"buttons": [
+			{ "text": "Produit", "link": "/fr/product", "style": "secondary" },
+			{ "text": "Où acheter", "link": "/fr/where-to-buy", "style": "primary" },
+			{ "text": "Essayer le simulateur", "link": "https://simulator.primastem.com/", "style": "secondary" }
+		]
 	},
 	"newsletter": {
 		"title": "Recevez nos <strong>actualités</strong> et nos offres",

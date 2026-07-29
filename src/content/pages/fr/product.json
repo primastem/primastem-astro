@@ -1,105 +1,290 @@
 {
 	"seo": {
-		"title": "PrimaSTEM | Le robot de codage sans écran où le codage devient des maths",
-		"description": "Les enfants programment PrimaSTEM à la main, sans écran. Le même codage va vers n'importe quelle distance, n'importe quel angle et de la vraie arithmétique, si bien que la programmation devient de vraies maths. Un robot en bois, de 4 à 10 ans. Certifié CE et UKCA, fabriqué en France."
-	},
-	"structuredData": {
-		"price": "235",
-		"priceValidUntil": "2026-12-31"
+		"title": "PrimaSTEM | Le robot de programmation sans écran où le code devient de vraies mathématiques",
+		"description": "Les enfants programment PrimaSTEM à la main, sans écran. La même programmation va vers n'importe quelle distance, n'importe quel angle et de la vraie arithmétique, si bien que le code devient de vraies mathématiques. Un robot en bois, 4-10+ ans. CE et UKCA, fabriqué en France."
 	},
 	"hero": {
-		"title": "Comment <strong>fonctionne</strong> PrimaSTEM",
-		"headline": "Le robot de codage sans écran où le codage devient de <strong>vraies mathématiques</strong>",
-		"lead": "PrimaSTEM est un robot de programmation sans écran que les enfants codent à la main. La différence, c'est jusqu'où va ce même codage : pas seulement déplacer le robot et le faire tourner de quelques façons prédéfinies, mais n'importe quelle distance, n'importe quel angle et de la vraie arithmétique, si bien que la programmation débouche directement sur de vraies mathématiques. Un seul robot porte cela de 4 à 10 ans.",
+		"title": "Comment fonctionne <strong>PrimaSTEM</strong>",
+		"headline": "Le robot sans écran pour la programmation, où le code devient <strong>de vraies mathématiques</strong>",
+		"lead": "Les enfants composent le programme à la main, avec des jetons sur le tableau de contrôle, et le robot l'exécute. La différence, c'est jusqu'où va ce programme : pas un pas fixe et deux ou trois virages prédéfinis, mais n'importe quelle distance, n'importe quel angle et de la vraie arithmétique, si bien que la programmation débouche ici sur de vraies mathématiques. Un seul robot accompagne l'enfant dès quatre ans, et dix ans n'est pas une limite.",
 		"videoUrl": "https://www.youtube.com/embed/Ztq_I1WBiVo",
 		"videoCaption": "Vidéo enregistrée avec un prototype. Le produit final peut différer.",
 		"steps": [
-			{ "number": "1", "text": "Posez les jetons de gauche à droite. LED verte = accepté. Le tableau énonce la commande à voix haute." },
-			{ "number": "2", "text": "Appuyez sur « Démarrer ». Le robot exécute. Les LED indiquent quelle commande est en cours." },
-			{ "number": "3", "text": "Vérifiez le résultat. Faux ? Trouvez l'erreur, changez un jeton, relancez." }
+			{
+				"number": "1",
+				"text": "Posez les jetons de gauche à droite. LED verte - commande acceptée. Le tableau énonce la commande à voix haute."
+			},
+			{
+				"number": "2",
+				"text": "Appuyez sur « Démarrer ». Le robot exécute le programme. Les LED indiquent quelle commande est en cours."
+			},
+			{
+				"number": "3",
+				"text": "Le robot exécute le programme, et vous voyez le résultat immédiatement."
+			}
+		],
+		"lock": [
+			"Le programme est entièrement visible : l'enfant le voit, le touche, le réorganise.",
+			"L'enfant trouve lui-même l'étape fautive, et si un feutre est inséré, l'erreur se voit tout de suite sur le papier. Les enfants apprennent ainsi à corriger leurs erreurs, pas à les craindre."
+		],
+		"simulatorLine": "Essayez-le maintenant : <a href='https://simulator.primastem.com/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>le simulateur web PrimaSTEM</a> fonctionne directement dans votre navigateur."
+	},
+	"twoLevels": {
+		"title": "Deux niveaux - <strong>un seul appareil</strong>",
+		"levels": [
+			{
+				"heading": "4-7 ans : Logique",
+				"paragraphs": [
+					"Commandes et nombres simples, virages à 90°. Avancer, reculer, gauche, droite, fonction, répétition.",
+					"Labyrinthes sur cartes en couleur. Planification, séquences, débogage, dénombrement.",
+					"C'est ici qu'apparaissent les fonctions et les boucles : « Au lieu d'écrire cinq fois, dis au robot : répète »."
+				]
+			},
+			{
+				"heading": "7-10+ ans : Mathématiques",
+				"paragraphs": [
+					"Distances précises en mm et n'importe quel angle en degrés : 1°–360°. Arithmétique : +, −, ×, ÷, √, ^. Nombres négatifs. Progressions.",
+					"Insérez un feutre, et le robot dessine ce que l'enfant a programmé."
+				]
+			}
+		],
+		"scratchLine": "Et cela ne s'arrête pas à dix ans : avec <a href='https://scratch.primastem.com/' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>Scratch</a>, les plus grands continuent à programmer le même robot avec des blocs."
+	},
+	"drawing": {
+		"title": "Le robot dessine ce que <strong>l'enfant a programmé</strong>",
+		"intro": "Insérez un feutre, et chaque mouvement laisse une ligne. Avancer 50, Droite 144, Répéter 5 = une étoile. Ajoutez une progression arithmétique, et l'étoile devient une spirale : l'enfant fixe les angles et les distances, et le robot exécute le programme avec précision.",
+		"drawings": [
+			{
+				"name": "Pentagone"
+			},
+			{
+				"name": "Étoile"
+			},
+			{
+				"name": "Spirale"
+			},
+			{
+				"name": "Cœur"
+			}
+		],
+		"afterGallery": [
+			"Ces dessins, le robot les a tracés au feutre à partir d'un programme de jetons. Regardez bien la spirale : aucun autre robot sans écran ne sait la tracer.",
+			"<a href='https://youtube.com/@primastem' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>Voir le procédé sur YouTube</a>."
+		]
+	},
+	"lessons": {
+		"title": "Leçons incluses",
+		"paragraphs": [
+			"Pas besoin de savoir programmer. Chaque kit inclut déjà des leçons prêtes à l'emploi pour les plus jeunes, dans l'esprit LOGO et Montessori : de courtes activités, une petite étape à la fois, tout est expliqué au fil du cours.",
+			"À l'intérieur : les objectifs, le matériel et un plan pas à pas, plus des pages à imprimer. Vous ouvrez et menez la leçon le jour même, sans préparation le soir.",
+			"Tout est en ligne, en plusieurs langues, consultable avant même la commande. Documentation complète sur <a href='https://docs.primastem.com' class='text-primary-500 hover:underline' target='_blank' rel='noopener noreferrer'>docs.primastem.com</a>.",
+			"Tout est dans le kit de base : aucun pack payant, aucun second budget pour des compléments."
+		],
+		"buttonText": "Plans de cours",
+		"buttonLink": "https://docs.primastem.com/en/book-1/book-1"
+	},
+	"health": {
+		"title": "Une activité qui n'ajoute pas de temps d'écran",
+		"paragraphs": [
+			"Ni tablette ni application : l'enfant travaille avec ses mains, et le tableau énonce chaque jeton à voix haute. Une heure avec PrimaSTEM n'ajoute rien au temps d'écran.",
+			"Les écoles vont déjà dans ce sens : en France, les téléphones sont interdits à l'école par la loi depuis 2018 ; aux Pays-Bas, l'interdiction est en vigueur depuis 2024 et s'étend à l'école primaire."
+		]
+	},
+	"maps": {
+		"title": "Compatible avec les cartes et plans de cours <strong>que vous avez déjà</strong>",
+		"text": "PrimaSTEM s'adapte au contenu des autres robots éducatifs. Le pas est réglable sur n'importe quelle valeur, pas seulement 10 cm, 12,5 cm ou 15 cm. Toute carte quadrillée déjà présente en classe fonctionne.<br><br>Vous travaillez déjà avec un autre robot ? Tout ce qu'il sait faire, PrimaSTEM le fait de la même façon : avancer, reculer, virages, répétition, fonction. Chez nous, c'est le niveau débutant, donc vos plans et vos cartes conviennent tels quels, sans réapprentissage ni nouveau matériel."
+	},
+	"voiceFeedback": {
+		"title": "Voix, mots et <strong>musique</strong>",
+		"paragraphs": [
+			"Le tableau énonce chaque jeton au moment où on le pose : les commandes comme les sons. Une aide pour les enfants qui ne savent pas encore lire, et pour ceux ayant des troubles de la vision ou de l'attention.",
+			"Au lancement du programme, le tableau transmet les sons au robot, qui les joue : commandes, mots, lettres de l'alphabet, notes. Entre deux commandes de mouvement, il peut s'arrêter et jouer le jeton sur lequel il se trouve, n'importe lequel de ceux que le tableau énonce. Plus de quatre-vingt-dix mots disponibles : maison, forêt, cinéma.",
+			"Le même robot qui enseigne le code et le calcul fait aussi découvrir la parole et la musique.",
+			"Disponible en 17 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Votre langue n'est pas dans la liste ? Nous l'ajoutons sur demande.",
+			"Version en braille en phase de test."
+		]
+	},
+	"openPlatform": {
+		"title": "Plateforme <strong>ouverte</strong>",
+		"paragraphs": [
+			"Chaque jeton est une étiquette NFC standard à 13,56 MHz. N'importe quelle étiquette du même standard convient, elles coûtent trois fois rien et se trouvent sur n'importe quel marketplace. Prenez le texte-code dans notre documentation et écrivez-le avec l'appli gratuite NFC Tools : le tout prend 10 secondes. C'est ainsi qu'apparaissent vos propres nombres, boucles et opérations arithmétiques.",
+			"Les mêmes étiquettes se posent sur le terrain de jeu, et la carte se met à parler : cartes de langues, champs musicaux, quêtes narratives."
 		]
 	},
 	"kit": {
 		"title": "Le contenu du <strong>kit</strong>",
 		"cards": [
-			{ "title": "Robot coccinelle", "icon": "robot", "items": ["125 mm de diamètre", "Bois", "Recharge USB-C", "environ 2 h d'autonomie, selon l'utilisation"] },
-			{ "title": "Tableau de contrôle", "icon": "bolt", "items": ["317 × 217 mm", "Bois", "11 emplacements doubles", "Bluetooth ~5 m"] },
-			{ "title": "Jetons de commande", "icon": "squares-plus", "items": ["33 × 33 mm, carton", "NFC 13,56 MHz", "Codage couleur Scratch", "Programmables via une appli mobile"] },
-			{ "title": "Guide de l'enseignant en ligne", "icon": "book", "items": ["Plans de cours en ligne", "Activités et fiches imprimables", "docs.primastem.com", "10 langues"] }
-		]
-	},
-	"commands": {
-		"title": "Commandes",
-		"text": "<ul class='space-y-3 list-none'>\n\t\t\t<li><strong>Mouvement et programme :</strong> Avancer, Reculer, Gauche, Droite, Aléatoire, Fonction, Pause.</li>\n\t\t\t<li><strong>Répéter :</strong> 2–999, Répétition aléatoire 1–6.</li>\n\t\t\t<li><strong>Mathématiques :</strong> +, −, ×, ÷, √, ^</li>\n\t\t\t<li><strong>Nombres :</strong> 1–999</li>\n\t\t\t<li><strong>Système :</strong> Pas par défaut, calibration.</li>\n\t\t</ul>"
-	},
-	"drawing": {
-		"title": "Dessin",
-		"text": "Glissez un feutre et chaque mouvement laisse un trait. Avancer 50, Droite 144, Répéter 5 fait une étoile ; ajoutez une progression arithmétique et l'étoile devient une spirale.<br><br>Le robot calcule lui-même les angles et les distances à mesure, traçant une vraie géométrie sur le papier. Un simple robot roulant sans écran n'atteint pas cette précision, et l'enfant voit le résultat de son programme directement sur la feuille."
-	},
-	"maps": {
-		"title": "Compatible avec les cartes et plans de cours <strong>que vous avez déjà</strong>",
-		"text": "PrimaSTEM s'adapte au contenu des autres robots éducatifs.<br><br>Le pas est réglable - 10, 12, 15, 25 cm. Toute carte quadrillée fonctionne. Aucun nouveau matériel à acheter.<br><br>Et pour les plus jeunes, un programme pédagogique prêt à l'emploi est déjà dans la boîte ; les plans de cours conçus pour un autre robot fonctionnent aussi sur PrimaSTEM."
-	},
-	"openPlatform": {
-		"title": "Plateforme <strong>ouverte</strong>",
-		"paragraphs": [
-			"Chaque jeton est une étiquette NFC standard (13,56 MHz). Programmez n'importe quel code via une appli mobile gratuite. Créez vos propres nombres, boucles ou opérations arithmétiques.",
-			"Posez des étiquettes NFC sur le terrain de jeu - le robot émet un son lorsqu'il passe dessus. Cartes de langues, champs musicaux, quêtes narratives."
-		]
-	},
-	"voiceFeedback": {
-		"title": "Voix, mots et <strong>musique</strong>",
-		"paragraphs": [
-			"Le tableau énonce chaque jeton au moment où on le pose. Une aide précieuse pour les enfants qui ne savent pas encore lire et pour ceux ayant une déficience visuelle.",
-			"Il roule sur une carte portant un mot et le lit à voix haute, près de quatre-vingt-dix en tout : maison, forêt, cinéma. Il nomme les lettres de l'alphabet, joue des notes et lit l'arithmétique à voix haute. Le même robot qui enseigne le code et le calcul fait aussi entrer la parole et la musique en chemin.",
-			"Disponible en 17 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית.",
-			"Version braille en phase pilote."
+			{
+				"title": "Robot coccinelle",
+				"icon": "robot",
+				"items": [
+					"125 mm de diamètre",
+					"Bois",
+					"Recharge USB-C",
+					"environ 2 h d'autonomie, selon l'utilisation"
+				]
+			},
+			{
+				"title": "Tableau de contrôle",
+				"icon": "bolt",
+				"items": [
+					"317 × 217 mm",
+					"Bois",
+					"11 emplacements doubles",
+					"Bluetooth ~5 m"
+				]
+			},
+			{
+				"title": "Jetons de commande",
+				"icon": "squares-plus",
+				"items": [
+					"33 × 33 mm, carton",
+					"NFC 13,56 MHz",
+					"Codage couleur Scratch",
+					"Écriture via l'appli mobile"
+				]
+			},
+			{
+				"title": "Guide de l'enseignant en ligne",
+				"icon": "book",
+				"items": [
+					"Plans de cours en ligne",
+					"Activités et fiches imprimables",
+					"docs.primastem.com",
+					"10 langues"
+				]
+			}
 		]
 	},
 	"specs": {
 		"title": "Spécifications",
 		"rows": [
-			{ "label": "Matériau", "value": "Bois" },
-			{ "label": "Robot", "value": "125 mm de diamètre, 44 mm de hauteur" },
-			{ "label": "Tableau de contrôle", "value": "317 × 217 mm" },
-			{ "label": "Jetons", "value": "100 pcs, 33 × 33 mm, carton, NFC 13,56 MHz" },
-			{ "label": "Connectivité", "value": "Bluetooth ~5 m" },
-			{ "label": "Batterie", "value": "Li-Ion USB-C, environ 2 h, selon l'utilisation" },
-			{ "label": "Pas par défaut", "value": "15 cm (valeur libre, réglable)" },
-			{ "label": "Angles", "value": "1°–360°" },
-			{ "label": "Mathématiques", "value": "+, −, ×, ÷, √, ^, !" },
-			{ "label": "Emplacements", "value": "6×2 principaux + 5×2 fonction" },
-			{ "label": "Audio", "value": "Retour vocal en 17 langues + échantillons sonores" },
-			{ "label": "Certification", "value": "CE + UKCA" },
-			{ "label": "Âge", "value": "4–10 ans" },
-			{ "label": "Fabriqué à", "value": "Cannes, France" }
+			{
+				"label": "Matériau",
+				"value": "Bois"
+			},
+			{
+				"label": "Robot",
+				"value": "125 mm de diamètre, 44 mm de hauteur"
+			},
+			{
+				"label": "Tableau de contrôle",
+				"value": "317 × 217 mm"
+			},
+			{
+				"label": "Jetons",
+				"value": "100 pcs, 33 × 33 mm, carton, NFC 13,56 MHz"
+			},
+			{
+				"label": "Connectivité",
+				"value": "Bluetooth ~5 m"
+			},
+			{
+				"label": "Batterie",
+				"value": "Li-Ion USB-C, environ 2 h, selon l'utilisation"
+			},
+			{
+				"label": "Pas par défaut",
+				"value": "15 cm (valeur libre, réglable ; calibration)"
+			},
+			{
+				"label": "Angles",
+				"value": "1°–360°"
+			},
+			{
+				"label": "Commandes de mouvement",
+				"value": "Avancer, Reculer, Gauche, Droite, Aléatoire, Fonction, Pause"
+			},
+			{
+				"label": "Répétitions et nombres",
+				"value": "répétition 2–999, répétition aléatoire 1–6, nombres 1–999"
+			},
+			{
+				"label": "Mathématiques",
+				"value": "+, −, ×, ÷, √, ^"
+			},
+			{
+				"label": "Emplacements",
+				"value": "6×2 principaux + 5×2 fonction"
+			},
+			{
+				"label": "Audio",
+				"value": "Retour vocal en 17 langues + échantillons sonores"
+			},
+			{
+				"label": "Certification",
+				"value": "CE + UKCA"
+			},
+			{
+				"label": "Âge",
+				"value": "4-10+"
+			},
+			{
+				"label": "Fabriqué à",
+				"value": "Cannes, France"
+			}
 		]
 	},
 	"documentation": {
 		"title": "Documentation et outils",
 		"cards": [
-			{ "title": "Documentation en ligne", "subtitle": "10 langues. Plans de cours, guides et référence technique.", "icon": "document-text", "link": "https://docs.primastem.com" },
-			{ "title": "Tutoriels vidéo", "subtitle": "Vidéos pas à pas sur notre chaîne YouTube.", "icon": "youtube-icon", "link": "https://youtube.com/@primastem" },
-			{ "title": "Fiche produit", "subtitle": "Spécifications, tarifs et présentation du kit pour les distributeurs.", "icon": "clipboard-document-list", "link": "/sheet" },
-			{ "title": "FAQ", "subtitle": "Questions fréquentes sur PrimaSTEM, les commandes et les détails techniques.", "icon": "chat-bubble-left-ellipsis", "link": "/faq" },
-			{ "title": "Simulateur web", "subtitle": "Essayez le robot directement dans votre navigateur, sans appareil.", "icon": "computer-desktop", "link": "https://simulator.primastem.com/" },
-			{ "title": "Commande web", "subtitle": "Pilotez le robot en direct depuis votre navigateur.", "icon": "cursor-arrow-ripple", "link": "https://control.primastem.com/" },
-			{ "title": "Scratch pour le robot", "subtitle": "Programmez le robot avec les blocs Scratch.", "icon": "rectangle-stack", "link": "https://scratch.primastem.com/" },
-			{ "title": "Mise à jour du firmware", "subtitle": "Gardez le firmware du robot à jour.", "icon": "arrow-path-rounded-square", "link": "https://update.primastem.com/" }
+			{
+				"title": "Documentation en ligne",
+				"subtitle": "10 langues. Plans de cours, guides et référence technique.",
+				"icon": "document-text",
+				"link": "https://docs.primastem.com"
+			},
+			{
+				"title": "Tutoriels vidéo",
+				"subtitle": "Vidéos pas à pas sur notre chaîne YouTube.",
+				"icon": "youtube-icon",
+				"link": "https://youtube.com/@primastem"
+			},
+			{
+				"title": "Fiche produit",
+				"subtitle": "Spécifications et présentation du kit pour les distributeurs.",
+				"icon": "clipboard-document-list",
+				"link": "/sheet"
+			},
+			{
+				"title": "FAQ",
+				"subtitle": "Questions fréquentes sur PrimaSTEM, les commandes et les détails techniques.",
+				"icon": "chat-bubble-left-ellipsis",
+				"link": "/faq"
+			},
+			{
+				"title": "Simulateur web",
+				"subtitle": "Essayez le robot directement dans votre navigateur, sans appareil.",
+				"icon": "computer-desktop",
+				"link": "https://simulator.primastem.com/"
+			},
+			{
+				"title": "Commande web",
+				"subtitle": "Pilotez le robot en direct depuis votre navigateur.",
+				"icon": "cursor-arrow-ripple",
+				"link": "https://control.primastem.com/"
+			},
+			{
+				"title": "Scratch pour le robot",
+				"subtitle": "Programmez le robot avec les blocs Scratch.",
+				"icon": "rectangle-stack",
+				"link": "https://scratch.primastem.com/"
+			},
+			{
+				"title": "Mise à jour du firmware",
+				"subtitle": "Gardez le firmware du robot à jour.",
+				"icon": "arrow-path-rounded-square",
+				"link": "https://update.primastem.com/"
+			}
 		]
 	},
 	"order": {
-		"title": "Commander <strong>PrimaSTEM</strong>",
-		"subtitle": "Un seul appareil pour tout le primaire, de 4 à 10 ans.",
-		"contactLine": "<a href=\"mailto:info@primastem.com\" class=\"hover:text-white hover:underline\">info@primastem.com</a> · <a href=\"https://wa.me/33624950936\" class=\"hover:text-white hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">+33 6 24 95 09 36</a>",
-			"sheetLine": "<a href='/sheet' class='text-primary-400 hover:underline'>Ouvrir</a> ou <a href='/primastem-product-sheet.pdf' class='text-primary-400 hover:underline' download>télécharger</a> la fiche produit.",
-		"buttonText": "Demander un devis",
-		"buttonLink": "/contact",
-		"simulatorText": "Essayer le simulateur web",
-		"segmentLinks": [
-			{ "text": "Pour les écoles", "link": "/schools" },
-			{ "text": "Pour les distributeurs", "link": "/distributors" },
-			{ "text": "Pour les parents", "link": "/parents" }
-		]
+		"title": "Un seul appareil pour tout le primaire, <strong>4-10+ ans</strong>",
+		"subtitle": "",
+		"contactLine": "",
+		"sheetLine": "<a href='/sheet' class='text-primary-400 hover:underline'>Ouvrir</a> ou <a href='/primastem-product-sheet.pdf' class='text-primary-400 hover:underline' download>télécharger</a> la fiche produit.",
+		"whereToBuyText": "Où acheter",
+		"whereToBuyLink": "/where-to-buy",
+		"simulatorText": "Essayer le simulateur web"
 	}
 }

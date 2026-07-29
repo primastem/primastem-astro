@@ -3,13 +3,13 @@
 import Layout from '../layouts/Layout.astro'
 import Hero from '../components/blocks/hero/HomeCTA.astro'
 import TwoLevels from '../components/blocks/features/TwoLevels.astro'
-import Drawing from '../components/blocks/features/DrawingV1.astro'
-import Maps from '../components/blocks/features/MapsV2.astro'
-import Pricing from '../components/blocks/features/PricingV3.astro'
-import Video from '../components/blocks/features/Video.astro'
 import Trust from '../components/blocks/features/TrustV2.astro'
 import Newsletter from '../components/blocks/features/NewsletterV1.astro'
 import Tagline from '../components/blocks/features/TaglineV3.astro'
+import Section from '../components/ui/Section.astro'
+import Row from '../components/ui/Row.astro'
+import Col from '../components/ui/Col.astro'
+import Button from '../components/ui/Button.astro'
 
 // Content (CMS-editable)
 import homeData from '../content/pages/en/home.json'
@@ -18,10 +18,28 @@ import homeData from '../content/pages/en/home.json'
 <Layout title={homeData.seo.title} description={homeData.seo.description}>
 	<Hero data={homeData.hero} />
 	<TwoLevels data={homeData.twoLevels} />
-	<Drawing data={homeData.drawing} />
-	<Maps data={homeData.maps} />
-	<Video data={homeData.video} />
-	<Pricing />
+
+	<!-- Next steps: dark CTA band, three ways forward, no heading (owner decision) -->
+	<Section id="next-steps" padding="both" classes="bg-neutral-900 text-white dark:bg-neutral-800">
+		<Row>
+			<Col span="12" align="center">
+				<div class="flex flex-wrap items-center justify-center gap-4">
+					{
+						homeData.nextSteps.buttons.map((b) => (
+							<Button
+								size="lg"
+								style={b.style === 'primary' ? 'primary' : 'secondary'}
+								link={b.link}
+							>
+								{b.text}
+							</Button>
+						))
+					}
+				</div>
+			</Col>
+		</Row>
+	</Section>
+
 	<Trust data={homeData.trust} />
 	<Newsletter data={homeData.newsletter} />
 	<Tagline data={homeData.tagline} />

@@ -1,0 +1,49 @@
+{
+	"seo": {
+		"title": "PrimaSTEM | Wo kaufen",
+		"description": "PrimaSTEM-Händler nach Ländern: Frankreich und Niederlande. Der Roboter wird über Partner verkauft."
+	},
+	"header": {
+		"title": "Wo <strong>kaufen</strong>"
+	},
+	"countries": [
+		{
+			"name": "Frankreich",
+			"distributors": [
+				{
+					"name": "A4 Éducation",
+					"url": "https://www.a4.fr",
+					"urlLabel": "a4.fr",
+					"description": "Hersteller und Lieferant von Lehrmitteln und Robotik für Schulen und Privatpersonen."
+				},
+				{
+					"name": "Easytis",
+					"url": "https://www.easytis.com",
+					"urlLabel": "easytis.com",
+					"description": "Lieferant von Lernrobotern und MINT-Ausstattung für Schulen, Kindergärten und Privatpersonen."
+				},
+				{
+					"name": "Vittascience",
+					"url": "https://www.vittascience.com",
+					"urlLabel": "vittascience.com",
+					"description": "Bildungsplattform und Shop: Programmieren, Robotik, KI. Für Schulen und Privatpersonen."
+				}
+			]
+		},
+		{
+			"name": "Niederlande",
+			"distributors": [
+				{
+					"name": "de Rolf groep",
+					"url": "https://www.derolfgroep.nl",
+					"urlLabel": "derolfgroep.nl",
+					"description": "Komplettanbieter für Kindergärten, Grundschulen und Privatpersonen."
+				}
+			]
+		}
+	],
+	"distributorCta": {
+		"buttonText": "Händler werden",
+		"buttonLink": "/distributors"
+	}
+}

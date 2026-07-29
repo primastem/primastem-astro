@@ -1,0 +1,28 @@
+# Site restructure 2026-07: Schools and Parents pages merged into Product.
+# Cloudflare Workers Static Assets reads this file natively and serves real 301s.
+# Both slashed and unslashed forms, all locales.
+
+/schools     /product     301
+/schools/    /product     301
+/parents     /product     301
+/parents/    /product     301
+
+/fr/schools  /fr/product  301
+/fr/schools/ /fr/product  301
+/fr/parents  /fr/product  301
+/fr/parents/ /fr/product  301
+
+/de/schools  /de/product  301
+/de/schools/ /de/product  301
+/de/parents  /de/product  301
+/de/parents/ /de/product  301
+
+/es/schools  /es/product  301
+/es/schools/ /es/product  301
+/es/parents  /es/product  301
+/es/parents/ /es/product  301
+
+/ru/schools  /ru/product  301
+/ru/schools/ /ru/product  301
+/ru/parents  /ru/product  301
+/ru/parents/ /ru/product  301

@@ -1,20 +1,19 @@
 # PrimaSTEM
 
-> Screen-free coding and mathematics for children ages 4–10. Wooden programmable robot with tangible NFC command tokens.
+> Screen-free coding and mathematics for children ages 4–10+. Wooden programmable robot with tangible NFC command tokens.
 
-PrimaSTEM is a wooden educational robot made in Cannes, France. Children place NFC command tokens on a control board to build programs, no screen, no app required. It is a screen-free coding robot where the same coding goes further than the usual ones: not just moving the robot and a few set turns, but any distance, any angle, and real arithmetic, so the programming runs straight into real math. One device covers the whole of ages 4 to 10: logic for ages 4 to 7, mathematics for ages 7 to 10. The robot draws geometric figures (stars, spirals, polygons), making math visible. CE & UKCA certified.
+PrimaSTEM is a wooden educational robot made in Cannes, France. Children build a program from command tokens placed on a control board, and the robot runs it, no screen, no app required. The same coding goes further than typical screen-free robots: not just moving forward and a few set turns, but any distance, any angle, and real arithmetic, so the coding runs straight into real math. One robot covers ages 4 to 10+: logic for ages 4 to 7, mathematics for ages 7 to 10+, and Scratch keeps the same robot going past age ten. Insert a marker and the robot draws geometric figures (stars, spirals, polygons), making math visible. CE & UKCA certified.
 
 ## Pages
 
-- [Home](https://primastem.com/): Overview, key features, pricing, video demo
-- [Product](https://primastem.com/product/): How it works, kit contents, commands, specifications
-- [Distributors](https://primastem.com/distributors/): Wholesale pricing, partnership terms, market opportunity
-- [Schools](https://primastem.com/schools/): Classroom use, curriculum alignment, rental options
-- [Parents](https://primastem.com/parents/): Home learning, age guidance, what's included
-- [About](https://primastem.com/about/): Company story, team, mission, certifications
-- [Contact](https://primastem.com/contact/): Email, WhatsApp, contact form
+- [Home](https://primastem.com/): Overview, two levels, partner logos, choose-your-path
+- [Product](https://primastem.com/product/): How it works, two levels, drawing gallery, maps and compatibility, voice, open platform, kit contents, specifications, documentation, order
+- [Where to Buy](https://primastem.com/where-to-buy/): Distributors by country, become a distributor
+- [Distributors](https://primastem.com/distributors/): Wholesale terms, market opportunity, sales materials for partners
+- [About](https://primastem.com/about/): Company story, mission, certifications, partners
+- [Contact](https://primastem.com/contact/): Email, WhatsApp, Google Meet booking, contact form
 - [FAQ](https://primastem.com/faq/): Common questions about product, ordering, technical details
-- [Product Sheet](https://primastem.com/sheet/): Distributor-focused specifications and pricing overview
+- [Product Sheet](https://primastem.com/sheet/): Distributor-focused specifications overview
 - [Legal Notice](https://primastem.com/legal/): French mentions légales
 - [Privacy Policy](https://primastem.com/privacy/): GDPR/RGPD compliant privacy policy
 
@@ -38,21 +37,31 @@ Available in 5 languages: English (default), French (/fr/), German (/de/), Spani
 - WhatsApp: +33 6 24 95 09 36
 - Location: Cannes, France
 
+## Where to buy
+
+- France: A4 Éducation (a4.fr), Easytis (easytis.com), Vittascience (vittascience.com)
+- Netherlands: de Rolf groep (derolfgroep.nl)
+- No distributor in your country yet? Contact us, or apply to become one.
+
 ## Pricing
 
+- No public prices anywhere on the site.
 - Distributors: sold wholesale. Start with a small first order, no big commitment; volume unlocks a better wholesale price and territory exclusivity. You set your own retail for your market. Contact us for terms.
-- Schools & families: not sold direct, available through our distributors - contact us and we'll point you to one
+- Schools & families: not sold direct, available through our distributors - see Where to Buy or contact us
 
 ## Key Facts
 
 - Material: Wood (robot, board), cardboard (tokens)
-- Age range: 4–10
+- Age range: 4–10+ (Scratch keeps the same robot going past age ten)
 - Certification: CE & UKCA
 - Made in: Cannes, France
 - No screen, no app, no subscription
+- The robot runs (executes) the program the child builds; the child does the calculating
 - Open NFC platform - tokens writable with free phone app
-- Compatible with any grid map (step size adjustable: 10, 12, 15, 25 cm)
-- Voice feedback in 17 languages - board speaks each command
+- Compatible with any grid map - step size adjustable to any value (for example 10 cm, 12.5 cm, 15 cm)
+- Mathematics tokens: +, -, ×, ÷, √, ^
+- Voice feedback in 17 languages, any language added on request - board speaks each token when placed, robot plays the sounds when the program runs, more than 90 words available
+- Braille version in pilot testing
 - Documentation in 10 languages
 
 ## Optional
