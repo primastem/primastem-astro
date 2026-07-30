@@ -60,7 +60,7 @@ Available in 5 languages: English (default), French (/fr/), German (/de/), Spani
 - Open NFC platform - tokens writable with free phone app
 - Compatible with any grid map - step size adjustable to any value (for example 10 cm, 12.5 cm, 15 cm)
 - Mathematics tokens: +, -, ×, ÷, √, ^
-- Voice feedback in 17 languages, any language added on request - board speaks each token when placed, robot plays the sounds when the program runs, more than 90 words available
+- Voice feedback in 18 languages, any language added on request - board speaks each token when placed, robot plays the sounds when the program runs, more than 90 words available
 - Braille version in pilot testing
 - Documentation in 10 languages
 

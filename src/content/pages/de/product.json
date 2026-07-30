@@ -100,7 +100,7 @@
 			"Das Board spricht jeden Token beim Einsetzen aus, Befehle wie Klänge. Das hilft Kindern, die noch nicht lesen können, und Kindern mit Seh- und Aufmerksamkeitsstörungen.",
 			"Beim Start des Programms sendet das Board die Klänge an den Roboter, und der Roboter spielt sie ab: Befehle, Wörter, Buchstaben des Alphabets, Noten. Zwischen den Bewegungsbefehlen kann er anhalten und den Token abspielen, über dem er steht, jeden von denen, die das Board ausspricht. Verfügbar sind mehr als neunzig Wörter: Haus, Wald, Kino.",
 			"Derselbe Roboter, der Programmieren und Rechnen lehrt, bringt unterwegs auch Sprache und Musik mit.",
-			"Verfügbar in 17 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Ihre Sprache ist nicht dabei? Wir ergänzen sie auf Anfrage.",
+			"Verfügbar in 18 Sprachen: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. Ihre Sprache ist nicht dabei? Wir ergänzen sie auf Anfrage.",
 			"Braille-Version in der Pilottestung."
 		]
 	},
@@ -209,7 +209,7 @@
 			},
 			{
 				"label": "Audio",
-				"value": "Sprachrückmeldung in 17 Sprachen + Klangbeispiele"
+				"value": "Sprachrückmeldung in 18 Sprachen + Klangbeispiele"
 			},
 			{
 				"label": "Zertifizierung",

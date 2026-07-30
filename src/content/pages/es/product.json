@@ -100,7 +100,7 @@
 			"El tablero pronuncia cada ficha al colocarla: tanto los comandos como los sonidos. Ayuda a los niños que aún no saben leer y a los niños con dificultades de visión y atención.",
 			"Al ejecutar el programa, el tablero envía los sonidos al robot, y el robot los reproduce: comandos, palabras, letras del alfabeto, notas. Entre comandos de movimiento puede detenerse y reproducir la ficha sobre la que está, cualquiera de las que pronuncia el tablero. Hay más de noventa palabras disponibles: casa, bosque, cine.",
 			"El mismo robot que enseña a programar y a contar, de paso familiariza con el habla y la música.",
-			"Disponible en 17 idiomas: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. ¿Su idioma no está en la lista? Lo añadimos a pedido.",
+			"Disponible en 18 idiomas: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. ¿Su idioma no está en la lista? Lo añadimos a pedido.",
 			"Versión en Braille en fase piloto."
 		]
 	},
@@ -209,7 +209,7 @@
 			},
 			{
 				"label": "Audio",
-				"value": "Retroalimentación de voz en 17 idiomas + muestras de sonido"
+				"value": "Retroalimentación de voz en 18 idiomas + muestras de sonido"
 			},
 			{
 				"label": "Certificación",

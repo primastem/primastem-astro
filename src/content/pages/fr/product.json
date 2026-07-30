@@ -100,7 +100,7 @@
 			"Le tableau énonce chaque jeton au moment où on le pose : les commandes comme les sons. Une aide pour les enfants qui ne savent pas encore lire, et pour ceux ayant des troubles de la vision ou de l'attention.",
 			"Au lancement du programme, le tableau transmet les sons au robot, qui les joue : commandes, mots, lettres de l'alphabet, notes. Entre deux commandes de mouvement, il peut s'arrêter et jouer le jeton sur lequel il se trouve, n'importe lequel de ceux que le tableau énonce. Plus de quatre-vingt-dix mots disponibles : maison, forêt, cinéma.",
 			"Le même robot qui enseigne le code et le calcul fait aussi découvrir la parole et la musique.",
-			"Disponible en 17 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Votre langue n'est pas dans la liste ? Nous l'ajoutons sur demande.",
+			"Disponible en 18 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. Votre langue n'est pas dans la liste ? Nous l'ajoutons sur demande.",
 			"Version en braille en phase de test."
 		]
 	},
@@ -209,7 +209,7 @@
 			},
 			{
 				"label": "Audio",
-				"value": "Retour vocal en 17 langues + échantillons sonores"
+				"value": "Retour vocal en 18 langues + échantillons sonores"
 			},
 			{
 				"label": "Certification",

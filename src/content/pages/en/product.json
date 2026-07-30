@@ -100,7 +100,7 @@
 			"The board speaks each token as it's placed, both commands and sounds. Helps children who can't read yet, and children with visual or attention difficulties.",
 			"When the program runs, the board sends the sounds to the robot, and the robot plays them: commands, words, letters of the alphabet, notes. Between movement commands, it can stop and play the token it's standing on, any of the ones the board can speak. More than ninety words are available: house, forest, cinema.",
 			"The same robot that teaches coding and counting introduces speech and music along the way.",
-			"Available in 17 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית. Don't see your language? We'll add it on request.",
+			"Available in 18 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. Don't see your language? We'll add it on request.",
 			"A Braille version is in pilot testing."
 		]
 	},
@@ -209,7 +209,7 @@
 			},
 			{
 				"label": "Audio",
-				"value": "Voice feedback in 17 languages + sound samples"
+				"value": "Voice feedback in 18 languages + sound samples"
 			},
 			{
 				"label": "Certification",

@@ -69,7 +69,7 @@ When the user asks to "update HTML" / "обнови хтмл":
    | Pricing block | `src/content/pages/en/distributors.json` (cta + Terms section body) |
    | Specs table | `src/content/pages/en/product.json` → `specs.rows` |
    | Commands list | `src/content/pages/en/product.json` → `commands.text` |
-   | Voice languages | 17 langs (English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית) |
+   | Voice languages | 18 langs (English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية) |
    | Pricing numbers | `src/content/pricing/en.json` |
 3. Edit HTML to match. Inline CSS only (must work offline for PDF export).
 4. **Regenerate the PDF: `npm run sheet:pdf`** (renders HTML → PDF via headless Chrome/Edge — `scripts/gen-sheet-pdf.mjs`). No manual Ctrl+P needed; PDF always matches HTML. Verify the result by Reading `public/primastem-product-sheet.pdf`.
@@ -96,7 +96,7 @@ diff <(sed 's/<[^>]*>/ /g; s/&#39;/\x27/g; s/&quot;/"/g' .baseline/{page}/index.
 ## Known inconsistencies (DO NOT silently "fix" — ask first)
 
 - **Cert:** `product.json` says "CE" only. Sheet HTML and `sheet.astro` say "CE & UKCA". Both are deployed; ask user before changing.
-- **Documentation languages:** docs.primastem.com is in **10 languages**. Voice feedback is in **17 languages** (English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית). Different things, both true.
+- **Documentation languages:** docs.primastem.com is in **10 languages**. Voice feedback is in **18 languages** (English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية). Different things, both true.
 - **Distributor countries:** Distributors page lists 4 (FR, NL, LU, expanding ES). FAQ says 5 (adds Norway). Use distributors page wording in product sheet HTML.
 
 ## Snapshot tags for rollback

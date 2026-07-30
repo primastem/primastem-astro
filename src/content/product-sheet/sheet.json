@@ -25,7 +25,7 @@
     { "label": "Default step", "value": "15 cm (adjustable: any value)" },
     { "label": "Angles", "value": "1°–360°" },
     { "label": "Audio", "value": "Voice feedback + sound samples" },
-    { "label": "Voice languages", "value": "English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית" },
+    { "label": "Voice languages", "value": "English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية" },
     { "label": "Certification", "value": "CE + UKCA" },
     { "label": "Age range", "value": "4–10" },
     { "label": "Made in", "value": "Cannes, France" }
@@ -42,7 +42,7 @@
     { "label": "Drawing", "value": "Robot draws geometric figures with a marker" },
     { "label": "Open platform", "value": "NFC tokens writable with free app" },
     { "label": "Compatible", "value": "Works with any grid map (10–25 cm step)" },
-    { "label": "Voice feedback", "value": "Board speaks each command in 17 languages" },
+    { "label": "Voice feedback", "value": "Board speaks each command in 18 languages" },
     { "label": "No screen", "value": "Fully tangible programming" }
   ],
   "margin": {
