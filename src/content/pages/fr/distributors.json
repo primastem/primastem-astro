@@ -10,9 +10,21 @@
 		"price": "",
 		"volumeLine": "",
 		"buttons": [
-			{ "text": "Commencer par une petite commande", "link": "/contact", "style": "primary" },
-			{ "text": "Fiche produit", "link": "/sheet", "style": "secondary" },
-			{ "text": "Essayer le simulateur web", "link": "https://simulator.primastem.com/", "style": "neutral" }
+			{
+				"text": "Commencer par une petite commande",
+				"link": "/contact",
+				"style": "primary"
+			},
+			{
+				"text": "Fiche produit",
+				"link": "/sheet",
+				"style": "secondary"
+			},
+			{
+				"text": "Essayer le simulateur web",
+				"link": "https://simulator.primastem.com/",
+				"style": "neutral"
+			}
 		]
 	},
 	"sections": [
@@ -49,7 +61,7 @@
 		{
 			"sidebarTitle": "Supports de vente",
 			"sidebarText": "",
-			"body": "Tout ce qu'il faut pour présenter PrimaSTEM à une école et conclure, au même endroit.\n\n- **<a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Faites une démo en direct dans le navigateur</a>**: sans matériel, lancez-la pour une école sur place.\n- **<a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\">Montrez une vraie classe à l'œuvre</a>**: une courte vidéo pour ceux qui veulent le voir en situation.\n- **<a href=\"https://github.com/primastem/primastem-marketing/\" target=\"_blank\" rel=\"noopener noreferrer\">Mettez notre kit marketing dans votre catalogue</a>**: logos, photos et catalogues en plusieurs langues, libres d'usage.\n- **<a href=\"https://docs.primastem.com\" target=\"_blank\" rel=\"noopener noreferrer\">Orientez les enseignants vers les plans de cours</a>**: guide complet et activités en ligne en 10 langues.\n- **<a href=\"/sheet\">Gardez la fiche technique sous la main</a>**: la fiche produit de gros pour votre référence.\n- **<a href=\"/faq\">Répondez vite aux questions habituelles</a>**: la FAQ pour celles que les acheteurs posent toujours."
+			"body": "Tout ce qu'il faut pour présenter PrimaSTEM à une école et conclure, au même endroit.\n\n- **<a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Faites une démo en direct dans le navigateur</a>**: sans matériel, lancez-la pour une école sur place.\n- **<a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\">Montrez une vraie classe à l'œuvre</a>**: une courte vidéo pour ceux qui veulent le voir en situation.\n- **<a href=\"https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip\">Téléchargez notre kit marketing pour votre catalogue</a>**: logos, photos et catalogues en plusieurs langues, libres d'usage - ou <a href=\"https://github.com/primastem/primastem-marketing/\" target=\"_blank\" rel=\"noopener noreferrer\">parcourez le dépôt</a>.\n- **<a href=\"https://docs.primastem.com\" target=\"_blank\" rel=\"noopener noreferrer\">Orientez les enseignants vers les plans de cours</a>**: guide complet et activités en ligne en 10 langues.\n- **<a href=\"/sheet\">Gardez la fiche technique sous la main</a>**: la fiche produit de gros pour votre référence.\n- **<a href=\"/faq\">Répondez vite aux questions habituelles</a>**: la FAQ pour celles que les acheteurs posent toujours."
 		},
 		{
 			"sidebarTitle": "Conditions",

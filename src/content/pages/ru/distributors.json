@@ -10,9 +10,21 @@
 		"price": "",
 		"volumeLine": "",
 		"buttons": [
-			{ "text": "Начать с небольшого заказа", "link": "/contact", "style": "primary" },
-			{ "text": "Лист продукта", "link": "/sheet", "style": "secondary" },
-			{ "text": "Открыть веб-симулятор", "link": "https://simulator.primastem.com/", "style": "neutral" }
+			{
+				"text": "Начать с небольшого заказа",
+				"link": "/contact",
+				"style": "primary"
+			},
+			{
+				"text": "Лист продукта",
+				"link": "/sheet",
+				"style": "secondary"
+			},
+			{
+				"text": "Открыть веб-симулятор",
+				"link": "https://simulator.primastem.com/",
+				"style": "neutral"
+			}
 		]
 	},
 	"sections": [
@@ -49,7 +61,7 @@
 		{
 			"sidebarTitle": "Материалы для продаж",
 			"sidebarText": "",
-			"body": "Всё, чтобы показать PrimaSTEM школе и закрыть сделку, в одном месте.\n\n- **<a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Покажите вживую в браузере</a>**: без железа, запустите для школы прямо на встрече.\n- **<a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\">Покажите реальный класс за работой</a>**: короткое видео для тех, кто хочет увидеть в деле.\n- **<a href=\"https://github.com/primastem/primastem-marketing/\" target=\"_blank\" rel=\"noopener noreferrer\">Возьмите наш маркетинг-кит в свой каталог</a>**: логотипы, фото и каталоги на многих языках, свободно.\n- **<a href=\"https://docs.primastem.com\" target=\"_blank\" rel=\"noopener noreferrer\">Дайте учителям планы уроков</a>**: полное руководство и активности онлайн на 10 языках.\n- **<a href=\"/sheet\">Держите спецлист под рукой</a>**: оптовый лист для вашей справки.\n- **<a href=\"/faq\">Быстро отвечайте на частые вопросы</a>**: FAQ на то, что спрашивают всегда."
+			"body": "Всё, чтобы показать PrimaSTEM школе и закрыть сделку, в одном месте.\n\n- **<a href=\"https://simulator.primastem.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Покажите вживую в браузере</a>**: без железа, запустите для школы прямо на встрече.\n- **<a href=\"https://youtube.com/@primastem\" target=\"_blank\" rel=\"noopener noreferrer\">Покажите реальный класс за работой</a>**: короткое видео для тех, кто хочет увидеть в деле.\n- **<a href=\"https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip\">Скачайте маркетинг-кит для своего каталога</a>**: логотипы, фото и каталоги на многих языках, свободно - или <a href=\"https://github.com/primastem/primastem-marketing/\" target=\"_blank\" rel=\"noopener noreferrer\">откройте репозиторий</a>.\n- **<a href=\"https://docs.primastem.com\" target=\"_blank\" rel=\"noopener noreferrer\">Дайте учителям планы уроков</a>**: полное руководство и активности онлайн на 10 языках.\n- **<a href=\"/sheet\">Держите спецлист под рукой</a>**: оптовый лист для вашей справки.\n- **<a href=\"/faq\">Быстро отвечайте на частые вопросы</a>**: FAQ на то, что спрашивают всегда."
 		},
 		{
 			"sidebarTitle": "Условия",
