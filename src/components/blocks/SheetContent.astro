@@ -1,0 +1,133 @@
+---
+// SheetContent
+// ------------
+// Description: the /sheet product-sheet page body, data-driven from a locale sheet.json.
+// One layout, shared by /sheet (en) and localized /{lang}/sheet pages.
+
+import Layout from '../../layouts/Layout.astro'
+import Section from '../ui/Section.astro'
+import Row from '../ui/Row.astro'
+import Col from '../ui/Col.astro'
+import { Image } from 'astro:assets'
+import Button from '../ui/Button.astro'
+import SidebarContent from './basic/StickySidebar.astro'
+import ContactCTA from './CTA/ContactCTA.astro'
+import heroImage from '../../assets/hero-primastem.jpg'
+
+import { getLangFromUrl } from '../../i18n/utils'
+import { defaultLang } from '../../i18n/languages'
+
+type SheetData = {
+	seo: { title: string; description: string }
+	hero: { title: string; tagline: string; intro: string[]; certLine: string; quoteButton: string; pdfButton: string }
+	advantages: { title: string; items: string[] }
+	kit: { title: string; items: string[]; note: string }
+	commands: { title: string; items: string[] }
+	specs: { title: string; rows: { label: string; value: string }[] }
+	margin: { title: string; lead: string; body: string[]; note: string }
+	docs: { title: string; paragraphs: string[] }
+	cta: { title: string; subtitle: string; buttonText: string }
+}
+
+type Props = { data: SheetData }
+const { data } = Astro.props
+
+const lang = getLangFromUrl(Astro.url)
+const prefix = lang === defaultLang ? '' : `/${lang}`
+const { seo, hero, advantages, kit, commands, specs, margin, docs, cta } = data
+---
+
+<Layout title={seo.title} description={seo.description}>
+	<!-- HERO -->
+	<Section id="sheet-hero" padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
+		<Row>
+			<Col span="6" align="start">
+				<h1 set:html={hero.title} />
+				<p class="text-lg">{hero.tagline}</p>
+				{hero.intro.map((p) => <p>{p}</p>)}
+				<p set:html={hero.certLine} />
+				<div class="flex gap-4 flex-wrap">
+					<Button size="lg" link={`${prefix}/contact`}>{hero.quoteButton}</Button>
+					<Button size="lg" style="secondary" link="/primastem-product-sheet.pdf">{hero.pdfButton}</Button>
+				</div>
+			</Col>
+			<Col span="6">
+				<Image src={heroImage} alt="PrimaSTEM complete kit" class="rounded-xl" format="webp" />
+			</Col>
+		</Row>
+	</Section>
+
+	<!-- KEY ADVANTAGES -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>{advantages.title}</h3>
+		</div>
+		<div class="basic-text">
+			{advantages.items.map((p) => <p set:html={p} />)}
+		</div>
+	</SidebarContent>
+
+	<!-- WHAT'S IN THE KIT -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>{kit.title}</h3>
+		</div>
+		<div class="basic-text">
+			<ul>
+				{kit.items.map((li) => <li set:html={li} />)}
+			</ul>
+			<p class="text-sm text-neutral-500">{kit.note}</p>
+		</div>
+	</SidebarContent>
+
+	<!-- COMMANDS -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>{commands.title}</h3>
+		</div>
+		<div class="basic-text">
+			{commands.items.map((p) => <p set:html={p} />)}
+		</div>
+	</SidebarContent>
+
+	<!-- SPECIFICATIONS -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3>{specs.title}</h3>
+		</div>
+		<div class="basic-text">
+			<table class="w-full text-left text-base">
+				<tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">
+					{specs.rows.map((row) => (
+						<tr><td class="py-2 font-medium pr-4">{row.label}</td><td class="py-2"><Fragment set:html={row.value} /></td></tr>
+					))}
+				</tbody>
+			</table>
+		</div>
+	</SidebarContent>
+
+	<!-- WHOLESALE PRICING -->
+	<SidebarContent>
+		<div slot="sidebar">
+			<h3>{margin.title}</h3>
+		</div>
+		<div class="basic-text">
+			<p class="text-xl font-bold text-primary-500">{margin.lead}</p>
+			{margin.body.map((p) => <p>{p}</p>)}
+			<p class="mt-4 italic text-neutral-500">{margin.note}</p>
+		</div>
+	</SidebarContent>
+
+	<!-- DOCUMENTATION & PRESENCE -->
+	<SidebarContent classes="bg-neutral-50 dark:bg-neutral-900">
+		<div slot="sidebar">
+			<h3 set:html={docs.title} />
+		</div>
+		<div class="basic-text">
+			{docs.paragraphs.map((p) => <p set:html={p} />)}
+		</div>
+	</SidebarContent>
+
+	<!-- CTA -->
+	<ContactCTA title={cta.title} subtitle={cta.subtitle} buttonText={cta.buttonText} />
+</Layout>

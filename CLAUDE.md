@@ -38,15 +38,18 @@ Adding a language `fr`:
 5. Register `fr` in `astro.config.mjs` `i18n.locales` + `src/i18n/languages.ts`
 6. Duplicate `src/pages/*.astro` → `src/pages/fr/*.astro` and update imports to `/fr/` JSONs
 
-## ⚠️ PRODUCT SHEET — never forget these two HARDCODED files
+## ⚠️ PRODUCT SHEET — the /sheet page and the printable PDF are SEPARATE sources
 
-There is a `/sheet` page and a printable PDF. **Both are HARDCODED, NOT in `src/content` JSON**, so global content edits (pricing, voice languages, certification, countries) silently MISS them. This already bit us once.
+There is a `/sheet` web page and a printable PDF. They do NOT share a source, so global content edits (pricing, voice languages, certification, countries) can silently MISS one.
 
-**Whenever you change pricing / voice-language count / certification / country claims anywhere, you MUST also update BOTH:**
-1. **`src/pages/sheet.astro`** — the `/sheet` page (hardcoded HTML, English only; localized `*/sheet.astro` are empty placeholders).
-2. **`public/primastem-product-sheet.html`** — the PDF source (then tell user to regenerate the PDF — see below).
+- **`/sheet` web page is now data-driven and localized** (5 locales, done 2026-08-25). Text lives in `src/content/pages/{lang}/sheet.json`; the shared layout is `src/components/blocks/SheetContent.astro`; the page files (`src/pages/sheet.astro` = en, `src/pages/{fr,de,es,ru}/sheet.astro`) are thin wrappers that import their locale JSON. **Edit `sheet.json`, not the HTML.**
+- **The PDF is a separate English-only source:** `public/primastem-product-sheet.html` (generated from `src/content/product-sheet/sheet.json` via `npm run sheet:pdf`).
 
-Quick audit after any pricing/spec change: `grep -n "€235\|€210\|€297\|14 language\|CE &\|Norway\|Present in" src/pages/sheet.astro public/primastem-product-sheet.html`
+**Whenever you change pricing / voice-language count / certification / country claims anywhere, update BOTH:**
+1. `src/content/pages/{lang}/sheet.json` (5 locales) — the web `/sheet`.
+2. `src/content/product-sheet/sheet.json` — then `npm run sheet:pdf` to regenerate the PDF.
+
+Quick audit after any pricing/spec change: `grep -rn "€235\|€210\|€297\|14 language\|CE &\|Norway\|Present in" src/content/pages/*/sheet.json public/primastem-product-sheet.html`
 
 ## ⚠️ LLM feeds — keep `public/llms.txt` + `public/llms-full.txt` in sync
 

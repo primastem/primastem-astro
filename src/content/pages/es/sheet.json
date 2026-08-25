@@ -1,0 +1,127 @@
+{
+	"seo": {
+		"title": "Ficha de Producto PrimaSTEM - Robot Educativo al por Mayor",
+		"description": "Ficha de producto para distribuidores. Robot de programación y matemáticas sin pantalla. Certificado CE + UKCA."
+	},
+	"hero": {
+		"title": "Ficha del <strong>producto</strong>",
+		"tagline": "Programación y matemáticas sin pantalla. Edades 4–10. Hecho en madera.",
+		"intro": [
+			"PrimaSTEM es un robot de madera programable que enseña programación y matemáticas sin pantalla. Los niños colocan fichas de comandos NFC en un tablero de control físico para construir programas que pueden ver y tocar.",
+			"Dos niveles de aprendizaje en un mismo dispositivo: lógica para edades 4–7 y matemáticas de verdad para edades 7–10. El robot dibuja figuras geométricas - estrellas, espirales, polígonos - y hace visibles las matemáticas."
+		],
+		"certLine": "<a href=\"https://cert.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">CE + UKCA</a> certificado.<br />Hecho en Cannes, Francia.<br />Kit completo con planes de lección en línea en 10 idiomas.",
+		"quoteButton": "Solicitar presupuesto",
+		"pdfButton": "Descargar PDF"
+	},
+	"advantages": {
+		"title": "Ventajas clave",
+		"items": [
+			"<strong>Dos grupos de edad, un solo dispositivo.</strong> Lógica para edades 4–7, matemáticas para edades 7–10. Una sola compra cubre toda la primaria.",
+			"<strong>El robot dibuja.</strong> Estrellas, espirales, polígonos, fractales - el momento de demo que vende.",
+			"<strong>Funciona con los mapas que ya tiene.</strong> Tamaño de paso ajustable: 10, 12, 15, 25 cm. Compatible con cualquier mapa cuadriculado que ya haya en las escuelas.",
+			"<strong>Plataforma NFC abierta.</strong> Los docentes crean sus propias fichas con una aplicación móvil gratuita. Mapas de sonido, tarjetas de idiomas, misiones narrativas.",
+			"<strong>Retroalimentación de voz y accesibilidad.</strong> El tablero pronuncia cada comando en 18 idiomas: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. Versión en Braille en fase piloto."
+		]
+	},
+	"kit": {
+		"title": "Qué hay en el kit",
+		"items": [
+			"<strong>Robot mariquita</strong> - robot de madera programable con soporte para rotulador",
+			"<strong>Tablero de control</strong> - interfaz de programación física con ranuras dobles",
+			"<strong>Fichas de comandos</strong> - piezas de cartón con NFC y código de colores Scratch",
+			"<strong>Guía docente</strong> - planes de lección y actividades en línea en <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a>"
+		],
+		"note": "Vea Especificaciones técnicas más abajo para dimensiones y detalles."
+	},
+	"commands": {
+		"title": "Comandos",
+		"items": [
+			"<strong>Movimiento y programa:</strong> Avanzar, Retroceder, Izquierda, Derecha, Aleatorio, Función, Pausa",
+			"<strong>Repetir:</strong> 2–999, repetición aleatoria 1–6",
+			"<strong>Matemáticas:</strong> +, −, ×, ÷, √, ^",
+			"<strong>Números:</strong> 1–999",
+			"<strong>Sistema:</strong> Tamaño de paso predeterminado (ajustable), calibración"
+		]
+	},
+	"specs": {
+		"title": "Especificaciones técnicas",
+		"rows": [
+			{
+				"label": "Material",
+				"value": "Madera"
+			},
+			{
+				"label": "Robot",
+				"value": "125 mm de diámetro, 44 mm de alto"
+			},
+			{
+				"label": "Tablero de control",
+				"value": "317 × 217 mm"
+			},
+			{
+				"label": "Fichas",
+				"value": "100 unidades, 33 × 33 mm, cartón, NFC 13,56 MHz"
+			},
+			{
+				"label": "Conectividad",
+				"value": "Bluetooth ~5 m"
+			},
+			{
+				"label": "Batería",
+				"value": "Li-Ion, USB-C, 2–3 horas"
+			},
+			{
+				"label": "Paso predeterminado",
+				"value": "15 cm (cualquier valor, ajustable)"
+			},
+			{
+				"label": "Ángulos",
+				"value": "1°–360°"
+			},
+			{
+				"label": "Ranuras",
+				"value": "6×2 principales + 5×2 de función"
+			},
+			{
+				"label": "Audio",
+				"value": "Retroalimentación de voz en 18 idiomas + muestras de sonido"
+			},
+			{
+				"label": "Certificación",
+				"value": "<a href=\"https://cert.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">CE + UKCA</a>"
+			},
+			{
+				"label": "Edad",
+				"value": "4–10"
+			},
+			{
+				"label": "Fabricado en",
+				"value": "Cannes, Francia"
+			}
+		]
+	},
+	"margin": {
+		"title": "Su margen",
+		"lead": "Usted fija su propio precio de venta y margen - su mercado, su decisión.",
+		"body": [
+			"Materiales de marketing en su idioma. Soporte técnico. Participación conjunta en ferias. Exclusividad territorial negociable.",
+			"Cantidades mínimas de pedido, condiciones de envío y plazos de entrega - se discuten individualmente."
+		],
+		"note": "Todas las condiciones, precios y términos de exclusividad se discuten individualmente. Contáctenos para iniciar la conversación."
+	},
+	"docs": {
+		"title": "Documentación &amp; presencia",
+		"paragraphs": [
+			"Documentación completa: <a href=\"https://docs.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">docs.primastem.com</a> - 10 idiomas. Tutoriales en vídeo: <a href=\"https://youtube.com/@primastem\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a>. Soporte técnico incluido.",
+			"Materiales de marketing ya listos en varios idiomas, de uso libre para su propio catálogo y sitio web: <a href=\"https://github.com/primastem/primastem-marketing/archive/refs/heads/main.zip\" class=\"text-primary-500 hover:underline\">descargue el kit completo</a> o <a href=\"https://github.com/primastem/primastem-marketing/\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">explore el repositorio</a>.",
+			"Pilotos y socios iniciales: Luxemburgo (piloto con el Ministerio de Educación), Francia (Terra Numerica). Conversaciones con distribuidores en marcha por toda Europa.",
+			"Ferias: EDUCATECH (París), SIMO Educación (Madrid), SpielwarenMesse (Núremberg)."
+		]
+	},
+	"cta": {
+		"title": "Solicitar <strong>presupuesto</strong>",
+		"subtitle": "<a href='/primastem-product-sheet.pdf' class='text-primary-400 hover:underline'>Descargue la ficha del producto (PDF)</a> o contáctenos directamente.",
+		"buttonText": "Contáctenos"
+	}
+}
