@@ -5,7 +5,7 @@
 	},
 	"hero": {
 		"title": "Produkt<strong>blatt</strong>",
-		"tagline": "Bildschirmfreies Programmieren und Mathematik. Alter 4–10. Aus Holz.",
+		"tagline": "Bildschirmfreies Programmieren und Mathematik. Alter 4–10+. Aus Holz.",
 		"intro": [
 			"PrimaSTEM ist ein programmierbarer Holzroboter, der Kindern Programmieren und Mathematik beibringt, ganz ohne Bildschirm. Kinder legen NFC-Befehlstokens auf ein greifbares Steuerboard und bauen so Programme, die sie sehen und anfassen können.",
 			"Zwei Lehrplanstufen in einem Gerät: Logik für 4- bis 7-Jährige und echte Mathematik für 7- bis 10-Jährige. Der Roboter zeichnet geometrische Figuren - Sterne, Spiralen, Polygone - und macht Mathematik sichtbar."
@@ -19,7 +19,7 @@
 		"items": [
 			"<strong>Zwei Altersgruppen - ein Gerät.</strong> Logik für 4- bis 7-Jährige, Mathematik für 7- bis 10-Jährige. Ein Kauf deckt die gesamte Grundschulzeit ab.",
 			"<strong>Der Roboter zeichnet.</strong> Sterne, Spiralen, Polygone, Fraktale - der Demo-Moment, der überzeugt.",
-			"<strong>Funktioniert mit vorhandenen Karten.</strong> Einstellbare Schrittgröße: 10, 12, 15, 25 cm. Kompatibel mit jeder Rasterkarte, die bereits in Schulen vorhanden ist.",
+			"<strong>Funktioniert mit vorhandenen Karten.</strong> Einstellbare Schrittgröße: beliebiger Wert. Kompatibel mit jeder Rasterkarte, die bereits in Schulen vorhanden ist.",
 			"<strong>Offene NFC-Plattform.</strong> Lehrkräfte erstellen eigene Tokens mit einer kostenlosen Handy-App. Klangkarten, Sprachkarten, Geschichtenquests.",
 			"<strong>Sprachrückmeldung &amp; Barrierefreiheit.</strong> Das Board spricht jeden Befehl in 18 Sprachen aus: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. Braille-Version in der Pilottestung."
 		]
@@ -69,7 +69,7 @@
 			},
 			{
 				"label": "Akku",
-				"value": "Li-Ion, USB-C, 2–3 Stunden"
+				"value": "Li-Ion USB-C, ca. 2 Stunden, je nach Nutzung"
 			},
 			{
 				"label": "Standardschritt",
@@ -93,7 +93,7 @@
 			},
 			{
 				"label": "Alter",
-				"value": "4–10"
+				"value": "4–10+"
 			},
 			{
 				"label": "Hergestellt in",

@@ -3,7 +3,7 @@
   "seoTitle": "PrimaSTEM Product Sheet - Wholesale Educational Robot",
   "seoDescription": "Product sheet for distributors. Screen-free coding and math robot. CE + UKCA certified.",
   "h1": "PrimaSTEM Product Sheet",
-  "subtitle": "Screen-free coding and mathematics · Ages 4–10 · Made from wood",
+  "subtitle": "Screen-free coding and mathematics · Ages 4–10+ · Made from wood",
   "intro": [
     "PrimaSTEM is a wooden programmable robot that teaches both coding and mathematics without a screen. Children place NFC command tokens on a tangible control board to build programs they can see and touch.",
     "Two curriculum levels in one device: logic for ages 4–7 and real mathematics for ages 7–10. The robot draws geometric figures - stars, spirals, polygons - making math visible."
@@ -27,7 +27,7 @@
     { "label": "Audio", "value": "Voice feedback + sound samples" },
     { "label": "Voice languages", "value": "English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية" },
     { "label": "Certification", "value": "CE + UKCA" },
-    { "label": "Age range", "value": "4–10" },
+    { "label": "Age range", "value": "4–10+" },
     { "label": "Made in", "value": "Cannes, France" }
   ],
   "commands": [
@@ -41,7 +41,7 @@
     { "label": "Two levels", "value": "Logic (ages 4–7) and Mathematics (ages 7–10)" },
     { "label": "Drawing", "value": "Robot draws geometric figures with a marker" },
     { "label": "Open platform", "value": "NFC tokens writable with free app" },
-    { "label": "Compatible", "value": "Works with any grid map (10–25 cm step)" },
+    { "label": "Compatible", "value": "Works with any grid map (adjustable step, any value)" },
     { "label": "Voice feedback", "value": "Board speaks each command in 18 languages" },
     { "label": "No screen", "value": "Fully tangible programming" }
   ],
