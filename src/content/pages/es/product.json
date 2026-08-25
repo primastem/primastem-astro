@@ -213,7 +213,7 @@
 			},
 			{
 				"label": "Certificación",
-				"value": "CE + UKCA"
+				"value": "<a href=\"https://cert.primastem.com\" class=\"text-primary-500 hover:underline\" target=\"_blank\" rel=\"noopener noreferrer\">CE + UKCA</a>"
 			},
 			{
 				"label": "Edad",
