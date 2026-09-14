@@ -57,7 +57,7 @@
   "footer": {
     "company": "PrimaSTEM SAS",
     "location": "Cannes, France",
-    "contact": "info@primastem.com · +33 6 24 95 09 36 (WhatsApp)",
+    "contact": "info@primastem.com",
     "links": [
       { "text": "primastem.com", "href": "https://primastem.com" },
       { "text": "docs.primastem.com", "href": "https://docs.primastem.com" }
