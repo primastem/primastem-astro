@@ -44,7 +44,7 @@
 		},
 		{
 			"question": "Gibt es einen Händler in meinem Land?",
-			"reply": "Sehen Sie auf der Seite Wo kaufen nach: derzeit Frankreich und die Niederlande. Wenn Ihr Land nicht dabei ist, schreiben Sie uns.",
+			"reply": "Sehen Sie auf der Seite Wo kaufen nach: derzeit Frankreich. Wenn Ihr Land nicht dabei ist, schreiben Sie uns.",
 			"category": "pricing",
 			"open": false
 		},

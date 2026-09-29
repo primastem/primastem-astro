@@ -44,7 +44,7 @@
 		},
 		{
 			"question": "Is there a distributor in my country?",
-			"reply": "See the Where to buy page: currently France and the Netherlands. If your country is not on the list, write to us.",
+			"reply": "See the Where to buy page: currently France. If your country is not on the list, write to us.",
 			"category": "pricing",
 			"open": false
 		},

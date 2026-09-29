@@ -110,8 +110,6 @@ France:
 - Easytis (easytis.com) - supplier of educational robots and STEM equipment for schools, kindergartens, and individuals.
 - Vittascience (vittascience.com) - educational platform and store: coding, robotics, AI, for schools and individuals.
 
-Netherlands:
-- de Rolf groep (derolfgroep.nl) - full-range supplier for kindergartens, primary schools, and individuals.
 
 No distributor in your country yet? Become a distributor (/distributors).
 
@@ -223,7 +221,7 @@ Q: Can I rent instead of buying?
 A: Rental is available for schools. Contact us for details and pricing.
 
 Q: Is there a distributor in my country?
-A: See the Where to buy page: currently France and the Netherlands. If your country is not on the list, write to us.
+A: See the Where to buy page: currently France. If your country is not on the list, write to us.
 
 Q: How long does the battery last?
 A: USB-C charging, runs for approximately 2 hours per charge, depending on usage.

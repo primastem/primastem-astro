@@ -44,7 +44,7 @@
 		},
 		{
 			"question": "Y a-t-il un distributeur dans mon pays ?",
-			"reply": "Consultez la page Où acheter : pour l'instant la France et les Pays-Bas. Si votre pays n'y figure pas, écrivez-nous.",
+			"reply": "Consultez la page Où acheter : pour l'instant la France. Si votre pays n'y figure pas, écrivez-nous.",
 			"category": "pricing",
 			"open": false
 		},

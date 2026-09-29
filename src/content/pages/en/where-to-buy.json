@@ -1,7 +1,7 @@
 {
 	"seo": {
 		"title": "PrimaSTEM | Where to Buy",
-		"description": "PrimaSTEM distributors by country: France and the Netherlands. The robot is sold through partners."
+		"description": "PrimaSTEM distributors by country: France. The robot is sold through partners."
 	},
 	"header": {
 		"title": "Where to <strong>buy</strong>"
@@ -35,6 +35,7 @@
 			"distributors": [
 				{
 					"name": "de Rolf groep",
+					"hidden": true,
 					"url": "https://www.derolfgroep.nl",
 					"urlLabel": "derolfgroep.nl",
 					"description": "Full-range supplier for kindergartens, primary schools, and individuals."

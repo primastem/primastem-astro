@@ -1,7 +1,7 @@
 {
 	"seo": {
 		"title": "PrimaSTEM | Где купить",
-		"description": "Дистрибьюторы PrimaSTEM по странам: Франция и Нидерланды. Робот продаётся через партнёров."
+		"description": "Дистрибьюторы PrimaSTEM по странам: Франция. Робот продаётся через партнёров."
 	},
 	"header": {
 		"title": "Где <strong>купить</strong>"
@@ -35,6 +35,7 @@
 			"distributors": [
 				{
 					"name": "de Rolf groep",
+					"hidden": true,
 					"url": "https://www.derolfgroep.nl",
 					"urlLabel": "derolfgroep.nl",
 					"description": "Комплексный поставщик для детских садов, начальных школ и частных лиц."
