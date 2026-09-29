@@ -4,7 +4,8 @@
 		"description": "PrimaSTEM-Händler nach Ländern: Frankreich. Der Roboter wird über Partner verkauft."
 	},
 	"header": {
-		"title": "Wo <strong>kaufen</strong>"
+		"title": "Wo <strong>kaufen</strong>",
+		"text": "Wenn Sie PrimaSTEM für sich selbst kaufen möchten, bestellen Sie es bei unseren Händlern unten. Und falls es in Ihrem Land noch keinen gibt, bitten Sie einen beliebigen Anbieter vor Ort, <a href='/de/contact' class='text-primary-500 hover:underline'>sich bei uns zu melden</a>."
 	},
 	"countries": [
 		{

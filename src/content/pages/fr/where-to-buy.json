@@ -4,7 +4,8 @@
 		"description": "Distributeurs PrimaSTEM par pays : France. Le robot est vendu par nos partenaires."
 	},
 	"header": {
-		"title": "Où <strong>acheter</strong>"
+		"title": "Où <strong>acheter</strong>",
+		"text": "Si vous souhaitez acheter PrimaSTEM pour vous-même, commandez-le auprès de nos distributeurs ci-dessous. Et s'il n'y en a pas encore dans votre pays, demandez à n'importe quel fournisseur local de <a href='/fr/contact' class='text-primary-500 hover:underline'>nous contacter</a>."
 	},
 	"countries": [
 		{

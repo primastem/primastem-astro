@@ -4,7 +4,8 @@
 		"description": "Дистрибьюторы PrimaSTEM по странам: Франция. Робот продаётся через партнёров."
 	},
 	"header": {
-		"title": "Где <strong>купить</strong>"
+		"title": "Где <strong>купить</strong>",
+		"text": "Если вы хотите купить PrimaSTEM для себя, закажите у наших дистрибьюторов ниже. А если в вашей стране их пока нет, попросите любого местного поставщика <a href='/ru/contact' class='text-primary-500 hover:underline'>связаться с нами</a>."
 	},
 	"countries": [
 		{

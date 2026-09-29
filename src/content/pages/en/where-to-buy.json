@@ -4,7 +4,8 @@
 		"description": "PrimaSTEM distributors by country: France. The robot is sold through partners."
 	},
 	"header": {
-		"title": "Where to <strong>buy</strong>"
+		"title": "Where to <strong>buy</strong>",
+		"text": "If you'd like to buy PrimaSTEM for yourself, order it from our distributors below. And if there are none in your country yet, ask any local supplier to <a href='/contact' class='text-primary-500 hover:underline'>get in touch with us</a>."
 	},
 	"countries": [
 		{
