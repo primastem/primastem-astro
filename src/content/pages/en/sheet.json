@@ -21,7 +21,7 @@
 			"<strong>The robot draws.</strong> Stars, spirals, polygons, fractals - the demo moment that sells.",
 			"<strong>Works with existing maps.</strong> Adjustable step size: any value. Compatible with any grid map already in schools.",
 			"<strong>Open NFC platform.</strong> Teachers create custom tokens with a free phone app. Sound maps, language cards, story quests.",
-			"<strong>Voice feedback &amp; accessibility.</strong> The board speaks each command in 18 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. Braille version in pilot testing."
+			"<strong>Voice feedback &amp; accessibility.</strong> The board speaks each command in 19 languages: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Suomi, Català, 日本語, עברית, العربية. Braille version in pilot testing."
 		]
 	},
 	"kit": {
@@ -85,7 +85,7 @@
 			},
 			{
 				"label": "Audio",
-				"value": "Voice feedback in 18 languages + sound samples"
+				"value": "Voice feedback in 19 languages + sound samples"
 			},
 			{
 				"label": "Certification",

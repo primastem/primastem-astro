@@ -21,7 +21,7 @@
 			"<strong>El robot dibuja.</strong> Estrellas, espirales, polígonos, fractales - el momento de demo que vende.",
 			"<strong>Funciona con los mapas que ya tiene.</strong> Tamaño de paso ajustable: cualquier valor. Compatible con cualquier mapa cuadriculado que ya haya en las escuelas.",
 			"<strong>Plataforma NFC abierta.</strong> Los docentes crean sus propias fichas con una aplicación móvil gratuita. Mapas de sonido, tarjetas de idiomas, misiones narrativas.",
-			"<strong>Retroalimentación de voz y accesibilidad.</strong> El tablero pronuncia cada comando en 18 idiomas: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. Versión en Braille en fase piloto."
+			"<strong>Retroalimentación de voz y accesibilidad.</strong> El tablero pronuncia cada comando en 19 idiomas: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Suomi, Català, 日本語, עברית, العربية. Versión en Braille en fase piloto."
 		]
 	},
 	"kit": {
@@ -85,7 +85,7 @@
 			},
 			{
 				"label": "Audio",
-				"value": "Retroalimentación de voz en 18 idiomas + muestras de sonido"
+				"value": "Retroalimentación de voz en 19 idiomas + muestras de sonido"
 			},
 			{
 				"label": "Certificación",

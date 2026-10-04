@@ -21,7 +21,7 @@
 			"<strong>Der Roboter zeichnet.</strong> Sterne, Spiralen, Polygone, Fraktale - der Demo-Moment, der überzeugt.",
 			"<strong>Funktioniert mit vorhandenen Karten.</strong> Einstellbare Schrittgröße: beliebiger Wert. Kompatibel mit jeder Rasterkarte, die bereits in Schulen vorhanden ist.",
 			"<strong>Offene NFC-Plattform.</strong> Lehrkräfte erstellen eigene Tokens mit einer kostenlosen Handy-App. Klangkarten, Sprachkarten, Geschichtenquests.",
-			"<strong>Sprachrückmeldung &amp; Barrierefreiheit.</strong> Das Board spricht jeden Befehl in 18 Sprachen aus: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. Braille-Version in der Pilottestung."
+			"<strong>Sprachrückmeldung &amp; Barrierefreiheit.</strong> Das Board spricht jeden Befehl in 19 Sprachen aus: English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Suomi, Català, 日本語, עברית, العربية. Braille-Version in der Pilottestung."
 		]
 	},
 	"kit": {
@@ -85,7 +85,7 @@
 			},
 			{
 				"label": "Audio",
-				"value": "Sprachrückmeldung in 18 Sprachen + Klangbeispiele"
+				"value": "Sprachrückmeldung in 19 Sprachen + Klangbeispiele"
 			},
 			{
 				"label": "Zertifizierung",

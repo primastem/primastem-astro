@@ -21,7 +21,7 @@
 			"<strong>Le robot dessine.</strong> Étoiles, spirales, polygones, fractales - le moment de démonstration qui convainc.",
 			"<strong>Compatible avec les cartes existantes.</strong> Pas réglable : n'importe quelle valeur. Compatible avec toute carte quadrillée déjà présente en classe.",
 			"<strong>Plateforme NFC ouverte.</strong> Les enseignants créent leurs propres jetons avec une application mobile gratuite. Cartes sonores, cartes de langues, quêtes narratives.",
-			"<strong>Retour vocal &amp; accessibilité.</strong> Le tableau énonce chaque commande en 18 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Català, 日本語, עברית, العربية. Version en braille en phase pilote."
+			"<strong>Retour vocal &amp; accessibilité.</strong> Le tableau énonce chaque commande en 19 langues : English, Français, Русский, Українська, Deutsch, Español, Italiano, Português (Brasil), Nederlands, Norsk, Polski, Svenska, Türkçe, Dansk, Suomi, Català, 日本語, עברית, العربية. Version en braille en phase pilote."
 		]
 	},
 	"kit": {
@@ -85,7 +85,7 @@
 			},
 			{
 				"label": "Audio",
-				"value": "Retour vocal en 18 langues + échantillons sonores"
+				"value": "Retour vocal en 19 langues + échantillons sonores"
 			},
 			{
 				"label": "Certification",
