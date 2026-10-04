@@ -10,7 +10,8 @@
 		"volumeLine": "",
 		"buttonText": "Где купить",
 		"buttonLink": "/ru/where-to-buy",
-		"simulatorText": "Открыть веб-симулятор"
+		"simulatorText": "Открыть веб-симулятор",
+		"simulatorNote": "На любом из 19 языков"
 	},
 	"twoLevels": {
 		"title": "Два уровня - <strong>одно устройство</strong>",

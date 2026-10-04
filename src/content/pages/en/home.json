@@ -10,7 +10,8 @@
 		"volumeLine": "",
 		"buttonText": "Where to buy",
 		"buttonLink": "/where-to-buy",
-		"simulatorText": "Try the web simulator"
+		"simulatorText": "Try the web simulator",
+		"simulatorNote": "In any of 19 languages"
 	},
 	"twoLevels": {
 		"title": "Two levels - <strong>one device</strong>",
