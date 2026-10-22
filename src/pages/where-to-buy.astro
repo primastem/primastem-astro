@@ -13,7 +13,7 @@ import Button from '../components/ui/Button.astro'
 
 // Data
 import pageData from '../content/pages/en/where-to-buy.json'
-const { seo, header, countries, distributorCta } = pageData
+const { seo, header, countries, directOrder, distributorCta } = pageData
 
 // Distributors with "hidden": true stay in the JSON (for later editing) but are not shown;
 // a country with no visible distributors is skipped.
@@ -59,6 +59,7 @@ const visibleCountries = countries
 	<Section padding="both">
 		<Row>
 			<Col span="12" align="center">
+				{directOrder && <p class="mx-auto mb-8 max-w-3xl text-lg leading-relaxed" set:html={directOrder} />}
 				<Button style="primary" size="lg" link={distributorCta.buttonLink}>
 					{distributorCta.buttonText}
 				</Button>

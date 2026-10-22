@@ -5,7 +5,7 @@
 	},
 	"header": {
 		"title": "Wo <strong>kaufen</strong>",
-		"text": "Wenn Sie PrimaSTEM für sich selbst kaufen möchten, bestellen Sie es bei unseren Händlern unten. Und falls es in Ihrem Land noch keinen gibt, bitten Sie einen beliebigen Anbieter vor Ort, <a href='/de/contact' class='text-primary-500 hover:underline'>sich bei uns zu melden</a>. Sie können auch direkt bei uns bestellen, allerdings ist der Preis dann höher als bei unseren Händlern. Wir übergeben Ihre Bestellung in unserem Lager in Frankreich an Ihren Kurierdienst."
+		"text": "Wenn Sie PrimaSTEM für sich selbst kaufen möchten, bestellen Sie es bei unseren Händlern unten. Und falls es in Ihrem Land noch keinen gibt, bitten Sie einen beliebigen Anbieter vor Ort, <a href='/de/contact' class='text-primary-500 hover:underline'>sich bei uns zu melden</a>."
 	},
 	"countries": [
 		{
@@ -48,6 +48,7 @@
 			]
 		}
 	],
+	"directOrder": "Sie können auch direkt bei uns bestellen, allerdings ist der Preis dann höher als bei unseren Händlern. Wir übergeben Ihre Bestellung in unserem Lager in Frankreich an Ihren Kurierdienst.",
 	"distributorCta": {
 		"buttonText": "Händler werden",
 		"buttonLink": "/distributors"
