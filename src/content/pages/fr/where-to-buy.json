@@ -12,22 +12,24 @@
 			"name": "France",
 			"distributors": [
 				{
+					"name": "Vittascience",
+					"url": "https://vittascience.com/shop/727/robot-primastem",
+					"urlLabel": "vittascience.com",
+					"description": "Plateforme éducative et boutique : programmation, robotique, IA. Pour les écoles et les particuliers."
+				},
+				{
 					"name": "A4 Éducation",
 					"url": "https://www.a4.fr",
 					"urlLabel": "a4.fr",
+					"note": "Bientôt disponible",
 					"description": "Fabricant et fournisseur de matériel pédagogique et de robotique pour les écoles et les particuliers."
 				},
 				{
 					"name": "Easytis",
 					"url": "https://www.easytis.com",
 					"urlLabel": "easytis.com",
+					"note": "Bientôt disponible",
 					"description": "Fournisseur de robots éducatifs et de matériel STEM pour les écoles, les écoles maternelles et les particuliers."
-				},
-				{
-					"name": "Vittascience",
-					"url": "https://vittascience.com/shop/727/robot-primastem",
-					"urlLabel": "vittascience.com",
-					"description": "Plateforme éducative et boutique : programmation, robotique, IA. Pour les écoles et les particuliers."
 				}
 			]
 		},
