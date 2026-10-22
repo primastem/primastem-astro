@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"directOrder": "You can also order directly from us, but the price will be higher than through our distributors. We'll hand your order over to your courier service at our warehouse in France.",
+	"directOrder": "You can also order directly <a href='/contact' class='text-primary-500 hover:underline'>from us</a>, but the price will be higher than through our distributors. We'll hand your order over to your courier service at our warehouse in France.",
 	"distributorCta": {
 		"buttonText": "Become a distributor",
 		"buttonLink": "/distributors"

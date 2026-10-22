@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"directOrder": "Sie können auch direkt bei uns bestellen, allerdings ist der Preis dann höher als bei unseren Händlern. Wir übergeben Ihre Bestellung in unserem Lager in Frankreich an Ihren Kurierdienst.",
+	"directOrder": "Sie können auch direkt <a href='/de/contact' class='text-primary-500 hover:underline'>bei uns</a> bestellen, allerdings ist der Preis dann höher als bei unseren Händlern. Wir übergeben Ihre Bestellung in unserem Lager in Frankreich an Ihren Kurierdienst.",
 	"distributorCta": {
 		"buttonText": "Händler werden",
 		"buttonLink": "/distributors"

@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"directOrder": "También puede pedirlo directamente a nosotros, pero en ese caso el precio será más alto que con nuestros distribuidores. Entregaremos su pedido en nuestro almacén de Francia a su servicio de mensajería.",
+	"directOrder": "También puede pedirlo directamente <a href='/es/contact' class='text-primary-500 hover:underline'>a nosotros</a>, pero en ese caso el precio será más alto que con nuestros distribuidores. Entregaremos su pedido en nuestro almacén de Francia a su servicio de mensajería.",
 	"distributorCta": {
 		"buttonText": "Conviértase en distribuidor",
 		"buttonLink": "/distributors"

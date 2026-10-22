@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"directOrder": "Vous pouvez aussi commander directement chez nous, mais le prix sera alors plus élevé que chez nos distributeurs. Nous remettrons votre commande à votre transporteur dans notre entrepôt en France.",
+	"directOrder": "Vous pouvez aussi commander directement <a href='/fr/contact' class='text-primary-500 hover:underline'>chez nous</a>, mais le prix sera alors plus élevé que chez nos distributeurs. Nous remettrons votre commande à votre transporteur dans notre entrepôt en France.",
 	"distributorCta": {
 		"buttonText": "Devenir distributeur",
 		"buttonLink": "/distributors"
