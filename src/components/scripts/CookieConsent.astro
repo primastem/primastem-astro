@@ -1,0 +1,138 @@
+---
+// Cookie consent banner
+// ------------
+// Google Analytics is loaded only after the visitor clicks "accept".
+// The choice is kept in localStorage for 13 months (CNIL maximum), then asked again.
+// Any element with [data-cookie-settings] (footer link) reopens the banner.
+
+import { googleAnalyticsMeasurementID } from '../../config/analytics'
+import { getLangFromUrl, useTranslations } from '../../i18n/utils'
+import { defaultLang } from '../../i18n/languages'
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+const privacyHref = lang === defaultLang ? '/privacy' : `/${lang}/privacy`
+---
+
+{
+	googleAnalyticsMeasurementID && (
+		<div
+			id="cookie-consent"
+			class="cookie-consent"
+			role="dialog"
+			aria-live="polite"
+			aria-label={t('cookie.label')}
+			data-ga-id={googleAnalyticsMeasurementID}
+			hidden
+		>
+			<p class="cookie-consent__text">
+				{`${t('cookie.text')} `}<a href={privacyHref}>{t('cookie.more')}</a>
+			</p>
+			<div class="cookie-consent__buttons">
+				<button type="button" class="cookie-consent__button" data-cookie-choice="denied">
+					{t('cookie.reject')}
+				</button>
+				<button type="button" class="cookie-consent__button" data-cookie-choice="granted">
+					{t('cookie.accept')}
+				</button>
+			</div>
+		</div>
+	)
+}
+
+<script is:inline>
+	;(function () {
+		var banner = document.getElementById('cookie-consent')
+		if (!banner) return
+		var gaId = banner.getAttribute('data-ga-id')
+		var KEY = 'primastem-cookie-consent'
+		var MAX_AGE = 13 * 30 * 24 * 60 * 60 * 1000
+
+		function read() {
+			try {
+				var v = JSON.parse(localStorage.getItem(KEY) || 'null')
+				if (v && (v.choice === 'granted' || v.choice === 'denied') && Date.now() - v.time < MAX_AGE) return v.choice
+			} catch (e) {}
+			return null
+		}
+		function save(choice) {
+			try {
+				localStorage.setItem(KEY, JSON.stringify({ choice: choice, time: Date.now() }))
+			} catch (e) {}
+		}
+		function loadAnalytics() {
+			if (window.__gaLoaded) return
+			window.__gaLoaded = true
+			window['ga-disable-' + gaId] = false
+			var s = document.createElement('script')
+			s.async = true
+			s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId
+			document.head.appendChild(s)
+			window.dataLayer = window.dataLayer || []
+			window.gtag = function () {
+				window.dataLayer.push(arguments)
+			}
+			window.gtag('js', new Date())
+			window.gtag('config', gaId)
+		}
+		function removeAnalyticsCookies() {
+			window['ga-disable-' + gaId] = true
+			var host = location.hostname
+			var domains = ['', host, '.' + host, '.' + host.split('.').slice(-2).join('.')]
+			document.cookie.split(';').forEach(function (c) {
+				var name = c.split('=')[0].trim()
+				if (name.indexOf('_ga') !== 0) return
+				domains.forEach(function (d) {
+					document.cookie = name + '=; Max-Age=0; path=/' + (d ? '; domain=' + d : '')
+				})
+			})
+		}
+		function show() {
+			banner.hidden = false
+		}
+		function hide() {
+			banner.hidden = true
+		}
+
+		banner.querySelectorAll('[data-cookie-choice]').forEach(function (btn) {
+			btn.addEventListener('click', function () {
+				var choice = btn.getAttribute('data-cookie-choice')
+				save(choice)
+				hide()
+				if (choice === 'granted') loadAnalytics()
+				else removeAnalyticsCookies()
+			})
+		})
+		document.querySelectorAll('[data-cookie-settings]').forEach(function (el) {
+			el.addEventListener('click', function (e) {
+				e.preventDefault()
+				show()
+			})
+		})
+
+		var choice = read()
+		if (choice === 'granted') loadAnalytics()
+		else if (choice === null) show()
+	})()
+</script>
+
+<style>
+	.cookie-consent {
+		@apply fixed inset-x-4 bottom-4 z-50 mx-auto flex max-w-3xl flex-col gap-4 rounded-xl border border-neutral-200 bg-white p-4 text-sm text-neutral-700 shadow-lg sm:flex-row sm:items-center dark:border-neutral-800 dark:bg-neutral-900 dark:text-neutral-300;
+	}
+	.cookie-consent[hidden] {
+		display: none;
+	}
+	.cookie-consent__text {
+		@apply m-0 flex-1 pb-0;
+	}
+	.cookie-consent__text a {
+		@apply text-primary-500 hover:underline;
+	}
+	.cookie-consent__buttons {
+		@apply flex shrink-0 gap-2;
+	}
+	.cookie-consent__button {
+		@apply flex-1 rounded-lg border border-neutral-300 px-4 py-2 font-semibold text-neutral-800 transition-colors hover:border-primary-500 hover:text-primary-600 sm:flex-none dark:border-neutral-700 dark:text-neutral-100 dark:hover:border-primary-500;
+	}
+</style>

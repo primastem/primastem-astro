@@ -23,7 +23,7 @@ function localizePath(link: string): string {
 	return `/${lang}${link}`
 }
 
-type FooterLink = { label: string; href: string; external?: boolean }
+type FooterLink = { label: string; href: string; external?: boolean; cookieSettings?: boolean }
 type FooterColumn = { category: string; links: FooterLink[] }
 
 const footerColumns: FooterColumn[] = [
@@ -60,6 +60,7 @@ const footerColumns: FooterColumn[] = [
 		links: [
 			{ label: t('footer.link.legal'), href: localizePath('/legal') },
 			{ label: t('footer.link.privacy'), href: localizePath('/privacy') },
+			{ label: t('footer.link.cookies'), href: '#', cookieSettings: true },
 		]
 	},
 ]
@@ -84,7 +85,7 @@ const footerColumns: FooterColumn[] = [
 							<ul>
 								{column.links.map((link) => (
 									<li>
-										<a href={link.href} target={link.external ? '_blank' : undefined} rel={link.external ? 'noopener noreferrer' : undefined}>{link.label}</a>
+										<a href={link.href} target={link.external ? '_blank' : undefined} rel={link.external ? 'noopener noreferrer' : undefined} data-cookie-settings={link.cookieSettings ? '' : undefined}>{link.label}</a>
 									</li>
 								))}
 							</ul>

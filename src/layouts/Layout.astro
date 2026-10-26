@@ -8,6 +8,7 @@ import Header from '../components/blocks/head/Header.astro'
 // Scripts
 import Scripts from '../components/scripts/LocalScripts.astro'
 import GoogleTagManagerBody from '../components/scripts/googleTagManagerBody.astro'
+import CookieConsent from '../components/scripts/CookieConsent.astro'
 // Styles
 import '../styles/global.css'
 // Fonts
@@ -51,6 +52,7 @@ const { title, description, ogImage, noindex, classes } = Astro.props
 			<slot />
 		</Main>
 		<Footer />
+		<CookieConsent />
 		<!-- Modal removed -->
 		<!-- Toast removed -->
 		<Scripts />
