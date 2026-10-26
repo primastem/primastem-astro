@@ -1,4 +1,11 @@
 {
+	"imageAlts": {
+		"drawing": "Dibujo del robot",
+		"lesson": "Clase con PrimaSTEM: tablero de juego, tablero de control con un programa y fichas",
+		"board": "Tablero de control PrimaSTEM con fichas en las casillas",
+		"robot": "Robot PrimaSTEM sobre el tablero de juego entre fichas",
+		"kit": "Kit PrimaSTEM: tablero de control de madera con fichas de comandos de colores, robot mariquita y dibujos"
+	},
 	"seo": {
 		"title": "PrimaSTEM | El robot de programación sin pantalla donde la programación se vuelve matemáticas",
 		"description": "Los niños programan PrimaSTEM a mano, sin pantalla. La misma programación llega a cualquier distancia, cualquier ángulo y aritmética de verdad, así la programación se convierte en matemáticas de verdad. Un robot de madera, de 4 a 10+ años. CE y UKCA, hecho en Francia."

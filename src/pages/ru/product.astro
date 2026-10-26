@@ -25,7 +25,7 @@ import heartImg from '../../assets/drawings/drawing-heart.png'
 // Content (CMS-editable)
 import pageData from '../../content/pages/ru/product.json'
 
-const { seo, hero, twoLevels, drawing, lessons, health, maps, voiceFeedback, openPlatform, kit, specs, documentation, order } = pageData
+const { seo, imageAlts, hero, twoLevels, drawing, lessons, health, maps, voiceFeedback, openPlatform, kit, specs, documentation, order } = pageData
 const prefix = `/${Astro.currentLocale ?? 'ru'}`
 
 const drawingImages = [pentagonImg, starImg, spiralImg, heartImg]
@@ -151,7 +151,7 @@ const drawingImages = [pentagonImg, starImg, spiralImg, heartImg]
 						<figure class="text-center">
 							<Image
 								src={drawingImages[i]}
-								alt={`Рисунок робота: ${item.name}`}
+								alt={`${imageAlts.drawing}: ${item.name}`}
 								class="rounded-xl w-full aspect-square object-contain bg-white"
 								format="webp"
 							/>
@@ -191,7 +191,7 @@ const drawingImages = [pentagonImg, starImg, spiralImg, heartImg]
 			<Col span="3" align="center" classes="flex items-center justify-center">
 				<Image
 					src={lessonSceneImage}
-					alt="Занятие с PrimaSTEM: игровое поле, пульт с программой и фишки"
+					alt={imageAlts.lesson}
 					class="rounded-xl max-h-[24rem] w-auto mx-auto object-contain lg:max-h-none lg:w-full lg:object-cover lg:aspect-[3/4]"
 					format="webp"
 				/>
@@ -236,7 +236,7 @@ const drawingImages = [pentagonImg, starImg, spiralImg, heartImg]
 			<Col span="3" align="center" classes="flex items-center justify-center">
 				<Image
 					src={boardImage}
-					alt="Пульт управления PrimaSTEM с фишками в ячейках"
+					alt={imageAlts.board}
 					class="rounded-xl max-h-[24rem] w-auto mx-auto object-contain lg:max-h-none lg:w-full lg:object-cover lg:aspect-[3/4]"
 					format="webp"
 				/>
@@ -250,7 +250,7 @@ const drawingImages = [pentagonImg, starImg, spiralImg, heartImg]
 			<Col span="3" align="center" classes="flex items-center justify-center order-2 lg:order-1">
 				<Image
 					src={robotOnMapImage}
-					alt="Робот PrimaSTEM на игровом поле среди фишек"
+					alt={imageAlts.robot}
 					class="rounded-xl max-h-[24rem] w-auto mx-auto object-contain lg:max-h-none lg:w-full lg:object-cover lg:aspect-[3/4]"
 					format="webp"
 				/>
@@ -288,7 +288,7 @@ const drawingImages = [pentagonImg, starImg, spiralImg, heartImg]
 			<Col span="6" classes="flex items-center justify-center">
 				<Image
 					src={heroImage}
-					alt="Комплект PrimaSTEM: деревянный пульт с цветными фишками команд, робот-божья коровка и рисунки"
+					alt={imageAlts.kit}
 					class="rounded-xl max-h-[28rem] w-auto object-contain"
 					format="webp"
 				/>

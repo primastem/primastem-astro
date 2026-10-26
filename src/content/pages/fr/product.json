@@ -1,4 +1,11 @@
 {
+	"imageAlts": {
+		"drawing": "Dessin du robot",
+		"lesson": "Séance avec PrimaSTEM : terrain de jeu, tableau de contrôle avec un programme et jetons",
+		"board": "Tableau de contrôle PrimaSTEM avec des jetons dans les cases",
+		"robot": "Robot PrimaSTEM sur le terrain de jeu parmi les jetons",
+		"kit": "Kit PrimaSTEM : tableau de contrôle en bois avec jetons de commande colorés, robot coccinelle et dessins"
+	},
 	"seo": {
 		"title": "PrimaSTEM | Le robot de programmation sans écran où le code devient de vraies mathématiques",
 		"description": "Les enfants programment PrimaSTEM à la main, sans écran. La même programmation va vers n'importe quelle distance, n'importe quel angle et de la vraie arithmétique, si bien que le code devient de vraies mathématiques. Un robot en bois, 4-10+ ans. CE et UKCA, fabriqué en France."

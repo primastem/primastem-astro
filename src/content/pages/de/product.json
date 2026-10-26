@@ -1,4 +1,11 @@
 {
+	"imageAlts": {
+		"drawing": "Zeichnung des Roboters",
+		"lesson": "Unterricht mit PrimaSTEM: Spielfeld, Steuerboard mit einem Programm und Token",
+		"board": "PrimaSTEM-Steuerboard mit Token in den Feldern",
+		"robot": "PrimaSTEM-Roboter auf dem Spielfeld zwischen Token",
+		"kit": "PrimaSTEM-Set: Steuerboard aus Holz mit bunten Befehlstoken, Marienkäfer-Roboter und Zeichnungen"
+	},
 	"seo": {
 		"title": "PrimaSTEM | Der bildschirmfreie Programmierroboter, bei dem der Code zu echter Mathematik wird",
 		"description": "Kinder programmieren PrimaSTEM von Hand, ohne Bildschirm. Dasselbe Programmieren geht in jede Distanz, jeden Winkel und echte Arithmetik, sodass der Code zu echter Mathematik wird. Ein Holzroboter, 4-10+ Jahre. CE und UKCA, hergestellt in Frankreich."

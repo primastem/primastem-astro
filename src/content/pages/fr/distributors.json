@@ -1,12 +1,12 @@
 {
 	"seo": {
 		"title": "PrimaSTEM pour les distributeurs - Robot éducatif en gros",
-		"description": "Robot de programmation et de mathématiques sans écran, de 4 à 10 ans. Certifié CE + UKCA. 19 langues. Vente en gros aux distributeurs en Europe."
+		"description": "Robot de programmation et de mathématiques sans écran, de 4 à 10 ans et plus. Certifié CE + UKCA. 19 langues. Vente en gros aux distributeurs en Europe."
 	},
 	"hero": {
 		"title": "Le robot sans écran qui enseigne les <strong>vraies maths</strong>, pas seulement à avancer et tourner.",
 		"subtitle1": "Une seule référence se vend à tous les acheteurs du primaire : écoles, maternelles, Montessori, périscolaire, parents.",
-		"subtitle2": "Programmation + mathématiques. De 4 à 10 ans. Bois. Certifié CE + UKCA. 19 langues.",
+		"subtitle2": "Programmation + mathématiques. De 4 à 10 ans et plus. Bois. Certifié CE + UKCA. 19 langues.",
 		"price": "",
 		"volumeLine": "",
 		"buttons": [
@@ -31,7 +31,7 @@
 		{
 			"sidebarTitle": "Le marché",
 			"sidebarText": "",
-			"body": "Le STEM sans écran passe de la préférence à la politique. Les gouvernements retirent les écrans des classes, et <a href=\"https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">PISA 2022</a> montre des résultats en maths qui baissent partout en Europe. L'inquiétude est réelle, et elle est déjà sur les bureaux de vos clients.\n\nDes robots qui savent juste avancer et tourner, il y en a beaucoup. Presque aucun n'enseigne les maths. PrimaSTEM, si : n'importe quel angle, arithmétique, géométrie, dessin à main levée, de 4 à 10 ans sur un seul produit. Les écoles veulent du sans-écran et un vrai apprentissage derrière. Aujourd'hui, peu de catalogues offrent les deux à la fois."
+			"body": "Le STEM sans écran passe de la préférence à la politique. Les gouvernements retirent les écrans des classes, et <a href=\"https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en.html\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-primary-500 hover:underline\">PISA 2022</a> montre des résultats en maths qui baissent partout en Europe. L'inquiétude est réelle, et elle est déjà sur les bureaux de vos clients.\n\nDes robots qui savent juste avancer et tourner, il y en a beaucoup. Presque aucun n'enseigne les maths. PrimaSTEM, si : n'importe quel angle, arithmétique, géométrie, dessin à main levée, de 4 à 10 ans et plus sur un seul produit. Les écoles veulent du sans-écran et un vrai apprentissage derrière. Aujourd'hui, peu de catalogues offrent les deux à la fois."
 		},
 		{
 			"sidebarTitle": "Ce qui se vend",
@@ -51,7 +51,7 @@
 		{
 			"sidebarTitle": "Pourquoi PrimaSTEM",
 			"sidebarText": "",
-			"body": "PrimaSTEM est un robot de programmation que les enfants codent à la main, sans écran dès la première commande. La différence, c'est jusqu'où va ce même codage : pas seulement déplacer le robot et le faire tourner de quelques façons prédéfinies, mais n'importe quelle distance, n'importe quel angle et de la vraie arithmétique, si bien que la programmation débouche directement sur de vraies mathématiques. Et un seul robot porte tout cela de 4 à 10 ans.\n\n#### Comparaison générale\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Facilité d'utilisation | haute | basse | **haute** |\n| Précision | basse | moyenne | **haute** |\n| Fonctionnalité | basse | moyenne | **haute** |\n| Matériaux écologiques | moyenne | basse | **haute** |\n| Couverture multi-annuelle | basse | moyenne | **haute** |\n\n#### Capacités concrètes\n\n| Capacité | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Pas de déplacement | Grille fixe | 100 mm fixe | **De 1 mm à 900 mm** |\n| Angles de rotation | 90° seulement | Valeurs discrètes (ex. 45°, 90°) | **Tout angle librement défini** |\n| Contenu mathématique | Aucun | Aucun | **Arithmétique via jetons physiques** |\n| Géométrie / dessin | Aucun | Formes limitées | **Géométrie précise + dessin au feutre** |\n| Tranche d'âge | 4–6 | 7–9 | **4–10 (un seul appareil)** |\n| Matériaux | Contreplaqué + ~50 % plastique | Tout plastique | **Contreplaqué + carton** |\n| Conçu + fabriqué en | Royaume-Uni / Chine | Chine | **France** |"
+			"body": "PrimaSTEM est un robot de programmation que les enfants codent à la main, sans écran dès la première commande. La différence, c'est jusqu'où va ce même codage : pas seulement déplacer le robot et le faire tourner de quelques façons prédéfinies, mais n'importe quelle distance, n'importe quel angle et de la vraie arithmétique, si bien que la programmation débouche directement sur de vraies mathématiques. Et un seul robot porte tout cela de 4 à 10 ans et plus.\n\n#### Comparaison générale\n\n| | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|:---:|:---:|:---:|\n| Facilité d'utilisation | haute | basse | **haute** |\n| Précision | basse | moyenne | **haute** |\n| Fonctionnalité | basse | moyenne | **haute** |\n| Matériaux écologiques | moyenne | basse | **haute** |\n| Couverture multi-annuelle | basse | moyenne | **haute** |\n\n#### Capacités concrètes\n\n| Capacité | Cubetto | Matatalab Coding Set Pro | **PrimaSTEM** |\n|---|---|---|---|\n| Pas de déplacement | Grille fixe | 100 mm fixe | **De 1 mm à 900 mm** |\n| Angles de rotation | 90° seulement | Valeurs discrètes (ex. 45°, 90°) | **Tout angle librement défini** |\n| Contenu mathématique | Aucun | Aucun | **Arithmétique via jetons physiques** |\n| Géométrie / dessin | Aucun | Formes limitées | **Géométrie précise + dessin au feutre** |\n| Tranche d'âge | 4–6 | 7–9 | **4–10+ (un seul appareil)** |\n| Matériaux | Contreplaqué + ~50 % plastique | Tout plastique | **Contreplaqué + carton** |\n| Conçu + fabriqué en | Royaume-Uni / Chine | Chine | **France** |"
 		},
 		{
 			"sidebarTitle": "Prêt pour votre catalogue",

@@ -1,4 +1,11 @@
 {
+	"imageAlts": {
+		"drawing": "Robot drawing",
+		"lesson": "PrimaSTEM lesson: playing field, control board with a program, and tokens",
+		"board": "PrimaSTEM control board with tokens in the slots",
+		"robot": "PrimaSTEM robot on the playing field among tokens",
+		"kit": "PrimaSTEM kit: wooden control board with coloured command tokens, ladybug robot and drawings"
+	},
 	"seo": {
 		"title": "PrimaSTEM | The screen-free coding robot where coding becomes real math",
 		"description": "Children program PrimaSTEM by hand, no screen. The same coding goes into any distance, any angle, and real arithmetic, so the coding turns into real math. One wooden robot, ages 4 to 10+. CE and UKCA, made in France."
