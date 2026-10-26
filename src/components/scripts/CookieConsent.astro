@@ -73,7 +73,7 @@ const privacyHref = lang === defaultLang ? '/privacy' : `/${lang}/privacy`
 				window.dataLayer.push(arguments)
 			}
 			window.gtag('js', new Date())
-			window.gtag('config', gaId)
+			window.gtag('config', gaId, { cookie_expires: 13 * 30 * 24 * 60 * 60 })
 		}
 		function removeAnalyticsCookies() {
 			window['ga-disable-' + gaId] = true
