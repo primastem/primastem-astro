@@ -14,6 +14,11 @@
 			"body": "#### PRIMASTEM SAS\n\nSimplified joint-stock company (SAS)  \nShare capital: €30,000  \nSIREN: 944 985 720  \nSIRET: 944 985 720 00019  \nRCS Paris  \nIntra-community VAT: FR58944985720\n\nRegistered office: 11 rue de Magdebourg, 75016 Paris, France  \nPublication director: Mikael Harnois\n\n#### Contact\n\nEmail: info@primastem.com  \nPhone: +33 6 24 95 09 36"
 		},
 		{
+			"sidebarTitle": "Extended producer responsibility",
+			"sidebarText": "French EPR unique identifier issued by ADEME.",
+			"body": "#### Extended producer responsibility (EPR, France)\n\nPRIMASTEM SAS is a member of Citeo for household packaging and graphic paper.  \nUnique identifier (IDU): FR560236_01FEIU"
+		},
+		{
 			"sidebarTitle": "Hosting",
 			"sidebarText": "Information about the site's host.",
 			"body": "#### Host\n\nCloudflare, Inc.  \n101 Townsend Street, San Francisco, CA 94107, USA  \n<a href=\"https://www.cloudflare.com\" target=\"_blank\" rel=\"noopener\">https://www.cloudflare.com</a>"
