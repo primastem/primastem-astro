@@ -75,6 +75,10 @@ Quick audit after any pricing/spec change: `grep -rn "€235\|€210\|€297\|14
 
 These two files (for AI/LLM indexing) MIRROR the site content and are hand-maintained, NOT generated. **After any content change (positioning, hero/section rewrites, pricing/margin model, specs, languages, distributors), update both to match the live site, and commit + push them with the change.** `llms-full.txt` mirrors every page's copy; `llms.txt` is the short summary. Same em-dash ban and the same content rules apply (no "not sold direct", no phone). Quick audit: `grep -n "set your own retail\|market is asking\|Real skills\|not sold direct\|WhatsApp" public/llms*.txt` should return nothing.
 
+## ⚠️ CMS config — keep `public/admin/config.yml` in sync
+
+The CMS (Sveltia, `/admin`) only knows the fields described in `public/admin/config.yml`; fields it does not know cannot be edited and may be lost on save. **After any page or JSON structure change (new page, new block, new or renamed field, removed page), update `config.yml` in the same commit and run `npm run cms:check`** (`scripts/check-cms.mjs`). It must print `CMS config matches the content`. Text-only edits inside existing fields need nothing. Login: `https://primastem.com/admin/` with GitHub; a save commits straight to `master` and deploys.
+
 ## Hot workflows
 
 ### Updating the printable product sheet (PDF)

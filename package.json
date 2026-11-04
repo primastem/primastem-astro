@@ -8,6 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "sheet:pdf": "node scripts/gen-sheet.mjs",
+    "cms:check": "node scripts/check-cms.mjs",
     "astro": "astro"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.13",
     "autoprefixer": "^10.4.21",
+    "js-yaml": "^4.3.2",
     "postcss": "^8.5.3"
   }
 }
