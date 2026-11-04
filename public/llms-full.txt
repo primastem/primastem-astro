@@ -178,7 +178,7 @@ Simplicity takes work. A four-year-old starts in five minutes. A ten-year-old pr
 
 ## Where we are
 
-Partners: Terra Numerica / INRIA / CNRS, Educazur, AFINEF.
+Partners: Terra Numerica / INRIA / CNRS, Educazur.
 
 Early traction: Luxembourg (Ministry of Education pilot), France - distributor talks underway across Europe.
 

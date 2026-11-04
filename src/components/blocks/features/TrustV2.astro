@@ -12,11 +12,9 @@ const pngLogos = [
 ]
 
 import logoLuxSrc from '../../../assets/partners/luxembourg-ministry.svg?url'
-import logoAfinefSrc from '../../../assets/partners/afinef.svg?url'
 
 const svgLogos = [
 	{ src: logoLuxSrc, alt: 'Ministry of Education Luxembourg' },
-	{ src: logoAfinefSrc, alt: 'AFINEF' },
 ]
 
 type Props = {
@@ -44,9 +42,6 @@ const { data } = Astro.props
 				<Image src={item.image} alt={item.alt} class="max-h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" loading="lazy" />
 			</div>
 		))}
-		<div class="flex items-center justify-center">
-			<img src={svgLogos[1].src} alt={svgLogos[1].alt} class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity" loading="lazy" decoding="async" />
-		</div>
 	</Row>
 	<Row>
 		<Col span="12" align="center">
