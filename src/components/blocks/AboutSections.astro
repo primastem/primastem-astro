@@ -1,0 +1,48 @@
+---
+// About page sections
+// ------------
+// Description: Shared layout of the /about sections, used by the 5 locale pages.
+// A section with "image" in about.json renders as TextImage, any other as a sticky sidebar block.
+
+import { marked } from 'marked'
+import SidebarContent from './basic/StickySidebar.astro'
+import TextImage from './basic/TextImage.astro'
+import boardImage from '../../assets/about-board.jpg'
+import spiralImage from '../../assets/about-spiral.jpg'
+
+type AboutSection = {
+	sidebarTitle: string
+	sidebarText?: string
+	body: string
+	image?: string
+	imageAlt?: string
+}
+type Props = { sections: AboutSection[] }
+
+const { sections } = Astro.props
+const images: Record<string, ImageMetadata> = { board: boardImage, spiral: spiralImage }
+---
+
+{
+	sections.map((section, idx) => {
+		const classes = idx % 2 === 1 ? 'bg-neutral-50 dark:bg-neutral-900' : ''
+		return section.image ? (
+			<TextImage
+				title={section.sidebarTitle}
+				text={marked.parse(section.body) as string}
+				image={images[section.image]}
+				imageAlt={section.imageAlt}
+				imagePosition={idx % 2 === 1 ? 'right' : 'left'}
+				classes={classes}
+			/>
+		) : (
+			<SidebarContent classes={classes}>
+				<div slot="sidebar">
+					<h3>{section.sidebarTitle}</h3>
+					{section.sidebarText && <p>{section.sidebarText}</p>}
+				</div>
+				<div class="basic-text" set:html={marked.parse(section.body)} />
+			</SidebarContent>
+		)
+	})
+}

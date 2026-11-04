@@ -15,11 +15,15 @@
 		},
 		{
 			"sidebarTitle": "How it started",
+			"image": "board",
+			"imageAlt": "PrimaSTEM control board with tokens on a wooden table",
 			"sidebarText": "",
 			"body": "We watched children spending more and more time in front of screens. We watched math scores fall. And we watched a child's eyes light up when they touched a wooden board and a robot, pressed a button - and the robot did exactly what they told it to.\n\nPapert said: the child should program the computer, not the other way around. We built a device where this works literally - cardboard tokens, a tangible control board, a ladybug that draws.\n\nNo screen. Hands, eyes, thinking."
 		},
 		{
 			"sidebarTitle": "What we believe",
+			"image": "spiral",
+			"imageAlt": "PrimaSTEM robot next to a spiral drawn on a sheet of paper",
 			"sidebarText": "",
 			"body": "**Children learn by doing.** Not by watching - by doing.\n\n**Mathematics is beautiful.** When the robot draws a pentagonal spiral, the child sees math as a picture they created themselves.\n\n**Technology should be open.** Every token is a standard NFC tag. No subscriptions, no walled gardens.\n\n**Simplicity takes work.** A four-year-old starts in five minutes. A ten-year-old programs arithmetic progressions. Same device."
 		},
