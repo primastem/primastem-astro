@@ -38,7 +38,6 @@ src/content/
 ├── pages/{lang}/   home, product, where-to-buy, distributors, sheet,
 │                   about, contact, legal, privacy  (.json)
 ├── faq/{lang}.json         FAQ entries shown on /faq
-├── pricing/{lang}.json     legacy PricingV3 cards — NOT rendered on any page now
 └── product-sheet/sheet.json  single source of the English print PDF
 ```
 
@@ -120,6 +119,4 @@ Restore: `git checkout {tag}`
 - **Claude's auto-memory lives in the repo at `.claude/memory/`** (set via `autoMemoryDirectory` in `.claude/settings.local.json`, since 2026-10-04). Not in `~/.claude/projects/*/memory` — don't recreate copies there.
 - `content-lab/` — local working folder for texts/structure decisions (gitignored).
 - `.omc/`, `.baseline/` — local only (gitignored).
-- `src/content/pricing/` is orphaned (PricingV3 not rendered anywhere) — ask before deleting.
-- `src/data/` is an empty placeholder, can be removed.
-- Old Netlify site still exists (not deleted); dead commented-out `data-netlify` form code remains in 5 `contact.astro`.
+- Old Netlify site still exists (not deleted).
