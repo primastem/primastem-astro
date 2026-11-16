@@ -6,7 +6,7 @@ PrimaSTEM is a wooden educational robot made in Cannes, France. Children build a
 
 ## Pages
 
-- [Home](https://primastem.com/): Overview, two levels, partner logos, choose-your-path
+- [Home](https://primastem.com/): Overview, two levels, partners and achievements (GESA France finalist 2025, French Tech Tremplin 2026 laureate), choose-your-path
 - [Product](https://primastem.com/product/): How it works, two levels, drawing gallery, maps and compatibility, voice, open platform, kit contents, specifications, documentation, order
 - [Where to Buy](https://primastem.com/where-to-buy/): Distributors by country, become a distributor
 - [Distributors](https://primastem.com/distributors/): Wholesale terms, market opportunity, sales materials for partners

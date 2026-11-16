@@ -290,6 +290,34 @@ collections:
           label: Countries line
           widget: string
           i18n: true
+        - name: logos
+          label: Logos (partners and achievements)
+          widget: list
+          i18n: true
+          fields:
+          - name: image
+            label: Logo key (luxembourg, terra, gesa, frenchTechTremplin)
+            widget: string
+            i18n: duplicate
+          - name: imageDark
+            label: Dark mode logo key (optional, e.g. gesaWhite, terraWhite)
+            widget: string
+            required: false
+            i18n: duplicate
+          - name: alt
+            label: Alt text
+            widget: string
+            i18n: true
+          - name: caption
+            label: Caption under the logo (optional)
+            widget: string
+            required: false
+            i18n: true
+          - name: link
+            label: Link (optional)
+            widget: string
+            required: false
+            i18n: duplicate
           required: false
       - name: nextSteps
         label: Next steps

@@ -18,9 +18,12 @@ Logic, Numbers, Ages 4–7: mazes, sequences, debugging. Logical step 15 cm (adj
 
 Mathematics, Coding, Ages 7–10+: arithmetic, geometry, marker drawing. Precise distances and angles of any value.
 
-## Trusted by our partners
+## Partners and achievements
 
 Early pilots and partners across Europe.
+
+- GESA France finalist 2025 (French selection of the Global EdTech Startup Awards)
+- French Tech Tremplin 2026 laureate (Bpifrance / La French Tech)
 
 ## Choose your path
 
@@ -179,6 +182,8 @@ Simplicity takes work. A four-year-old starts in five minutes. A ten-year-old pr
 ## Where we are
 
 Partners: Terra Numerica / INRIA / CNRS, Educazur.
+
+Achievements: GESA France finalist 2025; French Tech Tremplin 2026 laureate.
 
 Early traction: Luxembourg (Ministry of Education pilot), France - distributor talks underway across Europe.
 

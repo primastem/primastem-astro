@@ -28,8 +28,36 @@
 		}
 	},
 	"trust": {
-		"title": "La confiance de nos <strong class=\"highlight\">partenaires</strong>",
-		"countriesLine": ""
+		"title": "Partenaires et <strong class=\"highlight\">distinctions</strong>",
+		"countriesLine": "",
+		"logos": [
+			{
+				"image": "luxembourg",
+				"alt": "Ministry of Education Luxembourg",
+				"caption": "IFEN, Institut de formation de l’Éducation nationale",
+				"link": "https://ssl.education.lu/ifen/"
+			},
+			{
+				"image": "terra",
+				"imageDark": "terraWhite",
+				"alt": "Terra Numerica",
+				"caption": "Terra Numerica",
+				"link": "https://terra-numerica.org/"
+			},
+			{
+				"image": "gesa",
+				"imageDark": "gesaWhite",
+				"alt": "Global EdTech Startup Awards (GESAwards)",
+				"caption": "Finaliste GESA France 2025",
+				"link": "https://www.campusmatin.com/numerique/edtechs/global-edtech-start-up-awards-2025-la-correction-de-copies-avec-l-ia-a-l-honneur.html"
+			},
+			{
+				"image": "frenchTechTremplin",
+				"alt": "La French Tech Tremplin",
+				"caption": "Lauréat French Tech Tremplin 2026",
+				"link": "https://lafrenchtech.gouv.fr/app/uploads/2026/07/Les-entreprises-laureates-de-la-5e-promotion-de-French-Tech-Tremplin-Incubation-et-leurs-Capitales-ou-Communautes-French-Tech-de-rattachement.pdf"
+			}
+		]
 	},
 	"nextSteps": {
 		"buttons": [

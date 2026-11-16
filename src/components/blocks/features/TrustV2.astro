@@ -1,30 +1,61 @@
 ---
 // Trust Section
+// ------------
+// Description: Partner and award logos on the homepage. The list lives in home.json (trust.logos):
+// "image" is a key of the images map below, "imageDark" an optional key shown in dark mode,
+// "caption" an optional line under the logo, "link" an optional URL (opens in a new tab).
 import Section from '../../ui/Section.astro'
 import Row from '../../ui/Row.astro'
 import Col from '../../ui/Col.astro'
 import { Image } from 'astro:assets'
 
+import logoLux from '../../../assets/partners/luxembourg-ministry.svg?url'
 import logoTerra from '../../../assets/partners/terra-numerica.png'
+import logoTerraWhite from '../../../assets/partners/terra-numerica-white.png'
+import logoGesa from '../../../assets/partners/gesa-awards.png'
+import logoGesaWhite from '../../../assets/partners/gesa-awards-white.png'
+import logoFrenchTech from '../../../assets/partners/french-tech-tremplin.png'
 
-const pngLogos = [
-	{ image: logoTerra, alt: 'Terra Numerica' },
-]
+// SVG logos are imported as plain URLs (?url) and rendered with <img>, raster logos go through <Image>.
+const images: Record<string, ImageMetadata | string> = {
+	luxembourg: logoLux,
+	terra: logoTerra,
+	terraWhite: logoTerraWhite,
+	gesa: logoGesa,
+	gesaWhite: logoGesaWhite,
+	frenchTechTremplin: logoFrenchTech,
+}
 
-import logoLuxSrc from '../../../assets/partners/luxembourg-ministry.svg?url'
-
-const svgLogos = [
-	{ src: logoLuxSrc, alt: 'Ministry of Education Luxembourg' },
-]
+type LogoItem = {
+	image: string
+	imageDark?: string
+	alt: string
+	caption?: string
+	link?: string
+}
 
 type Props = {
 	data: {
 		title: string
 		countriesLine: string
+		logos: LogoItem[]
 	}
 }
 
 const { data } = Astro.props
+const logoClass = 'w-auto object-contain opacity-70 hover:opacity-100 transition-opacity'
+// Round badges look small next to wordmarks at the same height, so they get the full logo box
+const badges = new Set(['frenchTechTremplin'])
+
+// Each logo gets one or two image variants: the main one, and a dark-mode one when imageDark is set
+const items = data.logos.map((logo) => ({
+	...logo,
+	variants: [
+		{ src: images[logo.image], cls: logo.imageDark ? 'dark:hidden' : '' },
+		...(logo.imageDark ? [{ src: images[logo.imageDark], cls: 'hidden dark:block' }] : []),
+	],
+	size: badges.has(logo.image) ? 'h-16' : 'h-12',
+}))
 ---
 
 <Section padding="both" classes="bg-neutral-50 dark:bg-neutral-900">
@@ -33,15 +64,27 @@ const { data } = Astro.props
 			<h2 class="!mb-6 text-base font-normal text-neutral-400 dark:text-neutral-600" set:html={data.title} />
 		</Col>
 	</Row>
-	<Row flex classes="!flex-row items-center justify-center gap-8 flex-wrap">
-		<div class="flex items-center justify-center">
-			<img src={svgLogos[0].src} alt={svgLogos[0].alt} class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity" loading="lazy" decoding="async" />
-		</div>
-		{pngLogos.map((item) => (
-			<div class="flex items-center justify-center">
-				<Image src={item.image} alt={item.alt} class="max-h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" loading="lazy" />
-			</div>
-		))}
+	<Row flex classes="!flex-row !items-start justify-center gap-8 flex-wrap">
+		{
+			items.map((logo) => {
+				const Wrapper = logo.link ? 'a' : 'div'
+				const linkProps = logo.link ? { href: logo.link, target: '_blank', rel: 'noopener noreferrer' } : {}
+				return (
+					<Wrapper {...linkProps} class="flex max-w-full shrink-0 flex-col items-center gap-2 text-center">
+						<div class="flex h-16 items-center">
+							{logo.variants.map((v) =>
+								typeof v.src === 'string' ? (
+									<img src={v.src} alt={logo.alt} class:list={[logoClass, logo.size, v.cls]} loading="lazy" decoding="async" />
+								) : (
+									<Image src={v.src} alt={logo.alt} class:list={[logoClass, logo.size, v.cls]} loading="lazy" />
+								)
+							)}
+						</div>
+						{logo.caption && <span class="max-w-44 text-sm leading-snug text-neutral-500 dark:text-neutral-400">{logo.caption}</span>}
+					</Wrapper>
+				)
+			})
+		}
 	</Row>
 	<Row>
 		<Col span="12" align="center">
