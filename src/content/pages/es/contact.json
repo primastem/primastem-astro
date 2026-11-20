@@ -22,6 +22,12 @@
 			"external": false
 		},
 		{
+			"label": "Escribir al fundador:",
+			"value": "chanov@primastem.com",
+			"href": "mailto:chanov@primastem.com",
+			"external": false
+		},
+		{
 			"label": "WhatsApp:",
 			"value": "+33 6 24 95 09 36",
 			"href": "https://wa.me/33624950936",
