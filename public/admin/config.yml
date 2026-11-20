@@ -797,6 +797,11 @@ collections:
             label: Url label
             widget: string
             i18n: true
+          - name: phone
+            label: Phone (optional)
+            widget: string
+            required: false
+            i18n: true
           - name: note
             label: Note
             widget: string

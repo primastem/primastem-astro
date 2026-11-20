@@ -1,7 +1,7 @@
 {
 	"seo": {
 		"title": "PrimaSTEM | Dónde comprar",
-		"description": "Distribuidores de PrimaSTEM por país: Francia. El robot se vende a través de socios."
+		"description": "Distribuidores de PrimaSTEM por país: Francia y Polonia. El robot se vende a través de socios."
 	},
 	"header": {
 		"title": "Dónde <strong>comprar</strong>",
@@ -32,6 +32,20 @@
 					"urlLabel": "easytis.com",
 					"note": "Próximamente",
 					"description": "Proveedor de robots educativos y equipamiento STEM para colegios, guarderías y particulares."
+				}
+			]
+		},
+		{
+			"name": "Polonia",
+			"distributors": [
+				{
+					"name": "Marek Zacharzewski",
+					"url": "mailto:biuro.zacharzewski@gmail.com",
+					"urlLabel": "biuro.zacharzewski@gmail.com",
+					"phone": "+48 512 293 141",
+					"note": "Ya disponible",
+					"noteAccent": true,
+					"description": "Material educativo para escuelas, guarderías y familias en Polonia."
 				}
 			]
 		},
